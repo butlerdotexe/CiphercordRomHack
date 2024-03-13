@@ -9580,11 +9580,11 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_CELEBRATE] =
     {
-        .effect = EFFECT_DO_NOTHING,
+        .effect = EFFECT_NO_RETREAT,
         .power = 0,
         .type = TYPE_NORMAL,
         .accuracy = 0,
-        .pp = 40,
+        .pp = 1,
         .secondaryEffectChance = 0,
         .target = MOVE_TARGET_USER,
         .priority = 0,
