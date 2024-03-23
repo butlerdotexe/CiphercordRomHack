@@ -16509,11 +16509,11 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_BEARTIC] =
     {
-        .baseHP        = 95,
+        .baseHP        = 105,
         .baseAttack    = 130,
-        .baseDefense   = 80,
-        .baseSpAttack  = 70,
-        .baseSpDefense = 80,
+        .baseDefense   = 90,
+        .baseSpAttack  = 60,
+        .baseSpDefense = 90,
         #ifdef REBALANCED_VERSION
             .baseSpeed     = 70,
             .type1 = TYPE_ICE,
@@ -17182,7 +17182,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_SLOW,
         .eggGroup1 = EGG_GROUP_UNDISCOVERED,
         .eggGroup2 = EGG_GROUP_UNDISCOVERED,
-        .abilities = {ABILITY_JUSTIFIED, ABILITY_JUSTIFIED, ABILITY_JUSTIFIED},
+        .abilities = {ABILITY_JUSTIFIED, ABILITY_JUSTIFIED, ABILITY_INTREPID_SWORD},
         .bodyColor = BODY_COLOR_GRAY,
         .noFlip = FALSE,
     },

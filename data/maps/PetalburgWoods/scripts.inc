@@ -242,7 +242,8 @@ PetalburgWoods_Movement_AquaApproachPlayer: @ 822E20E
 	step_end
 
 PetalburgWoods_EventScript_Boy1:: @ 822E210
-	msgbox PetalburgWoods_Text_StayOutOfTallGrass, MSGBOX_NPC
+	trainerbattle_single TRAINER_DARIAN, Route104_Text_DarianIntro, Route104_Text_DarianDefeat
+	msgbox Route104_Text_DarianPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgWoods_EventScript_Boy2:: @ 822E219

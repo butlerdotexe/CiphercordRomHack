@@ -7425,7 +7425,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_DARK_VOID] =
     {
         #ifdef REBALANCED_VERSION
-            .accuracy = 80,
+            .accuracy = 55,
         #else
             .accuracy = 50,
         #endif
