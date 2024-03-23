@@ -1,7 +1,6 @@
 gText_Birch_Welcome::
-	.string "If you can read this, you're gaming.\p"
 	.string "Welcome to the world of Pokémon!\p"
-	.string "My name is Birch.\p"
+	.string "My name is Foodies.\p"
 	.string "But everyone calls me the Pokémon\n"
 	.string "Professor.\p"
 	.string "$"
@@ -14,15 +13,9 @@ gText_Birch_Pokemon:: @ 82C89FB
 gText_Birch_MainSpeech:: @ 82C8A1F
 	.string "This world is widely inhabited by\n"
 	.string "creatures known as Pokémon.\p"
-	.string "We humans live alongside Pokémon,\n"
-	.string "at times as friendly playmates, and\l"
-	.string "at times as cooperative workmates.\p"
-	.string "And sometimes, we band together\n"
-	.string "and battle others like us.\p"
-	.string "But despite our closeness, we don't\n"
-	.string "know everything about Pokémon.\p"
-	.string "In fact, there are many, many\n"
-	.string "secrets surrounding Pokémon.\p"
+	.string "A bunch of use came to this world\n"
+	.string "and have taken up battling with\l"
+	.string "them.\p"
 	.string "To unravel Pokémon mysteries,\n"
 	.string "I've been undertaking research.\l"
 	.string "That's what I do.\p"
@@ -51,12 +44,6 @@ gText_Birch_YourePlayer:: @ 82C8C2A
 
 gText_Birch_AreYouReady:: @ 82C8C7A
 	.string "All right, are you ready?\p"
-	.string "Your very own adventure is about\n"
-	.string "to unfold.\p"
-	.string "Take courage, and leap into the\n"
-	.string "world of Pokémon where dreams,\l"
-	.string "adventure, and friendships await!\p"
-	.string "Well, I'll be expecting you later.\n"
 	.string "Come see me in my Pokémon Lab.\p"
 	.string "$"
 
@@ -64,20 +51,7 @@ gText_Pie_Welcome::
 	.string "Oh, wait!\p"
 	.string "Before you go, a message from this\n"
 	.string "hack's creator:\p"
-	.string "Welcome to Pokémon Inclement Emerald!\p"
-	.string "This is a difficulty hack with modern\n"
-	.string "mechanics, many quality of life\l"
-	.string "changes, and massive Pokémon variety!\p"
-	.string "You can build your team using almost\n"
-	.string "any Pokémon from the first seven\l"
-	.string "generations, and gen eight will be\l"
-	.string "added soon too!\p"
-	.string "Before you get started, you'll need\n"
-	.string "to choose a difficulty setting.\p"
-	.string "Currently you can choose between\n"
-	.string "Normal, Hard or Challenge Mode.\p"
-	.string "Please select a mode to learn more\n"
-	.string "about it.$"
+	.string " $"
 
 gText_Pie_NormalMode::
 	.string "In Normal Mode, Trainers won't have\n"
@@ -118,21 +92,10 @@ gText_Pie_ChallengeMode::
 	.string "Challenge Mode?$"
 
 gText_Pie_WhichDifficulty::
-	.string "Which difficulty would you like to\n"
-	.string "play on?$"
+	.string " $"
 
 gText_Pie_LevelCaps::
-    .string "Great! Now, there's one last thing\n"
-    .string "to decide.\p"
-    .string "This hack has built-in level caps\n"
-    .string "based on which badges you have.\p"
-    .string "If a Pokémon reaches the level cap,\n"
-    .string "it'll only get 1 exp per KO until\l"
-	.string "you earn the next badge.\p"
-    .string "There are currently three different\n"
-	.string "settings for level caps.\p"
-    .string "Please choose a level cap setting to\n"
-    .string "learn more about it.$"
+	.string " $"
 
 gText_Pie_StandardCaps::
 	.string "The Default Caps setting is what\n"
@@ -174,15 +137,20 @@ gText_Pie_StrictCaps::
 	.string "strict level caps?$"
 
 gText_Pie_WhichLevelCapSetting::
-	.string "Which level cap setting would you\n"
-	.string "like play on?$"
+	.string "For details on the caps, check the\n"
+	.string "docs.$"
 
 gText_Pie_Documents::
-	.string "Great! If you want more information,\n"
+	.string "This hack has built-in level caps\n"
+    .string "based on which badges you have.\p"
+    .string "If a Pokémon reaches the level cap,\n"
+    .string "it'll only get 1 exp per KO until\l"
+	.string "you earn the next badge.\p"
+	.string "If you want more information,\n"
 	.string "please check the documents that came\l"
 	.string "with the hack's patch.\p"
 	.string "They cover everything from Pokémon and\n"
 	.string "item locations to new ability effects.\p"
 	.string "Finally, I hope you enjoy the hack!\n"
-	.string "- Buffel Saft\p"
+	.string "- Basil\p"
 	.string "$"

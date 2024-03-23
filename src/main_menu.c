@@ -1530,9 +1530,9 @@ static void Task_NewGameBirchSpeech_WaitForPlayerFadeIn(u8 taskId)
     if (gTasks[taskId].tIsDoneFadingSprites)
     {
         gSprites[gTasks[taskId].tPlayerSpriteId].oam.objMode = 0;
-        gSaveBlock2Ptr->playerGender = MALE;
-        gTasks[taskId].func = Task_NewGameBirchSpeech_StartNamingScreen;
-        //gTasks[taskId].func = Task_NewGameBirchSpeech_BoyOrGirl;
+        //gSaveBlock2Ptr->playerGender = MALE;
+        //gTasks[taskId].func = Task_NewGameBirchSpeech_StartNamingScreen;
+        gTasks[taskId].func = Task_NewGameBirchSpeech_BoyOrGirl;
     }
 }
 
@@ -1830,37 +1830,39 @@ static void Task_NewGameBirchSpeech_WaitToShowDifficultyMenu(u8 taskId)
 {
     if (!RunTextPrintersAndIsPrinter0Active())
     {
-        NewGameBirchSpeech_ShowDifficultyMenu();
+        //NewGameBirchSpeech_ShowDifficultyMenu();
         gTasks[taskId].func = Task_NewGameBirchSpeech_ChooseDifficulty;
     }
 }
 
 static void Task_NewGameBirchSpeech_ChooseDifficulty(u8 taskId)
 {
-    int difficulty = NewGameBirchSpeech_ProcessDifficultyMenuInput();
+    int difficulty = 1;
 
-    switch (difficulty)
-    {
-        case 0:
-            PlaySE(SE_SELECT);
-            gSaveBlock2Ptr->gameDifficulty = DIFFICULTY_NORMAL;
-            NewGameBirchSpeech_ClearGenderWindow(4, 1);
-            gTasks[taskId].func = Task_NewGameBirchSpeech_DifficultyDesc;
-            break;
-        case 1:
-            PlaySE(SE_SELECT);
-            gSaveBlock2Ptr->gameDifficulty = DIFFICULTY_HARD;
-            NewGameBirchSpeech_ClearGenderWindow(4, 1);
-            gTasks[taskId].func = Task_NewGameBirchSpeech_DifficultyDesc;
-            break;
-        case 2:
-            PlaySE(SE_SELECT);
-            gSaveBlock2Ptr->gameDifficulty = DIFFICULTY_CHALLENGE;
-            gSaveBlock2Ptr->optionsBattleStyle = OPTIONS_BATTLE_STYLE_SET;
-            NewGameBirchSpeech_ClearGenderWindow(4, 1);
-            gTasks[taskId].func = Task_NewGameBirchSpeech_DifficultyDesc;
-            break;
-    }
+    gTasks[taskId].func = Task_NewGameBirchSpeech_LevelCapSelect;
+
+    // switch (difficulty)
+    // {
+    //     case 0:
+    //         PlaySE(SE_SELECT);
+    //         gSaveBlock2Ptr->gameDifficulty = DIFFICULTY_NORMAL;
+    //         NewGameBirchSpeech_ClearGenderWindow(4, 1);
+    //         gTasks[taskId].func = Task_NewGameBirchSpeech_DifficultyDesc;
+    //         break;
+    //     case 1:
+    //         PlaySE(SE_SELECT);
+    //         gSaveBlock2Ptr->gameDifficulty = DIFFICULTY_HARD;
+    //         NewGameBirchSpeech_ClearGenderWindow(4, 1);
+    //         gTasks[taskId].func = Task_NewGameBirchSpeech_DifficultyDesc;
+    //         break;
+    //     case 2:
+    //         PlaySE(SE_SELECT);
+    //         gSaveBlock2Ptr->gameDifficulty = DIFFICULTY_CHALLENGE;
+    //         gSaveBlock2Ptr->optionsBattleStyle = OPTIONS_BATTLE_STYLE_SET;
+    //         NewGameBirchSpeech_ClearGenderWindow(4, 1);
+    //         gTasks[taskId].func = Task_NewGameBirchSpeech_DifficultyDesc;
+    //         break;
+    // }
 }
 
 static void Task_NewGameBirchSpeech_DifficultyDesc(u8 taskId)
@@ -1902,36 +1904,38 @@ static void Task_NewGameBirchSpeech_WaitToShowLevelCapMenu(u8 taskId)
 {
     if (!RunTextPrintersAndIsPrinter0Active())
     {
-        NewGameBirchSpeech_ShowLevelCapMenu();
+        //NewGameBirchSpeech_ShowLevelCapMenu();
         gTasks[taskId].func = Task_NewGameBirchSpeech_ChooseLevelCaps;
     }
 }
 
 static void Task_NewGameBirchSpeech_ChooseLevelCaps(u8 taskId)
 {
-    int difficulty = NewGameBirchSpeech_ProcessDifficultyMenuInput();
+    int difficulty = 1;
 
-    switch (difficulty)
-    {
-        case 0:
-            PlaySE(SE_SELECT);
-            gSaveBlock2Ptr->levelCaps = LEVEL_CAPS_DEFAULT;
-            NewGameBirchSpeech_ClearGenderWindow(5, 1);
-            gTasks[taskId].func = Task_NewGameBirchSpeech_LevelCapsDesc;
-            break;
-        case 1:
-            PlaySE(SE_SELECT);
-            gSaveBlock2Ptr->levelCaps = LEVEL_CAPS_MORE;
-            NewGameBirchSpeech_ClearGenderWindow(5, 1);
-            gTasks[taskId].func = Task_NewGameBirchSpeech_LevelCapsDesc;
-            break;
-        case 2:
-            PlaySE(SE_SELECT);
-            gSaveBlock2Ptr->levelCaps = LEVEL_CAPS_STRICT;
-            NewGameBirchSpeech_ClearGenderWindow(5, 1);
-            gTasks[taskId].func = Task_NewGameBirchSpeech_LevelCapsDesc;
-            break;
-    }
+    gTasks[taskId].func = Task_NewGameBirchSpeech_ReadTheDocs;
+
+    // switch (difficulty)
+    // {
+    //     case 0:
+    //         PlaySE(SE_SELECT);
+    //         gSaveBlock2Ptr->levelCaps = LEVEL_CAPS_DEFAULT;
+    //         NewGameBirchSpeech_ClearGenderWindow(5, 1);
+    //         gTasks[taskId].func = Task_NewGameBirchSpeech_LevelCapsDesc;
+    //         break;
+    //     case 1:
+    //         PlaySE(SE_SELECT);
+    //         gSaveBlock2Ptr->levelCaps = LEVEL_CAPS_MORE;
+    //         NewGameBirchSpeech_ClearGenderWindow(5, 1);
+    //         gTasks[taskId].func = Task_NewGameBirchSpeech_LevelCapsDesc;
+    //         break;
+    //     case 2:
+    //         PlaySE(SE_SELECT);
+    //         gSaveBlock2Ptr->levelCaps = LEVEL_CAPS_STRICT;
+    //         NewGameBirchSpeech_ClearGenderWindow(5, 1);
+    //         gTasks[taskId].func = Task_NewGameBirchSpeech_LevelCapsDesc;
+    //         break;
+    // }
 }
 
 static void Task_NewGameBirchSpeech_LevelCapsDesc(u8 taskId)
