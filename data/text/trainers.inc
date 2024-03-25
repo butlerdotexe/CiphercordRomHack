@@ -820,15 +820,14 @@ Route109_Text_AlicePostBattle: @ 829720F
 	.string "Cheeks are the most prone to burning!$"
 
 Route109_Text_HueyIntro: @ 8297235
-	.string "I've laid anchor in ports around\n"
-	.string "the world, but Slateport's the best.$"
+	.string "Alright, let's get this over with.$"
 
 Route109_Text_HueyDefeated: @ 829727B
-	.string "You're the best!$"
+	.string "...Bad game.$"
 
 Route109_Text_HueyPostBattle: @ 829728C
-	.string "In the best port was the best\n"
-	.string "Trainer…$"
+	.string "Good to know this game had bullshit\n"
+	.string "luck in it too.$"
 
 Route109_Text_EdmondIntro: @ 82972B3
 	.string "Urrrrppp…\n"
