@@ -1,4 +1,4 @@
-.set LOCALID_STEVEN, 19
+.set LOCALID_STEVEN, 17
 
 Route118_MapScripts:: @ 81F3DBC
 	map_script MAP_SCRIPT_ON_TRANSITION, Route118_OnTransition

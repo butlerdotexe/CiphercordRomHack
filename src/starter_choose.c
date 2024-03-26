@@ -152,7 +152,7 @@ static const u16 sStarterMonUnova[STARTER_MON_COUNT] =
 
 static const u16 sStarterMonKalos[STARTER_MON_COUNT] =
 {
-    SPECIES_GROOKEY,
+    SPECIES_CHESPIN,
     SPECIES_FENNEKIN,
     SPECIES_FROAKIE,
 };
