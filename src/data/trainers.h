@@ -3759,7 +3759,7 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_LEADER_FLANNERY,
         .trainerName = _("Amadracoon"),
         .items = {ITEM_NONE, ITEM_NONE, ITEM_NONE, ITEM_NONE},
-        .doubleBattle = FALSE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
         .partySize = ARRAY_COUNT(sParty_Flannery1),
         .party = {.ItemCustomMoves = sParty_Flannery1},

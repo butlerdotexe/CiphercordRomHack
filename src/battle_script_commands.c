@@ -2042,6 +2042,8 @@ static void Cmd_adjustdamage(void)
         goto END;
     if (DoesDisguiseBlockMove(gBattlerAttacker, gBattlerTarget, gCurrentMove))
         goto END;
+    if (DoesIceFaceBlockMove(gBattlerAttacker, gBattlerTarget, gCurrentMove))
+        goto END;
     if (gBattleMons[gBattlerTarget].hp > gBattleMoveDamage)
         goto END;
 
@@ -2255,7 +2257,7 @@ static void Cmd_healthbarupdate(void)
         {
             PrepareStringBattle(STRINGID_SUBSTITUTEDAMAGED, gActiveBattler);
         }
-        else if (!DoesDisguiseBlockMove(gBattlerAttacker, gActiveBattler, gCurrentMove))
+        else if ((!DoesDisguiseBlockMove(gBattlerAttacker, gActiveBattler, gCurrentMove)) || (!DoesIceFaceBlockMove(gBattlerAttacker, gActiveBattler, gCurrentMove)))
         {
             s16 healthValue = min(gBattleMoveDamage, 10000); // Max damage (10000) not present in R/S, ensures that huge damage values don't change sign
 
@@ -2315,6 +2317,12 @@ static void Cmd_datahpupdate(void)
         else if (DoesDisguiseBlockMove(gBattlerAttacker, gActiveBattler, gCurrentMove))
         {
             gBattleMons[gActiveBattler].species = SPECIES_MIMIKYU_BUSTED;
+            BattleScriptPush(gBattlescriptCurrInstr + 2);
+            gBattlescriptCurrInstr = BattleScript_TargetFormChange;
+        }
+        else if (DoesIceFaceBlockMove(gBattlerAttacker, gActiveBattler, gCurrentMove))
+        {
+            gBattleMons[gActiveBattler].species = SPECIES_EISCUE_NOICE_FACE;
             BattleScriptPush(gBattlescriptCurrInstr + 2);
             gBattlescriptCurrInstr = BattleScript_TargetFormChange;
         }
@@ -13227,6 +13235,18 @@ bool32 DoesDisguiseBlockMove(u8 battlerAtk, u8 battlerDef, u32 move)
 {
     if (GetBattlerAbility(battlerDef) != ABILITY_DISGUISE
         || gBattleMons[battlerDef].species != SPECIES_MIMIKYU
+        || gBattleMons[battlerDef].status2 & STATUS2_TRANSFORMED
+        || gBattleMoves[move].power == 0
+        || gHitMarker & HITMARKER_IGNORE_DISGUISE)
+        return FALSE;
+    else
+        return TRUE;
+}
+
+bool32 DoesIceFaceBlockMove(u8 battlerAtk, u8 battlerDef, u32 move)
+{
+    if (GetBattlerAbility(battlerDef) != ABILITY_ICE_FACE
+        || gBattleMons[battlerDef].species != SPECIES_EISCUE
         || gBattleMons[battlerDef].status2 & STATUS2_TRANSFORMED
         || gBattleMoves[move].power == 0
         || gHitMarker & HITMARKER_IGNORE_DISGUISE)
