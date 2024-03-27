@@ -21817,7 +21817,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_INTELEON] =
+    [SPECIES_INTELEON] = //H! samurott
     {
         .baseHP        = 90,
         .baseAttack    = 108,
