@@ -9086,7 +9086,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_FREEZE_DRY] =
     {
         #ifdef REBALANCED_VERSION
-            .power = 95,
+            .power = 70,
             .pp = 15,
         #else
             .power = 70,
