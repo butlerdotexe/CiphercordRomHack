@@ -16403,7 +16403,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_AMORPHOUS,
         .eggGroup2 = EGG_GROUP_AMORPHOUS,
         #ifdef REBALANCED_VERSION
-            .abilities = {ABILITY_FLASH_FIRE, ABILITY_FLAME_BODY, ABILITY_VENGEANCE},
+            .abilities = {ABILITY_INFILTRATOR, ABILITY_FLAME_BODY, ABILITY_VENGEANCE},
         #else
             .abilities = {ABILITY_FLASH_FIRE, ABILITY_FLAME_BODY, ABILITY_INFILTRATOR},
         #endif
@@ -23168,16 +23168,16 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_STONJOURNER] =
+    [SPECIES_STONJOURNER] = //Rillaboom
     {
         .baseHP        = 100,
         .baseAttack    = 125,
-        .baseDefense   = 135,
-        .baseSpeed     = 70,
-        .baseSpAttack  = 20,
-        .baseSpDefense = 20,
-        .type1 = TYPE_ROCK,
-        .type2 = TYPE_ROCK,
+        .baseDefense   = 90,
+        .baseSpeed     = 85,
+        .baseSpAttack  = 60,
+        .baseSpDefense = 70,
+        .type1 = TYPE_GRASS,
+        .type2 = TYPE_GRASS,
         .catchRate = 60,
         .expYield = 165,
         .evYield_Defense   = 2,
@@ -23187,7 +23187,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_SLOW,
         .eggGroup1 = EGG_GROUP_MINERAL,
         .eggGroup2 = EGG_GROUP_MINERAL,
-        .abilities = {ABILITY_POWER_SPOT, ABILITY_NONE},
+        .abilities = {ABILITY_OVERGROW, ABILITY_GRASSY_SURGE},
         .bodyColor = BODY_COLOR_GRAY,
         .noFlip = FALSE,
     },

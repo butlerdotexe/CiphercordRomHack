@@ -907,12 +907,12 @@ const struct TrainerMonSpread gSets[] = {
 	},
 	[SPREAD_ROCK_POLISH_GROUDON]  = {
 		.EVs = {
-			100,	// HP
-			252,	// Attack
-			  0,	// Defense
-			156,	// Speed
+			128,	// HP
+			  0,	// Attack
+			 52,	// Defense
+			128,	// Speed
 			  0,	// Special Attack
-			  0		// Special Defense
+			200		// Special Defense
 		},
 		.IVs = {
 			31,		// HP
@@ -922,7 +922,7 @@ const struct TrainerMonSpread gSets[] = {
 			31,		// Special Attack
 			31		// Special Defense
 		},
-		.nature = NATURE_ADAMANT
+		.nature = NATURE_JOLLY
 	},
 	[SPREAD_31_IV_DEF_SDF_SPA_CALM] =
 	{
@@ -943,5 +943,25 @@ const struct TrainerMonSpread gSets[] = {
 			31		// Special Defense
 		},
 		.nature = NATURE_CALM
+	},
+	[SPREAD_FALLEN_LINOONE] =
+	{
+	.EVs = {
+			 60,	// HP
+			252,	// Attack
+			  0,	// Defense
+			196,	// Speed
+			  0,	// Special Attack
+			  0	// Special Defense
+		},
+		.IVs = {
+			31,		// HP
+			31,		// Attack
+			31,		// Defense
+			31,		// Speed
+			31,		// Special Attack
+			31		// Special Defense
+		},
+		.nature = NATURE_JOLLY
 	},
 };

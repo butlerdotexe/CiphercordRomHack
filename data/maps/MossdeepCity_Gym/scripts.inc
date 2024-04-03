@@ -49,11 +49,9 @@ MossdeepCity_Gym_EventScript_SetSwitch4Metatiles:: @ 8220885
 	end
 
 MossdeepCity_Gym_EventScript_TateAndLiza:: @ 8220898
-	setflag FLAG_SYS_INVERSE_BATTLE
 	goto_if_set FLAG_DAILY_REMATCH_TATE_AND_LIZA, MossdeepCity_Gym_EventScript_AlreadyRematched
 	goto_if_set FLAG_SYS_GAME_CLEAR, MossdeepCity_Gym_EventScript_TateAndLizaRematch
 	trainerbattle_double TRAINER_TATE_AND_LIZA_1, MossdeepCity_Gym_Text_TateAndLizaIntro, MossdeepCity_Gym_Text_TateAndLizaDefeat, MossdeepCity_Gym_Text_TateAndLizaNeedTwoMons, MossdeepCity_Gym_EventScript_TateAndLizaDefeated, NO_MUSIC
-	clearflag FLAG_SYS_INVERSE_BATTLE
 	goto_if_eq MossdeepCity_Gym_EventScript_TateAndLizaRematch
 	goto_if_unset FLAG_RECEIVED_TM04, MossdeepCity_Gym_EventScript_GiveCalmMind2
 	msgbox MossdeepCity_Gym_Text_TateAndLizaPostBattle, MSGBOX_DEFAULT
@@ -85,7 +83,6 @@ MossdeepCity_Gym_EventScript_TateAndLizaDefeated:: @ 82208D1
 	clearflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_TEAM_MAGMA
 	clearflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_MAGMA
 	clearflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_STEVEN
-	clearflag FLAG_SYS_INVERSE_BATTLE
 	setvar VAR_MOSSDEEP_CITY_STATE, 1
 	setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_STEVEN
 	setvar VAR_MOSSDEEP_SPACE_CENTER_STATE, 1
@@ -124,25 +121,21 @@ MossdeepCity_Gym_EventScript_TateAndLizaRematch::
 	goto_if_eq MossdeepCity_Gym_EventScript_TateAndLizaDoublesRematch
 	trainerbattle_no_intro TRAINER_TATE_AND_LIZA_3, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat
 	setflag FLAG_DAILY_REMATCH_TATE_AND_LIZA
-	clearflag FLAG_SYS_INVERSE_BATTLE
 	releaseall
 	end
 
 MossdeepCity_Gym_EventScript_TateAndLizaDoublesRematch::
 	trainerbattle_no_intro TRAINER_TATE_AND_LIZA_2, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat
 	setflag FLAG_DAILY_REMATCH_TATE_AND_LIZA
-	clearflag FLAG_SYS_INVERSE_BATTLE
 	releaseall
 	end
 
 MossdeepCity_Gym_EventScript_AlreadyRematched::
 	msgbox MossdeepCity_Gym_Text_TateAndLizaPostRematch, MSGBOX_AUTOCLOSE
-	clearflag FLAG_SYS_INVERSE_BATTLE
 	releaseall
 	end
 
 MossdeepCity_Gym_EventScript_Exit::
-	clearflag FLAG_SYS_INVERSE_BATTLE
 	releaseall
 	end
 
@@ -604,12 +597,6 @@ MossdeepCity_Gym_Text_TateAndLizaIntro: @ 8221783
 	.string "Liza: We can each determine what…\p"
 	.string "Tate: The other is thinking…\n"
 	.string "Liza: All in our minds!\p"
-	.string "Tate: Also…\n"
-	.string "Liza: This will be an Inverse Battle!\p"
-	.string "Tate: Supereffective moves will be…\n"
-	.string "Liza: Not very effective!\p"
-	.string "Tate: And not very effective moves…\n"
-	.string "Liza: will be Supereffective!\p"
 	.string "Tate: This combination of ours…\n"
 	.string "Liza: Can you beat it?$"
 
