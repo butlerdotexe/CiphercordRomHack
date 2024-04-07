@@ -897,3 +897,11 @@ Altering_Cave_EventScript_MasterBall2::
 Altering_Cave_EventScript_CometShard::
 	finditem ITEM_COMET_SHARD
 	end
+
+VictoryRoad_1F_EventScript_ItemMaxRevives::
+	finditem ITEM_MAX_REVIVE, 99
+	end
+
+VictoryRoad_1F_EventScript_ItemFullRestores::
+	finditem ITEM_FULL_RESTORE, 99
+	end

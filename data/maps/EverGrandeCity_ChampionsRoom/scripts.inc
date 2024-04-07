@@ -45,7 +45,8 @@ EverGrandeCity_ChampionsRoom_EventScript_Wallace:: @ 8228A45
 	playbgm MUS_ENCOUNTER_CHAMPION, FALSE
 	msgbox EverGrandeCity_ChampionsRoom_Text_IntroSpeech, MSGBOX_DEFAULT
 	goto_if_set FLAG_SYS_GAME_CLEAR, EverGrandeCity_WallacesRoom_EventScript_WallaceRematch
-	trainerbattle_no_intro TRAINER_WALLACE, EverGrandeCity_ChampionsRoom_Text_Defeat
+	trainerbattle_no_intro TRAINER_WALLACE, EverGrandeCity_ChampionsRoom_Text_Fakeout
+	trainerbattle_no_intro TRAINER_WALLACE_LEGENDS, EverGrandeCity_ChampionsRoom_Text_Defeat
 	goto EverGrandeCity_ChampionsRoom_EventScript_Defeated
 	end
 
@@ -280,6 +281,15 @@ EverGrandeCity_ChampionsRoom_Text_IntroSpeech: @ 8228C4C
 	.string "Who can most elegantly dance with\n"
 	.string "their Pokémon in Hoenn?\p"
 	.string "Show me right here and now!$"
+
+EverGrandeCity_ChampionsRoom_Text_Fakeout: 
+	.string "I, the Champion, fall in defeat…\n"
+	.string "…is what I would say.\p"
+	.string "You didn't think was was over yet,\l"
+	.string "did you? I'm the champion.\p"
+	.string "An admin. The strongest there is.\p"
+	.string "So struggle more, and see if you\n"
+	.string "truly have what it takes to beat me!$"
 
 EverGrandeCity_ChampionsRoom_Text_Defeat: @ 8228EAC
 	.string "I, the Champion, fall in defeat…\p"
