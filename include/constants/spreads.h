@@ -56,5 +56,7 @@
 #define SPREAD_ROCK_POLISH_GROUDON          52 // Maxie's Groudon
 #define SPREAD_31_IV_DEF_SDF_SPA_CALM       53
 #define SPREAD_FALLEN_LINOONE               54
+#define SPREAD_31_IV_DEF_SPDEF_CALM         55
+#define SPREAD_31_IV_DEF_SPDEF_BOLD         56
 
 #endif  // GUARD_CONSTANTS_TRAINER_SPREADS
