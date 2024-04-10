@@ -19293,26 +19293,10 @@ static const struct TrainerMonItemCustomMoves sParty_Michelle[] = { //Exalt
 static const struct TrainerMonItemCustomMoves sParty_Mitchell[] = { // with Halle
     {
     .lvl = 0,
-    .species = SPECIES_MACHAMP,
-    .heldItem = ITEM_MACHAMPITE,
-    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
-    .moves = MOVE_CLOSE_COMBAT, MOVE_FIRE_PUNCH, MOVE_ICE_PUNCH, MOVE_BULLET_PUNCH
-    },
-    {
-    .lvl = -1,
-    .species = SPECIES_SHIINOTIC,
-    .heldItem = ITEM_ROCKY_HELMET,
-    .ability = 1, // Effect Spore
-    .spread = SPREAD_31_IV_HP_DEF_BOLD,
-    .moves = MOVE_STRENGTH_SAP, MOVE_SPORE, MOVE_DAZZLING_GLEAM, MOVE_MOONLIGHT
-    },
-    {
-    .lvl = -1,
-    .species = SPECIES_GOTHITELLE,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .ability = 2, // Shadow Tag
-    .spread = SPREAD_31_IV_HP_DEF_BOLD,
-    .moves = MOVE_PSYCHIC, MOVE_FLATTER, MOVE_NASTY_PLOT, MOVE_THUNDERBOLT
+    .species = SPECIES_AUDINO,
+    .heldItem = ITEM_AUDINITE,
+    .spread = SPREAD_31_IV_HP_SPATK_MODEST,
+    .moves = MOVE_MOONBLAST, MOVE_HYPER_VOICE, MOVE_FLAMETHROWER, MOVE_CALM_MIND
     }
 };
 
@@ -20793,7 +20777,7 @@ static const struct TrainerMonItemCustomMoves sParty_WallaceDoubles[] = { // Dou
 static const struct TrainerMonItemCustomMoves sParty_WallaceLegends[] = { // Legendaries
     {
     .lvl = 3,
-    .species = SPECIES_ZACIAN,
+    .species = SPECIES_ZACIAN_CROWNED_SWORD,
     .heldItem = ITEM_RUSTED_SWORD,
     .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
     .moves = MOVE_BEHEMOTH_BLADE, MOVE_PLAY_ROUGH, MOVE_CLOSE_COMBAT, MOVE_SWORDS_DANCE
