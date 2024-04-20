@@ -23,6 +23,7 @@ FortreeCity_Mart_Pokemart:
 	.2byte ITEM_DUBIOUS_DISC
 	.2byte ITEM_REAPER_CLOTH
 	.2byte ITEM_DRAGON_SCALE
+	.2byte ITEM_ORAN_BERRY
 	.2byte ITEM_NONE
 	release
 	end

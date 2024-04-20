@@ -1541,8 +1541,8 @@ PetalburgCity_Gym_Text_GymGuideAdvice2:
 	.string "the door, so choose carefully.\p"
 	.string "Once you've chosen the door…\n"
 	.string "Well, hey, go for it!\p"
-	.string "Oh, and your Dad's got something\n"
-	.string "special for you once you reach him!$"
+	.string "Oh yeah, I also heard the Leader\n"
+	.string "likes double battles, so be ready!$"
 
 PetalburgCity_Gym_Text_GymGuidePostVictory: @ 82066F3
 	.string "{PLAYER}! Whoa! You've overcome even\n"

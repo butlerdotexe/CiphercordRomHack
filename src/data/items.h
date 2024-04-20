@@ -1962,7 +1962,7 @@ const struct Item gItems[] =
     {
         .name = _("Oran Berry"),
         .itemId = ITEM_ORAN_BERRY,
-        .price = 20,
+        .price = 1000,
         .holdEffect = HOLD_EFFECT_RESTORE_HP,
         .holdEffectParam = 10,
         .description = sOranBerryDesc,

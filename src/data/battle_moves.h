@@ -5518,7 +5518,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
             .pp = 40,
             .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
         #endif
-        .effect = EFFECT_THIEF,
+        .effect = EFFECT_HIT,
         .type = TYPE_NORMAL,
         .accuracy = 100,
         .secondaryEffectChance = 100,
@@ -11387,7 +11387,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_METEOR_BEAM] =
     {
-        .effect = EFFECT_PLACEHOLDER,   //TODO
+        .effect = EFFECT_SOLARBEAM,   //TODO
         .power = 120,
         .type = TYPE_ROCK,
         .accuracy = 90,
