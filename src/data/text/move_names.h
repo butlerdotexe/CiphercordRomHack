@@ -1521,4 +1521,9 @@ const u8 gMoveNamesLong[MOVES_COUNT][LONG_MOVE_NAME_LENGTH + 1] =
     [MOVE_EERIE_SPELL] = _("Eerie Spell"),
     [MOVE_BITTER_MALICE] = _("Bitter Malice"),
     [MOVE_FLOWER_TRICK] = _("Flower Trick"),
+    [MOVE_SALT_CURE] = _("Salt Cure"),
+    [MOVE_COLLISION_COURSE] = _("Collision Course"),
+    [MOVE_GIGATON_HAMMER] = _("Gigaton Hammer"),
+    [MOVE_HYPER_DRILL] = _("Hyper Drill"),
+    [MOVE_AQUA_STEP] = _("Aqua Step"),
 };

@@ -68,7 +68,7 @@ static const struct TrainerMonItemCustomMoves sParty_WallyVR2[] = { //Basil
     },
     {
     .lvl = 1,
-    .species = SPECIES_CRAMORANT,
+    .species = SPECIES_UNOWN,
     .heldItem = ITEM_LEFTOVERS,
     .ability = 1, 
     .spread = SPREAD_31_IV_HP_SPDEF_CALM,
@@ -118,7 +118,7 @@ static const struct TrainerMonItemCustomMoves sParty_WallyVR3[] = {
     },
     {
     .lvl = 1,
-    .species = SPECIES_CRAMORANT,
+    .species = SPECIES_UNOWN,
     .heldItem = ITEM_LEFTOVERS,
     .ability = 1, 
     .spread = SPREAD_31_IV_HP_SPDEF_CALM,
@@ -168,7 +168,7 @@ static const struct TrainerMonItemCustomMoves sParty_WallyVR4[] = {
     },
     {
     .lvl = 1,
-    .species = SPECIES_CRAMORANT,
+    .species = SPECIES_UNOWN,
     .heldItem = ITEM_LEFTOVERS,
     .ability = 1, 
     .spread = SPREAD_31_IV_HP_SPDEF_CALM,
@@ -218,7 +218,7 @@ static const struct TrainerMonItemCustomMoves sParty_WallyVR5[] = {
     },
     {
     .lvl = 1,
-    .species = SPECIES_CRAMORANT,
+    .species = SPECIES_UNOWN,
     .heldItem = ITEM_LEFTOVERS,
     .ability = 1, 
     .spread = SPREAD_31_IV_HP_SPDEF_CALM,
@@ -268,7 +268,7 @@ static const struct TrainerMonItemCustomMoves sParty_WallyVR1[] = {
     },
     {
     .lvl = 1,
-    .species = SPECIES_CRAMORANT,
+    .species = SPECIES_UNOWN,
     .heldItem = ITEM_LEFTOVERS,
     .ability = 1, 
     .spread = SPREAD_31_IV_HP_SPDEF_CALM,
@@ -6142,7 +6142,7 @@ static const struct TrainerMonItemCustomMoves sParty_Vivi[] = { //LukaDark
     },
     {
     .lvl = -1,
-    .species = SPECIES_RILLABOOM,
+    .species = SPECIES_UNOWN_D,
     .spread = SPREAD_25_IV_0_EV,
     .ability = 1,
     .moves = MOVE_FLOWER_TRICK, MOVE_NIGHT_SLASH, MOVE_BRICK_BREAK, MOVE_THUNDER_PUNCH
@@ -6795,7 +6795,8 @@ static const struct TrainerMonItemCustomMoves sParty_Bryan[] = { //Hachig
     },
     {
     .lvl = -1,
-    .species = SPECIES_PERRSERKER,
+    .species = SPECIES_UNOWN_E,
+    .ability = 1,
     .spread = SPREAD_31_IV_20_EV,
     .moves = MOVE_POISON_JAB, MOVE_EARTHQUAKE, MOVE_MEGAHORN, MOVE_YAWN
     }
@@ -8221,7 +8222,7 @@ static const struct TrainerMonItemCustomMoves sParty_Courtney_MeteorFalls[] = {/
     },
     {
     .lvl = 0, 
-    .species = SPECIES_INTELEON,
+    .species = SPECIES_UNOWN_B,
     .heldItem = ITEM_ASSAULT_VEST,
     .ability = 1,
     .spread = SPREAD_31_IV_HP_ATK_ADAMANT,
@@ -11927,7 +11928,7 @@ static const struct TrainerMonItemCustomMoves sParty_Phil[] = { //Jad
     },
     {
     .lvl = -1,
-    .species = SPECIES_PERRSERKER,
+    .species = SPECIES_UNOWN_E,
     .ability = 1,
     .spread = SPREAD_31_IV_60_EV,
     .moves = MOVE_POISON_JAB, MOVE_EARTHQUAKE, MOVE_RECOVER, MOVE_YAWN
@@ -14839,10 +14840,10 @@ static const struct TrainerMonItemCustomMoves sParty_Grunt46[] = {
     },
     {
     .lvl = -1,
-    .species = SPECIES_STONJOURNER,
+    .species = SPECIES_RILLABOOM,
     .heldItem = ITEM_LEFTOVERS,
     .spread = SPREAD_31_IV_80_EV,
-    .ability = 1,
+    .ability = 2,
     .moves = MOVE_GRASSY_GLIDE, MOVE_KNOCK_OFF, MOVE_DRUM_BEATING, MOVE_DRAIN_PUNCH
     }
 };
@@ -15081,7 +15082,7 @@ static const struct TrainerMonItemCustomMoves sParty_CourtneyMagmaHideout[] = { 
     },
     {
     .lvl = 1, 
-    .species = SPECIES_INTELEON,
+    .species = SPECIES_UNOWN_B,
     .heldItem = ITEM_SALAC_BERRY,
     .ability = 1, 
     .spread = SPREAD_31_IV_HP_ATK_ADAMANT,
@@ -15636,7 +15637,7 @@ static const struct TrainerMonItemCustomMoves sParty_Jenny4[] = {
 static const struct TrainerMonItemCustomMoves sParty_Chad[] = { //Alter Luin
     {
     .lvl = -1,
-    .species = SPECIES_COALOSSAL,
+    .species = SPECIES_UNOWN_C,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_STEALTH_ROCK, MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE, MOVE_RECOVER
     },
@@ -17777,7 +17778,7 @@ static const struct TrainerMonItemCustomMoves sParty_Grunt23[] = {
     },
     {
     .lvl = -1,
-    .species = SPECIES_COALOSSAL,
+    .species = SPECIES_UNOWN_C,
     .ability = 0, 
     .heldItem = ITEM_LEFTOVERS,
     .spread = SPREAD_31_IV_80_EV,
@@ -17872,7 +17873,7 @@ static const struct TrainerMonItemCustomMoves sParty_Grunt35[] = {
     },
     {
     .lvl = -1,
-    .species = SPECIES_RILLABOOM,
+    .species = SPECIES_UNOWN_D,
     .heldItem = ITEM_CHOICE_BAND,
     .ability = 0, 
     .spread = SPREAD_31_IV_80_EV,
@@ -17975,7 +17976,7 @@ static const struct TrainerMonItemCustomMoves sParty_CourtneyMossdeep[] = { //Ch
     },
     {
     .lvl = 0, 
-    .species = SPECIES_INTELEON,
+    .species = SPECIES_UNOWN_B,
     .heldItem = ITEM_SCOPE_LENS,
     .ability = 1,
     .spread = SPREAD_31_IV_HP_ATK_ADAMANT,
@@ -19290,7 +19291,7 @@ static const struct TrainerMonItemCustomMoves sParty_Owen[] = { //Zero-Reverse
     },
     {
     .lvl = -1,
-    .species = SPECIES_ARCEUS,
+    .species = SPECIES_ARCEUS_GROUND,
     .heldItem = ITEM_EARTH_PLATE,
     .spread = SPREAD_31_IV_80_EV,
     .moves = MOVE_EXTREME_SPEED, MOVE_RECOVER, MOVE_PUNISHMENT, MOVE_EARTHQUAKE

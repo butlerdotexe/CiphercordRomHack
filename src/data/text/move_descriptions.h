@@ -3748,4 +3748,9 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_EERIE_SPELL - 1] = sEERIE_SPELLDescription,
     [MOVE_BITTER_MALICE - 1] = sNotDoneYetDescription,
     [MOVE_FLOWER_TRICK - 1] = sNotDoneYetDescription,
+    [MOVE_SALT_CURE - 1] = sNotDoneYetDescription,
+    [MOVE_COLLISION_COURSE - 1] = sNotDoneYetDescription,
+    [MOVE_GIGATON_HAMMER - 1] = sNotDoneYetDescription,
+    [MOVE_HYPER_DRILL - 1] = sNotDoneYetDescription,
+    [MOVE_AQUA_STEP - 1] = sNotDoneYetDescription,
 };

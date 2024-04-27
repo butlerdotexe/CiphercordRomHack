@@ -5916,6 +5916,7 @@ bool32 CanSleep(u8 battlerId)
     u16 ability = GetBattlerAbility(battlerId);
     if (ability == ABILITY_INSOMNIA
       || ability == ABILITY_VITAL_SPIRIT
+      || ability == ABILITY_PURIFYING_SALT
       || ability == ABILITY_COMATOSE
       || gSideStatuses[GetBattlerSide(battlerId)] & SIDE_STATUS_SAFEGUARD
       || gBattleMons[battlerId].status1 & STATUS1_ANY
@@ -5934,6 +5935,7 @@ bool32 CanBePoisoned(u8 battlerAttacker, u8 battlerTarget)
      || gSideStatuses[GetBattlerSide(battlerTarget)] & SIDE_STATUS_SAFEGUARD
      || gBattleMons[battlerTarget].status1 & STATUS1_ANY
      || ability == ABILITY_IMMUNITY
+     || ability == ABILITY_PURIFYING_SALT
      || ability == ABILITY_COMATOSE
      || IsAbilityOnSide(battlerTarget, ABILITY_PASTEL_VEIL)
      || gBattleMons[battlerTarget].status1 & STATUS1_ANY
@@ -5950,6 +5952,7 @@ bool32 CanBeBurned(u8 battlerId)
       || gSideStatuses[GetBattlerSide(battlerId)] & SIDE_STATUS_SAFEGUARD
       || gBattleMons[battlerId].status1 & STATUS1_ANY
       || ability == ABILITY_WATER_VEIL
+      || ability == ABILITY_PURIFYING_SALT
       || ability == ABILITY_WATER_BUBBLE
       || ability == ABILITY_COMATOSE
       || IsAbilityStatusProtected(battlerId)
@@ -5964,6 +5967,7 @@ bool32 CanBeParalyzed(u8 battlerId)
     if ((B_PARALYZE_ELECTRIC >= GEN_6 && IS_BATTLER_OF_TYPE(battlerId, TYPE_ELECTRIC))
       || gSideStatuses[GetBattlerSide(battlerId)] & SIDE_STATUS_SAFEGUARD
       || ability == ABILITY_LIMBER
+      || ability == ABILITY_PURIFYING_SALT
       || ability == ABILITY_COMATOSE
       || gBattleMons[battlerId].status1 & STATUS1_ANY
       || IsAbilityStatusProtected(battlerId)
@@ -5979,6 +5983,7 @@ bool32 CanBeFrozen(u8 battlerId)
       || IsBattlerWeatherAffected(battlerId, WEATHER_SUN_ANY)
       || gSideStatuses[GetBattlerSide(battlerId)] & SIDE_STATUS_SAFEGUARD
       || ability == ABILITY_MAGMA_ARMOR
+      || ability == ABILITY_PURIFYING_SALT
       || ability == ABILITY_COMATOSE
       || gBattleMons[battlerId].status1 & STATUS1_ANY
       || IsAbilityStatusProtected(battlerId)
@@ -5989,8 +5994,10 @@ bool32 CanBeFrozen(u8 battlerId)
 
 bool32 CanBeConfused(u8 battlerId)
 {
+    u16 ability = GetBattlerAbility(battlerId);
     if (GetBattlerAbility(gEffectBattler) == ABILITY_OWN_TEMPO
       || gBattleMons[gEffectBattler].status2 & STATUS2_CONFUSION
+      || ability == ABILITY_PURIFYING_SALT
       || IsBattlerTerrainAffected(battlerId, STATUS_FIELD_MISTY_TERRAIN))
         return FALSE;
     return TRUE;
@@ -8635,6 +8642,14 @@ static u32 CalcAttackStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, b
     case ABILITY_ICE_SCALES:
         if (IS_MOVE_SPECIAL(move))
             MulModifier(&modifier, UQ_4_12(0.5));
+        break;
+    case ABILITY_PURIFYING_SALT:
+        if (moveType == TYPE_GHOST)
+        {
+            MulModifier(&modifier, UQ_4_12(0.5));
+            if (updateFlags)
+                RecordAbilityBattle(battlerDef, ABILITY_PURIFYING_SALT);
+        }
         break;
     }
 

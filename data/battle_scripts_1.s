@@ -403,6 +403,7 @@ gBattleScriptsForMoveEffects::
 	.4byte BattleScript_EffectOctolock                @ EFFECT_OCTOLOCK
 	.4byte BattleScript_EffectClangorousSoul          @ EFFECT_CLANGOROUS_SOUL
 	.4byte BattleScript_EffectHit                     @ EFFECT_BOLT_BEAK
+	.4byte BattleScript_EffectSaltCure				  @ EFFECT_SALT_CURE
 
 BattleScript_EffectShellSideArm:
 	shellsidearmcheck
@@ -9220,3 +9221,7 @@ BattleScript_NeutralizingGasExitsLoop:
 	jumpifbytenotequal gBattlerTarget, sByteFour, BattleScript_NeutralizingGasExitsLoop	@ SOMEHOW, comparing to gBattlersCount is problematic.
 	restoretarget
 	return
+
+BattleScript_EffectSaltCure::
+	setmoveeffect MOVE_EFFECT_WRAP
+	goto BattleScript_EffectHit
