@@ -1830,39 +1830,37 @@ static void Task_NewGameBirchSpeech_WaitToShowDifficultyMenu(u8 taskId)
 {
     if (!RunTextPrintersAndIsPrinter0Active())
     {
-        //NewGameBirchSpeech_ShowDifficultyMenu();
+        NewGameBirchSpeech_ShowDifficultyMenu();
         gTasks[taskId].func = Task_NewGameBirchSpeech_ChooseDifficulty;
     }
 }
 
 static void Task_NewGameBirchSpeech_ChooseDifficulty(u8 taskId)
 {
-    int difficulty = 1;
+    int difficulty = NewGameBirchSpeech_ProcessDifficultyMenuInput();
 
-    gTasks[taskId].func = Task_NewGameBirchSpeech_LevelCapSelect;
-
-    // switch (difficulty)
-    // {
-    //     case 0:
-    //         PlaySE(SE_SELECT);
-    //         gSaveBlock2Ptr->gameDifficulty = DIFFICULTY_NORMAL;
-    //         NewGameBirchSpeech_ClearGenderWindow(4, 1);
-    //         gTasks[taskId].func = Task_NewGameBirchSpeech_DifficultyDesc;
-    //         break;
-    //     case 1:
-    //         PlaySE(SE_SELECT);
-    //         gSaveBlock2Ptr->gameDifficulty = DIFFICULTY_HARD;
-    //         NewGameBirchSpeech_ClearGenderWindow(4, 1);
-    //         gTasks[taskId].func = Task_NewGameBirchSpeech_DifficultyDesc;
-    //         break;
-    //     case 2:
-    //         PlaySE(SE_SELECT);
-    //         gSaveBlock2Ptr->gameDifficulty = DIFFICULTY_CHALLENGE;
-    //         gSaveBlock2Ptr->optionsBattleStyle = OPTIONS_BATTLE_STYLE_SET;
-    //         NewGameBirchSpeech_ClearGenderWindow(4, 1);
-    //         gTasks[taskId].func = Task_NewGameBirchSpeech_DifficultyDesc;
-    //         break;
-    // }
+    switch (difficulty)
+    {
+        case 0:
+            PlaySE(SE_SELECT);
+            gSaveBlock2Ptr->gameDifficulty = DIFFICULTY_NORMAL;
+            NewGameBirchSpeech_ClearGenderWindow(4, 1);
+            gTasks[taskId].func = Task_NewGameBirchSpeech_DifficultyDesc;
+            break;
+        case 1:
+            PlaySE(SE_SELECT);
+            gSaveBlock2Ptr->gameDifficulty = DIFFICULTY_HARD;
+            NewGameBirchSpeech_ClearGenderWindow(4, 1);
+            gTasks[taskId].func = Task_NewGameBirchSpeech_DifficultyDesc;
+            break;
+        case 2:
+            PlaySE(SE_SELECT);
+            gSaveBlock2Ptr->gameDifficulty = DIFFICULTY_CHALLENGE;
+            gSaveBlock2Ptr->optionsBattleStyle = OPTIONS_BATTLE_STYLE_SET;
+            NewGameBirchSpeech_ClearGenderWindow(4, 1);
+            gTasks[taskId].func = Task_NewGameBirchSpeech_DifficultyDesc;
+            break;
+    }
 }
 
 static void Task_NewGameBirchSpeech_DifficultyDesc(u8 taskId)

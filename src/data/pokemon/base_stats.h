@@ -26693,7 +26693,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroup1 = EGG_GROUP_UNDISCOVERED,
         .eggGroup2 = EGG_GROUP_UNDISCOVERED,
-        .abilities = {ABILITY_STURDY, ABILITY_CLEAR_BODY},
+        .abilities = {ABILITY_PURIFYING_SALT, ABILITY_STURDY, ABILITY_CLEAR_BODY},
         .bodyColor = BODY_COLOR_BLACK,
         .noFlip = TRUE,
     },

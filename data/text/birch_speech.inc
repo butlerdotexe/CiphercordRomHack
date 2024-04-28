@@ -49,9 +49,12 @@ gText_Birch_AreYouReady:: @ 82C8C7A
 
 gText_Pie_Welcome::
 	.string "Oh, wait!\p"
-	.string "Before you go, a message from this\n"
-	.string "hack's creator:\p"
-	.string " $"
+	.string "Before you get started, you'll need\n"
+	.string "to choose a difficulty setting.\p"
+	.string "Currently you can choose between\n"
+	.string "Normal, Hard or Challenge Mode.\p"
+	.string "Please select a mode to learn more\n"
+	.string "about it.$"
 
 gText_Pie_NormalMode::
 	.string "In Normal Mode, Trainers won't have\n"
@@ -92,7 +95,8 @@ gText_Pie_ChallengeMode::
 	.string "Challenge Mode?$"
 
 gText_Pie_WhichDifficulty::
-	.string " $"
+	.string "Which difficulty would you like to\n"
+	.string "play on?$"
 
 gText_Pie_LevelCaps::
 	.string " $"
