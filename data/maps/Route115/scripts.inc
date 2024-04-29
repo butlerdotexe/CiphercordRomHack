@@ -25,7 +25,8 @@ Route115_OnFrame: @ 81F2969
 	.2byte 0
 
 Route115_EventScript_Woman:: @ 81F2973
-	msgbox Route115_Text_NeverKnowWhenCavePokemonWillAppear, MSGBOX_NPC
+	trainerbattle_single TRAINER_CINDY_6, Route102_Text_RickIntro, Route102_Text_RickDefeated
+	msgbox Route102_Text_RickPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route115_EventScript_RouteSignRustboro:: @ 81F297C

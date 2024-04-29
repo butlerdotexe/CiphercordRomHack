@@ -1616,43 +1616,42 @@ static const struct TrainerMonItemCustomMoves sParty_Archie1[] = { // Slateport 
 
 // Route 102 Trainers
 
-static const struct TrainerMonItemCustomMoves sParty_Calvin1[] = { // Nobu
+static const struct TrainerMonItemCustomMoves sParty_Calvin1[] = { // Cinnamon Slice
     {
-    .lvl = -3,
-    .species = SPECIES_EEVEE,
-    .moves = MOVE_TACKLE, MOVE_SAND_ATTACK, MOVE_TAIL_WHIP
-    },
-    {
-    .lvl = -3,
-    .species = SPECIES_EEVEE,
-    .moves = MOVE_TACKLE, MOVE_SAND_ATTACK, MOVE_TAIL_WHIP
+    .lvl = -2,
+    .species = SPECIES_PICHU_SPIKY_EARED,
+    .moves = MOVE_FAKE_OUT, MOVE_PRESENT
     },
     {
     .lvl = -2,
-    .species = SPECIES_EEVEE,
+    .species = SPECIES_WOOPER,
     .ability = 1,
-    .moves = MOVE_COVET, MOVE_SAND_ATTACK, MOVE_TAIL_WHIP
+    .moves = MOVE_AFTER_YOU, MOVE_STOCKPILE, MOVE_SWALLOW, MOVE_SPIT_UP
+    },
+    {
+    .lvl = -3,
+    .species = SPECIES_MIMIKYU,
+    .moves = MOVE_DOUBLE_TEAM, MOVE_COPYCAT
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_Calvin2[] = {
+static const struct TrainerMonItemCustomMoves sParty_Calvin2[] = { //Evil Murlock
     {
     .lvl = -2,
-    .species = SPECIES_MIGHTYENA,
-    .spread = SPREAD_31_IV_80_EV,
-    .moves = MOVE_SUCKER_PUNCH, MOVE_HOWL, MOVE_ROAR, MOVE_FIRE_FANG
+    .species = SPECIES_KOFFING,
+    .moves = MOVE_CLEAR_SMOG, MOVE_PAYBACK, MOVE_ROLLOUT
     },
     {
     .lvl = -2,
-    .species = SPECIES_STOUTLAND,
-    .spread = SPREAD_31_IV_80_EV,
-    .moves = MOVE_BODY_SLAM, MOVE_CRUNCH, MOVE_ODOR_SLEUTH, MOVE_ICE_FANG
+    .species = SPECIES_MAGNEMITE,
+    .ability = 1,
+    .moves = MOVE_THUNDER_SHOCK, MOVE_SONIC_BOOM, MOVE_MAGNET_BOMB, MOVE_SUPERSONIC
     },
     {
     .lvl = -2,
-    .species = SPECIES_SWELLOW,
-    .spread = SPREAD_31_IV_80_EV,
-    .moves = MOVE_AIR_SLASH, MOVE_ROOST, MOVE_DOUBLE_TEAM, MOVE_FOCUS_ENERGY
+    .species = SPECIES_OMANYTE,
+    .ability = 2,
+    .moves = MOVE_BUBBLE_BEAM, MOVE_AURORA_BEAM, MOVE_WITHDRAW
     }
 };
 
@@ -1854,27 +1853,60 @@ static const struct TrainerMonItemCustomMoves sParty_Cindy1[] = { //Pig
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_Cindy2[] = {
+static const struct TrainerMonItemCustomMoves sParty_Cindy2[] = { //Aqua
     {
     .lvl = 0,
-    .species = SPECIES_MAGIKARP,
-    .moves = MOVE_SPLASH
+    .species = SPECIES_SNOM,
+    .ability = 2,
+    .moves = MOVE_STRUGGLE_BUG, MOVE_POWDER_SNOW
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_UNOWN_F,
+    .heldItem = ITEM_OCCA_BERRY,
+    .moves = MOVE_STRENGTH_SAP, MOVE_ABSORB
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_UNOWN_G,
+    .ability = 1,
+    .moves = MOVE_SLACK_OFF, MOVE_ENCORE, MOVE_EMBER
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_Cindy3[] = {
+static const struct TrainerMonItemCustomMoves sParty_Cindy3[] = { //Rubyashes 1
     {
-    .lvl = 0,
-    .species = SPECIES_MAGIKARP,
-    .moves = MOVE_SPLASH
+    .lvl = -2,
+    .species = SPECIES_ROGGENROLA,
+    .ability = 1,
+    .moves = MOVE_CHARGE_BEAM, MOVE_MUD_SHOT
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_STARLY,
+    .ability = 2,
+    .moves = MOVE_AERIAL_ACE, MOVE_QUICK_ATTACK
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_JOLTIK,
+    .ability = 2,
+    .moves = MOVE_ELECTROWEB, MOVE_LUNGE
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_Cindy4[] = {
+static const struct TrainerMonItemCustomMoves sParty_Cindy4[] = { //Lavent
     {
-    .lvl = 0,
-    .species = SPECIES_MAGIKARP,
-    .moves = MOVE_SPLASH
+    .lvl = -2,
+    .species = SPECIES_UNOWN_G,
+    .ability = 0,
+    .moves = MOVE_EMBER, MOVE_ROUND, MOVE_BITE
+    },
+    {
+    .lvl = -2,
+    .species = SPECIES_EEVEE,
+    .ability = 1,
+    .moves = MOVE_COVET, MOVE_SAND_ATTACK, MOVE_TAIL_WHIP, MOVE_BABY_DOLL_EYES
     }
 };
 
@@ -21669,14 +21701,23 @@ static const struct TrainerMonItemCustomMoves sParty_Cory5[] = {
     }
 };
 
-// Unused Trainers
-static const struct TrainerMonItemCustomMoves sParty_Cindy6[] = { // Unused
+static const struct TrainerMonItemCustomMoves sParty_Cindy6[] = { // Silverfox
     {
-    .lvl = 36,
-    .species = SPECIES_LINOONE,
-    .heldItem = ITEM_NUGGET,
-    .moves = MOVE_FURY_SWIPES, MOVE_MUD_SPORT, MOVE_ODOR_SLEUTH, MOVE_SAND_ATTACK
-    }
+    .lvl = -1,
+    .species = SPECIES_ZORUA,
+    .moves = MOVE_PURSUIT, MOVE_LEER, MOVE_FAKE_TEARS
+    },
+    {
+    .lvl = -4,
+    .species = SPECIES_ZANGOOSE,
+    .moves = MOVE_HONE_CLAWS, MOVE_FURY_CUTTER, MOVE_QUICK_ATTACK
+    },
+    {
+    .lvl = -1,
+    .species = SPECIES_EEVEE,
+    .ability = 1,
+    .moves = MOVE_QUICK_ATTACK, MOVE_BABY_DOLL_EYES, MOVE_SAND_ATTACK
+    },
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Kaylee[] = { // Unused

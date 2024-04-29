@@ -269,16 +269,8 @@ Route104_Movement_RivalExitBrineysCottage: @ 81ECF8A
 	step_end
 
 Route104_EventScript_ExpertF:: @ 81ECF8C
-	lock
-	faceplayer
-	goto_if_set FLAG_RECEIVED_CHESTO_BERRY_ROUTE_104, Route104_EventScript_ReceivedBerry
-	msgbox Route104_Text_PlantBerriesInSoilTakeThis, MSGBOX_DEFAULT
-	giveitem ITEM_CHESTO_BERRY
-	compare VAR_RESULT, FALSE
-	goto_if_eq Common_EventScript_ShowBagIsFull
-	setflag FLAG_RECEIVED_CHESTO_BERRY_ROUTE_104
-	msgbox Route104_Text_TrainersOftenMakeMonHoldBerries, MSGBOX_DEFAULT
-	release
+	trainerbattle_single TRAINER_CINDY_4, Route102_Text_RickIntro, Route102_Text_RickDefeated
+	msgbox Route102_Text_RickPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route104_EventScript_ReceivedBerry:: @ 81ECFC3
@@ -332,7 +324,8 @@ Route104_EventScript_TrainerTipsDoubleBattles:: @ 81ED03C
 	end
 
 Route104_EventScript_Boy1:: @ 81ED045
-	msgbox Route104_Text_ThrowBallAtWeakenedPokemon, MSGBOX_NPC
+	trainerbattle_single TRAINER_CINDY_2, Route104_Text_ThrowBallAtWeakenedPokemon, Route102_Text_RickDefeated
+	msgbox Route102_Text_RickPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route104_EventScript_Woman:: @ 81ED04E
@@ -357,7 +350,8 @@ Route104_EventScript_ReceivedBulletSeed:: @ 81ED086
 	end
 
 Route104_EventScript_Girl2:: @ 81ED090
-	msgbox Route104_Text_ImNotATrainer, MSGBOX_NPC
+	trainerbattle_single TRAINER_CINDY_3, Route102_Text_RickIntro, Route102_Text_RickDefeated
+	msgbox Route102_Text_RickPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route104_EventScript_SailToDewford:: @ 81ED099

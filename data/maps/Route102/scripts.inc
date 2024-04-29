@@ -2,7 +2,8 @@ Route102_MapScripts:: @ 81EC0E0
 	.byte 0
 
 Route102_EventScript_LittleBoy:: @ 81EC0E1
-	msgbox Route102_Text_ImNotVeryTall, MSGBOX_NPC
+	trainerbattle_single TRAINER_CALVIN_2, Route102_Text_RickIntro, Route102_Text_RickDefeated
+	msgbox Route102_Text_RickPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route102_EventScript_RouteSignOldale:: @ 81EC0EA
