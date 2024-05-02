@@ -151,7 +151,7 @@ Route117_EventScript_ItemGreatBall:: @ 8290EB9
 	end
 
 Route117_EventScript_ItemRevive:: @ 8290EC6
-	finditem ITEM_REVIVE
+	finditem ITEM_ORAN_BERRY, 10
 	end
 
 Route118_EventScript_ItemHyperPotion:: @ 8290ED3

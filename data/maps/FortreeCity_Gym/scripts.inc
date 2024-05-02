@@ -197,12 +197,13 @@ FortreeCity_Gym_Text_GymGuideAdvice: @ 8216785
 
 
 FortreeCity_Gym_Text_GymGuideAdvice2:
-	.string "Fortree Gym Leader Winona is\n"
-	.string "a master of Flying-type Pokémon.\p"
-	.string "She's waiting at the back of this Gym,\n"
-	.string "behind the rotating doors.\p"
-	.string "She's waiting for new challengers\n"
-	.string "who are trying to take wing!\p"
+	.string "Fortree Gym Leader Brainiac is a\n"
+	.string "master of "balanced" teams.\p"
+	.string "Everyone here has a Fire, Water,\n"
+	.string "and Grass type to achieve balance.\p"
+	.string "The leader himself is no different,\n"
+	.string "though be prepared, he's got a lot\l"
+	.string "more than just that up his sleeve!\p"
 	.string "Okay, go for it!$"
 
 FortreeCity_Gym_Text_GymGuidePostVictory: @ 821687D

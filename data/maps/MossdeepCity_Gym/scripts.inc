@@ -410,11 +410,11 @@ MossdeepCity_Gym_Text_Guide1: @ 8220CD5
 	.string "help with your challenge!$"
 
 MossdeepCity_Gym_Text_Guide2: @ 8220CD5
-	.string "The Gym Leaders here use\n"
-	.string "Psychic-type Pokémon.\p"
-	.string "They've also got psychic powers\n"
-	.string "themselves, which they'll use to\l"
-	.string "alter the battle field!\p"
+	.string "The Gym Leader here, Aku, kicked out\n"
+	.string "the nerds that used to run this gym.\p"
+	.string "He specializes in pure, raw strength,\n"
+	.string "and his trainers here are loaded up\l"
+	.string "with Fighting- and Steel-types.\p"
 	.string "If you want to win, you'll need to show\n"
 	.string "them how tight you are with your\l"
 	.string "Pokémon. Go for it!$"

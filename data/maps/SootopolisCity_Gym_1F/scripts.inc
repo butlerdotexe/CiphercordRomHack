@@ -237,14 +237,15 @@ SootopolisCity_Gym_1F_EventScript_GymStatue:: @ 8225089
 SootopolisCity_Gym_1F_Text_GymGuideAdvice: @ 8225093
 	.string "Yo! How's it going, Champion-\n"
 	.string "bound {PLAYER}?\p"
-	.string "Sootopolis's Gym Leader Juan is\n"
-	.string "a master of Water-type Pokémon.\p"
-	.string "And, to get to Juan, an icy floor\n"
-	.string "will hamper your progress…\p"
-	.string "Listen, I'm sorry, but that's all I\n"
-	.string "have for you.\p"
-	.string "The rest of the way, you have to\n"
-	.string "go for it yourself!$"
+	.string "Sootopolis's Gym Leader Vance is\n"
+	.string "a master of some of the most powerful\l"
+	.string "pokemon you can get, Pseudo-Legends.\p"
+	.string "If you fail the puzzle, each trainer\n"
+	.string "below has a team built around one.\p"
+	.string "Vance himself has a multiple, so make\n"
+	.string "sure you have a winning strategy!\p"
+	.string "Now get in there and proove you've\n"
+	.string "got what it takes!$"
 
 SootopolisCity_Gym_1F_Text_GymGuidePostVictory: @ 82251AF
 	.string "Yow! You've beaten even Juan, who\n"

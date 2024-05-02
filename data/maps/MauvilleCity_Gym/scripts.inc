@@ -328,13 +328,13 @@ MauvilleCity_Gym_EventScript_GymStatue:: @ 820E175
 	end
 
 MauvilleCity_Gym_Text_GymGuideAdvice2:
-	.string "Wattson, the Leader of Mauville\n"
-	.string "Gym, uses Electric-type Pokémon.\p"
-	.string "He's prepared for Ground and Grass-Type\n"
-	.string "Pokémon, so you should have a backup\l"
-	.string "plan if you want to beat him!\p"
-	.string "And, he's put in switch-controlled\n"
-	.string "doors all over his Gym! Eccentric!\p"
+	.string "Semi, the Leader of Mauville\n"
+	.string "Gym, uses the sun to his advantage.\p"
+	.string "He's got lots of tricks up his sleeve,\n"
+	.string "and has a fully trained team with\l"
+	.string "great coverage and power.\p"
+	.string "Also don't mind the decor, it's left\n"
+	.string "from the old guy that ran this palce.\p"
 	.string "Hey, go for it!$"
 
 MauvilleCity_Gym_Text_GymGuideAdvice:
