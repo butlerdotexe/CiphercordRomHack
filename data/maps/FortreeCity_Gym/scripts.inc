@@ -198,7 +198,7 @@ FortreeCity_Gym_Text_GymGuideAdvice: @ 8216785
 
 FortreeCity_Gym_Text_GymGuideAdvice2:
 	.string "Fortree Gym Leader Brainiac is a\n"
-	.string "master of "balanced" teams.\p"
+	.string "master of 'balanced' teams.\p"
 	.string "Everyone here has a Fire, Water,\n"
 	.string "and Grass type to achieve balance.\p"
 	.string "The leader himself is no different,\n"
