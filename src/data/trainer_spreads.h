@@ -1004,4 +1004,104 @@ const struct TrainerMonSpread gSets[] = {
 		},
 		.nature = NATURE_BOLD
 	},
+	[SPREAD_SEMI_1] =
+	{
+	.EVs = {
+			  0,	// HP
+			  0,	// Attack
+			  0,	// Defense
+			128,	// Speed
+			128,	// Special Attack
+			  0  	// Special Defense
+		},
+		.IVs = {
+			31,		// HP
+			31,		// Attack
+			31,		// Defense
+			31,		// Speed
+			31,		// Special Attack
+			31		// Special Defense
+		},
+		.nature = NATURE_TIMID
+	},
+	[SPREAD_SEMI_2] =
+	{
+	.EVs = {
+			  0,	// HP
+			  0,	// Attack
+			 64,	// Defense
+			  0,	// Speed
+			128,	// Special Attack
+			 64  	// Special Defense
+		},
+		.IVs = {
+			31,		// HP
+			31,		// Attack
+			31,		// Defense
+			31,		// Speed
+			31,		// Special Attack
+			31		// Special Defense
+		},
+		.nature = NATURE_CALM
+	},
+	[SPREAD_SEMI_3] =
+	{
+	.EVs = {
+			  0,	// HP
+			128,	// Attack
+			 64,	// Defense
+			  0,	// Speed
+			  0,	// Special Attack
+			 64  	// Special Defense
+		},
+		.IVs = {
+			31,		// HP
+			31,		// Attack
+			31,		// Defense
+			31,		// Speed
+			31,		// Special Attack
+			31		// Special Defense
+		},
+		.nature = NATURE_ADAMANT
+	},
+	[SPREAD_SEMI_4] =
+	{
+	.EVs = {
+			 64,	// HP
+			128,	// Attack
+			  0,	// Defense
+			  0,	// Speed
+			  0,	// Special Attack
+			 64  	// Special Defense
+		},
+		.IVs = {
+			31,		// HP
+			31,		// Attack
+			31,		// Defense
+			31,		// Speed
+			31,		// Special Attack
+			31		// Special Defense
+		},
+		.nature = NATURE_JOLLY
+	},
+	[SPREAD_SEMI_5] =
+	{
+	.EVs = {
+			  0,	// HP
+			128,	// Attack
+			  0,	// Defense
+			128,	// Speed
+			  0,	// Special Attack
+			  0  	// Special Defense
+		},
+		.IVs = {
+			31,		// HP
+			31,		// Attack
+			31,		// Defense
+			31,		// Speed
+			31,		// Special Attack
+			31		// Special Defense
+		},
+		.nature = NATURE_JOLLY
+	},
 };

@@ -13,7 +13,7 @@ gText_Birch_Pokemon:: @ 82C89FB
 gText_Birch_MainSpeech:: @ 82C8A1F
 	.string "This world is widely inhabited by\n"
 	.string "creatures known as Pokémon.\p"
-	.string "A bunch of use came to this world\n"
+	.string "A bunch of us came to this world\n"
 	.string "and have taken up battling with\l"
 	.string "them.\p"
 	.string "To unravel Pokémon mysteries,\n"

@@ -21,6 +21,7 @@ PokeMart_Poke_Center_No_Badges::
 	.2byte ITEM_ANTIDOTE
 	.2byte ITEM_PARALYZE_HEAL
 	.2byte ITEM_AWAKENING
+	.2byte ITEM_REPEL
 	.2byte ITEM_NONE
 	release
 	end
@@ -38,6 +39,7 @@ PokeMart_Poke_Center_Pokedex::
 	.2byte ITEM_ANTIDOTE
 	.2byte ITEM_PARALYZE_HEAL
 	.2byte ITEM_AWAKENING
+	.2byte ITEM_REPEL
 	.2byte ITEM_NONE
 	release
 	end
@@ -56,6 +58,7 @@ PokeMart_Poke_Center_Rustboro::
 	.2byte ITEM_ANTIDOTE
 	.2byte ITEM_PARALYZE_HEAL
 	.2byte ITEM_AWAKENING
+	.2byte ITEM_REPEL
 	.2byte ITEM_NONE
 	release
 	end

@@ -1,5 +1,5 @@
 Route102_EventScript_ItemPotion:: @ 8290CD8
-	finditem ITEM_POTION
+	finditem ITEM_RAWST_BERRY, 10
 	end
 
 Route103_EventScript_ItemTM40AerialAce:: @ 8290CE5

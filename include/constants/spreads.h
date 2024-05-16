@@ -58,5 +58,10 @@
 #define SPREAD_FALLEN_LINOONE               54
 #define SPREAD_31_IV_DEF_SPDEF_CALM         55
 #define SPREAD_31_IV_DEF_SPDEF_BOLD         56
+#define SPREAD_SEMI_1                       57
+#define SPREAD_SEMI_2                       58
+#define SPREAD_SEMI_3                       59
+#define SPREAD_SEMI_4                       60
+#define SPREAD_SEMI_5                       61
 
 #endif  // GUARD_CONSTANTS_TRAINER_SPREADS

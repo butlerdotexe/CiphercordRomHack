@@ -17498,7 +17498,7 @@ const struct BaseStats gBaseStats[] =
         .baseDefense   = 122,
         .baseSpeed     = 64,
         .baseSpAttack  = 74,
-        .baseSpDefense = 75,
+        .baseSpDefense = 80,
         .type1 = TYPE_GRASS,
         .type2 = TYPE_FIGHTING,
         .catchRate = 45,
@@ -17511,7 +17511,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_FIELD,
         #ifdef REBALANCED_VERSION
-            .abilities = {ABILITY_OVERGROW, ABILITY_STURDY, ABILITY_BULLETPROOF},
+            .abilities = {ABILITY_OVERGROW, ABILITY_STAMINA, ABILITY_BULLETPROOF},
         #else
             .abilities = {ABILITY_OVERGROW, ABILITY_OVERGROW, ABILITY_BULLETPROOF},
         #endif
