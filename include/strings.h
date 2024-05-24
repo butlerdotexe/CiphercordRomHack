@@ -3521,6 +3521,7 @@ extern const u8 gText_Unova[];
 extern const u8 gText_Kalos[];
 extern const u8 gText_Alola[];
 extern const u8 gText_Galar[];
+extern const u8 gText_Let[];
 
 extern const u8 gText_TakeOne[];
 extern const u8 gText_TakeOneDozen[];

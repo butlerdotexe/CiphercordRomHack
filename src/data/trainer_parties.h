@@ -1565,7 +1565,7 @@ static const struct TrainerMonItemCustomMoves sParty_Archie1[] = { // Slateport 
     .ability = 2,
     .heldItem = ITEM_LIGHT_CLAY,
     .spread = SPREAD_31_IV_0_EV,
-    .moves = MOVE_AURORA_VEIL, MOVE_ICE_BEAM, MOVE_DAZZLING_GLEAM, MOVE_WILL_O_WISP
+    .moves = MOVE_AURORA_VEIL, MOVE_ICE_BEAM, MOVE_DAZZLING_GLEAM, MOVE_CONFUSE_RAY
     },
     {
     .lvl = -1,
@@ -10409,18 +10409,18 @@ static const struct TrainerMonItemCustomMoves sParty_Flannery1[] = { //Tibarn
     {
     .lvl = -1,
     .species = SPECIES_CHARIZARD,
-    .heldItem = ITEM_CHOICE_SPECS,
-    .ability = 0, 
-    .spread = SPREAD_HP_GRASS_TIMID,
-    .moves = MOVE_FLAMETHROWER, MOVE_AIR_SLASH, MOVE_DRAGON_PULSE, MOVE_BULLDOZE
+    .heldItem = ITEM_LIFE_ORB,
+    .ability = 1, 
+    .spread = SPREAD_31_IV_ATK_SPEED_JOLLY,
+    .moves = MOVE_WING_ATTACK, MOVE_BLAZE_KICK, MOVE_BRICK_BREAK, MOVE_STRENGTH
     },
     {
-    .lvl = -2,
+    .lvl = -1,
     .species = SPECIES_ZAPDOS,
-    .heldItem = ITEM_LEFTOVERS,
+    .heldItem = ITEM_SHUCA_BERRY,
     .ability = 0, 
-    .spread = SPREAD_31_IV_HP_SPEED_TIMID,
-    .moves = MOVE_DISCHARGE, MOVE_AIR_CUTTER, MOVE_THUNDER_WAVE, MOVE_ROOST
+    .spread = SPREAD_HP_GRASS_TIMID,
+    .moves = MOVE_DISCHARGE, MOVE_AIR_CUTTER, MOVE_THUNDER_WAVE, MOVE_HIDDEN_POWER
     },
     {
     .lvl = -1,
@@ -10431,25 +10431,26 @@ static const struct TrainerMonItemCustomMoves sParty_Flannery1[] = { //Tibarn
     .moves = MOVE_MORNING_SUN, MOVE_PSYCHIC, MOVE_CALM_MIND, MOVE_SHADOW_BALL
     },
     {
-    .lvl = -2,
+    .lvl = -1,
     .species = SPECIES_MORPEKO,
     .heldItem = ITEM_EXPERT_BELT,
     .spread = SPREAD_31_IV_ATK_SPEED_NAIVE,
     .moves = MOVE_LEAF_BLADE, MOVE_DAZZLING_GLEAM, MOVE_DRAIN_PUNCH, MOVE_NIGHT_SLASH
     },
     {
-    .lvl = -2,
+    .lvl = -1,
     .species = SPECIES_ARTICUNO,
-    .heldItem = ITEM_HEAVY_DUTY_BOOTS,
-    .spread = SPREAD_31_IV_HP_SPATK_MODEST,
-    .moves = MOVE_FREEZE_DRY, MOVE_U_TURN, MOVE_AIR_CUTTER, MOVE_ROOST
+    .heldItem = ITEM_SHUCA_BERRY,
+    .spread = SPREAD_31_IV_SPATK_SPEED_MODEST,
+    .moves = MOVE_FREEZE_DRY, MOVE_U_TURN, MOVE_AIR_CUTTER, MOVE_WATER_PULSE
     },
     {
     .lvl = 0,
     .species = SPECIES_HERACROSS,
-    .heldItem = ITEM_FLAME_ORB,
+    .heldItem = ITEM_SALAC_BERRY,
+    .ability = 2, 
     .spread = SPREAD_31_IV_HP_ATK_ADAMANT,
-    .moves = MOVE_PROTECT, MOVE_CLOSE_COMBAT, MOVE_MEGAHORN, MOVE_STONE_EDGE
+    .moves = MOVE_EARTHQUAKE, MOVE_CLOSE_COMBAT, MOVE_MEGAHORN, MOVE_STRENGTH
     }
 };
 

@@ -333,7 +333,7 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "0",
+      "trainer_sight_or_berry_tree_id": "5",
       "script": "Route120_EventScript_Jennifer",
       "flag": "0"
     },
@@ -604,14 +604,14 @@
       "y": 55,
       "elevation": 0,
       "dest_map": "MAP_ANCIENT_TOMB",
-      "dest_warp_id": "0"
+      "dest_warp_id": 0
     },
     {
       "x": 19,
       "y": 23,
       "elevation": 1,
       "dest_map": "MAP_SCORCHED_SLAB",
-      "dest_warp_id": "0"
+      "dest_warp_id": 0
     }
   ],
   "coord_events": [

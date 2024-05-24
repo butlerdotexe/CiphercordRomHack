@@ -200,6 +200,8 @@ LittlerootTown_BrendansHouse_1F_EventScript_ChooseStarterSet::
 	case 4, LittlerootTown_BrendansHouse_1F_EventScript_Unova
 	case 5, LittlerootTown_BrendansHouse_1F_EventScript_Kalos
 	case 6, LittlerootTown_BrendansHouse_1F_EventScript_Alola
+	case 7, LittlerootTown_BrendansHouse_1F_EventScript_Galar
+	case 8, LittlerootTown_BrendansHouse_1F_EventScript_Let
 	goto LittlerootTown_BrendansHouse_1F_EventScript_Hoenn
 	end
 
@@ -236,6 +238,16 @@ LittlerootTown_BrendansHouse_1F_EventScript_Kalos:
 LittlerootTown_BrendansHouse_1F_EventScript_Alola:
 	setvar VAR_STARTER_GEN, 7
 	bufferstring 1, StarterRegionStringAlola
+	return
+
+LittlerootTown_BrendansHouse_1F_EventScript_Galar:
+	setvar VAR_STARTER_GEN, 8
+	bufferstring 1, StarterRegionStringGalar
+	return
+
+LittlerootTown_BrendansHouse_1F_EventScript_Let:
+	setvar VAR_STARTER_GEN, 9
+	bufferstring 1, StarterRegionStringLet
 	return
 
 LittlerootTown_BrendansHouse_1F_EventScript_PlayerFaceBrendan:: @ 81F7981
@@ -361,7 +373,7 @@ PlayersHouse_1F_Text_MoversPokemonGoSetClock: @ 81F7A46
 	.string "This is so convenient!\p"
 	.string "{PLAYER}, your room is upstairs.\n"
 	.string "Go check it out, dear!\p"
-	.string "Dad bought you a new clock to mark\n"
+	.string "I bought you a new clock to mark\n"
 	.string "our move here.\l"
 	.string "Don't forget to set it!$"
 
@@ -380,18 +392,19 @@ PlayersHouse_1F_Text_OhComeQuickly: @ 81F7B96
 
 PlayersHouse_1F_Text_MaybeDadWillBeOn: @ 81F7BBC
 	.string "Mom: Look! It's Petalburg Gym!\n"
-	.string "Maybe Dad will be on!$"
+	.string "I heard the leader does double\p"
+	.string "battles!$"
 
 PlayersHouse_1F_Text_ItsOverWeMissedHim: @ 81F7BF1
 	.string "Mom: Oh… It's over.\p"
-	.string "I think Dad was on, but we missed him.\n"
 	.string "Too bad.$"
 
 PlayersHouse_1F_Text_GoIntroduceYourselfNextDoor: @ 81F7C35
 	.string "Oh, yes.\n"
-	.string "One of Dad's friends lives in town.\p"
-	.string "Prof. Birch is his name.\p"
-	.string "He lives right next door, so you should\n"
+	.string "Since you mentioned you wanted to be\p"
+	.string "a pokemon trainer, you should go\n"
+	.string "see Prof. Foodies.\p"
+	.string "She lives right next door, so you should\n"
 	.string "go over and introduce yourself.$"
 
 PlayersHouse_1F_Text_SeeYouHoney: @ 81F7CC3
@@ -399,7 +412,7 @@ PlayersHouse_1F_Text_SeeYouHoney: @ 81F7CC3
 
 PlayersHouse_1F_Text_DidYouMeetProfBirch: @ 81F7CD8
 	.string "Mom: Did you introduce yourself to\n"
-	.string "Prof. Birch?$"
+	.string "Prof. Foodies?$"
 
 PlayersHouse_1F_Text_YouShouldRestABit: @ 81F7D08
 	.string "Mom: How are you doing, {PLAYER}?\n"
@@ -410,7 +423,7 @@ PlayersHouse_1F_Text_TakeCareHoney: @ 81F7D5C
 	.string "Mom: Take care, honey!$"
 
 PlayersHouse_1F_Text_GotDadsBadgeHeresSomethingFromMom: @ 81F7D73
-	.string "Mom: Oh? Did Dad give you that Badge?\p"
+	.string "Mom: Oh? Did you beat Petalburd gym?\p"
 	.string "Then here's something from your Mom!$"
 
 PlayersHouse_1F_Text_DontPushYourselfTooHard: @ 81F7DBE

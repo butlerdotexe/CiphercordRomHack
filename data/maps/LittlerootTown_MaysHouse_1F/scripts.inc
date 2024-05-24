@@ -234,6 +234,8 @@ LittlerootTown_MaysHouse_1F_EventScript_ChooseStarterSet::
 	case 4, LittlerootTown_MaysHouse_1F_EventScript_Unova
 	case 5, LittlerootTown_MaysHouse_1F_EventScript_Kalos
 	case 6, LittlerootTown_MaysHouse_1F_EventScript_Alola
+	case 7, LittlerootTown_MaysHouse_1F_EventScript_Galar
+	case 8, LittlerootTown_MaysHouse_1F_EventScript_Let
 	goto LittlerootTown_MaysHouse_1F_EventScript_Hoenn
 	end
 
@@ -270,6 +272,16 @@ LittlerootTown_MaysHouse_1F_EventScript_Kalos::
 LittlerootTown_MaysHouse_1F_EventScript_Alola::
 	setvar VAR_STARTER_GEN, 7
 	bufferstring 1, StarterRegionStringAlola
+	return
+
+LittlerootTown_MaysHouse_1F_EventScript_Galar:
+	setvar VAR_STARTER_GEN, 8
+	bufferstring 1, StarterRegionStringGalar
+	return
+
+LittlerootTown_MaysHouse_1F_EventScript_Let:
+	setvar VAR_STARTER_GEN, 9
+	bufferstring 1, StarterRegionStringLet
 	return
 
 LittlerootTown_MaysHouse_1F_EventScript_PlayerFaceMay:: @ 81F8B2A
@@ -391,11 +403,11 @@ RivalsHouse_1F_Text_OhYoureTheNewNeighbor: @ 81F8BC5
 	.string "… … … … … … … … …\p"
 	.string "Oh, you're {PLAYER}{KUN}, our new next-door\n"
 	.string "neighbor! Hi!\p"
-	.string "We have a {STR_VAR_1} about the same\n"
-	.string "age as you.\p"
-	.string "Our {STR_VAR_1} was excited about making\n"
-	.string "a new friend.\p"
-	.string "Our {STR_VAR_1} is upstairs, I think.$"
+	.string "...Prof. Foodies? She doesn't live here,\n"
+	.string "its just me and Sauce.\p"
+	.string "He should be about your age, maybe you\n"
+	.string "two could be friends!\p"
+	.string "He should be upstairs, I think.$"
 
 RivalsHouse_1F_Text_LikeChildLikeFather: @ 81F8CA5
 	.string "Like child, like father.\p"
@@ -425,37 +437,24 @@ RivalsHouse_1F_Text_ShouldGoHomeEverySoOften: @ 81F8E01
 	.string "worries about you, {PLAYER}{KUN}.$"
 
 RivalsHouse_1F_Text_MayWhoAreYou: @ 81F8EC6
-	.string "Huh?\n"
-	.string "Who… Who are you?\p"
-	.string "… … … … … … … …\n"
-	.string "… … … … … … … …\p"
-	.string "Oh, you're {PLAYER}{KUN}.\n"
-	.string "So your move was today.\p"
-	.string "Um… I'm May.\n"
-	.string "Glad to meet you!\p"
-	.string "I…\n"
-	.string "I have this dream of becoming friends\l"
-	.string "with Pokémon all over the world.\p"
-	.string "I… I heard about you, {PLAYER}{KUN}, from\n"
-	.string "my dad, Prof. Birch.\p"
-	.string "I was hoping that you would be nice,\n"
-	.string "{PLAYER}{KUN}, and that we could be friends.\p"
-	.string "Oh, this is silly, isn't it?\n"
-	.string "I… I've just met you, {PLAYER}{KUN}.\p"
-	.string "Eheheh…\p"
-	.string "Oh, no! I forgot!\p"
-	.string "I was supposed to go help Dad catch\n"
-	.string "some wild Pokémon!\p"
-	.string "Oh, hey, that reminds me!\n"
-	.string "You should go see Dad's new Pokémon!\p"
-	.string "He just got three really rare ones\n"
-	.string "from the, um…\p"
-	.string "Oh, darn. Which region was it again?$"
+	.string "Hey!\n"
+	.string "You…\p"
+	.string "Who are you?\p"
+	.string "Oh, you're {PLAYER}, aren't you?\n"
+	.string "Moved in next door, right?\p"
+	.string "Nice nice, I'm Sauce.\p"
+	.string "Huh? You don't you have a Pokémon?\p"
+	.string "I could help you catch one lil bro.\p"
+	.string "Oh actually, I think Foodies got some\n"
+	.string "new Pokémon in today.\p"
+	.string "They're not as cool as mine, but they\n"
+	.string "are supposed to be pretty rare.\p"
+	.string "No idea where they're from though.$"
 
 RivalsHouse_1F_Text_MayCatchYouLater:
-	.string "Huh? The {STR_VAR_2} region?\n"
-	.string "Wow, I think that was it!\p"
-	.string "{PLAYER}{KUN}, I'll catch you later!$"
+	.string "The {STR_VAR_2} region?\n"
+	.string "Yeah maybe.\p"
+	.string "Anyway I got stuff to do, see ya.$"
 
 RivalsHouse_1F_Text_BrendanWhoAreYou: @ 81F90B4
 	.string "Hey!\n"
@@ -463,28 +462,19 @@ RivalsHouse_1F_Text_BrendanWhoAreYou: @ 81F90B4
 	.string "Who are you?\p"
 	.string "Oh, you're {PLAYER}, aren't you?\n"
 	.string "Moved in next door, right?\p"
-	.string "I didn't know that you're a girl.\p"
-	.string "Dad, Prof. Birch, said that our new\n"
-	.string "next-door neighbor is a Gym Leader's\l"
-	.string "kid, so I assumed you'd be a guy.\p"
-	.string "My name's Brendan.\n"
-	.string "So, hi, neighbor!\p"
-	.string "Huh? Hey, {PLAYER}, don't you have\n"
-	.string "a Pokémon?\p"
-	.string "Do you want me to go catch you one?\p"
-	.string "Aw, darn, I forgot…\p"
-	.string "I'm supposed to go help my dad catch\n"
-	.string "some wild Pokémon.\p"
-	.string "Oh, you should go check out the three\n"
-	.string "new Pokémon my dad just got.\p"
-	.string "They're very rare, and they're all\n"
-	.string "from the, uh…\p"
-	.string "Hmm. Which region was it again?$"
+	.string "Nice nice, I'm Sauce.\p"
+	.string "Huh? You don't you have a Pokémon?\p"
+	.string "I could help you catch one lil bro.\p"
+	.string "Oh actually, I think Foodies got some\n"
+	.string "new Pokémon in today.\p"
+	.string "They're not as cool as mine, but they\n"
+	.string "are supposed to be pretty rare.\p"
+	.string "No idea where they're from though.$"
 
 RivalsHouse_1F_Text_BrendanSomeOtherTime:
 	.string "The {STR_VAR_2} region?\n"
-	.string "Huh, I think that was it, actually.\p"
-	.string "Some other time, okay?$"
+	.string "Yeah maybe.\p"
+	.string "Anyway I got stuff to do, see ya.$"
 
 RivalsHouse_1F_Text_DoYouHavePokemon: @ 81F9262
 	.string "Hi, neighbor!\p"
@@ -511,3 +501,9 @@ StarterRegionStringKalos:
 
 StarterRegionStringAlola:
 	.string "Alola$"
+
+StarterRegionStringGalar:
+	.string "Galar$"
+
+StarterRegionStringLet:
+	.string "Let's Go$"

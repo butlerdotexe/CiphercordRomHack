@@ -973,21 +973,19 @@ LittlerootTown_Text_WaitPlayer: @ 81E87E1
 
 LittlerootTown_Text_WearTheseRunningShoes: @ 81E87F0
 	.string "Mom: {PLAYER}! {PLAYER}! Did you\n"
-	.string "introduce yourself to Prof. Birch?\p"
+	.string "introduce yourself to Prof. Foodies?\p"
 	.string "Oh! What an adorable Pokémon!\n"
-	.string "You got it from Prof. Birch. How nice!\p"
-	.string "You're your father's child, all right.\n"
+	.string "You got it from Prof. Foodies. How nice!\p"
 	.string "You look good together with Pokémon!\p"
 	.string "Here, honey! If you're going out on an\n"
-	.string "adventure, take Dad's old Fishing Rod.\p"
-	.string "He never uses it anyway!$"
+	.string "adventure, take this old Fishing Rod.\p"
+	.string "I never use it anyway!$"
 
 LittlerootTown_Text_ComeHomeIfAnythingHappens: @ 81E8A03
 	.string "… … … … … … … …\n"
 	.string "… … … … … … … …\p"
 	.string "To think that you have your very own\n"
 	.string "Pokémon now…\l"
-	.string "Your father will be overjoyed.\p"
 	.string "…But please be careful.\n"
 	.string "If anything happens, you can come home.\p"
 	.string "Go on, go get them, honey!$"
@@ -998,10 +996,10 @@ LittlerootTown_Text_CanUsePCToStoreItems: @ 81E8ACF
 	.string "The power of science is staggering!$"
 
 LittlerootTown_Text_BirchSpendsDaysInLab: @ 81E8B25
-	.string "Prof. Birch spends days in his Lab\n"
+	.string "Prof. Foodies spends days in his Lab\n"
 	.string "studying, then he'll suddenly go out in\l"
 	.string "the wild to do more research…\p"
-	.string "When does Prof. Birch spend time\n"
+	.string "When does Prof. Foodies spend time\n"
 	.string "at home?$"
 
 LittlerootTown_Text_IfYouGoInGrassPokemonWillJumpOut: @ 81E8BB8
@@ -1023,7 +1021,7 @@ LittlerootTown_Text_CanYouGoSeeWhatsHappening: @ 81E8C3A
 	.string "for me?$"
 
 LittlerootTown_Text_YouSavedBirch: @ 81E8CE3
-	.string "You saved Prof. Birch!\n"
+	.string "You saved Prof. Foodies!\n"
 	.string "I'm so glad!$"
 
 LittlerootTown_Text_GoodLuckCatchingPokemon: @ 81E8D07
@@ -1035,16 +1033,16 @@ LittlerootTown_Text_TownSign: @ 81E8D32
 	.string "“A town that can't be shaded any hue.”$"
 
 LittlerootTown_Text_ProfBirchsLab: @ 81E8D69
-	.string "Prof. Birch's Pokémon Lab$"
+	.string "Prof. Foodies's Pokémon Lab$"
 
 LittlerootTown_Text_PlayersHouse: @ 81E8D83
 	.string "{PLAYER}'s House$"
 
 LittlerootTown_Text_ProfBirchsHouse: @ 81E8D8E
-	.string "Prof. Birch's House$"
+	.string "Sauce's House$"
 
 LittlerootTown_Text_BirchSomethingToShowYouAtLab: @ 81E8DA2
-	.string "Prof. Birch: Well, well, {PLAYER}{KUN}!\n"
+	.string "Prof. Foodies: Well, well, {PLAYER}{KUN}!\n"
 	.string "That was good work out there!\p"
 	.string "I knew there was something special\n"
 	.string "about you when I first saw you,\l"

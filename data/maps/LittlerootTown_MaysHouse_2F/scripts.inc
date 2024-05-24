@@ -159,6 +159,8 @@ LittlerootTown_MaysHouse_2F_EventScript_ChooseStarterSet::
 	case 4, LittlerootTown_MaysHouse_2F_EventScript_Unova
 	case 5, LittlerootTown_MaysHouse_2F_EventScript_Kalos
 	case 6, LittlerootTown_MaysHouse_2F_EventScript_Alola
+	case 7, LittlerootTown_MaysHouse_2F_EventScript_Galar
+	case 8, LittlerootTown_MaysHouse_2F_EventScript_Let
 	goto LittlerootTown_MaysHouse_2F_EventScript_Hoenn
 	end
 
@@ -195,6 +197,16 @@ LittlerootTown_MaysHouse_2F_EventScript_Kalos::
 LittlerootTown_MaysHouse_2F_EventScript_Alola::
 	setvar VAR_STARTER_GEN, 7
 	bufferstring 1, StarterRegionStringAlola
+	return
+
+LittlerootTown_MaysHouse_2F_EventScript_Galar:
+	setvar VAR_STARTER_GEN, 8
+	bufferstring 1, StarterRegionStringGalar
+	return
+
+LittlerootTown_MaysHouse_2F_EventScript_Let:
+	setvar VAR_STARTER_GEN, 9
+	bufferstring 1, StarterRegionStringLet
 	return
 
 LittlerootTown_MaysHouse_2F_Movement_MayEnters: @ 81F946F

@@ -77,11 +77,11 @@ Route102_EventScript_Allen:: @ 81EC1E1
 	end
 
 Route102_Text_WatchMeCatchPokemon: @ 81EC1F8
-	.string "Wally: {PLAYER}…\n"
-	.string "Pokémon hide in tall grass like this,\l"
-	.string "don't they?\p"
-	.string "Please watch me and see if I can\n"
-	.string "catch one properly.\p"
+	.string "Basil: {PLAYER}…\n"
+	.string "I've been searching all this time,\l"
+	.string "for the pokémon that will complete me.\p"
+	.string "With you here, I think I can finally\n"
+	.string "find it.\p"
 	.string "…Whoa!$"
 
 Route102_Text_WallyIDidIt: @ 81EC271
