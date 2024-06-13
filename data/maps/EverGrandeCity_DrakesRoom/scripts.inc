@@ -20,11 +20,15 @@ EverGrandeCity_DrakesRoom_OnFrame: @ 82286BB
 EverGrandeCity_DrakesRoom_EventScript_WalkInCloseDoor:: @ 82286C5
 	lockall
 	call PokemonLeague_EliteFour_EventScript_WalkInCloseDoor
+	setweather WEATHER_SANDSTORM
+	doweather
 	setvar VAR_ELITE_4_STATE, 4
 	releaseall
 	end
 
 EverGrandeCity_DrakesRoom_OnLoad: @ 82286D2
+	setweather WEATHER_SANDSTORM
+	doweather
 	call_if_set FLAG_DEFEATED_ELITE_4_DRAKE, EverGrandeCity_DrakesRoom_EventScript_ResetAdvanceToNextRoom
 	compare VAR_ELITE_4_STATE, 4
 	call_if_eq EverGrandeCity_DrakesRoom_EventScript_CloseDoor
@@ -39,6 +43,8 @@ EverGrandeCity_DrakesRoom_EventScript_CloseDoor:: @ 82286ED
 	return
 
 EverGrandeCity_DrakesRoom_EventScript_Drake:: @ 82286F3
+	setweather WEATHER_SANDSTORM
+	doweather
 	lock
 	faceplayer
 	goto_if_set FLAG_SYS_GAME_CLEAR, EverGrandeCity_DrakesRoom_EventScript_DrakeRematch
@@ -165,6 +171,8 @@ EverGrandeCity_DrakesRoom_Text_IntroSpeechRematch:
 	.string "show you everything we've got!\p"
 	.string "Well then, you had better\n"
 	.string "get ready to try and stop me!$"
+
+
 
 EverGrandeCity_DrakesRoom_Text_PostBattleSpeechRematch:
 	.string "I got a glimpse inside your heart!\n"

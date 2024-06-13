@@ -294,7 +294,7 @@ LavaridgeTown_Gym_1F_Text_AxleIntro: @ 81FEB7B
 	.string "Don't come along and stress me out!$"
 
 LavaridgeTown_Gym_1F_Text_AxleDefeat: @ 81FEBC0
-	.string "I hope Flannery flames you good!$"
+	.string "I hope Tibarn flames you good!$"
 
 LavaridgeTown_Gym_1F_Text_AxlePostBattle: @ 81FEBE1
 	.string "Haaah… Whew…\p"
@@ -314,7 +314,7 @@ LavaridgeTown_Gym_B1F_Text_KeeganDefeat: @ 81FECE3
 
 LavaridgeTown_Gym_B1F_Text_KeeganPostBattle: @ 81FED02
 	.string "Your skill is real…\n"
-	.string "But our Leader Flannery is strong.\p"
+	.string "But our Leader Tibarn is strong.\p"
 	.string "If you don't watch yourself, you'll be\n"
 	.string "burned seriously.$"
 
@@ -340,7 +340,7 @@ LavaridgeTown_Gym_1F_Text_DanielleDefeat: @ 81FEE42
 
 LavaridgeTown_Gym_1F_Text_DaniellePostBattle: @ 81FEE5D
 	.string "I'm going to be a pretty and strong\n"
-	.string "Trainer just like Flannery.$"
+	.string "Trainer just like Tibarn.$"
 
 LavaridgeTown_Gym_B1F_Text_JaceIntro: @ 81FEE9D
 	.string "Come on, get with it!\n"
@@ -381,44 +381,35 @@ LavaridgeTown_Gym_B1F_Text_EliPostBattle: @ 81FF09A
 	.string "Hehehehe.$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryIntro: @ 81FF0DC
-	.string "Welcome… No, wait.\p"
-	.string "Puny Trainer, how good to see you've\n"
-	.string "made it here!\p"
-	.string "I have been entrusted with the…\n"
-	.string "No, wait.\p"
-	.string "I am Flannery, and I'm the Gym\n"
-	.string "Leader here!\p"
-	.string "Uh…\n"
-	.string "Dare not underestimate me, though\l"
-	.string "I have been Leader only a short time!\p"
-	.string "With skills inherited from my grand-\n"
-	.string "father, I shall, uh…demonstrate the\l"
-	.string "hot moves we have honed on this land!$"
+	.string "Hey there, how's it going?\p"
+	.string "I'm Tibarn, and I'm the Gym Leader\n"
+	.string "here.\p"
+	.string "To be honest, I'm not exactly sure\n"
+	.string "how I ended up in this position.\p"
+	.string "I just found these cool looking bird\n"
+	.string "Pokémon, and apparently they're pretty\l"
+	.string "strong.$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryDefeat: @ 81FF233
-	.string "Oh…\n"
-	.string "I guess I was trying too hard…\p"
-	.string "I… I've only recently become\n"
-	.string "a Gym Leader.\p"
-	.string "I tried too hard to be someone\n"
-	.string "I'm not.\p"
-	.string "I have to do things my natural way. If\n"
-	.string "I don't, my Pokémon will be confused.\p"
-	.string "Thanks for teaching me that.\n"
-	.string "For that, you deserve this.$"
+	.string "Yeahhh…\p"
+	.string "Probably should do something so I\n"
+	.string "don't get wrecked by Rock types.\p"
+	.string "Oh well, that's on my\p"
+	.string "You won fair and square, so you've\n"
+	.string "earned this.$"
 
 LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge: @ 81FF32F
 	.string "{PLAYER} received the Heat Badge\n"
-	.string "from Flannery.$"
+	.string "from Tibarn.$"
 
 LavaridgeTown_Gym_1F_Text_ExplainHeatBadgeTakeThis: @ 81FF359
-	.string "If you have a Heat Badge, all Pokémon\n"
+	.string "If you have that Badge, all Pokémon\n"
 	.string "up to Level 60, even those you get in\l"
 	.string "trades from other people, will obey\l"
 	.string "you completely.\p"
 	.string "And, it lets Pokémon use the HM move\n"
 	.string "Strength outside of battle.\p"
-	.string "I'll even let you call on my Arcanine\n"
+	.string "I'll even let you call on an Arcanine\n"
 	.string "to use Strength for you.$"
 
 LavaridgeTown_Gym_1F_Text_TakeThis:
@@ -434,16 +425,16 @@ LavaridgeTown_Gym_1F_Text_ExplainOverheat: @ 81FF45C
 	.string "be suitable for longer battles.$"
 
 LavaridgeTown_Gym_1F_Text_RegisteredFlannery: @ 81FF517
-	.string "Registered Gym Leader Flannery\n"
+	.string "Registered Gym Leader Tibarn\n"
 	.string "in the PokéNav.$"
 
 LavaridgeTown_Gym_1F_Text_RegisteredArcanine: @ 81FF517
-	.string "Registered Flannery's Arcanine\n"
-	.string "in the PokéNav.$"
+	.string "Registered Arcanine in the\n"
+	.string "PokéNav.$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryPostBattle: @ 81FF546
 	.string "Your power reminds me of someone…\p"
-	.string "Oh! I know! You battle like Norman,\n"
+	.string "Oh! I know! You battle like Racc,\n"
 	.string "the Gym Leader of Petalburg.$"
 
 LavaridgeTown_Gym_1F_Text_GymStatue: @ 81FF5A9
@@ -451,7 +442,7 @@ LavaridgeTown_Gym_1F_Text_GymStatue: @ 81FF5A9
 
 LavaridgeTown_Gym_1F_Text_GymStatueCertified: @ 81FF5C4
 	.string "Lavaridge Town Pokémon Gym\p"
-	.string "FLANNERY's Certified Trainers:\n"
+	.string "Tibarn's Certified Trainers:\n"
 	.string "{PLAYER}$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryPreRematch: @ 81FF601

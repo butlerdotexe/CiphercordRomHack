@@ -168,34 +168,32 @@ LavaridgeTown_PokemonCenter_1F_EventScript_LucyLeave::
 	end
 
 LavaridgeTown_PokemonCenter_1F_Text_LucyYouThere:
-	.string "???: You there… Stop.$"
+	.string "???: Hold on a sec.$"
 
 LavaridgeTown_PokemonCenter_1F_Text_ScottSaid:
-	.string "???: Scott said I might find you here.\n"
-	.string "I am Lucy…\p"
-	.string "I'm not one for idle chatter… I want\n"
-	.string "to battle. Are you ready?$"
+	.string "???: I heard a strong trainer has been\n"
+	.string "making their way through here.\p"
+	.string "My name's Sylveon, an expert in the\n"
+	.string "Eeveelutions. We should battle.$"
 
 LavaridgeTown_PokemonCenter_1F_Text_VeryWell:
-	.string "Lucy: Very well…\n"
-	.string "I'll be by the PC.\p"
+	.string "Sylveon: Really? …\n"
+	.string "Well, I'll be by the PC.\p"
 	.string "Don't keep me waiting…$"
 
 LavaridgeTown_PokemonCenter_1F_Text_LucyDefeat:
 	.string "Urk…$"
 
 LavaridgeTown_PokemonCenter_1F_Text_LucyBattle:
-	.string "Lucy: Ready? Good.\n"
-	.string "Let's make this quick…$"
+	.string "Sylveon: Ready? Sick.\n"
+	.string "Let's make this quick.$"
 
 LavaridgeTown_PokemonCenter_1F_Text_LucyGiveChoiceBand:
-	.string "Lucy: You were lucky, this time…\n"
-	.string "Here. Take these…$"
+	.string "Sylveon: You were lucky, this time…\n"
+	.string "Here. Take these.$"
 
 LavaridgeTown_PokemonCenter_1F_Text_LucyGoodbye:
-	.string "Lucy: Perhaps we'll meet again…\n"
-	.string "If your luck holds up.\p"
-	.string "Good-bye, for now…$"
+	.string "Sylveon: I'll see you around!$"
 
 LavaridgeTown_PokemonCenter_1F_Text_WantToBuyMoomooMilk:
 	.string "Moomoo Milk?\p"

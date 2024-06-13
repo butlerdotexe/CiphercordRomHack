@@ -459,51 +459,50 @@ MeteorFalls_1F_1R_EventScript_MetCozmo:: @ 822BF3D
 	end
 
 MeteorFalls_1F_1R_Text_MayBozos:
-	.string "May: Give it up, you bozos!\n"
-	.string "Let the professor go!$"
-
-MeteorFalls_1F_1R_Text_BrendanJerks:
-	.string "Brendan: Hey! You jerks!\n"
+	.string "Sauce: Hey! You bastards!\n"
 	.string "Let Professor Cozmo go!$"
 
+MeteorFalls_1F_1R_Text_BrendanJerks:
+	.string "Sauce: Hey! You bastards!\n"
+	.string "I'll teach you a lesson!$"
+
 MeteorFalls_1F_1R_Text_Brat:
-	.string "Hmm?\p"
-	.string "What's this?\n"
-	.string "Who is this spoiled brat?$"
+	.string "Ha! There's two of us and only\n"
+	.string "one of you.\p"
+	.string "Oh wait who is that?$"
 
 MeteorFalls_1F_1R_Text_MayPlayerHere:
-	.string "May: {PLAYER}{KUN}! You came!\p"
-	.string "We've got to save Professor Cozmo\n"
-	.string "from these people!\p"
-	.string "There are two of them…\n"
-	.string "And two of us…\p"
-	.string "{PLAYER}{KUN}, please!\n"
-	.string "Battle together with me!$"
+	.string "Sauce: {PLAYER}! You finally made\n" 
+	.string "it, huh!\p"
+	.string "These guys are the guys who took\n"
+	.string "the professor! They're also just\l"
+	.string "massive pricks.\p"
+	.string "Let's team up and show them what's\p"
+	.string "good! Let's tag team them!$"
 
 MeteorFalls_1F_1R_Text_BrendanPlayerHere:
-	.string "Brendan: {PLAYER}! You finally made\n" 
+	.string "Sauce: {PLAYER}! You finally made\n" 
 	.string "it, huh!\p"
-	.string "We've gotta protect the professor\n"
-	.string "from these lunatics!\p"
-	.string "There's two of them…\n"
-	.string "And two of us, huh?\p"
-	.string "Sorry to ask, {PLAYER}, but…\n"
-	.string "Battle alongside me!$"
+	.string "These guys are the guys who took\n"
+	.string "the professor! They're also just\l"
+	.string "massive pricks.\p"
+	.string "Let's team up and show them what's\p"
+	.string "good! Let's tag team them!$"
 
 MeteorFalls_1F_1R_Text_MayLetsBattle:
-	.string "Thanks a mill!$"
+	.string "Thanks, bro!$"
 
 MeteorFalls_1F_1R_Text_BrendayLetsBattle:
-	.string "Thanks, pal!$"
+	.string "Thanks, bro!$"
 
 MeteorFalls_1F_1R_Text_CourtneyLetsBattle:
 	.string "Ahahaha!\p"
-	.string "You brats are no match for a Team\n"
-	.string "Magma Admin!\p"
-	.string "I'll put you in your place, kiddos!$"
+	.string "You think you can stand up to the\n"
+	.string "king of sac?\p"
+	.string "I'll beat you before you can blink!$"
 
 MeteorFalls_1F_1R_Text_CourtneyLose:
-	.string "Ahhh?! Did I go too easy on you?!$"
+	.string "What?! How did I end up sacked?$"
 
 MeteorFalls_1F_1R_Text_GruntLose:
 	.string "Are you telling me you're that strong\n"
@@ -517,60 +516,51 @@ MeteorFalls_1F_1R_Text_CancelMultiBattle:
 	.string "OK, but please hurry!$"
 
 MeteorFalls_1F_1R_Text_WithThisMeteorite: @ 822BF47
-	.string "Ahahaha!\p"
-	.string "Well, that's embarrasing.\n"
-	.string "But it doesn't matter.\p"
-	.string "With this Meteorite, that thing in\n"
-	.string "Mt. Chimney will…$"
+	.string "Well, that's embarrasing, after the\n"
+	.string "whole 'king of sac' thing.\p"
+	.string "Oh well, I'l still taking this meteor,\n"
+	.string "and then Mt. Chimney will…$"
 
 MeteorFalls_1F_1R_Text_HoldItRightThereMagma: @ 822BFE4
-	.string "Hold it right there, Team Magma!\p"
+	.string "Hold it right there, Team Aggro!\p"
 	.string "You're badly mistaken if you think you\n"
-	.string "can have your way with the world!$"
+	.string "can run around our turf!$"
 
 MeteorFalls_1F_1R_Text_BeSeeingYouTeamAqua: @ 822C04E
-	.string "Ahahaha!\n"
-	.string "Even Team Aqua joins us!\p"
-	.string "But there's nothing to be done about\n"
-	.string "it…\p"
-	.string "We've got the Meteorite, so off to\n"
-	.string "Mt. Chimney we go!\p"
-	.string "Be seeing you, brats and Team Aqua!$"
+	.string "Ooooh noooo!\n"
+	.string "It's Team Stall! Whatever shall we do?\n"
+	.string "It would be a shame if I just started"
+	.string "casusally jogging away…$"
 
 MeteorFalls_1F_1R_Text_ArchieSeenYouBefore: @ 822C11C
-	.string "Archie: Didn't I see you before?\n"
-	.string "At Slateport's Museum?\p"
-	.string "Ah, so your name is {PLAYER}.\p"
-	.string "At the time, I thought you were one\n"
-	.string "of Team Magma's goons.\p"
-	.string "Humph…\n"
-	.string "You're one odd kid.\p"
-	.string "Team Magma is a dangerous group of\n"
-	.string "total fanatics.\p"
-	.string "They engage in destruction, claiming\n"
-	.string "to expand the land mass.\p"
-	.string "They are the rivals to us,\n"
-	.string "the sea-loving Team Aqua!$"
+	.string "Rosa: Damn! My one weakness, going fast.\n"
+	.string "That guy is pretty good.\p"
+	.string "Oh, you again. You're not with them\n"
+	.string "are you?\p"
+	.string "They're a massive pain, running around doing\n"
+	.string "crazy shit, winning as soon as possible.\p"
+	.string "They're not like us, who savor battles\n"
+	.string "to the fullest!$"
 
 MeteorFalls_1F_1R_Text_BossWeShouldChaseMagma: @ 822C268
 	.string "Boss, we should give chase to\n"
-	.string "Team Magma…$"
+	.string "Team Stall…$"
 
 MeteorFalls_1F_1R_Text_ArchieYesNoTellingWhatMagmaWillDo: @ 822C292
-	.string "Archie: Yes, yes, we must!\n"
-	.string "We've got to hurry.\p"
-	.string "There's no telling what Team Magma\n"
+	.string "Rosa: Yes, as fast as we can!\n"
+	.string "Which isn't that fast but still.\p"
+	.string "There's no telling what Team Aggro\n"
 	.string "will do at Mt. Chimney!$"
 
 MeteorFalls_1F_1R_Text_ArchieFarewell: @ 822C2FC
-	.string "Archie: {PLAYER}, you should keep\n"
-	.string "an eye out for Team Magma, too.\p"
+	.string "Rosa: {PLAYER}, you should keep\n"
+	.string "an eye out for Team Aggro, too.\p"
 	.string "Farewell!$"
 
 MeteorFalls_1F_1R_Text_MeetProfCozmo: @ 822C342
 	.string "I… I'm Cozmo…\n"
 	.string "I'm a Professor\p"
-	.string "Team Magma asked me to guide them\n"
+	.string "Team Aggro asked me to guide them\n"
 	.string "to Meteor Falls…\p"
 	.string "But they tricked me.\n"
 	.string "They even took my Meteorite away…\p"
@@ -578,12 +568,12 @@ MeteorFalls_1F_1R_Text_MeetProfCozmo: @ 822C342
 	.string "Team Aqua showed up.\p"
 	.string "After that…\n"
 	.string "I don't understand any of it.\p"
-	.string "But that Team Magma…\p"
+	.string "But that Team Aggro…\p"
 	.string "What are they going to do with that\n"
 	.string "Meteorite at Mt. Chimney?$"
 
 MeteorFalls_1F_1R_Text_WhatsTeamMagmaDoingAtMtChimney: @ 822C47D
-	.string "Prof. Cozmo: But that Team Magma…\p"
+	.string "Prof. Cozmo: But that Team Aggro…\p"
 	.string "What are they going to do with that\n"
 	.string "Meteorite at Mt. Chimney?$"
 

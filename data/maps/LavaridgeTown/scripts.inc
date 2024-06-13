@@ -297,61 +297,61 @@ LavaridgeTown_EventScript_HerbShopSign:: @ 81EA7B7
 	end
 
 LavaridgeTown_Text_MayNiceBadgesTakeThis: @ 81EA7C0
-	.string "May: {PLAYER}{KUN}! Long time no see!\p"
-	.string "Oh? While I visited the hot springs,\n"
-	.string "you got the Lavaridge Gym Badge.\p"
-	.string "You must have collected\n"
-	.string "good Pokémon…\l"
-	.string "No, I believe you raised some.\p"
-	.string "I guess it would be okay for you to\n"
-	.string "have this.$"
-
-LavaridgeTown_Text_MayExplainGoGoggles: @ 81EA897
-	.string "May: With those Go-Goggles, you'll\n"
-	.string "have no trouble getting through the\l"
-	.string "desert near Route 111.\p"
-	.string "Oh, and you might want a pair of these\n"
-	.string "for your Pokémon.$"
-
-LavaridgeTown_Text_MayGiveSafetyGogglesChallengeDad:
-	.string "May: Safety Goggles are like Go-Goggles\n"
-	.string "for Pokémon - they'll protect them from\l"
-	.string "weather and Powder moves.\p"
-	.string "But, wow, {PLAYER}{KUN}…\n"
-	.string "Challenging Gyms…\p"
-	.string "You're trying hard because you don't\n"
-	.string "want to lose to me, I bet!\p"
-	.string "{PLAYER}{KUN}, I think I should challenge\n"
-	.string "your dad in Petalburg Gym.\p"
-	.string "See you again!$"
-
-LavaridgeTown_Text_BrendanNiceBadgesTakeThis: @ 81EA9A2
-	.string "Brendan: {PLAYER}, hey, it's been a while.\n"
+	.string "Sauce: {PLAYER}, hey, it's been a while.\n"
 	.string "How's it going?\p"
 	.string "Hmm…\n"
 	.string "That's a decent collection of Badges.\p"
-	.string "All right, then.\n"
-	.string "You may as well have this.$"
+	.string "Aight, yeah that's good enough.\n"
+	.string "You can have this.$"
 
-LavaridgeTown_Text_BrendanExplainGoGoggles:
-	.string "Brendan: Keep those with you if you're\n"
+LavaridgeTown_Text_MayExplainGoGoggles: @ 81EA897
+	.string "Sauce: Keep those with you if you're\n"
 	.string "planning on going into that desert near\l"
 	.string "Route 111.\p"
 	.string "You should take a pair of these for\n"
 	.string "your Pokémon, too.$"
 
-LavaridgeTown_Text_BrendanExplainSafetyGogglesChallengeDad:
-	.string "Brendan: If you let a Pokémon hold\n"
+LavaridgeTown_Text_MayGiveSafetyGogglesChallengeDad:
+	.string "Sauce: If you let a Pokémon hold\n"
 	.string "those Safety Goggles, they won't be\l"
 	.string "hurt by the desert's sandstorm.\p"
 	.string "There should be some Pokémon that\n"
 	.string "are exclusively desert-dwellers.\l"
 	.string "You might look around for those.\p"
 	.string "As for me…\n"
-	.string "I'm considering challenging Norman,\l"
-	.string "the Gym Leader of Petalburg.\p"
-	.string "Unlike you, {PLAYER}, your dad looks like\n"
-	.string "he really is tough.\p"
+	.string "I'm going to fight Racc, the Gym\l"
+	.string "Leader of Petalburg.\p"
+	.string "I talked to him a while ago and he\n"
+	.string "actually seems pretty tough.\p"
+	.string "See you around!$"
+
+LavaridgeTown_Text_BrendanNiceBadgesTakeThis: @ 81EA9A2
+	.string "Sauce: {PLAYER}, hey, it's been a while.\n"
+	.string "How's it going?\p"
+	.string "Hmm…\n"
+	.string "That's a decent collection of Badges.\p"
+	.string "Aight, yeah that's good enough.\n"
+	.string "You can have this.$"
+
+LavaridgeTown_Text_BrendanExplainGoGoggles:
+	.string "Sauce: Keep those with you if you're\n"
+	.string "planning on going into that desert near\l"
+	.string "Route 111.\p"
+	.string "You should take a pair of these for\n"
+	.string "your Pokémon, too.$"
+
+LavaridgeTown_Text_BrendanExplainSafetyGogglesChallengeDad:
+	.string "Sauce: If you let a Pokémon hold\n"
+	.string "those Safety Goggles, they won't be\l"
+	.string "hurt by the desert's sandstorm.\p"
+	.string "There should be some Pokémon that\n"
+	.string "are exclusively desert-dwellers.\l"
+	.string "You might look around for those.\p"
+	.string "As for me…\n"
+	.string "I'm going to fight Racc, the Gym\l"
+	.string "Leader of Petalburg.\p"
+	.string "I talked to him a while ago and he\n"
+	.string "actually seems pretty tough.\p"
 	.string "See you around!$"
 
 LavaridgeTown_Text_HaveEggWillYouTakeIt: @ 81EAB80
@@ -434,8 +434,8 @@ LavaridgeTown_Text_TownSign: @ 81EB12B
 
 LavaridgeTown_Text_GymSign: @ 81EB178
 	.string "Lavaridge Town Pokémon Gym\n"
-	.string "Leader: Flannery\l"
-	.string "“One with a fiery passion that burns!”$"
+	.string "Leader: Tibarn\l"
+	.string "“Soaring above the competition!”$"
 
 LavaridgeTown_Text_HerbShopSign: @ 81EB1CB
 	.string "Pokémon Herb Shop\n"

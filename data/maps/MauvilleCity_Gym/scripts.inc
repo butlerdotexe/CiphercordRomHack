@@ -360,14 +360,14 @@ MauvilleCity_Gym_Text_KirkPostBattle: @ 820E336
 	.string "whoa-yeah!$"
 
 MauvilleCity_Gym_Text_ShawnIntro: @ 820E369
-	.string "I trained under Wattson!\n"
+	.string "I trained under Semi!\n"
 	.string "There ain't no way I'll lose easily!$"
 
 MauvilleCity_Gym_Text_ShawnDefeat: @ 820E3A7
 	.string "Unplugged and turned off…$"
 
 MauvilleCity_Gym_Text_ShawnPostBattle: @ 820E3C1
-	.string "Wattson, our Gym Leader, has been\n"
+	.string "Semi, our Gym Leader, has been\n"
 	.string "around for a long, long time.\p"
 	.string "He was battling even before your\n"
 	.string "daddy was born, that tough coot.$"
@@ -380,7 +380,7 @@ MauvilleCity_Gym_Text_BenDefeat: @ 820E469
 	.string "It's no fun to lose…$"
 
 MauvilleCity_Gym_Text_BenPostBattle: @ 820E47E
-	.string "Wattson says he likes setting up\n"
+	.string "Semi says he likes setting up\n"
 	.string "little traps with switches.$"
 
 MauvilleCity_Gym_Text_VivianIntro: @ 820E4BB
@@ -391,9 +391,7 @@ MauvilleCity_Gym_Text_VivianDefeat: @ 820E4F4
 	.string "I'm shocked by your power!$"
 
 MauvilleCity_Gym_Text_VivianPostBattle: @ 820E50F
-	.string "I've heard that Mauville was founded\n"
-	.string "by Wattson.\p"
-	.string "He was a Trainer long before we\n"
+	.string "Semi was a Trainer long before we\n"
 	.string "became Trainers.\l"
 	.string "He must know all sorts of things!$"
 
@@ -405,36 +403,32 @@ MauvilleCity_Gym_Text_AngeloDefeat: @ 820E5A8
 	.string "My eyes are frazzled…$"
 
 MauvilleCity_Gym_Text_AngeloPostBattle: @ 820E5C2
-	.string "Mauville Gym's Wattson has a shiny\n"
-	.string "forehead. It makes me happy!$"
+	.string "My eyes are frazzled…$"
 
 MauvilleCity_Gym_Text_WattsonIntro: @ 820E602
-	.string "I've given up on my plans to convert\n"
-	.string "the city, I have.\p"
-	.string "And so, I put my time into making\n"
-	.string "door traps in my Gym.\p"
-	.string "Oh? Now, what are you doing here?\p"
-	.string "What's that? You say you've gotten\n"
-	.string "past all my rigged doors?\p"
-	.string "Wahahahah!\n"
-	.string "Now, that is amusing!\p"
-	.string "Then, I, Wattson, the Leader of\n"
-	.string "Mauville Gym, shall electrify you!$"
+	.string "So you made it through all the traps\n"
+	.string "I've set up.\p"
+	.string "Not bad! The other leaders are too\n"
+	.string "soft on new trainers like you.\p"
+	.string "But clearly you're able to perform!\p"
+	.string "If you don't get a taste of reality\n"
+	.string "at the start, you get a big head.\p"
+	.string "Alright, enough chit chat.\n"
+	.string "Time for what you're really here for!$p"
 
 MauvilleCity_Gym_Text_WattsonDefeat: @ 820E734
-	.string "Wahahahah!\n"
-	.string "Fine, I lost!\p"
-	.string "You ended up giving me a thrill!\n"
-	.string "Take this Badge!$"
+	.string "Well well well!\n"
+	.string "Looks like you're really something huh.\p"
+	.string "Good game, you've earned this.$"
 
 MauvilleCity_Gym_Text_ReceivedDynamoBadge: @ 820E77F
 	.string "{PLAYER} received the Dynamo Badge\n"
-	.string "from Wattson.$"
+	.string "from Semi.$"
 
 MauvilleCity_Gym_Text_ExplainDynamoBadgeTakeThis: @ 820E7AA
 	.string "With the Dynamo Badge, Pokémon can\n"
 	.string "use Rock Smash out of battle.\p"
-	.string "And, I'll register my Raichu in your\n"
+	.string "And, I'll register this Raichu in your\n"
 	.string "PokéNav. It'll help you by smashing\l"
 	.string "any rocks in your way.\p"
 	.string "… … … … … …$"
@@ -451,11 +445,11 @@ MauvilleCity_Gym_Text_ExplainVoltSwitch: @ 820E844
 	.string "… … … … … …$"
 
 MauvilleCity_Gym_Text_RegisteredWattson: @ 820E8B5
-	.string "Registered Gym Leader Wattson\n"
+	.string "Registered Gym Leader Semi\n"
 	.string "in the PokéNav.$"
 
 MauvilleCity_Gym_Text_RegisteredRaichu: @ 820E8B5
-	.string "Registered Wattson's Raichu\n"
+	.string "Registered Semi's Raichu\n"
 	.string "in the PokéNav.$"
 
 MauvilleCity_Gym_Text_WattsonPostBattle: @ 820E8E3

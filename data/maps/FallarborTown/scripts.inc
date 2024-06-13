@@ -216,35 +216,36 @@ FallarborTown_Movement_RivalExit:
 	step_end
 
 FallarborTown_Text_MayDisaster:
-	.string "May: Oh! {PLAYER}{KUN}! Help!$"
+	.string "Sauce: Yo! {PLAYER}{KUN}! C'mere!$"
 
 FallarborTown_Text_BrendanComeHere:
-	.string "Brendan: {PLAYER}! C'mere!$"
+	.string "Sauce: Yo! {PLAYER}{KUN}! C'mere!$"
 
 FallarborTown_Text_MayWeirdos:
-	.string "May: You've got to come with me!\p"
-	.string "Y-you see…\n"
-	.string "Professor Cozmo…\p"
-	.string "He got abducted by some weirdos\n"
-	.string "calling themselves Team Magma!\p"
-	.string "{PLAYER}{KUN}, please…\n"
-	.string "You've got to help me save him!\p"
-	.string "I… I'm going to head after them\n"
-	.string "right away!\l"
-	.string "Let's meet up at Meteor Falls!$"
-
-FallarborTown_Text_BrendanNuts:
-	.string "Brendan: Everything's a mess!\p"
+	.string "Sauce: You'll never believe this.\p"
 	.string "It's ridiculous…\n"
 	.string "Professor Cozmo…\p"
 	.string "They say that he was just up and\n"
 	.string "kidnapped by some nuts calling\l"
-	.string "themselves Team Magma!\p"
-	.string "{PLAYER}… I know it's a lot to ask,\n"
-	.string "but we've gotta help Cozmo!\p"
-	.string "I'm going to head to Meteor Falls\n"
-	.string "right away. Come catch up to me\l"
-	.string "as soon as you can.$"
+	.string "themselves Team Aggro!\p"
+	.string "Like, they just took a grown ass\n"
+	.string "man in the middle of the day.\p"
+	.string "I'm gonna see what's going on\n"
+	.string "at Meteor Falls, come meet up\l"
+	.string "with me there.$"
+
+FallarborTown_Text_BrendanNuts:
+	.string "Sauce: You'll never believe this.\p"
+	.string "It's ridiculous…\n"
+	.string "Professor Cozmo…\p"
+	.string "They say that he was just up and\n"
+	.string "kidnapped by some nuts calling\l"
+	.string "themselves Team Aggro!\p"
+	.string "Like, they just took a grown ass\n"
+	.string "man in the middle of the day.\p"
+	.string "I'm gonna see what's going on\n"
+	.string "at Meteor Falls, come meet up\l"
+	.string "with me there.$"
 
 FallarborTown_Text_ShadyCharactersCozmosHome: @ 81EB26B
 	.string "Something's happening,\n"
@@ -267,14 +268,11 @@ FallarborTown_Text_Azurill: @ 81EB3B5
 	.string "Azurill: Rooreelooo.$"
 
 FallarborTown_Text_HaveYouChallengedFlannery: @ 81EB3CA
-	.string "Have you already challenged Flannery,\n"
+	.string "Have you already challenged Tibarn,\n"
 	.string "the Leader of Lavaridge Gym?\p"
-	.string "The girl's grandfather was famous.\n"
-	.string "He was one of the Elite Four in the\l"
-	.string "Pokémon League at one point.\p"
-	.string "It wouldn't surprise me to see Flannery\n"
-	.string "become a great Trainer in her own\l"
-	.string "right.$"
+	.string "He took over from Flannery a while\n"
+	.string "back, using his powerful legendary\l"
+	.string "bird Pokémon.$"
 
 FallarborTown_Text_BattleTentSign: @ 81EB4C2
 	.string "Battle Tent Fallarbor Site\n"

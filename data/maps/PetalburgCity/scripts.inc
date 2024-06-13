@@ -721,7 +721,7 @@ PetalburgCity_EventScript_GymBoy:: @ 81DC82E
 	end
 
 PetalburgCity_Text_WhereIsWally: @ 81DC837
-	.string "Where has our Wally gone?\p"
+	.string "Where has Basil gone?\p"
 	.string "We have to leave for Verdanturf Town\n"
 	.string "very soon…$"
 
@@ -755,15 +755,15 @@ PetalburgCity_Text_FullPartyExplanation: @ 81DCA30
 
 PetalburgCity_Text_GymSign: @ 81DCAAA
 	.string "Petalburg City Pokémon Gym\n"
-	.string "Leader: Norman\l"
-	.string "“A man in pursuit of power!”$"
+	.string "Leader: Racc\l"
+	.string "“A man who loves double battles!”$"
 
 PetalburgCity_Text_CitySign: @ 81DCAF1
 	.string "Petalburg City\n"
 	.string "“Where people mingle with nature.”$"
 
 PetalburgCity_Text_WallyHouseSign: @ 81DCB23
-	.string "Wally's House$"
+	.string "Basil's House$"
 
 PetalburgCity_Text_AreYouATrainer: @ 81DCB31
 	.string "Excuse me!\p"

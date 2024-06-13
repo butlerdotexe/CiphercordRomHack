@@ -333,9 +333,9 @@ PetalburgWoods_Text_HaveYouSeenShroomish: @ 822E34F
 	.string "I really love that Pokémon.$"
 
 PetalburgWoods_Text_IWasGoingToAmbushYou: @ 822E3AA
-	.string "I was going to ambush you, but you\n"
-	.string "had to dawdle in Petalburg Woods\l"
-	.string "forever, didn't you?\p"
+	.string "While I usually don't mind waiting\n"
+	.string "around and doing nothing, this is\l"
+	.string "getting excessive.\p"
 	.string "I got sick of waiting, so here I am!$"
 
 PetalburgWoods_Text_HandOverThosePapers: @ 822E428
@@ -350,7 +350,7 @@ PetalburgWoods_Text_YouHaveToHelpMe: @ 822E457
 PetalburgWoods_Text_NoOneCrossesTeamAqua: @ 822E4A5
 	.string "Hunh? What do you think you're doing?\n"
 	.string "What, you're going to protect him?\p"
-	.string "No one who crosses Team Aqua\n"
+	.string "No one who crosses Team Stall\n"
 	.string "gets any mercy, not even a kid!\p"
 	.string "Come on and battle me!$"
 
@@ -359,11 +359,11 @@ PetalburgWoods_Text_YoureKiddingMe: @ 822E542
 
 PetalburgWoods_Text_YouveGotSomeNerve: @ 822E563
 	.string "Grrr… You've got some nerve\n"
-	.string "meddling with Team Aqua!\l"
+	.string "meddling with Team Stall!\l"
 	.string "Come on and battle me again!\p"
 	.string "I wish I could say that, but I'm out of\n"
 	.string "Pokémon…\p"
-	.string "And, hey, we of Team Aqua are also\n"
+	.string "And, hey, we of Team Stall are also\n"
 	.string "after something in Rustboro.\p"
 	.string "I'll let you go today!$"
 
@@ -382,7 +382,7 @@ PetalburgWoods_Text_TeamAquaAfterSomethingInRustboro:
 	.string "Normally they'd only get a quarter of\n"
 	.string "the Exp. points, so it's quite useful\l"
 	.string "for raising weak Pokémon!\p"
-	.string "Didn't that Team Aqua thug say\n"
+	.string "Didn't that Team Stall thug say\n"
 	.string "they were after something in\l"
 	.string "Rustboro, too?$"
 

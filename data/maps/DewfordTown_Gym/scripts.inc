@@ -455,37 +455,34 @@ DewfordTown_Gym_Text_CristianPostBattle: @ 81FCF26
 	.string "Go after that Badge!$"
 
 DewfordTown_Gym_Text_BrawlyIntro: @ 81FCF44
-	.string "I'm Brawly!\n"
-	.string "Dewford's Gym Leader!\p"
-	.string "I've been churned in the rough waves\n"
-	.string "of these parts, and I've grown tough\l"
-	.string "in the pitch-black cave!\p"
-	.string "So you wanted to challenge me?\n"
-	.string "Let me see what you're made of!$"
+	.string "Oh hi, you made it.\p"
+	.string "I know we met before, but to be\n"
+	.string "formal, I'm Retrop, Dewford's Leader.\p"
+	.string "Uh not a lot of people come around\n"
+	.string "too often, but I'll do my best to\l"
+	.string "test you.\p"
+	.string "Let's see what you've got.$"
 
 DewfordTown_Gym_Text_BrawlyDefeat: @ 81FD008
-	.string "Whoah, wow! You made a much bigger\n"
-	.string "splash than I expected!\p"
-	.string "You swamped me!\p"
-	.string "Okay, you've got me.\n"
-	.string "Take this Gym Badge!$"
+	.string "Dang, nice job!\p"
+	.string "You definitely earned this.$"
 
 DewfordTown_Gym_Text_ReceivedKnuckleBadge: @ 81FD07D
 	.string "{PLAYER} received the Knuckle Badge\n"
-	.string "from Brawly.$"
+	.string "from Retrop.$"
 
 DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis: @ 81FD0A8
-	.string "The Knuckle Badge makes all Pokémon\n"
-	.string "up to Level 40, even those you get in\l"
-	.string "trades, obey without question.\p"
-	.string "And, you'll be able to use the HM move\n"
-	.string "Flash outside of battle.\p"
-	.string "Oh, yeah. You don't need to teach a\n"
-	.string "Pokémon Flash to use it.\p"
+	.string "As for why it's called the Knuckle\n"
+	.string "badge... Its just left over from the old\l"
+	.string "leader. He liked fisting or something.\p"
+	.string "Oh, you'll be able to use the HM move\n"
+	.string "Flash outside of battle too.\p"
+	.string "You don't need to teach your Pokémon that\n"
+	.string "though.\p"
 	.string "If your Pokémon can learn Flash, it\n"
 	.string "can always use it outside of battle.\p"
-	.string "If you'd like, use this Technical\n"
-	.string "Machine, too.$"
+	.string "Oh yeah, also take this, there's like\n"
+	.string "50 boxes full of these in the back.$"
 
 DewfordTown_Gym_Text_ExplainBulkUp: @ 81FD181
 	.string "That TM08 contains Bulk Up.\p"
@@ -494,20 +491,20 @@ DewfordTown_Gym_Text_ExplainBulkUp: @ 81FD181
 	.string "… … … … … …$"
 
 DewfordTown_Gym_Text_RegisteredBrawly: @ 81FD1E0
-	.string "Registered Gym Leader Brawly\n"
+	.string "Registered Gym Leader Retrop\n"
 	.string "in the PokéNav.$"
 
 DewfordTown_Gym_Text_BrawlyPostBattle: @ 81FD20D
-	.string "I can see your talent becoming a giant\n"
-	.string "wave to cause a storm of astonishment\l"
-	.string "among Trainers one day!$"
+	.string "I think you'll go pretty far. Maybe not\n"
+	.string "like, all the way, but like, you can\l"
+	.string "beat like, Tibarn maybe.$"
 
 DewfordTown_Gym_Text_GymStatue: @ 81FD272
 	.string "Dewford Town Pokémon Gym$"
 
 DewfordTown_Gym_Text_GymStatueCertified: @ 81FD28B
 	.string "Dewford Town Pokémon Gym\p"
-	.string "Brawly's certified Trainers:\n"
+	.string "Retrop's certified Trainers:\n"
 	.string "{PLAYER}$"
 
 DewfordTown_Gym_Text_BrawlyPreRematch: @ 81FD2C4

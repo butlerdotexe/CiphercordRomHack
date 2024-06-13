@@ -103,26 +103,25 @@ VerdanturfTown_WandasHouse_EventScript_WallysAuntEverGrande:: @ 8202989
 	end
 
 VerdanturfTown_WandasHouse_Text_StrongerSpeech: @ 8202993
-	.string "Wally: I lost to you, {PLAYER}, but I'm\n"
-	.string "not feeling down anymore.\p"
-	.string "Because I have a new purpose in life.\n"
-	.string "Together with my Kirlia, I'm going\l"
-	.string "to challenge Pokémon Gyms and become\l"
-	.string "a great Trainer.\p"
-	.string "Please watch me, {PLAYER}.\n"
-	.string "I'm going to be stronger than you.\p"
-	.string "When I do, I'm going to challenge you\n"
-	.string "to another battle.$"
+	.string "Basil: ... Ever since I lost to you, {PLAYER},\n"
+	.string "I've been thinking.\p"
+	.string "This whole time I was thinking if I loved\n"
+	.string "my Pokémon enough and we worked together,\l"
+	.string "we could overcome anything together.\p"
+	.string "But now I know the truth.\n"
+	.string "There are weak Pokémon, and strong ones.\p"
+	.string "My Maractus is weak, so I shouldn't force\n"
+	.string "it to be something it isn't.$"
 
 VerdanturfTown_WandasHouse_Text_StrongerSpeechShort: @ 8202ABE
-	.string "Wally: Please watch me, {PLAYER}.\n"
-	.string "I'm going to get stronger than you.\p"
-	.string "When I do, I'm going to challenge you\n"
-	.string "to another battle.$"
+	.string "Basil: I will find even stronger\n"
+	.string "Pokémon and defeat you.\p"
+	.string "Maractus can stay on the side\n"
+	.string "and cheer me on!$"
 
 VerdanturfTown_WandasHouse_Text_WallysNextDoor: @ 8202B37
 	.string "Uncle: Oh! {PLAYER}{KUN}!\n"
-	.string "Wally's next door.\p"
+	.string "Basil's next door.\p"
 	.string "But, boy, there's something I have to\n"
 	.string "tell you.\p"
 	.string "This natural environment is doing\n"
@@ -132,12 +131,12 @@ VerdanturfTown_WandasHouse_Text_WallysNextDoor: @ 8202B37
 	.string "the boy hope.$"
 
 VerdanturfTown_WandasHouse_Text_WallySlippedOff: @ 8202C20
-	.string "Wally's gone away…\n"
+	.string "Basil's gone away…\n"
 	.string "He slipped off on his own…$"
 
 VerdanturfTown_WandasHouse_Text_WallyGoneThatFar: @ 8202C4E
 	.string "Uncle: Is that right?\n"
-	.string "Wally's gone away that far all by\l"
+	.string "Basil's gone away that far all by\l"
 	.string "himself…\p"
 	.string "Well, I have to give him credit--he is\n"
 	.string "my little brother's son.$"
@@ -145,11 +144,11 @@ VerdanturfTown_WandasHouse_Text_WallyGoneThatFar: @ 8202C4E
 VerdanturfTown_WandasHouse_Text_MeetWanda:
 	.string "Wanda: You are?\n"
 	.string "Oh, right, I get it!\p"
-	.string "You're the {PLAYER} who Wally was\n"
+	.string "You're the {PLAYER} who Basil was\n"
 	.string "telling me about.\p"
-	.string "I'm Wally's cousin.\n"
+	.string "I'm Basil's cousin.\n"
 	.string "Glad to meet you!\p"
-	.string "I think Wally's become a lot more lively\n"
+	.string "I think Basil's become a lot more lively\n"
 	.string "and healthy since he came here.$"
 
 VerdanturfTown_WandasHouse_Text_ReceiveGardevoirite:
@@ -165,7 +164,7 @@ VerdanturfTown_WandasHouse_Text_PrettyStone:
 	.string "one of them hold it!$"
 
 VerdanturfTown_WandasHouse_Text_DontWorryAboutWally: @ 8202D91
-	.string "Wanda: Don't worry about Wally.\n"
+	.string "Wanda: Don't worry about Basil.\n"
 	.string "He'll be just fine.\p"
 	.string "I know my little cousin, and he has\n"
 	.string "Pokémon with him, too.$"
@@ -189,12 +188,12 @@ VerdanturfTown_WandasHouse_Text_DaughtersBoyfriendWasDigging: @ 8202F19
 	.string "It's so incredible!$"
 
 VerdanturfTown_WandasHouse_Text_IfAnythingHappenedToWally: @ 8202F73
-	.string "If anything were to happen to Wally,\n"
+	.string "If anything were to happen to Basil,\n"
 	.string "I would never be able to look his\l"
 	.string "parents in Petalburg in the eye…$"
 
 VerdanturfTown_WandasHouse_Text_WallyWasInEverGrande: @ 8202FDB
-	.string "Wally was in Ever Grande?\p"
+	.string "Basil was in Ever Grande?\p"
 	.string "His parents in Petalburg would be\n"
 	.string "astonished to hear that!$"
 

@@ -1083,7 +1083,7 @@ RustboroCity_EventScript_Boy1:: @ 81E1236
 	end
 
 RustboroCity_Text_RoxanneOhHello:
-	.string "Roxanne: Oh, hello, {PLAYER}.\p"
+	.string "Spara: Oh, hello, {PLAYER}.\p"
 	.string "I see you've got a PokéNav! Did you\n"
 	.string "know about its PokéCall function?\p"
 	.string "Let me explain: you can register\n"
@@ -1099,21 +1099,15 @@ RustboroCity_Text_RoxanneOhHello:
 
 RustboroCity_Movement_RoxanneOneMoreThing:
 	.string "Use it in the same way you'd use Cut.\p"
-	.string "One more thing: I'd rather not think\n"
-	.string "that I can't beat you.\p"
-	.string "I promise, I will shape up my Gym\n"
-	.string "so that you may challenge us again.\p"
-	.string "I hope you'll be looking forward to\n"
-	.string "that occasion as much as me!\p"
 	.string "… … … … … …\n"
 	.string "… … … … … Click!$"
 
 RustboroCity_Text_RegisteredAnorith:
-	.string "Registered Roxanne's Anorith\n"
+	.string "Registered Spara's Anorith\n"
 	.string "in the PokéNav.$"
 
 RustboroCity_Text_RegisteredRoxanne:
-	.string "Registered Gym Leader Roxanne\n"
+	.string "Registered Gym Leader Spara\n"
 	.string "in the PokéNav.$"
 
 RustboroCity_Text_RoxanneBye:
@@ -1240,54 +1234,53 @@ RustboroCity_Text_PleaseComeWithMe: @ 81E1A21
 	.string "Please come with me!$"
 
 RustboroCity_Text_MayHiLetsRegister: @ 81E1A49
-	.string "May: Oh, hi, {PLAYER}{KUN}!\p"
+	.string "Sauce: Oh, hey, {PLAYER}!\p"
 	.string "You had a Match Call feature put\n"
-	.string "on your PokéNav!\p"
+	.string "on your PokéNav! Cool!\p"
 	.string "Let's register each other so we can\n"
-	.string "contact one another anytime!\p"
+	.string "get in touch anytime!\p"
 	.string "… … … … … …$"
 
 RustboroCity_Text_RegisteredMay: @ 81E1ADB
-	.string "Registered May\n"
+	.string "Registered Sauce\n"
 	.string "in the PokéNav.$"
 
 RustboroCity_Text_MayPassedBrineyWantToBattle: @ 81E1AFA
-	.string "May: Oh, by the way, I passed\n"
-	.string "Mr. Briney in Petalburg Woods.\p"
-	.string "I guess he's on his way home to his\n"
+	.string "Sauce: By the way, {PLAYER}, I walked\n"
+	.string "by Mr. Briney in Petalburg Woods.\p"
+	.string "I bet he was on his way home to his\n"
 	.string "cottage by the sea.\p"
-	.string "How's your Pokédex coming along,\n"
-	.string "{PLAYER}{KUN}? Mine's looking pretty decent!\p"
-	.string "So…\n"
-	.string "How about a little battle?$"
+	.string "{PLAYER}, how's your Pokédex?\n"
+	.string "Have you filled in any pages yet?\p"
+	.string "Mine rules.\p"
+	.string "Want to have a battle to test how\n"
+	.string "far you've progressed?$"
 
 RustboroCity_Text_MayOhHaventRaisedPokemonEnough: @ 81E1BD3
-	.string "May: Oh, what's the matter?\p"
-	.string "Haven't you caught or raised your\n"
-	.string "Pokémon very much?\p"
-	.string "That's not very good for a Trainer!$"
+	.string "Sauce: What's the matter? Don't have\n"
+	.string "any confidence in your Pokémon?$"
 
 RustboroCity_Text_MayWantToBattle: @ 81E1C48
-	.string "May: So, what do you think?\n"
-	.string "How about a little battle here?$"
+	.string "Sauce: What's up?\n"
+	.string "Want to have a battle with me?$"
 
 RustboroCity_Text_MayImNotGoingToLose: @ 81E1C84
-	.string "May: You just became a Trainer,\n"
-	.string "{PLAYER}{KUN}. I'm not going to lose!$"
+	.string "Sauce: I know you just became\n"
+	.string "a Trainer, but I won't go easy!$"
 
 RustboroCity_Text_MayDefeat: @ 81E1CC1
-	.string "Yikes!\n"
-	.string "You're better than I expected!$"
+	.string "Hmm…\n"
+	.string "You're pretty good.$"
 
 RustboroCity_Text_MayMrBrineyHint: @ 81E1CE7
-	.string "May: Oh, by the way, Mr. Briney, who\n"
-	.string "I just passed…\p"
-	.string "{PLAYER}{KUN}, you just moved here so you\n"
-	.string "might not know this, but Mr. Briney\l"
-	.string "was once a revered seafarer.$"
+	.string "Sauce: By the way, you know\n"
+	.string "Mr. Briney? The guy I just passed?\p"
+	.string "I bet you didn't know this, since you\n"
+	.string "just moved here, {PLAYER}, but\l"
+	.string "Mr. Briney was once a great sailor.$"
 
 RustboroCity_Text_BrendanHiLetsRegister: @ 81E1D7D
-	.string "Brendan: Oh, hey, {PLAYER}!\p"
+	.string "Sauce: Oh, hey, {PLAYER}!\p"
 	.string "You had a Match Call feature put\n"
 	.string "on your PokéNav! Cool!\p"
 	.string "Let's register each other so we can\n"
@@ -1295,11 +1288,11 @@ RustboroCity_Text_BrendanHiLetsRegister: @ 81E1D7D
 	.string "… … … … … …$"
 
 RustboroCity_Text_RegisteredBrendan: @ 81E1E11
-	.string "Registered Brendan\n"
+	.string "Registered Sauce\n"
 	.string "in the PokéNav.$"
 
 RustboroCity_Text_BrendanPassedBrineyWantToBattle: @ 81E1E34
-	.string "Brendan: By the way, {PLAYER}, I walked\n"
+	.string "Sauce: By the way, {PLAYER}, I walked\n"
 	.string "by Mr. Briney in Petalburg Woods.\p"
 	.string "I bet he was on his way home to his\n"
 	.string "cottage by the sea.\p"
@@ -1310,15 +1303,15 @@ RustboroCity_Text_BrendanPassedBrineyWantToBattle: @ 81E1E34
 	.string "far you've progressed?$"
 
 RustboroCity_Text_BrendanNoConfidenceInPokemon: @ 81E1F2F
-	.string "Brendan: What's the matter? Don't have\n"
+	.string "Sauce: What's the matter? Don't have\n"
 	.string "any confidence in your Pokémon?$"
 
 RustboroCity_Text_BrendanWantToBattle: @ 81E1F76
-	.string "Brendan: What's up?\n"
+	.string "Sauce: What's up?\n"
 	.string "Want to have a battle with me?$"
 
 RustboroCity_Text_BrendanIWontGoEasy: @ 81E1FA9
-	.string "Brendan: I know you just became\n"
+	.string "Sauce: I know you just became\n"
 	.string "a Trainer, but I won't go easy!$"
 
 RustboroCity_Text_BrendanDefeat: @ 81E1FE9
@@ -1326,7 +1319,7 @@ RustboroCity_Text_BrendanDefeat: @ 81E1FE9
 	.string "You're pretty good.$"
 
 RustboroCity_Text_BrendanMrBrineyHint: @ 81E2002
-	.string "Brendan: By the way, you know\n"
+	.string "Sauce: By the way, you know\n"
 	.string "Mr. Briney? The guy I just passed?\p"
 	.string "I bet you didn't know this, since you\n"
 	.string "just moved here, {PLAYER}, but\l"
@@ -1346,8 +1339,8 @@ RustboroCity_Text_DevonCorpSign: @ 81E2128
 
 RustboroCity_Text_GymSign: @ 81E2167
 	.string "Rustboro City Pokémon Gym\n"
-	.string "Leader: Roxanne\p"
-	.string "“The ROCK-loving honors student!”$"
+	.string "Leader: Spara\p"
+	.string "“The ROCK and GROUND champ!”$"
 
 RustboroCity_Text_DevonCorpBranchOfficeSign: @ 81E21B3
 	.string "Devon Corp. Branch Office\p"

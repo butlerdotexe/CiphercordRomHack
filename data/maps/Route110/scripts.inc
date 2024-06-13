@@ -781,7 +781,7 @@ Route110_Movement_BirchExit4: @ 81EFB57
 	step_end
 
 Route110_Text_WeCantTalkAboutAquaActivities: @ 81EFB5D
-	.string "Team Aqua's activities…\n"
+	.string "Team Stall's activities…\n"
 	.string "We can't talk about them yet.$"
 
 Route110_Text_KickUpARuckus: @ 81EFB93
@@ -790,57 +790,57 @@ Route110_Text_KickUpARuckus: @ 81EFB93
 
 Route110_Text_MyFirstJobInAqua: @ 81EFBCA
 	.string "This is my first job after joining\n"
-	.string "Team Aqua. It's a little scary.$"
+	.string "Team Stall. It's a little scary.$"
 
 Route110_Text_AquaActionsBringSmiles: @ 81EFC0D
-	.string "Team Aqua's actions should bring\n"
+	.string "Team Stall's actions should bring\n"
 	.string "smiles to people's faces!$"
 
 Route110_Text_MayLetsBattle: @ 81EFC48
-	.string "May: Hi, {PLAYER}{KUN}, long time no see!\p"
-	.string "While I was searching for other\n"
-	.string "Pokémon, my Pokémon grew stronger.\p"
-	.string "So…\n"
-	.string "How about a little battle?$"
-
-Route110_Text_MayDefeated: @ 81EFCCB
-	.string "Yikes!\n"
-	.string "You're better than I expected!$"
-
-Route110_Text_MayTakeThis: @ 81EFCF1
-	.string "May: {PLAYER}{KUN}, you've been busy\n"
-	.string "training, too, haven't you?\p"
-	.string "I think you deserve a reward!\n"
-	.string "This is from me!$"
-
-Route110_Text_MayExplainItemfinder: @ 81EFD58
-	.string "May: That's an Itemfinder.\p"
-	.string "Try it out. If there is an item that's\n"
-	.string "not visible, it emits a sound.\p"
-	.string "Okay, {PLAYER}{KUN}, let's meet again!\p"
-	.string "I know it's a little silly coming from\n"
-	.string "me, but I think you should train a lot\l"
-	.string "harder for the next time.$"
-
-Route110_Text_BrendanLetsBattle: @ 81EFE3F
-	.string "Brendan: Hey, {PLAYER}.\n"
+	.string "Sauce: Hey, {PLAYER}.\n"
 	.string "So this is where you were.\l"
 	.string "How's it going?\p"
-	.string "Have you been raising your Pokémon?\n"
-	.string "I'll check for you.$"
+	.string "Cool, cool. Wanna have a quick battle?\n"
+	.string "I'll see what you've been cookin'.$"
+
+Route110_Text_MayDefeated: @ 81EFCCB
+	.string "Hmm…\n"
+	.string "You're pretty good.$"
+
+Route110_Text_MayTakeThis: @ 81EFCF1
+	.string "Sauce: {PLAYER}, you've been grinding\n"
+	.string "pretty hard huh…\p"
+	.string "Nice!\n"
+	.string "Here, take this.$"
+
+Route110_Text_MayExplainItemfinder: @ 81EFD58
+	.string "Sauce: That's an Itemfinder.\p"
+	.string "Use it to root around for items that\n"
+	.string "aren't visible.\p"
+	.string "If it senses something, it emits\n"
+	.string "a sound.\p"
+	.string "Anyway, I'm off to look for new\n"
+	.string "Pokémon.$"
+
+Route110_Text_BrendanLetsBattle: @ 81EFE3F
+	.string "Sauce: Hey, {PLAYER}.\n"
+	.string "So this is where you were.\l"
+	.string "How's it going?\p"
+	.string "Cool, cool. Wanna have a quick battle?\n"
+	.string "I'll see what you've been cookin'.$"
 
 Route110_Text_BrendanDefeated: @ 81EFEB4
 	.string "Hmm…\n"
 	.string "You're pretty good.$"
 
 Route110_Text_BrendanTakeThis: @ 81EFECD
-	.string "Brendan: {PLAYER}, you've trained\n"
-	.string "without me noticing…\p"
-	.string "Good enough!\n"
+	.string "Sauce: {PLAYER}, you've been grinding\n"
+	.string "pretty hard huh…\p"
+	.string "Nice!\n"
 	.string "Here, take this.$"
 
 Route110_Text_BrendanExplainItemfinder: @ 81EFF1C
-	.string "Brendan: That's an Itemfinder.\p"
+	.string "Sauce: That's an Itemfinder.\p"
 	.string "Use it to root around for items that\n"
 	.string "aren't visible.\p"
 	.string "If it senses something, it emits\n"
@@ -1014,9 +1014,9 @@ Route110_Text_ThereIsNoRecord: @ 81F0A5E
 	.string "challenge. There is no record…$"
 
 Route110_Text_ImagineSeeingYouHere: @ 81F0AB5
-	.string "Prof. Birch: Oh, {PLAYER}{KUN}!\n"
-	.string "Imagine seeing you here!\p"
-	.string "And where might my {RIVAL} be?$"
+	.string "Prof. Foodies: Oh, {PLAYER}{KUN}!\n"
+	.string "Fancy seeing you here.\p"
+	.string "And where might Sauce be?$"
 
 Route110_Text_HeardYouInstallMatchCall: @ 81F0AFF
 	.string "Oh, I see!\n"
@@ -1031,13 +1031,14 @@ Route110_Text_HeardYouInstallMatchCall: @ 81F0AFF
 	.string "… … … … … …$"
 
 Route110_Text_RegisteredBirchInPokenav: @ 81F0C0C
-	.string "Registered Prof. Birch\n"
+	.string "Registered Prof. Foodies\n"
 	.string "in the PokéNav.$"
 
 Route110_Text_KeepAnEyeOutForRival: @ 81F0C33
-	.string "Prof. Birch: {PLAYER}{KUN}…\p"
-	.string "Please keep an eye out for my {RIVAL}.\n"
-	.string "… … … … … …\p"
+	.string "Prof. Foodies: {PLAYER}{KUN}…\p"
+	.string "Please keep an eye on Sauce.\p"
+	.string "He's talented, but needs someone\n"
+	.string "to push him to reach his potential.\p"
 	.string "Well, I had better get going.\n"
 	.string "See you again, {PLAYER}{KUN}!$"
 

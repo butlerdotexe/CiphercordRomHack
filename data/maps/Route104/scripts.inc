@@ -1096,18 +1096,18 @@ Route104_Text_TrainerTipsDoubleBattles: @ 81EDAEF
 	.string "Watch how Pokémon are lined up.$"
 
 Route104_Text_MayWeShouldRegister: @ 81EDBFF
-	.string "May: Oh, hi, {PLAYER}{KUN}!\p"
+	.string "Sauce: Oh, hey, {PLAYER}{KUN}!\p"
 	.string "Devon upgraded your PokéNav with\n"
 	.string "the Match Call system, huh?\p"
 	.string "We should register each other so we\n"
 	.string "can get in contact anytime.$"
 
 Route104_Text_RegisteredMay: @ 81EDC8F
-	.string "{PLAYER} registered May\n"
+	.string "{PLAYER} registered Sauce\n"
 	.string "in the PokéNav.$"
 
 Route104_Text_MayHowsYourPokedex: @ 81EDCB1
-	.string "May: Oh, by the way, {PLAYER}{KUN},\n"
+	.string "Sauce: Oh, by the way, {PLAYER}{KUN},\n"
 	.string "how's your Pokédex coming along?$"
 
 Route104_Text_MayMinesDecentLetsBattle: @ 81EDCED
@@ -1116,44 +1116,40 @@ Route104_Text_MayMinesDecentLetsBattle: @ 81EDCED
 	.string "How about a little battle?$"
 
 Route104_Text_MayHaventRaisedPokemon: @ 81EDD2A
-	.string "May: Oh, what's the matter?\p"
+	.string "Sauce: Oh, what's the matter?\p"
 	.string "Haven't you caught or raised your\n"
 	.string "Pokémon very much?\p"
-	.string "That's not very good for a Trainer!$"
+	.string "Damn bro, thought you were better!$"
 
 Route104_Text_MayLetsBattle: @ 81EDD9F
-	.string "May: So, what do you think?\n"
+	.string "Sauce: So, what do you think?\n"
 	.string "How about a little battle here?$"
 
 Route104_Text_MayIntro: @ 81EDDDB
-	.string "May: You just became a Trainer,\n"
+	.string "Sauce: You just became a Trainer,\n"
 	.string "{PLAYER}{KUN}. I'm not going to lose!$"
 
 Route104_Text_MayDefeat: @ 81EDE18
-	.string "Yikes!\n"
+	.string "Damn!\n"
 	.string "You're better than I expected!$"
 
 Route104_Text_MayPostBattle: @ 81EDE3E
-	.string "May: I can tell you've gotten pretty\n"
-	.string "good with the way you handle Pokémon.\p"
-	.string "But instead of only making them\n"
-	.string "battle, you should be like Mr. Briney.\p"
-	.string "It's important to become friends with\n"
-	.string "Pokémon, too.$"
+	.string "Sauce: I can tell you've gotten pretty\n"
+	.string "good with the way you handle Pokémon.$"
 
 Route104_Text_BrendanWeShouldRegister: @ 81EDF04
-	.string "Brendan: Oh, hey, {PLAYER}!\p"
-	.string "Cool, you had Devon install the Match\n"
-	.string "Call system on your PokéNav!\p"
-	.string "Let's register each other in our\n"
-	.string "PokéNavs so we can keep in touch.$"
+	.string "Sauce: Oh, hey, {PLAYER}{KUN}!\p"
+	.string "Devon upgraded your PokéNav with\n"
+	.string "the Match Call system, huh?\p"
+	.string "We should register each other so we\n"
+	.string "can get in contact anytime.$"
 
 Route104_Text_RegisteredBrendan: @ 81EDFA0
-	.string "{PLAYER} registered Brendan\n"
+	.string "{PLAYER} registered Sauce\n"
 	.string "in the PokéNav.$"
 
 Route104_Text_BrendanHowsYourPokedex: @ 81EDFC6
-	.string "Brendan: {PLAYER}, how's your Pokédex?\n"
+	.string "Sauce: {PLAYER}, how's your Pokédex?\n"
 	.string "Have you filled in any pages yet?$"
 
 Route104_Text_BrendanDoingGreatLetsBattle: @ 81EE009
@@ -1162,15 +1158,15 @@ Route104_Text_BrendanDoingGreatLetsBattle: @ 81EE009
 	.string "a battle?$"
 
 Route104_Text_BrendanNoConfidence: @ 81EE04D
-	.string "Brendan: What's the matter? Don't have\n"
+	.string "Sauce: What's the matter? Don't have\n"
 	.string "any confidence in your Pokémon?$"
 
 Route104_Text_BrendanLetsBattle: @ 81EE094
-	.string "Brendan: What's up?\n"
+	.string "Sauce: What's up?\n"
 	.string "Want to have a battle with me?$"
 
 Route104_Text_BrendanIntro: @ 81EE0C7
-	.string "Brendan: I know you just became\n"
+	.string "Sauce: I know you just became\n"
 	.string "a Trainer, but I won't go easy!$"
 
 Route104_Text_BrendanDefeat: @ 81EE107
@@ -1178,9 +1174,5 @@ Route104_Text_BrendanDefeat: @ 81EE107
 	.string "You're pretty good.$"
 
 Route104_Text_BrendanPostBattle: @ 81EE120
-	.string "Brendan: You've gotten pretty decent\n"
-	.string "at handling Pokémon.\p"
-	.string "But, you know, you shouldn't just be\n"
-	.string "making Pokémon battle.\p"
-	.string "Like Mr. Briney, it's important to\n"
-	.string "become friends with your Pokémon.$"
+	.string "Sauce: You've gotten pretty decent\n"
+	.string "at handling Pokémon.$"

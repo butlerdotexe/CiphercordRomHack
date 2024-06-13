@@ -545,79 +545,65 @@ MtChimney_EventScript_SawyerRematch:: @ 822F253
 	end
 
 MtChimney_Text_MeteoriteWillActivateVolcano: @ 822F26A
-	.string "The power contained in the Meteorite…\p"
-	.string "By amplifying its power with this\n"
-	.string "machine, Mt. Chimney's volcanic\l"
-	.string "activity will instantly intensify…\p"
-	.string "Its energy will grow deep inside\n"
-	.string "the crater and…\l"
-	.string "Fufufu…$"
+	.string "If that nerd is right, this meteorite\n"
+	.string "and this machine will cause a lot of\l"
+	.string "chaos…\p"
+	.string "Let's see what this thing can do.$"
 
 MtChimney_Text_MaxieIntro: @ 822F32E
-	.string "Maxie: Hm?\n"
-	.string "Who are you?\p"
+	.string "Fallen: Huh?\n"
+	.string "Who the hell are you?\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
-	.string "I'd heard Archie bemoaning a child\n"
-	.string "who's been meddling in Team Aqua's\l"
-	.string "affairs.\p"
-	.string "It must be you he meant.\p"
-	.string "Humph! So you're thinking of\n"
-	.string "interfering with us, Team Magma?\p"
-	.string "Now you listen.\n"
-	.string "Long ago, living things used the\l"
-	.string "land to live and grow.\p"
-	.string "That is why land is all important!\n"
-	.string "It is the cradle of all!\p"
-	.string "That is why Team Magma is dedicated\n"
-	.string "to the expansion of the land mass.\p"
-	.string "It is for further advancement of\n"
-	.string "humankind and Pokémon!\p"
-	.string "And for that, we need the power of\n"
-	.string "what sleeps within this mountain…\p"
-	.string "Oh! There was no need for you to\n"
-	.string "learn that much.\p"
-	.string "But, no matter!\n"
-	.string "I'll teach you the consequences of\l"
-	.string "meddling in our grand design!$"
+	.string "Oh you're the kid who's been giving\n"
+	.string "Rosa and Team Stall hell?\p"
+	.string "Nice!\p"
+	.string "… … … … … …\n"
+	.string "… … … … … …\p"
+	.string "You're here to stop me?\p"
+	.string "Do you know who I am?\p"
+	.string "Looks like I'll have to sac the\n"
+	.string "shit out of you to remind you.\p"
+	.string "Try to make this a little interesting\n"
+	.string "for me, will you?$"
 
 MtChimney_Text_MaxieDefeat: @ 822F5CF
 	.string "What?!\p"
-	.string "I, Maxie, was caught off guard?!$"
+	.string "How could YOU possibly have won?$"
 
 MtChimney_Text_MaxieYouHaventSeenLastOfMagma: @ 822F5F7
-	.string "Maxie: But, enough.\n"
-	.string "I will back off this time.\p"
-	.string "But don't think that this is the last\n"
-	.string "you've seen of Team Magma.\p"
-	.string "Fufufu…\p"
-	.string "Even without the Meteorite, if we\n"
-	.string "obtain that Orb… Fufufu…$"
+	.string "Fallen: Well, everyone gets lucky\n"
+	.string "every once in a while.\p"
+	.string "I'm still gonna push this button and\n"
+	.string "see this shit explode though.\p"
+	.string "Click!..."
+	.string "… … … … … …\n"
+	.string "… … … … … …\p"
+	.string "What, nothing? Damn nerd was wrong.\n"
+	.string "Guess I got unlucky twice today.$"
 
 MtChimney_Text_TabithaIntro: @ 822F6AA
-	.string "Hehehe!\p"
-	.string "So you've come all the way here!\p"
-	.string "But you're too late!\n"
-	.string "Courtney's already delivered the\l"
-	.string "Meteorite from Meteor Falls to\l"
-	.string "the Boss!$"
+	.string "Oh uh hi.\p"
+	.string "I'm Hochweisse, but you can call\n"
+	.string "me Hoch.\p"
+	.string "The boss is working on something so\n"
+	.string "I've gotta hold you here for a sec.\p"
+	.string "Nothing personal.$"
 
 MtChimney_Text_TabithaDefeat: @ 822F72C
-	.string "Hehehe…\p"
-	.string "Even though I've lost, if our leader\n"
-	.string "awakens that thing…$"
+	.string "Wait did I just try to stall you…\p"
+	.string "I feel weird about this plan…$"
 
 MtChimney_Text_TabithaPostBattle: @ 822F76D
-	.string "Boss, hurry!\n"
-	.string "Give it the Meteorite's energy!\p"
-	.string "Hehehe…$"
+	.string "We are Team Aggro, but I was asked\n"
+	.string "to stall whoever comes up here…$"
 
 MtChimney_Text_Grunt2Intro: @ 822F7A2
-	.string "We of Team Magma are working hard for\n"
+	.string "We of Team Aggro are working hard for\n"
 	.string "everyone's sake.\p"
-	.string "Like, if that thing's power made more\n"
-	.string "land, there'd be more places to live.\p"
-	.string "Everyone'd be happy!$"
+	.string "Like, imagine if every Pokémon battle\n"
+	.string "lasted for hours!\p"
+	.string "That would suck!$"
 
 MtChimney_Text_Grunt2Defeat: @ 822F83A
 	.string "Hunh?\n"
@@ -630,20 +616,19 @@ MtChimney_Text_Grunt2PostBattle: @ 822F859
 	.string "in our way?$"
 
 MtChimney_Text_Grunt1Intro: @ 822F8B6
-	.string "If there were more land, I'd be able\n"
-	.string "to get a big house of my own!\p"
-	.string "I'm going to build it on hardened lava!$"
+	.string "The boss is looking to cause chaos\n"
+	.string "and enforce a rapid style of battle!\p"
+	.string "…How are they related? Shut up!$"
 
 MtChimney_Text_Grunt1Defeat: @ 822F921
-	.string "My dream of a big house…$"
+	.string "You know, now that I think about it…$"
 
 MtChimney_Text_Grunt1PostBattle: @ 822F93A
-	.string "A kid like you, you ought to be\n"
-	.string "splashing about in the waves!$"
+	.string "It doesn't really make sense…$"
 
 MtChimney_Text_TeamAquaAlwaysMessingWithPlans: @ 822F978
-	.string "That annoying Team Aqua…\n"
-	.string "They always mess with our plans!$"
+	.string "That annoying Team Stall…\n"
+	.string "They always take so long on their turn!$"
 
 MtChimney_Text_MeteoritesPackAmazingPower: @ 822F9B2
 	.string "Meteorites pack amazing power!$"
@@ -654,8 +639,8 @@ MtChimney_Text_YouBetterNotMessWithUs: @ 822F9D1
 	.string "for the benefit of everyone!$"
 
 MtChimney_Text_AquasNameSimilar: @ 822FA2F
-	.string "We're Team Magma!\p"
-	.string "They're Team Aqua!\p"
+	.string "We're Team Aggro!\p"
+	.string "They're Team Stall!\p"
 	.string "It totally annoys me that they'd\n"
 	.string "use a name like ours!$"
 
@@ -670,45 +655,47 @@ MtChimney_Text_Bufoh: @ 822FACB
 	.string "Bufoh!$"
 
 MtChimney_Text_ArchieGoStopTeamMagma: @ 822FAD2
-	.string "Archie: Grr, {PLAYER}!\n"
-	.string "I should've guessed you'd show up!\p"
-	.string "See for yourself what the fanatics\n"
-	.string "of Team Magma are up to!\p"
-	.string "They're trying to inject the stolen\n"
-	.string "Meteorite's power into the volcano!\p"
-	.string "Doing something like that will cause\n"
-	.string "the volcano's eruption!$"
+	.string "Rosa: {PLAYER}!\n"
+	.string "How did it take you even longer than\l"
+	.string "us, Team Stall, to show up??\n"
+	.string "Whatever, do you see what I mean\n"
+	.string "about these guys?\p"
+	.string "Their leader is going to use the\p"
+	.string "Meteorite to cause the volcano\l"
+	.string "to errupt!$"
 
 MtChimney_Text_ArchieIHaveMyHandsFull: @ 822FBC7
-	.string "Archie: Grrr…\p"
-	.string "I want to stop that Maxie,\n"
-	.string "but I can't!\p"
-	.string "Not when I have my hands full battling\n"
-	.string "three opponents at once!$"
+	.string "Rosa: I would stop Fallen myself,\n"
+	.string "but three of them rushed me!\p"
+	.string "You go ahead! I need to figure out\n"
+	.string "what move I'm going to use…\p"
+	.string "…Why should you help me? Bro I know\n"
+	.string "we stole some stuff, but these guys\l"
+	.string "are straight up committing terrorism\l"
+	.string "right now!$"
 
 MtChimney_Text_ArchieThankYou: @ 822FC3D
-	.string "Archie: {PLAYER}!\n"
-	.string "Thank you!\p"
-	.string "With your help, we thwarted Team\n"
-	.string "Magma's destructive plan!\p"
-	.string "But… You…\n"
+	.string "Rosa: {PLAYER}!\n"
+	.string "Nice work!\p"
+	.string "But uh…\n"
 	.string "Whose side are you on?\p"
-	.string "Ah, it doesn't matter.\p"
-	.string "We will remain vigilant and keep up\n"
-	.string "our pursuit of Team Magma.\p"
+	.string "Ah well, doesn't really matter.\p"
+	.string "Good job taking out those Team Aggro\n"
+	.string "tools.\p"
 	.string "{PLAYER}, we shall meet again!$"
 
 MtChimney_Text_MagmaOutnumbersUs: @ 822FD1F
-	.string "Darn… Team Magma outnumbers us!\n"
-	.string "We can't keep up with them!$"
+	.string "Darn… Team Aggro outnumbers us!\n"
+	.string "And why do they keep yelling\l"
+	.string "'Sac him! Sac him!'$"
 
 MtChimney_Text_LessHabitatForWaterPokemon: @ 822FD5B
-	.string "If they expand the land, there'll be\n"
-	.string "less habitats for Water Pokémon!$"
+	.string "If they have their way, there won't\n"
+	.string "be any thinking in battles!$"
 
 MtChimney_Text_MagmasNameSimilar: @ 822FDA1
-	.string "We're Team Aqua!\p"
-	.string "They're Team Magma!\p"
+	.string "We're Team Stall!\p"
+	.string "They're Team Aggro!\p"
 	.string "It burns me up that they'd use such\n"
 	.string "a confusing name!$"
 

@@ -393,15 +393,15 @@ OldaleTown_Text_FinishedSketchingFootprints: @ 81E93F8
 	.string "own footprints…$"
 
 OldaleTown_Text_MayLetsGoBack: @ 81E9462
-	.string "May: {PLAYER}{KUN}!\n"
+	.string "Sauce: {PLAYER}{KUN}!\n"
 	.string "Over here!\l"
-	.string "Let's hurry home!$"
+	.string "Let's get moving!$"
 
 OldaleTown_Text_BrendanLetsGoBack: @ 81E948A
-	.string "Brendan: I'm heading back to my dad's\n"
-	.string "Lab now.\l"
-	.string "{PLAYER}, you should hustle back, too.$"
-
+	.string "Sauce: {PLAYER}{KUN}!\n"
+	.string "Over here!\l"
+	.string "Let's get moving!$"
+	
 OldaleTown_Text_CitySign: @ 81E94DA
 	.string "Oldale Town\n"
 	.string "“Where things start off scarce.”$"

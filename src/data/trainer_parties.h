@@ -7291,7 +7291,7 @@ static const struct TrainerMonItemCustomMoves sParty_Kirk[] = {
     },
     {
     .lvl = -1,
-    .species = SPECIES_ZEBSTRIKA,
+    .species = SPECIES_LURANTIS,
     .spread = SPREAD_31_IV_0_EV,
     .moves = MOVE_PETAL_BLIZZARD, MOVE_X_SCISSOR, MOVE_NIGHT_SLASH, MOVE_GROWTH
     }

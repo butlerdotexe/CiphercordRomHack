@@ -49,7 +49,7 @@
       "movement_range_x": 5,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "0",
+      "trainer_sight_or_berry_tree_id": "5",
       "script": "Route124_EventScript_Spencer",
       "flag": "0"
     },
@@ -62,7 +62,7 @@
       "movement_range_x": 5,
       "movement_range_y": 3,
       "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "0",
+      "trainer_sight_or_berry_tree_id": "5",
       "script": "Route124_EventScript_Roland",
       "flag": "0"
     },
@@ -88,7 +88,7 @@
       "movement_range_x": 6,
       "movement_range_y": 8,
       "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "0",
+      "trainer_sight_or_berry_tree_id": "4",
       "script": "Route124_EventScript_Grace",
       "flag": "0"
     },
@@ -190,7 +190,7 @@
       "y": 48,
       "elevation": 3,
       "dest_map": "MAP_ROUTE124_DIVING_TREASURE_HUNTERS_HOUSE",
-      "dest_warp_id": 0
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [

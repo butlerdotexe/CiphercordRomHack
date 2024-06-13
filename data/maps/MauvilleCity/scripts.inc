@@ -492,64 +492,63 @@ MauvilleCity_EventScript_RegisterWallyCall:: @ 81DF7BA
 	end
 
 MauvilleCity_Text_UncleHesTooPeppy: @ 81DF7DC
-	.string "Uncle: It's because of Pokémon that\n"
-	.string "this boy's got more pep, I suppose…\l"
-	.string "But he's become a bit too peppy…$"
+	.string "Uncle: Basil how many times have\n"
+	.string "I told you, you're not ready to\l"
+	.string "face this Gym.$"
 
 MauvilleCity_Text_WallyWantToChallengeGym: @ 81DF845
-	.string "Wally: Aww, Uncle, please?\p"
-	.string "I want to challenge this Gym and see\n"
-	.string "how much better I've become.\p"
-	.string "Please? May I, please?$"
+	.string "Basil: Aww come on, Uncle.\p"
+	.string "I know my Maractus can overcome\n"
+	.string "any challenge.\p"
+	.string "Just let me try.$"
 
 MauvilleCity_Text_UncleYourePushingIt: @ 81DF8B9
-	.string "Uncle: Now hold on, Wally.\p"
-	.string "Since you started living with Pokémon,\n"
-	.string "you have grown quite a lot stronger.\p"
-	.string "But don't you think you're pushing it\n"
-	.string "to suddenly challenge a Gym?$"
+	.string "Uncle: Look, Basil.\p"
+	.string "Its great you beleive in your partner,\n"
+	.string "but its simply not what you think it is.\p"
+	.string "He is pretty strong, but in a Gym like\n"
+	.string "that... it's too much.$"
 
 MauvilleCity_Text_WallyWeCanBeatAnyone: @ 81DF963
-	.string "Wally: I'm not pushing it.\p"
-	.string "If I combine forces with Kirlia,\n"
-	.string "we can beat anyone!$"
+	.string "Basil: You just don't believe in my\n"
+	.string "Maractus's power!\p"
+	.string "We can beat anyone!$"
 
 MauvilleCity_Text_WallyWillYouBattleMe: @ 81DF9B2
-	.string "Wally: Oh! Hi, {PLAYER}!\p"
-	.string "I've gotten a lot stronger since\n"
-	.string "we met.\p"
-	.string "{PLAYER}, I want you and my Uncle to\n"
-	.string "understand that.\p"
-	.string "{PLAYER}, please, will you have\n"
-	.string "a battle with me?$"
+	.string "Basil: Oh! {PLAYER}!\p"
+	.string "Perfect timing- I need to ask you a\n"
+	.string "favor.\p"
+	.string "I want you and my Uncle to see how\n"
+	.string "strong Maractus and I really are.\p"
+	.string "{PLAYER}, will you battle with me?$"
 
 MauvilleCity_Text_WallyMyUncleWontKnowImStrong: @ 81DFA4A
-	.string "Wally: Oh… If you won't battle me,\n"
-	.string "{PLAYER}, my Uncle won't know that I've\l"
-	.string "become really strong.$"
+	.string "Basil: Aw… If you won't battle me,\n"
+	.string "{PLAYER}, my Uncle won't know that we\l"
+	.string "can do this.$"
 
 MauvilleCity_Text_UncleCanYouBattleWally: @ 81DFAA5
 	.string "Uncle: {PLAYER}{KUN}, was it?\n"
-	.string "On Wally's behalf, can I ask you to\l"
+	.string "On Basil's behalf, can I ask you to\l"
 	.string "battle with him just this once?\p"
-	.string "I don't think he's going to listen to\n"
-	.string "any reason the way he is now.$"
+	.string "I think you can show him that he's\n"
+	.string "being too stubborn right now.$"
 
 MauvilleCity_Text_WallyPleaseBattleMe: @ 81DFB42
-	.string "Wally: {PLAYER}, please!\n"
-	.string "Battle with me, please.$"
+	.string "Basil.: {PLAYER}, please!\n"
+	.string "Just this one battle.$"
 
 MauvilleCity_Text_WallyHereICome: @ 81DFB6D
-	.string "Wally: {PLAYER}, thank you.\p"
+	.string "Basil: {PLAYER}, thank you.\p"
 	.string "Okay… Here I come!$"
 
 MauvilleCity_Text_WallyDefeat: @ 81DFB96
-	.string "Wally: … … … … … … …\p"
+	.string "Basil: … … … … … … …\p"
 	.string "… … … … … … … …\p"
-	.string "I lost…$"
+	.string "We lost…$"
 
 MauvilleCity_Text_WallyIllGoBackToVerdanturf: @ 81DFBC3
-	.string "Wally: Uncle…\n"
+	.string "Basil: Uncle…\n"
 	.string "I'll go back to Verdanturf…$"
 
 MauvilleCity_Text_ThankYouNotEnoughToBattle: @ 81DFBED
@@ -560,27 +559,27 @@ MauvilleCity_Text_ThankYouNotEnoughToBattle: @ 81DFBED
 	.string "being a real Trainer is about.$"
 
 MauvilleCity_Text_UncleNoNeedToBeDown: @ 81DFC8A
-	.string "Uncle: Wally, there's no need to be so\n"
+	.string "Uncle: Basil, there's no need to be so\n"
 	.string "down on yourself.\p"
-	.string "Why, what's keeping you from becoming\n"
-	.string "stronger and stronger?\p"
+	.string "It's great that you have a partner,\n"
+	.string "but he might not be suited for this.\p"
 	.string "Come on, let's go home.\n"
 	.string "Everyone's waiting for you.$"
 
 MauvilleCity_Text_UncleVisitUsSometime: @ 81DFD34
 	.string "Uncle: {PLAYER}{KUN}, it just dawned on me\n"
 	.string "that you must be the Trainer who kept\l"
-	.string "an eye out for Wally when he caught\l"
+	.string "an eye out for Basil when he caught\l"
 	.string "his Pokémon.\p"
 	.string "Why don't you visit us in Verdanturf\n"
 	.string "sometime?\l"
-	.string "I'm sure Wally would enjoy it.$"
+	.string "I'm sure Basil would enjoy it.$"
 
 
 MauvilleCity_Text_WallyPokenavCall: @ 81DFDFB
 	.string "… … … … … …\n"
 	.string "… … … … … Beep!\p"
-	.string "Wally: Oh, hello, {PLAYER}!\p"
+	.string "Basil: Oh, hi, {PLAYER}!\p"
 	.string "I just wanted to tell you that\n"
 	.string "my uncle bought me a PokéNav!\p"
 	.string "Now I can get in touch with you\n"
@@ -589,16 +588,16 @@ MauvilleCity_Text_WallyPokenavCall: @ 81DFDFB
 	.string "… … … … … Click!$"
 
 MauvilleCity_Text_RegisteredWally: @ 81DFEB4
-	.string "Registered Wally\n"
+	.string "Registered Basil\n"
 	.string "in the PokéNav.$"
 
 MauvilleCity_Text_ScottYouDidntHoldBack: @ 81DFED5
 	.string "Scott: Hehe…\n"
 	.string "I was watching that match!\p"
-	.string "You're friends with that boy Wally,\n"
+	.string "You're friends with that boy Basil,\n"
 	.string "aren't you?\p"
 	.string "But you didn't hold anything back\n"
-	.string "and beat him impressively.\p"
+	.string "and crushed his hopes and dreams!\p"
 	.string "Yeah! That's what a real Pokémon\n"
 	.string "battle is all about!\p"
 	.string "I idolize Trainers like that!\p"
@@ -606,40 +605,34 @@ MauvilleCity_Text_ScottYouDidntHoldBack: @ 81DFED5
 	.string "I'll be cheering for you!$"
 
 MauvilleCity_Text_WattsonNeedFavorTakeKey: @ 81DFFE4
-	.string "Wattson: Oh, {PLAYER}{KUN}!\n"
-	.string "You look like you have a lot of zip!\l"
-	.string "That's a good thing, wahahahaha!\p"
-	.string "Fine! I've decided!\n"
-	.string "I need a favor, {PLAYER}{KUN}!\p"
-	.string "Mauville City has an underground\n"
+	.string "Semi: Oh, {PLAYER}{KUN}!\n"
+	.string "Perfect, I was just looking for someone\l"
+	.string "to pawn some work onto.\p"
+	.string "See, Mauville City has an underground\n"
 	.string "sector called New Mauville.\p"
 	.string "{PLAYER}{KUN}, I'd like you to go there and\n"
 	.string "switch off the Generator.\p"
-	.string "The Generator has been running a bit\n"
-	.string "haywire. It's getting unsafe.\p"
-	.string "Here, this is the Key to get into\n"
-	.string "New Mauville.$"
+	.string "Its been acting up lately, and needs to be\n"
+	.string "reset before it explodes or something.\p"
+	.string "Here, this is the Key to get in.$"
 
 MauvilleCity_Text_WattsonWontBeChallenge: @ 81E0154
-	.string "Wattson: Don't you worry about it.\n"
-	.string "It won't be a challenge to you.\p"
-	.string "The entrance to New Mauville is just\n"
-	.string "a short Surf away from Route 110.\p"
-	.string "That's it, then, you have my trust!\n"
-	.string "Wahahahaha!$"
+	.string "Semi: ...What? Is it dangerous\n"
+	.string "Yeah probably.\p"
+	.string "Anyway, the entrance is just a short\n"
+	.string "Surf away from Route 110.\p"
+	.string "Good luck!$"
 
 MauvilleCity_Text_WattsonThanksTakeTM: @ 81E020E
-	.string "Wattson: Wahahahaha!\p"
-	.string "I knew it, {PLAYER}{KUN}! I knew I'd made\n"
-	.string "the right choice asking you!\p"
-	.string "This is my thanks--a TM containing\n"
-	.string "Thunderbolt!\p"
-	.string "Go on, you've earned it!$"
+	.string "Semi: Oh you actually did it?\p"
+	.string "I mean uh, I knew you could do it\n"
+	.string "never doubted you for a second.\p"
+	.string "Here if you don't tell anyone about this,\n"
+	.string "you can have this--Thunderbolt!$"
 
 MauvilleCity_Text_WattsonYoungTakeCharge: @ 81E02AA
-	.string "Wattson: Wahahahaha!\p"
-	.string "It pleases me to no end to see\n"
-	.string "the young step up and take charge!$"
+	.string "Semi: Alright, we're done here.\p"
+	.string "Good luck with the rest of your adventure.$"
 
 MauvilleCity_Text_NurseHurtMonBackToHealth: @ 81E0301
 	.string "You know, it's cool to have Pokémon\n"
@@ -668,8 +661,8 @@ MauvilleCity_Text_CitySign: @ 81E0485
 
 MauvilleCity_Text_GymSign: @ 81E04B7
 	.string "Mauville City Pokémon Gym\n"
-	.string "Leader: Wattson\l"
-	.string "“The cheerfully electrifying man!”$"
+	.string "Leader: Semi\l"
+	.string "“Basking in the sun.”$"
 
 MauvilleCity_Text_BikeShopSign: @ 81E0504
 	.string "“Ride in gravel and shake up your\n"

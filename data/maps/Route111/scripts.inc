@@ -723,65 +723,66 @@ Route111_Text_ThanksPlayer:
 	.string "See you around, {PLAYER}!$"
 
 Route111_Text_BattleOurFamily: @ 81F1475
-	.string "Hello! I take it you're a traveler.\p"
-	.string "How's this? What do you say to taking\n"
-	.string "on our family of four in a series of\l"
-	.string "Pokémon battles?$"
+	.string "You're not from around here are you?\p"
+	.string "Well welcome! We're the Gardevoir fan-\n"
+	.string "club. We think Gardevoir is the best,\l"
+	.string "and all use her in different ways/p"
+	.string "Want to experience the power of Gardevoir?$"
 
 Route111_Text_IsThatSo: @ 81F14F5
-	.string "Is that so?\n"
-	.string "Drop in, if you change your mind!$"
+	.string "...Wait really? You said no?\n"
+	.string "Well, I guess that's fine.$"
 
 Route111_Text_VictorIntro: @ 81F1523
-	.string "That's the spirit! I like you!$"
+	.string "Now we're talking! Let's go!$"
 
 Route111_Text_VictorDefeat: @ 81F1542
-	.string "Aiyah!\n"
-	.string "You're a lot tougher than I expected!$"
+	.string "Oof, not bad.\n"
+	.string "But that's not all Gardevoir can do!$"
 
 Route111_Text_VictorPostBattle: @ 81F156F
-	.string "Hey, all!\n"
+	.string "Hey everyone!\n"
 	.string "I've found a pretty strong Trainer!$"
 
 Route111_Text_VictoriaIntro: @ 81F159D
-	.string "Oh, my goodness! Aren't you young?\p"
-	.string "You must be quite the Trainer to beat\n"
-	.string "my husband, though.\p"
-	.string "It's my turn to battle now!$"
+	.string "So you beat Nolano, hmm?\p"
+	.string "Not bad, but my Gardevoir is a cut\n"
+	.string "above his.\p"
+	.string "Let me show you!$"
 
 Route111_Text_VictoriaDefeat: @ 81F1616
-	.string "Oh, gosh!\n"
-	.string "I can't get over how strong you are!$"
+	.string "I'm stunned.\n"
+	.string "But well played!$"
 
 Route111_Text_VictoriaPostBattle: @ 81F1645
 	.string "There's a strong Trainer here!\n"
 	.string "This one's really strong!$"
 
 Route111_Text_ViviIntro: @ 81F167E
-	.string "You're stronger than Mommy? Wow!\p"
-	.string "But I'm strong, too!\n"
-	.string "Really! Honestly!$"
+	.string "The only thing stronger than my\n"
+	.string "dedication to Gardevoir is my \l"
+	.string "dedication to Lissa./p"
+	.string "And unfortunately for you, Lissa\n"
+	.string "isn't in this game!$"
 
 Route111_Text_ViviDefeat: @ 81F16C6
 	.string "Huh? Did I just lose?$"
 
 Route111_Text_ViviPostBattle: @ 81F16DC
-	.string "This stinks…\p"
-	.string "…Snivel… Grandma!$"
+	.string "Lissa wouldn't have lost…\p"
+	.string "Alright, go get 'em Reik!$"
 
 Route111_Text_VickyIntro: @ 81F16FB
-	.string "How dare you make my granddaughter\n"
-	.string "cry!\p"
-	.string "For that, I'm going to smack you!\n"
-	.string "Prepare to lose!$"
+	.string "Aight, I'm coming out of retirement\n"
+	.string "for this, so you better be good.$"
 
 Route111_Text_VickyDefeat: @ 81F1756
-	.string "Kwah! You are strong…\n"
-	.string "My granddaughter was right…$"
+	.string "Yeah, you got me.$"
 
 Route111_Text_VickyPostBattle: @ 81F1788
-	.string "If you're not in any hurry,\n"
-	.string "visit with us awhile.$"
+	.string "It seems like you know Gardevoir\n"
+	.string "well enough to defeat her./p"
+	.string "You should come in and join us.$"
 
 Route111_Text_ToughToKeepWinningUpTheRanks: @ 81F17BA
 	.string "If you don't raise your Pokémon some\n"
@@ -792,7 +793,7 @@ Route111_Text_ToughToKeepWinningUpTheRanks: @ 81F17BA
 	.string "any Gym Leader.$"
 
 Route111_Text_WinstrateFamilyDestroyedMe: @ 81F186E
-	.string "I challenged the Winstrate family,\n"
+	.string "I challenged the Gardevoir fans,\n"
 	.string "but four matches in a row is tough\l"
 	.string "going… They destroyed me.$"
 

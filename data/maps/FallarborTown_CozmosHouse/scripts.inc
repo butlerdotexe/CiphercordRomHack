@@ -191,7 +191,7 @@ FallarborTown_CozmosHouse_EventScript_CozmoIsHappy:: @ 8200FE4
 FallarborTown_CozmosHouse_Text_MeteoriteWillNeverBeMineNow: @ 8200FEE
 	.string "Prof. Cozmo: Oh…\n"
 	.string "I never should have let myself be\l"
-	.string "conned into telling Team Magma where\l"
+	.string "conned into telling Team Aggro where\l"
 	.string "you can find Meteorites…\p"
 	.string "That Meteorite from Meteor Falls…\n"
 	.string "It's never going to be mine now…$"

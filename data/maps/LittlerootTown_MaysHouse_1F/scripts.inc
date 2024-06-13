@@ -417,13 +417,13 @@ RivalsHouse_1F_Text_LikeChildLikeFather: @ 81F8CA5
 	.string "scrabbling about in grassy places.$"
 
 RivalsHouse_1F_Text_TooBusyToNoticeVisit: @ 81F8D37
-	.string "That {RIVAL}!\p"
-	.string "I guess our child is too busy with\n"
+	.string "That Sauce!\p"
+	.string "I guess that child is too busy with\n"
 	.string "Pokémon to notice that you came\l"
 	.string "to visit, {PLAYER}{KUN}.$"
 
 RivalsHouse_1F_Text_WentOutToRoute103: @ 81F8D93
-	.string "Oh, {RIVAL} went out to Route 103\n"
+	.string "Oh, Sauce went out to Route 103\n"
 	.string "just a little while ago.\p"
 	.string "Like father, like child.\n"
 	.string "{RIVAL} can't stay quietly at home.$"

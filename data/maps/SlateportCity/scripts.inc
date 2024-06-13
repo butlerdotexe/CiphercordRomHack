@@ -1067,17 +1067,17 @@ SlateportCity_EventScript_BerryCrushRankingsSign:: @ 81DD643
 	end
 
 SlateportCity_Text_WhoahLineSoLong:
-	.string "Whoah! This line's way too long,\n"
-	.string "dude! What's the deal?$"
+	.string "I know their name is team Stall but\n"
+	.string "dude. What is this line?$"
 
 SlateportCity_Text_LookingForBrawly:
 	.string "Oh, hey there!\p"
 	.string "Hmm? You're looking for the\n"
 	.string "Dewford Gym Leader?\p"
-	.string "That'd be me, Brawly!\n"
+	.string "Yeah that's me, Retrop.\n"
 	.string "I guess you want a battle, yeah?\p"
-	.string "Gnarly! I'll head back to the Gym.\n"
-	.string "You better be ready to make a splash!$"
+	.string "No prob, I'll head back to the Gym.\n"
+	.string "I'll see you there.$"
 
 SlateportCity_Text_EnergyGuruSellWhatYouNeed:
 	.string "I'm the Energy Guru! I'll go for it and\n"
@@ -1183,18 +1183,18 @@ SlateportCity_Text_QuitPushing: @ 81DDC4F
 	.string "This is the line, can't you see?$"
 
 SlateportCity_Text_AquaHasPolicy: @ 81DDC8A
-	.string "Team Aqua has a policy of\n"
-	.string "assembling and dispersing at\l"
-	.string "the operation site.$"
+	.string "Team Stall has a policy of\n"
+	.string "intentionally taking as long as possible\l"
+	.string "in any scenario.$"
 
 SlateportCity_Text_BossIsBrilliant: @ 81DDCD5
 	.string "Our Boss is brilliant.\p"
-	.string "What would he want to do with\n"
-	.string "a Museum now?$"
+	.string "Though I don't know why she cares\n"
+	.string "about this Museum.$"
 
 SlateportCity_Text_WhatsNewSchemeIWonder: @ 81DDD18
 	.string "What's the new scheme, I wonder?\p"
-	.string "Our Boss is scary when he's mad, so\n"
+	.string "Our Boss is scary when she's mad, so\n"
 	.string "I'd better not screw things up…$"
 
 SlateportCity_Text_ShouldTakeItAll: @ 81DDD7D
@@ -1343,15 +1343,11 @@ SlateportCity_Text_OhPlayerWeMadeDiscovery: @ 81DE64F
 	.string "that's said to have been long extinct.$"
 
 SlateportCity_Text_AquaWillAssumeControlOfSubmarine: @ 81DE724
-	.string "Fufufu…\n"
-	.string "Capt. Stern, I presume.\p"
-	.string "We of Team Aqua will assume\n"
+	.string "Capt. Stern, yeah?\n"
+	.string "We of Team Stall will assume\n"
 	.string "control of your submarine!\p"
-	.string "Your objections are meaningless!\n"
-	.string "We expect your total cooperation!\p"
-	.string "Fufufu…\n"
 	.string "Just watch and learn what Team\l"
-	.string "Aqua has planned!$"
+	.string "Stall has planned!$"
 
 SlateportCity_Text_SternWhatWasAllThat: @ 81DE7F7
 	.string "Capt. Stern: What was that all about?\p"
@@ -1486,7 +1482,7 @@ SlateportCity_Text_YouDroveTeamAquaAway: @ 81DF032
 	.string "I'm sure I met you somewhere before.\p"
 	.string "Have I introduced myself to you?\n"
 	.string "If not, my name's SCOTT.\p"
-	.string "I just saw Team Aqua run away from\n"
+	.string "I just saw Team Stall run away from\n"
 	.string "here like they were stung.\p"
 	.string "Let me guess--you drove them away?$"
 

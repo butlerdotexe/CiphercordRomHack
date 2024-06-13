@@ -758,8 +758,8 @@ LittlerootTown_ProfessorBirchsLab_Text_BirchIsntOneForDeskWork: @ 81FA641
 LittlerootTown_ProfessorBirchsLab_Text_BirchEnjoysRivalsHelpToo: @ 81FA6CE
 	.string "Prof. Foodies is studying the habitats\n"
 	.string "and distribution of Pokémon.\p"
-	.string "The Prof enjoys {RIVAL}'s help, too.\n"
-	.string "There's a lot of love there.$"
+	.string "The Prof enjoys Sauce's help, too.\n"
+	.string "He's a great help.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon: @ 81FA74D
 	.string "Prof. Foodies: So, {PLAYER}{KUN}.\p"

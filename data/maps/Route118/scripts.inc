@@ -351,8 +351,8 @@ Route118_Text_KarpBetterThanGyara:
 	.string "it's almost as good!$"
 
 Route118_Text_StevenQuestions: @ 81F40BE
-	.string "Steven: Hi, {PLAYER}{KUN}!\p"
-	.string "It's me, Steven!\n"
+	.string "Penta: Hi, {PLAYER}{KUN}!\p"
+	.string "It's me, Penta!\n"
 	.string "We met in the cave near Dewford.\p"
 	.string "Have you met many kinds of Pokémon\n"
 	.string "since I last saw you?\p"

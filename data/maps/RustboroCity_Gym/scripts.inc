@@ -354,87 +354,67 @@ RustboroCity_Gym_Text_GymGuidePostVictory: @ 82132E2
 	.string "That's got to feel awesome!$"
 
 RustboroCity_Gym_Text_JoshIntro: @ 82133E9
-	.string "Don't take us Gym Trainers lightly!\n"
-	.string "I'll show you why we're better!$"
+	.string "Squeak squeak$"
 
 RustboroCity_Gym_Text_JoshDefeat: @ 821342D
-	.string "You were too good for me…$"
+	.string "Squeak squeak…$"
 
 RustboroCity_Gym_Text_JoshPostBattle: @ 8213447
-	.string "You haven't seen anything of the Rock\n"
-	.string "type's terrifying power!$"
+	.string "Squeak…$"
 
 RustboroCity_Gym_Text_TommyIntro: @ 8213486
-	.string "If you can't beat me, you won't stand\n"
-	.string "a chance against Roxanne!$"
+	.string "Squeak squeak squeak!$"
 
 RustboroCity_Gym_Text_TommyDefeat: @ 82134C6
-	.string "Wow! You've got some potential!$"
+	.string "Squeak…$"
 
 RustboroCity_Gym_Text_TommyPostBattle: @ 82134E6
-	.string "Roxanne is stronger than me by\n"
-	.string "several times.\p"
-	.string "You'd better be on your guard!$"
+	.string "Squeak…$"
 
 RustboroCity_Gym_Text_MarcIntro: @ 8213533
-	.string "We might be in the middle of town,\n"
-	.string "but so what?\p"
-	.string "My Rock Pokémon need room to\n"
-	.string "rampage!$"
+	.string "Squeak squeak squeak!$"
 
 RustboroCity_Gym_Text_MarcDefeat: @ 8213589
-	.string "Oh, man oh man!\n"
-	.string "Our challenger is one feisty customer!$"
+	.string "Squeak…$"
 
 RustboroCity_Gym_Text_MarcPostBattle: @ 82135C0
-	.string "I have to hand it to our Leader.\p"
-	.string "It took smarts and sense for her to\n"
-	.string "pick the Rock type at her young age.$"
+	.string "Squeak…$"
 
 RustboroCity_Gym_Text_RoxanneIntro: @ 821362A
-	.string "Hello, I am Roxanne, the Rustboro\n"
+	.string "Hey there, I'm Spara, the Rustboro\n"
 	.string "Pokémon Gym Leader.\p"
-	.string "I became a Gym Leader so that I might\n"
-	.string "apply what I learned at the Pokémon\l"
-	.string "Trainer's School in battle.\p"
-	.string "Would you kindly demonstrate how you\n"
-	.string "battle, and with which Pokémon?$"
+	.string "Hope you had fun fighting my rats,\n"
+	.string "those guys can be a bit of a hand-\l"
+	.string "full.\p"
+	.string "Alright, enough sitting around,\n"
+	.string "let's do this.$"
 
 RustboroCity_Gym_Text_RoxanneDefeat: @ 821370B
-	.string "So…\n"
-	.string "I lost…\p"
-	.string "It seems that I still have much more\n"
-	.string "to learn…\p"
-	.string "I understand.\p"
-	.string "The Pokémon League's rules state\n"
-	.string "that Trainers are to be given this\l"
-	.string "if they defeat a Gym Leader.\p"
-	.string "Please accept the official Pokémon\n"
-	.string "League Stone Badge.$"
+	.string "Alright, not bad for a new trainer!\p"
+	.string "Welp, rules are rules, and beating me\n"
+	.string "means you've earned this-$"
 
 RustboroCity_Gym_Text_ReceivedStoneBadge: @ 82137EC
 	.string "{PLAYER} received the Stone Badge\n"
-	.string "from Roxanne.$"
+	.string "from Spara.$"
 
 RustboroCity_Gym_Text_StoneBadgeInfoTakeThis: @ 8213816
 	.string "The Stone Badge enables your Pokémon\n"
 	.string "to use the HM move Cut outside\l"
 	.string "of battle.\p"
-	.string "Please take this with you, too.$"
+	.string "You can take this, too.$"
 
 RustboroCity_Gym_Text_ExplainRockTomb: @ 82138B1
 	.string "That Technical Machine, TM39,\n"
 	.string "contains Rock Tomb.\p"
 	.string "It not only inflicts damage by dropping\n"
 	.string "rocks, it also lowers Speed.\p"
-	.string "If you use a TM, it instantly teaches\n"
-	.string "the move to a Pokémon.\p"
 	.string "You can use a TM as many times as you\n"
-	.string "want, so please try it out!$"
+	.string "want, so feel free to try stuff out.$"
 
 RustboroCity_Gym_Text_RoxannePostBattle: @ 82139A7
-	.string "Since you are so strong, you should\n"
-	.string "challenge other Gym Leaders.\p"
+	.string "You should go and challenge other\n"
+	.string "Gym Leaders.\p"
 	.string "By battling many Trainers, you should\n"
 	.string "learn many things.$"
 
@@ -449,8 +429,8 @@ RustboroCity_Gym_Text_GymStatueCertified: @ 8213A3B
 RustboroCity_Gym_Text_RoxanneRegisterCall: @ 8213A76
 	.string "… … … … … …\n"
 	.string "… … … … … Beep!\p"
-	.string "Roxanne: Oh, hello, {PLAYER}?\n"
-	.string "This is Roxanne of Rustboro City.\p"
+	.string "Spara: Oh, hello, {PLAYER}?\n"
+	.string "This is Spara of Rustboro City.\p"
 	.string "I heard from Brawly that you're\n"
 	.string "moving up through the ranks of\l"
 	.string "Trainers at an incredible clip.\p"
@@ -464,7 +444,7 @@ RustboroCity_Gym_Text_RoxanneRegisterCall: @ 8213A76
 	.string "… … … … … Click!$"
 
 RustboroCity_Gym_Text_RegisteredRoxanne: @ 8213C01
-	.string "Registered Gym Leader Roxanne\n"
+	.string "Registered Gym Leader Spara\n"
 	.string "in the PokéNav.$"
 
 RustboroCity_Gym_Text_RoxannePreRematch: @ 8213C2F

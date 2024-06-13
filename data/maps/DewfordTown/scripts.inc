@@ -637,8 +637,8 @@ DewfordTown_Text_TownSign: @ 81E9A0F
 
 DewfordTown_Text_GymSign: @ 81E9A3D
 	.string "Dewford Town Pokémon Gym\n"
-	.string "Leader: Brawly\l"
-	.string "“A big wave in fighting!”$"
+	.string "Leader: Retrop\l"
+	.string "“Which one is not Not Retrop?”$"
 
 DewfordTown_Text_HallSign: @ 81E9A7F
 	.string "Dewford Hall\n"
@@ -757,7 +757,7 @@ DewfordTown_Text_ReceivedEviolite:
 
 DewfordTown_Text_BrawlyInSlateport:
 	.string "Hey, Champ-to-be!\p"
-	.string "Brawly, the Gym Leader here, went\n"
+	.string "Retrop, the Gym Leader here, went\n"
 	.string "to Slateport City and hasn't returned.\p"
 	.string "If you're after a battle, you'll have\n"
 	.string "to go find him.$"

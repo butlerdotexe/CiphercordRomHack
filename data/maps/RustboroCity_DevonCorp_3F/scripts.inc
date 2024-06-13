@@ -213,7 +213,7 @@ RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor: @ 8212609
 	.string "Well, on the way, could you stop off in\n"
 	.string "Dewford Town?\p"
 	.string "I was hoping that you'd deliver a\n"
-	.string "Letter to Steven in Dewford.$"
+	.string "Letter to Penta in Dewford.$"
 
 RustboroCity_DevonCorp_3F_Text_MrStoneWantYouToHaveThis: @ 821277C
 	.string "Mr. Stone: Now, you should know that\n"
@@ -235,7 +235,7 @@ RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp: @ 8212837
 	.string "You can check the locations of\n"
 	.string "Dewford and Slateport easily!\p"
 	.string "By the way, I've heard that sinister\n"
-	.string "criminals--Magma and Aqua, I believe--\l"
+	.string "criminals- Aggro and Stall, I believe-\l"
 	.string "have been making trouble far and wide.\p"
 	.string "I think it would be best if you rested\n"
 	.string "up before you go on your way.$"
