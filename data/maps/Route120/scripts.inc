@@ -390,52 +390,44 @@ Route120_EventScript_Callie:: @ 81F5981
 	end
 
 Route120_Text_StevenGreeting: @ 81F5998
-	.string "Steven: Hm? {PLAYER}{KUN}, hi.\n"
-	.string "It's been a while.\p"
+	.string "Penta: Hm? {PLAYER}{KUN}, hi.\n"
+	.string "Long time no see, eh?\p"
 	.string "There's something here that you can't\n"
 	.string "see, right?\p"
-	.string "Now, if I were to use this device on\n"
-	.string "the invisible obstacle…\p"
-	.string "No, no. Rather than describing it,\n"
-	.string "I should just show you.\l"
-	.string "That would be more fun.\p"
+	.string "Here, I can make it visible.\p"
 	.string "{PLAYER}{KUN}, are your Pokémon ready for\n"
 	.string "battle?$"
 
 Route120_Text_StevenIllWaitHere: @ 81F5AAC
-	.string "Steven: No?\p"
-	.string "I'll wait here, so you can get ready.$"
+	.string "Penta: No?\p"
+	.string "Bruh.$"
 
 Route120_Text_StevenReadyForBattle: @ 81F5ADE
-	.string "Steven: {PLAYER}{KUN}, are your Pokémon\n"
+	.string "Penta: {PLAYER}{KUN}, are your Pokémon\n"
 	.string "ready for battle?$"
 
 Route120_Text_StevenShowMeYourPower: @ 81F5B0F
-	.string "Steven: {PLAYER}{KUN}, show me your true\n"
+	.string "Penta: {PLAYER}{KUN}, show me your true\n"
 	.string "power as a Trainer!$"
 
 Route120_Text_StevenUsedDevonScope: @ 81F5B43
-	.string "Steven used the Devon Scope.\p"
+	.string "Penta used the Devon Scope.\p"
 	.string "An invisible Pokémon became completely\n"
 	.string "visible!\p"
 	.string "The startled Pokémon attacked!$"
 
 Route120_Text_StevenGiveDevonScope: @ 81F5BAF
-	.string "Steven: I see…\n"
-	.string "Your battle style is intriguing.\p"
-	.string "Your Pokémon have obviously grown\n"
-	.string "since I first met you in Dewford.\p"
+	.string "Penta: I see…\n"
 	.string "I'd like you to have this\n"
 	.string "Devon Scope.\p"
 	.string "Who knows, there may be other\n"
 	.string "concealed Pokémon.$"
 
 Route120_Text_StevenGoodbye: @ 81F5C7B
-	.string "Steven: {PLAYER}{KUN}.\p"
-	.string "I enjoy seeing Pokémon and Trainers\n"
-	.string "who strive together.\p"
-	.string "I think you're doing great.\p"
-	.string "Well, let's meet again somewhere.$"
+	.string "Penta: {PLAYER}{KUN}.\n"
+	.string "You've got potential.\p"
+	.string "I look forward to seeing how far\n"
+	.string "you can go.$"
 
 Kecleon_Text_SomethingUnseeable: @ 81F5D00
 	.string "Something unseeable is in the way.$"

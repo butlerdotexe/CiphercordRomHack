@@ -414,11 +414,14 @@ MauvilleCity_Gym_Text_WattsonIntro: @ 820E602
 	.string "If you don't get a taste of reality\n"
 	.string "at the start, you get a big head.\p"
 	.string "Alright, enough chit chat.\n"
-	.string "Time for what you're really here for!$p"
+	.string "Time for what you're really here for!\p"
+	.string "BTW you're a coward if you bring Pelliper.$"
 
 MauvilleCity_Gym_Text_WattsonDefeat: @ 820E734
-	.string "Well well well!\n"
-	.string "Looks like you're really something huh.\p"
+	.string "See? Now that wasn't so bad.\p"
+	.string "If you can't get through a simple sun team,\n"
+	.string "then you aren't ready for the shenanigans\l"
+	.string "waiting for you.\p"
 	.string "Good game, you've earned this.$"
 
 MauvilleCity_Gym_Text_ReceivedDynamoBadge: @ 820E77F
@@ -426,8 +429,8 @@ MauvilleCity_Gym_Text_ReceivedDynamoBadge: @ 820E77F
 	.string "from Semi.$"
 
 MauvilleCity_Gym_Text_ExplainDynamoBadgeTakeThis: @ 820E7AA
-	.string "With the Dynamo Badge, Pokémon can\n"
-	.string "use Rock Smash out of battle.\p"
+	.string "With that, you can now clear large rocks\n"
+	.string "with rock smash.\p"
 	.string "And, I'll register this Raichu in your\n"
 	.string "PokéNav. It'll help you by smashing\l"
 	.string "any rocks in your way.\p"
@@ -453,8 +456,7 @@ MauvilleCity_Gym_Text_RegisteredRaichu: @ 820E8B5
 	.string "in the PokéNav.$"
 
 MauvilleCity_Gym_Text_WattsonPostBattle: @ 820E8E3
-	.string "I swell with optimism, seeing a promising\n"
-	.string "young Trainer like you!$"
+	.string "Not bad!$"
 
 MauvilleCity_Gym_Text_WattsonGoForthAndEndeavor: @ 820E925
 	.string "Wahahahah!\n"
@@ -465,7 +467,7 @@ MauvilleCity_Gym_Text_GymStatue: @ 820E952
 
 MauvilleCity_Gym_Text_GymStatueCertified: @ 820E96C
 	.string "Mauville City Pokémon Gym\p"
-	.string "Wattson's Certified Trainers:\n"
+	.string "Semi's Certified Trainers:\n"
 	.string "{PLAYER}$"
 
 MauvilleCity_Gym_Text_WattsonPreRematch: @ 820E9A7

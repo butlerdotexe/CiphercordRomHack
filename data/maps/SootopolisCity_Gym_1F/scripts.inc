@@ -255,87 +255,55 @@ SootopolisCity_Gym_1F_Text_GymGuidePostVictory: @ 82251AF
 	.string "set for the Pokémon League challenge!$"
 
 SootopolisCity_Gym_1F_Text_JuanIntro: @ 8225268
-	.string "Let me ask you.\n"
-	.string "Did you know?\l"
-	.string "Ah, I should not be so coy.\p"
-	.string "It was I who taught Wallace everything\n"
-	.string "there is to know about Pokémon.\p"
-	.string "Once, I had given up my position as\n"
-	.string "the Gym Leader.\p"
-	.string "In my place, I had entrusted Wallace\n"
-	.string "with the Gym.\p"
-	.string "However, a compelling reason arose for\n"
-	.string "me to make a comeback.\p"
-	.string "Ah, but enough chatter.\n"
-	.string "Let us begin our match, shall we?\p"
-	.string "Please, you shall bear witness to\n"
-	.string "our artistry.\p"
-	.string "A grand illusion of water sculpted\n"
-	.string "by Pokémon and myself!$"
+	.string "WHO DARES DISTURB M-\p"
+	.string "Oh. It's you.\p"
+	.string "Did you have to show up now? I'm kind\n"
+	.string "of in the middle of something here.\p"
+	.string "Oh well. Let's just get this over with.$"
 
 @ NOTE: This defeat text actually causes a buffer overflow. It's about 50 bytes too long for
 @ the gDisplayedStringBattle buffer that it's put into, and it stomps all over the gBattleTextBuffs
 @ after, as well as the otherwise unused array after that. One wonders if that's the reason for
 @ the existence of that unused array of ints.
 SootopolisCity_Gym_1F_Text_JuanDefeat: @ 8225432
-	.string "Ahahaha, excellent!\n"
-	.string "Very well, you are the winner.\p"
-	.string "From you, I sense the brilliant shine\n"
-	.string "of skill that will overcome all.\p"
-	.string "However, compared with me or even\n"
-	.string "Wallace, you are lacking in elegance.\p"
-	.string "Perhaps I should make you a loan\n"
-	.string "of my outfit?\p"
-	.string "… … … … … …\n"
-	.string "… … … … … …\p"
-	.string "Hahaha, I merely jest!\p"
-	.string "Rather than my clothes, I shall reward\n"
-	.string "you with this, the Rain Badge!$"
+	.string "Alright cool take this.$"
 
 SootopolisCity_Gym_1F_Text_ReceivedRainBadge: @ 8225598
 	.string "{PLAYER} received the Rain Badge\n"
-	.string "from Juan.$"
+	.string "from Vance.$"
 
 SootopolisCity_Gym_1F_Text_ExplainRainBadgeTakeThis: @ 82255BE
-	.string "Having the Rain Badge shall assure you\n"
-	.string "the full obedience of all your Pokémon\l"
-	.string "to your every command.\p"
-	.string "The Rain Badge also allows the use\n"
-	.string "of the HM move Waterfall to scale\l"
-	.string "walls of cascading water.\p"
-	.string "If you require assistance finding a\n"
-	.string "Pokémon to use Waterfall for you,\l"
-	.string "you may borrow my Kabutops.\p"
+	.string "That Badge grants you the power and\n"
+	.string "authority of Lord Vance, forcing all\l"
+	.string "Pokémon to obey your every command.\p"
+	.string "It also lets you use the HM Waterfall.\n"
+	.string "This Pokémon can do it for you though.\p"
 	.string "… … … … … …$"
 
 SootopolisCity_Gym_1F_Text_RegisteredKabutops:
-	.string "Registered Juan's Kabutops\n"
-	.string "in the PokéNav.$"
+	.string "Registered Kabutops in the\n"
+	.string "PokéNav.$"
 
 SootopolisCity_Gym_1F_Text_TakeThis:
-	.string "And, so that you never forget the\n"
-	.string "battle we shared, take this…$"
+	.string "You also get this TM.$"
 
 SootopolisCity_Gym_1F_Text_ExplainScald: @ 82256C1
-	.string "The Technical Machine I handed you\n"
-	.string "contains Scald.\p"
-	.string "In use, it will occasionally burn\n"
-	.string "the target with boiling hot water.\p"
-	.string "… … … … … …$"
+	.string "It's a good one, just use it…\p"
+	.string "You know, I'm getting a bit too\n"
+	.string "old for this.\p"
+	.string "Maybe I should step down, and let\n"
+	.string "let someone younger take my spot.\p"
+	.string "… … … … … …/p"
+	.string "But then we'd get someone like Comic…\n"
+	.string "Maybe not.$"
 
 SootopolisCity_Gym_1F_Text_RegisteredJuan: @ 822574D
-	.string "Registered Gym Leader Juan\n"
+	.string "Registered Gym Leader Vance\n"
 	.string "in the PokéNav.$"
 
 SootopolisCity_Gym_1F_Text_JuanPostBattle: @ 8225778
-	.string "The Trainers who have gathered all\n"
-	.string "the Gym Badges of Hoenn should make\l"
-	.string "way to the ultimate destination.\p"
-	.string "The Pokémon League.\p"
-	.string "Travel to the easternmost reaches\n"
-	.string "of Hoenn, to the island Ever Grande.\p"
-	.string "There, you shall find the Pokémon\n"
-	.string "League.$"
+	.string "… Why are you still here?\n"
+	.string "Go beat the game already.$"
 
 SootopolisCity_Gym_1F_Text_GoGetFortreeBadge: @ 8225865
 	.string "There remains but one Badge to\n"
@@ -349,7 +317,7 @@ SootopolisCity_Gym_1F_Text_GymStatue: @ 82258FA
 
 SootopolisCity_Gym_1F_Text_GymStatueCertified: @ 8225916
 	.string "Sootopolis City Pokémon Gym\p"
-	.string "Juan's Certified Trainers:\n"
+	.string "Vance's Certified Trainers:\n"
 	.string "{PLAYER}$"
 
 SootopolisCity_Gym_1F_Text_JuanPreRematch: @ 8225950

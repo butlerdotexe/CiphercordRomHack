@@ -1104,4 +1104,64 @@ const struct TrainerMonSpread gSets[] = {
 		},
 		.nature = NATURE_JOLLY
 	},
+	[SPREAD_PENTA_1] =
+	{
+	.EVs = {
+			  4,	// HP
+			252,	// Attack
+			252,	// Defense
+			  0,	// Speed
+			  0,	// Special Attack
+			  0  	// Special Defense
+		},
+		.IVs = {
+			31,		// HP
+			31,		// Attack
+			31,		// Defense
+			31,		// Speed
+			31,		// Special Attack
+			31		// Special Defense
+		},
+		.nature = NATURE_IMPISH
+	},
+	[SPREAD_PENTA_2] =
+	{
+	.EVs = {
+			  4,	// HP
+			  0,	// Attack
+			124,	// Defense
+			  0,	// Speed
+			252,	// Special Attack
+			124  	// Special Defense
+		},
+		.IVs = {
+			31,		// HP
+			31,		// Attack
+			31,		// Defense
+			31,		// Speed
+			31,		// Special Attack
+			31		// Special Defense
+		},
+		.nature = NATURE_CALM
+	},
+	[SPREAD_PENTA_3] =
+	{
+	.EVs = {
+			  4,	// HP
+			252,	// Attack
+			  0,	// Defense
+			  0,	// Speed
+			  0,	// Special Attack
+			252  	// Special Defense
+		},
+		.IVs = {
+			31,		// HP
+			31,		// Attack
+			31,		// Defense
+			31,		// Speed
+			31,		// Special Attack
+			31		// Special Defense
+		},
+		.nature = NATURE_JOLLY
+	},
 };

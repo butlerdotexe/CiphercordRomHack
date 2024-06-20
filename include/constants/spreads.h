@@ -63,5 +63,8 @@
 #define SPREAD_SEMI_3                       59
 #define SPREAD_SEMI_4                       60
 #define SPREAD_SEMI_5                       61
+#define SPREAD_PENTA_1                      62
+#define SPREAD_PENTA_2                      63
+#define SPREAD_PENTA_3                      64
 
 #endif  // GUARD_CONSTANTS_TRAINER_SPREADS

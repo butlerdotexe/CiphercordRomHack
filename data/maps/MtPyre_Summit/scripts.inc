@@ -477,12 +477,12 @@ MtPyre_Summit_Text_MattPostBattle:
 	.string "We've already got what we came for.$"
 
 MtPyre_Summit_Text_Grunt1Intro: @ 8232459
-	.string "No! Those Team Magma goons got\n"
+	.string "No! Those Team Aggro goons got\n"
 	.string "here ahead of us!\p"
 	.string "We can't fall behind!$"
 
 MtPyre_Summit_Text_Grunt1Defeat: @ 82324A0
-	.string "I thought you were one of the Magmas\n"
+	.string "I thought you were one of the Aggros\n"
 	.string "who happened to come back…$"
 
 MtPyre_Summit_Text_Grunt1PostBattle: @ 82324E0
@@ -493,13 +493,13 @@ MtPyre_Summit_Text_Grunt2Intro: @ 8232513
 	.string "Hah!\n"
 	.string "Too bad for you!\p"
 	.string "If you came earlier, you only would've\n"
-	.string "had to battle the wimpy Team Magma.\p"
+	.string "had to battle the wimpy Team Aggro.\p"
 	.string "But since you arrived now, you have\n"
 	.string "to take on us toughies!$"
 
 MtPyre_Summit_Text_Grunt2Defeat: @ 82325B0
 	.string "Urgh… I should've let you take on\n"
-	.string "Team Magma first…$"
+	.string "Team Aggro first…$"
 
 MtPyre_Summit_Text_Grunt2PostBattle: @ 82325E4
 	.string "You don't know anything!\n"
@@ -513,7 +513,7 @@ MtPyre_Summit_Text_Grunt3Intro: @ 823261D
 
 MtPyre_Summit_Text_Grunt3Defeat: @ 8232678
 	.string "If you're going to mess with anyone,\n"
-	.string "let it be Team Magma…$"
+	.string "let it be Team Aggro…$"
 
 MtPyre_Summit_Text_Grunt3PostBattle: @ 82326B3
 	.string "Heh, it doesn't matter!\n"
@@ -523,13 +523,13 @@ MtPyre_Summit_Text_Grunt3PostBattle: @ 82326B3
 
 MtPyre_Summit_Text_Grunt4Intro: @ 823271B
 	.string "Oh, I know!\n"
-	.string "You tried to join Team Magma,\l"
+	.string "You tried to join Team Aggro,\l"
 	.string "but they wouldn't have you!\p"
 	.string "Well, don't think that we'll let you\n"
-	.string "join our Team Aqua!$"
+	.string "join our Team Stall!$"
 
 MtPyre_Summit_Text_Grunt4Defeat: @ 823279A
-	.string "If you want to join Team Aqua that\n"
+	.string "If you want to join Team Stall that\n"
 	.string "badly, we can consider it…$"
 
 MtPyre_Summit_Text_Grunt4PostBattle: @ 82327D8
@@ -537,12 +537,11 @@ MtPyre_Summit_Text_Grunt4PostBattle: @ 82327D8
 	.string "with us members and our leader.$"
 
 MtPyre_Summit_Text_ArchieWeGotTheOrbLetsGo: @ 823281A
-	.string "Archie: Team Magma's Maxie got ahead\n"
+	.string "Rosa: Well, as expected Fallen got ahead\n"
 	.string "of us, but we also got what we wanted.\p"
 	.string "The Blue Orb preserved at Mt. Pyre…\n"
-	.string "I, Archie, now have it in my possession!\p"
-	.string "Fufufu… Now we can bring our ultimate\n"
-	.string "objective to fruition!\p"
+	.string "Hopefully this shit works because it took\n"
+	.string "too damn long to find.\p"
 	.string "Okay, Team!\n"
 	.string "We're pulling out!$"
 
@@ -557,7 +556,7 @@ MtPyre_Summit_Text_BothOrbsTakenMagmaLeftThis: @ 823290E
 	.string "the two Orbs?\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
-	.string "Oh, yes. Was it Team Magma who came\n"
+	.string "Oh, yes. Was it Team Aggro who came\n"
 	.string "and took the Red Orb first?\p"
 	.string "Well, in their haste, they left this\n"
 	.string "behind.\p"
@@ -587,9 +586,9 @@ MtPyre_Summit_Text_GroudonKyogreAwakened: @ 8232B4F
 	.string "a Pokémon, but no one knows.$"
 
 MtPyre_Summit_Text_ThoseTwoMenReturnedOrbs: @ 8232CA6
-	.string "The two men who took the Orbs came\n"
-	.string "back to return them on their own.\p"
-	.string "Those men…\n"
+	.string "The two who took the Orbs came back\n"
+	.string "to return them on their own.\p"
+	.string "Those two…\n"
 	.string "Perhaps they are not so evil after all…$"
 
 MtPyre_Summit_Text_SuperAncientPokemonTaughtUs: @ 8232D1E

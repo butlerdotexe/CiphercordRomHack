@@ -79,31 +79,30 @@ FortreeCity_Mart_EventScript_SpenserBeatLucy::
 	goto FortreeCity_Mart_EventScript_SpenserBattle
 
 FortreeCity_Mart_Text_SpenserBeatLucy:
-	.string "Hm? You're the youngster who beat Lucy!\n"
-	.string "Gwahahah! She wasn't happy about that!$"
+	.string "Oh hey, you made it.\n"
+	.string "I forgot what I came here for.$"
 
 FortreeCity_Mart_Text_SpenserIntro:
 	.string "Hm? You're the youngster Scott's\n"
 	.string "always talking about!$"
 
 FortreeCity_Mart_Text_SpenserBeforeBattle:
-	.string "I'd like to see your skills for myself.\p"
-	.string "Can your bonds of trust with your\n"
-	.string "Pokémon match mine?\p"
-	.string "If not, you will never beat my\n"
-	.string "brethren!$"
+	.string "Oh well, we should battle.\n"
+	.string "If you win, I'll give you something\p"
+	.string "you'll definitely want.$"
 
 FortreeCity_Mart_Text_SpenserDefeat:
-	.string "Gwahahah!$"
+	.string "Heh, not bad.$"
 
 FortreeCity_Mart_Text_SpenserGiveChoiceScarf:
-	.string "Hahahaha! Saw right through my\n"
-	.string "bluster, did you?\p"
-	.string "Here, take these things!$"
+	.string "The next generation is here, huh?\p"
+	.string "Welp, a deal's a deal, here.$"
 
 FortreeCity_Mart_Text_SpenserFarewell:
-	.string "I look forward to our next battle.\n"
-	.string "Farewell for now!$"
+	.string "Hm, you should go find Foodies.\n"
+	.string "I think she would like battling you.\p"
+	.string "I'll keep an eye on you, {PLAYER}{KUN}.\n"
+	.string "See ya around.$"
 
 FortreeCity_Mart_Text_SuperRepelBetter: @ 82176B3
 	.string "Super Repel lasts a long time,\n"

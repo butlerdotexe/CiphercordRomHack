@@ -234,7 +234,7 @@ Route119_WeatherInstitute_2F_Text_Grunt2PostBattle: @ 827022B
 	.string "Team Aqua definitely need it!$"
 
 Route119_WeatherInstitute_2F_Text_Grunt3Intro: @ 8270292
-	.string "We're Team Aqua!\n"
+	.string "We're Team Stall!\n"
 	.string "We appear wherever anything rare is\l"
 	.string "found!$"
 
@@ -243,7 +243,7 @@ Route119_WeatherInstitute_2F_Text_Grunt3Defeat: @ 82702CE
 
 Route119_WeatherInstitute_2F_Text_Grunt3PostBattle: @ 82702DA
 	.string "You don't have any idea what we of\n"
-	.string "Team Aqua are working towards!\l"
+	.string "Team Stall are working towards!\l"
 	.string "You stay out of our way!$"
 
 Route119_WeatherInstitute_2F_Text_Grunt5Intro: @ 8270335
@@ -262,37 +262,34 @@ Route119_WeatherInstitute_2F_Text_Grunt5PostBattle: @ 82703C0
 	.string "Ihihihihi…$"
 
 Route119_WeatherInstitute_2F_Text_ShellyIntro: @ 8270409
-	.string "Ahahahaha!\p"
-	.string "You're going to meddle in Team Aqua's\n"
-	.string "affairs?\p"
-	.string "You're either absolutely fearless,\n"
-	.string "simply ignorant, or both!\p"
-	.string "You're so cute, you're disgusting!\n"
-	.string "I'll put you down, kiddy!$"
+	.string "Yoooooo wassup?\p"
+	.string "Don't really know what I'm doin' here\n"
+	.string "but Rosa wanted this blob or something.\p"
+	.string "Honestly think the whole Stall thing is\n"
+	.string "neat, but a bit of balance is needed,\l"
+	.string "ya know?\p"
+	.string "Here, let me show you.$"
 
 Route119_WeatherInstitute_2F_Text_ShellyDefeat: @ 82704BD
-	.string "Ahahahaha!\n"
-	.string "You're disgustingly strong!$"
+	.string "Damn, you read me.$"
 
 Route119_WeatherInstitute_2F_Text_ShellyPostBattle: @ 82704E4
-	.string "It's bad enough to have Team Magma\n"
-	.string "blunder about, but now there's you!\p"
-	.string "What makes you want to sniff around\n"
-	.string "in our business, anyway?$"
+	.string "Eyy not bad, glad to see there's\n"
+	.string "some new guys with hands out here.\p"
+	.string "Makes me kinda glad I came out of\n"
+	.string "retirement.$"
 
 Route119_WeatherInstitute_2F_Text_TeamMagmaJustPassedBy: @ 8270568
 	.string "We have a situation here!\p"
-	.string "A Team Magma mob just passed\n"
+	.string "A Team Aggro mob just passed\n"
 	.string "the Weather Institute.\p"
 	.string "They appear to be headed for\n"
 	.string "Mt. Pyre!$"
 
 Route119_WeatherInstitute_2F_Text_WeHaveToHurryToMtPyre: @ 82705DD
-	.string "What?!\p"
-	.string "We can't waste any more time here!\n"
-	.string "We have to hurry to Mt. Pyre, too!\p"
-	.string "Ahahahaha!\n"
-	.string "Team Magma, just you wait!$"
+	.string "Huh, should probably go check on that.\p"
+	.string "Welp guess we'll give up on the blob\n"
+	.string "thing, can always come back to it.$"
 
 Route119_WeatherInstitute_2F_Text_ThanksPleaseTakePokemon: @ 8270650
 	.string "Thanks!\n"

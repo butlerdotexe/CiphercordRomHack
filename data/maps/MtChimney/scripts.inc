@@ -655,14 +655,14 @@ MtChimney_Text_Bufoh: @ 822FACB
 	.string "Bufoh!$"
 
 MtChimney_Text_ArchieGoStopTeamMagma: @ 822FAD2
-	.string "Rosa: {PLAYER}!\n"
-	.string "How did it take you even longer than\l"
-	.string "us, Team Stall, to show up??\n"
+	.string "Rosa: {PLAYER}!\p"
+	.string "How did it take you even longer than\n"
+	.string "us, Team Stall, to show up??\p"
 	.string "Whatever, do you see what I mean\n"
 	.string "about these guys?\p"
-	.string "Their leader is going to use the\p"
-	.string "Meteorite to cause the volcano\l"
-	.string "to errupt!$"
+	.string "Their leader is going to use the\n"
+	.string "Meteorite to cause the volcano to\l"
+	.string "errupt!$"
 
 MtChimney_Text_ArchieIHaveMyHandsFull: @ 822FBC7
 	.string "Rosa: I would stop Fallen myself,\n"
@@ -671,8 +671,7 @@ MtChimney_Text_ArchieIHaveMyHandsFull: @ 822FBC7
 	.string "what move I'm going to use…\p"
 	.string "…Why should you help me? Bro I know\n"
 	.string "we stole some stuff, but these guys\l"
-	.string "are straight up committing terrorism\l"
-	.string "right now!$"
+	.string "are straight up committing terrorism.$"
 
 MtChimney_Text_ArchieThankYou: @ 822FC3D
 	.string "Rosa: {PLAYER}!\n"

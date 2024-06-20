@@ -1330,7 +1330,7 @@ PetalburgCity_Gym_Text_DadHmISee: @ 82059D8
 	.string "Racc: Uh huh.$"
 
 PetalburgCity_Gym_Text_DadPlayerGoWithWally: @ 82059E8
-	.string "Dad: {PLAYER}, this is where you come\n"
+	.string "Racc: {PLAYER}, this is where you come\n"
 	.string "in.\p"
 	.string "Go with Basil and help him get that thing\n"
 	.string "so he never comes here again.$"
@@ -1356,7 +1356,7 @@ PetalburgCity_Gym_Text_DadSoDidItWorkOut: @ 8205B32
 	.string "Racc: So, is it over?$"
 
 PetalburgCity_Gym_Text_WallyThankYouBye: @ 8205B4C
-	.string "Wally: Thank you, yes, it did.\n"
+	.string "Basil: Thank you, yes, it did.\n"
 	.string "Here's your Pokémon back.\p"
 	.string "{PLAYER}, thanks for coming along\n"
 	.string "with me.\p"
@@ -1374,7 +1374,7 @@ PetalburgCity_Gym_Text_DadGoCollectBadges: @ 8205C40
 	.string "the Gym Leader, Spara.\p"
 	.string "You'll probably have to beat a few\n"
 	.string "more gyms after that before you can\l"
-	.string "face me./p"
+	.string "face me.\p"
 	.string "But when you do finally get to my\n"
 	.string "level, I'll give you something good.$"
 
@@ -1391,7 +1391,7 @@ PetalburgCity_Gym_Text_NormanGoToDewford: @ 8205EAE
 	.string "You should go challenge him.$"
 
 PetalburgCity_Gym_Text_YouHaveGottenStronger: @ 8205F87
-	.string "Dad: Hm… {PLAYER}, you have gotten\n"
+	.string "Racc: Hm… {PLAYER}, you have gotten\n"
 	.string "stronger.\p"
 	.string "But still not enough to face me,\n"
 	.string "but you're getting there.$"

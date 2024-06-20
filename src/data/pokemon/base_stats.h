@@ -4567,12 +4567,12 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_LANTURN] =
     {
         .baseHP        = 125,
-        .baseAttack    = 58,
-        .baseDefense   = 58,
+        .baseAttack    = 48,
+        .baseDefense   = 88,
         .baseSpeed     = 67,
         #ifdef REBALANCED_VERSION
-            .baseSpAttack  = 86,
-            .baseSpDefense = 86,
+            .baseSpAttack  = 116,
+            .baseSpDefense = 96,
         #else
             .baseSpAttack  = 76,
             .baseSpDefense = 76,        
@@ -23900,10 +23900,10 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_PIDGEOT_MEGA] =
     {
-        .baseHP        = 83,
-        .baseAttack    = 80,
-        .baseSpeed     = 121,
-        .baseSpAttack  = 135,
+        .baseHP        = 103,
+        .baseAttack    = 70,
+        .baseSpeed     = 131,
+        .baseSpAttack  = 145,
         .baseSpDefense = 80,
         #ifdef REBALANCED_VERSION
             .baseDefense   = 95,

@@ -212,7 +212,7 @@ FortreeCity_Gym_Text_GymGuidePostVictory: @ 821687D
 
 FortreeCity_Gym_Text_JaredIntro: @ 82168A2
 	.string "Behold the elegant battle style of\n"
-	.string "Bird Pokémon!$"
+	.string "a perfectly balanced team!$"
 
 FortreeCity_Gym_Text_JaredDefeat: @ 82168D3
 	.string "You…\n"
@@ -225,7 +225,7 @@ FortreeCity_Gym_Text_JaredPostBattle: @ 82168E7
 	.string "our Leader?$"
 
 FortreeCity_Gym_Text_EdwardoIntro: @ 821695A
-	.string "The lovers of Bird Pokémon aspire\n"
+	.string "The lovers of fair Pokémon aspire\n"
 	.string "to join this Gym.\p"
 	.string "As a member of the Fortree Gym,\n"
 	.string "I'm not allowed to lose!$"
@@ -241,21 +241,21 @@ FortreeCity_Gym_Text_EdwardoPostBattle: @ 82169F1
 	.string "myself even stronger.$"
 
 FortreeCity_Gym_Text_FlintIntro: @ 8216A66
-	.string "There's no need for Winona, our Gym\n"
+	.string "There's no need for Brainiac, our Gym\n"
 	.string "Leader, to deal with you!\p"
 	.string "I'm plenty good enough for you!$"
 
 FortreeCity_Gym_Text_FlintDefeat: @ 8216AC4
-	.string "Winona, I…\n"
+	.string "Brainiac, I…\n"
 	.string "I lost!$"
 
 FortreeCity_Gym_Text_FlintPostBattle: @ 8216AD7
-	.string "Winona is cute and she's strong.\n"
-	.string "She's the ultimate Leader!\p"
+	.string "Brainiac is cute and he's strong.\n"
+	.string "He's the ultimate Leader!\p"
 	.string "Blush…$"
 
 FortreeCity_Gym_Text_AshleyIntro: @ 8216B1A
-	.string "Winona taught me personally!\n"
+	.string "Brainiac taught me personally!\n"
 	.string "You can't beat me easily!$"
 
 FortreeCity_Gym_Text_AshleyDefeat: @ 8216B51
@@ -266,10 +266,9 @@ FortreeCity_Gym_Text_AshleyPostBattle: @ 8216B5F
 	.string "Fortree can live without fear.$"
 
 FortreeCity_Gym_Text_HumbertoIntro: @ 8216B9E
-	.string "When Winona takes to battle, her face\n"
-	.string "shines with beautiful determination…\p"
-	.string "I'm not letting you witness that\n"
-	.string "lovely sight!$"
+	.string "When Brainiac takes to battle, he\n"
+	.string "crushes everything before him…\p"
+	.string "I will spare you from that fate!$"
 
 FortreeCity_Gym_Text_HumbertoDefeat: @ 8216C18
 	.string "Urk!\n"
@@ -277,73 +276,78 @@ FortreeCity_Gym_Text_HumbertoDefeat: @ 8216C18
 
 FortreeCity_Gym_Text_HumbertoPostBattle: @ 8216C32
 	.string "You'd better watch it!\n"
-	.string "Don't get distracted staring at Winona\l"
-	.string "or you'll go crashing down in a heap!$"
+	.string "Brainiac will seriously mess you up\l"
+	.string "if you're not prepared!$"
 
 FortreeCity_Gym_Text_DariusIntro: @ 8216C96
-	.string "You'd better know that there are all\n"
-	.string "sorts of Flying-type Pokémon.\p"
-	.string "You do know that, right?$"
+	.string "If you've come this far, I probably\n"
+	.string "can't stop you from fighting Brainiac.\p"
+	.string "But as a trainer, I must battle you.$"
 
 FortreeCity_Gym_Text_DariusDefeat: @ 8216CF2
-	.string "You seem to know your stuff!$"
+	.string "As I thought.$"
 
 FortreeCity_Gym_Text_DariusPostBattle: @ 8216D0F
-	.string "Sure, you beat me all right.\n"
-	.string "But you'd better watch it! Our Leader\l"
-	.string "Winona's Pokémon are all business.$"
+	.string "You should be as prepared as you can be.\p"
+	.string "Go forward, have no regrets, and battle\n"
+	.string "like your life depends on it.$"
 
 FortreeCity_Gym_Text_WinonaIntro: @ 8216D75
-	.string "I am Winona. I am the Leader of\n"
-	.string "the Fortree Pokémon Gym.\p"
-	.string "I have become one with Bird Pokémon\n"
-	.string "and have soared the skies…\p"
-	.string "However grueling the battle, we have\n"
-	.string "triumphed with grace…\p"
-	.string "Witness the elegant choreography\n"
-	.string "of Bird Pokémon and I!$"
+	.string "Finally, someone made it up here.\p"
+	.string "You're the first challenger since the\n"
+	.string "intervention.\p"
+	.string "Apparently I'm being 'too hard' on\n"
+	.string "on challengers or something.\p"
+	.string "I mean, I'm not even allowed to have a mega!\p"
+	.string "Tibarn has a goddamn Iron Valiant but\n"
+	.string "I can't have a Mega Absol?\p"
+	.string "Can you believe that?\p"
+	.string "Anyways, either I beat your ass here, or I\n"
+	.string "gain an excuse to ramp up this challenge\l"
+	.string "again.\p"
+	.string "It's a win-win for me!$"
 
 FortreeCity_Gym_Text_WinonaDefeat: @ 8216E60
-	.string "Never before have I seen a Trainer\n"
-	.string "command Pokémon with more grace\l"
-	.string "than I…\p"
-	.string "In recognition of your prowess,\n"
-	.string "I present to you this Gym Badge.$"
+	.string "Fuc- I mean darn. Gotta keep the\n"
+	.string "PG13 rating for my Gym.\p"
+	.string "Well, in spite of the bullshit you\n"
+	.string "pulled to win, a dub is a dub.\p"
+	.string "Here.$"
 
 FortreeCity_Gym_Text_ReceivedFeatherBadge: @ 8216EEC
 	.string "{PLAYER} received the Feather Badge\n"
-	.string "from Winona.$"
+	.string "from Brainiac.$"
 
 FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis: @ 8216F17
-	.string "With the Feather Badge, all Pokémon up\n"
-	.string "to LV 80, even those received through\l"
-	.string "trades, will obey your every command.\p"
-	.string "And this…\n"
-	.string "This is a gift from me.$"
+	.string "You know, I'm almost glad that you beat me.\p"
+	.string "I was getting sick and tired of people telling\n"
+	.string "me I was overdoing it.\p"
+	.string "'Braaaaaaain why do you have 3 mythicals.'\n"
+	.string "'Braaaaaaaain this fight is so unfair.'\l"
+	.string "Blah blah blah.\p"
+	.string "The only takeaway that I got from this is\n"
+	.string "that Exalt's a bitch.\p"
+	.string "Anyways, here's the Roost TM. You earned it.$"
 
 FortreeCity_Gym_Text_ExplainRoost: @ 8216FEC
-	.string "Roost…\p"
-	.string "With this move, the user can restore its\n"
-	.string "HP by up to half of its max HP by\l"
-	.string "landing on the ground and resting.\p"
-	.string "However, the user loses its Flying-type\n"
-	.string "designation during the turn, so be\l"
-	.string "cautious.$"
+	.string "Roost is a healing move.\p"
+	.string "…What, you need more explanation?\p"
+	.string "Google it yourself, lazy bastard.$"
 
 FortreeCity_Gym_Text_RegisteredWinona: @ 8217044
-	.string "Registered Gym Leader Winona\n"
+	.string "Registered Gym Leader Brainiac\n"
 	.string "in the PokéNav.$"
 
 FortreeCity_Gym_Text_WinonaPostBattle: @ 8217071
-	.string "Though I fell to you, I will remain\n"
-	.string "devoted to Bird Pokémon.$"
+	.string "Just because I lost here doesn't mean\n"
+	.string "I can't cook something up to beat you.$"
 
 FortreeCity_Gym_Text_GymStatue: @ 82170AE
 	.string "Fortree City Pokémon Gym$"
 
 FortreeCity_Gym_Text_GymStatueCertified: @ 82170C7
 	.string "Fortree City Pokémon Gym\p"
-	.string "Winona's Certified Trainers:\n"
+	.string "Brainiac's Certified Trainers:\n"
 	.string "{PLAYER}$"
 
 FortreeCity_Gym_Text_WinonaPreRematch: @ 8217100

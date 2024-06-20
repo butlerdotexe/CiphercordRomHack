@@ -537,7 +537,7 @@ MeteorFalls_1F_1R_Text_ArchieSeenYouBefore: @ 822C11C
 	.string "That guy is pretty good.\p"
 	.string "Oh, you again. You're not with them\n"
 	.string "are you?\p"
-	.string "They're a massive pain, running around doing\n"
+	.string "They're a pain, running around doing\n"
 	.string "crazy shit, winning as soon as possible.\p"
 	.string "They're not like us, who savor battles\n"
 	.string "to the fullest!$"

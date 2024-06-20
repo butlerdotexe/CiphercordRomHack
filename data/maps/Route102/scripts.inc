@@ -85,7 +85,7 @@ Route102_Text_WatchMeCatchPokemon: @ 81EC1F8
 	.string "…Whoa!$"
 
 Route102_Text_WallyIDidIt: @ 81EC271
-	.string "Wally: I did it… It's my…\n"
+	.string "Basil: I did it… It's my…\n"
 	.string "My Pokémon!$"
 
 Route102_Text_LetsGoBack: @ 81EC297

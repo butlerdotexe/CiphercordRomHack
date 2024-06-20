@@ -381,20 +381,19 @@ LavaridgeTown_Gym_B1F_Text_EliPostBattle: @ 81FF09A
 	.string "Hehehehe.$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryIntro: @ 81FF0DC
-	.string "Hey there, how's it going?\p"
-	.string "I'm Tibarn, and I'm the Gym Leader\n"
-	.string "here.\p"
-	.string "To be honest, I'm not exactly sure\n"
-	.string "how I ended up in this position.\p"
-	.string "I just found these cool looking bird\n"
-	.string "Pokémon, and apparently they're pretty\l"
-	.string "strong.$"
+	.string "Hey, what's up. poweroftibarn here.\p"
+	.string "You know, I'm still not used to the\n"
+	.string "new powerscaling of these Gyms.\p"
+	.string "Like I'm throwing legendaries at you,\n"
+	.string "but like… it's the fourth Gym dude.\p"
+	.string "Well it's out of my hands now.\p"
+	.string "Hope you're ready.$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryDefeat: @ 81FF233
 	.string "Yeahhh…\p"
 	.string "Probably should do something so I\n"
 	.string "don't get wrecked by Rock types.\p"
-	.string "Oh well, that's on my\p"
+	.string "Oh well, that's on me.\p"
 	.string "You won fair and square, so you've\n"
 	.string "earned this.$"
 
@@ -403,26 +402,23 @@ LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge: @ 81FF32F
 	.string "from Tibarn.$"
 
 LavaridgeTown_Gym_1F_Text_ExplainHeatBadgeTakeThis: @ 81FF359
-	.string "If you have that Badge, all Pokémon\n"
-	.string "up to Level 60, even those you get in\l"
-	.string "trades from other people, will obey\l"
-	.string "you completely.\p"
-	.string "And, it lets Pokémon use the HM move\n"
-	.string "Strength outside of battle.\p"
-	.string "I'll even let you call on an Arcanine\n"
-	.string "to use Strength for you.$"
+	.string "Man, I really wish I was allowed to use\n"
+	.string "a team that I was passionate about.\p"
+	.string "You may not know this, but I am a \n"
+	.string "huge proponent of Big Stall.\p"
+	.string "NOT to be confused with those Team Stall\n"
+	.string "losers."
+	.string "I don't know what the fuck they're doing.$"
 
 LavaridgeTown_Gym_1F_Text_TakeThis:
-	.string "This is a token of my appreciation.\n"
-	.string "Don't be shy about taking it!$"
+	.string "Anyways, I'm supposed to give you this.$"
 
 LavaridgeTown_Gym_1F_Text_ExplainOverheat: @ 81FF45C
 	.string "That TM50 contains Overheat.\p"
 	.string "That move inflicts serious damage on\n"
 	.string "the opponent.\p"
 	.string "But it also sharply cuts the Sp. Atk\n"
-	.string "of the Pokémon using it. It might not\l"
-	.string "be suitable for longer battles.$"
+	.string "of the Pokémon using it.$"
 
 LavaridgeTown_Gym_1F_Text_RegisteredFlannery: @ 81FF517
 	.string "Registered Gym Leader Tibarn\n"

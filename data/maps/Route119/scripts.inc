@@ -500,51 +500,44 @@ Route119_EventScript_ScottWonAtFortreeGymCall:: @ 81F49EC
 	end
 
 Route119_Text_MayIntro: @ 81F49FD
-	.string "May: {PLAYER}{KUN}!\n"
-	.string "Where were you? I was looking for you!\p"
-	.string "How much stronger have you gotten?\n"
-	.string "Let me check for you!\p"
-	.string "Ready with your Pokémon?\n"
-	.string "Of course you are! Go!$"
-
-Route119_Text_MayDefeat: @ 81F4A98
-	.string "Achah!\n"
-	.string "{PLAYER}{KUN}, you're strong!\p"
-	.string "I was worried that you might be\n"
-	.string "struggling with your training.$"
-
-Route119_Text_MayPresentForYou: @ 81F4AF3
-	.string "May: But I had absolutely nothing to\n"
-	.string "worry about! Keep it up!\p"
-	.string "And, here! I have a present for you.$"
-
-Route119_Text_MayExplainFly:
-	.string "May: You should Fly home and visit\n"
-	.string "Littleroot for a change.\p"
-	.string "I bet your mom's worried about you,\n"
-	.string "{PLAYER}{KUN}.\p"
-	.string "Well, let's meet again somewhere!$"
-
-Route119_Text_BrendanIntro: @ 81F4C9A
-	.string "Brendan: {PLAYER}! So this is where\n"
+	.string "Sauce: Ayo {PLAYER}! So this is where\n"
 	.string "you've been looking for Pokémon?\p"
 	.string "Let me see how good you got.\n"
 	.string "I'll test you!\p"
-	.string "Now!\n"
-	.string "It's a battle, so battle!$"
+	.string "Now catch these hands!$"
+
+Route119_Text_MayDefeat: @ 81F4A98
+	.string "Hmm…\n"
+	.string "You've gotten pretty darn decent.$"
+
+Route119_Text_MayPresentForYou: @ 81F4AF3
+	.string "Sauce: I'd say you're good enough\n"
+	.string "to search for Pokémon anywhere.\p"
+	.string "Here, I'll give you this.\n"
+	.string "Try it out.$"
+
+Route119_Text_MayExplainFly:
+	.string "Sauce: Anyway, I have to move along.$"
+
+Route119_Text_BrendanIntro: @ 81F4C9A
+	.string "Sauce: Ayo {PLAYER}! So this is where\n"
+	.string "you've been looking for Pokémon?\p"
+	.string "Let me see how good you got.\n"
+	.string "I'll test you!\p"
+	.string "Now catch these hands!$"
 
 Route119_Text_BrendanDefeat: @ 81F4D24
 	.string "Hmm…\n"
 	.string "You've gotten pretty darn decent.$"
 
 Route119_Text_BrendanIllGiveYouThis: @ 81F4D4B
-	.string "Brendan: I'd say you're good enough\n"
+	.string "Sauce: I'd say you're good enough\n"
 	.string "to search for Pokémon anywhere.\p"
 	.string "Here, I'll give you this.\n"
 	.string "Try it out.$"
 
 Route119_Text_BrendanExplainFly: @ 81F4DB5
-	.string "Brendan: Anyway, I have to move along.$"
+	.string "Sauce: Anyway, I have to move along.$"
 
 Route119_Text_ScottWayToGoBeSeeingYou: @ 81F4E60
 	.string "Scott: Hahahah!\n"

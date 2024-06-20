@@ -459,137 +459,100 @@ LilycoveCity_EventScript_AltariaRefuse::
 	end
 
 LilycoveCity_Text_MayShoppingLetsBattle: @ 81E3061
-	.string "May: Oh, hey?\n"
-	.string "{PLAYER}{KUN}, are you shopping, too?\p"
-	.string "I bought a whole bunch of Dolls and\n"
-	.string "Posters.\p"
-	.string "Of course, I've also caught a lot of\n"
-	.string "Pokémon, and I'm raising them\l"
-	.string "properly, too.\p"
-	.string "Actually, I'm more worried if you're\n"
-	.string "raising Pokémon properly, {PLAYER}{KUN}.\p"
-	.string "I'll battle with you, so you can show\n"
-	.string "me your Pokémon, {PLAYER}{KUN}.$"
-
-LilycoveCity_Text_MayNotRaisingPokemon: @ 81E318D
-	.string "May: Oh, why? {PLAYER}{KUN}, haven't you\n"
-	.string "been raising your Pokémon?\p"
-	.string "That's not a very good showing as a\n"
-	.string "Trainer…$"
-
-LilycoveCity_Text_MayBattleMe: @ 81E31F5
-	.string "May: Come on, battle with me, so I can\n"
-	.string "check out your Pokémon!$"
-
-LilycoveCity_Text_MayWontBeBeaten: @ 81E3234
-	.string "May: The Pokémon I raised won't be\n"
-	.string "beaten by your Pokémon, {PLAYER}{KUN}!$"
-
-LilycoveCity_Text_MayDefeat: @ 81E3275
-	.string "… … … … … … … …\p"
-	.string "I remember the battle I had with you,\n"
-	.string "{PLAYER}{KUN}, on Route 103.\p"
-	.string "That battle helped you become this\n"
-	.string "strong, {PLAYER}{KUN}, didn't it?$"
-
-LilycoveCity_Text_MayGoingBackToLittleroot: @ 81E32FB
-	.string "May: I'm thinking of going back to\n"
-	.string "Littleroot soon.\p"
-	.string "I've caught a decent group of Pokémon,\n"
-	.string "and my Pokédex is coming along, so\l"
-	.string "I'm going home to show my dad.$"
-
-LilycoveCity_Text_MayYouGoingToCollectBadges: @ 81E3398
-	.string "{PLAYER}{KUN}, what are you going to do?\p"
-	.string "Collect all the Gym Badges and take\n"
-	.string "the Pokémon League challenge?\p"
-	.string "Well, while you're collecting Badges,\n"
-	.string "{PLAYER}{KUN}, I'm going to work on my\l"
-	.string "Pokédex. I'll complete it before you!\p"
-	.string "See you!$"
-
-LilycoveCity_Text_MayYouGoingToPokemonLeague: @ 81E346D
-	.string "{PLAYER}{KUN}, what are you going to do?\p"
-	.string "Are you taking the Pokémon League\n"
-	.string "challenge?\p"
-	.string "Or, are you going to complete your\n"
-	.string "Pokédex?\p"
-	.string "I might've lost to you in battling,\n"
-	.string "but I'll finish my Pokédex before you!\p"
-	.string "See you!$"
-
-LilycoveCity_Text_MayYouGoingToBattleFrontier: @ 81E353A
-	.string "{PLAYER}{KUN}, what are you going to do?\p"
-	.string "Are you taking the Battle Frontier\n"
-	.string "challenge?\p"
-	.string "Or, are you going to complete your\n"
-	.string "Pokédex?\p"
-	.string "I might've lost to you in battling,\n"
-	.string "but I'll finish my Pokédex before you!\p"
-	.string "See you!$"
-
-LilycoveCity_Text_BrendanShoppingLetsBattle: @ 81E3608
-	.string "Brendan: Oh, hey, it's {PLAYER}.\p"
-	.string "I'm running an errand for my dad.\n"
-	.string "No, I'm not buying any Dolls.\p"
+	.string "Sauce: Oh look who it is.\p"
+	.string "{PLAYER}{KUN}, how's it going?\n"
+	.string "I'm just doin' some shopping.\p"
 	.string "Anyways, it's been a while.\p"
 	.string "Want to have a battle to see who's been\n"
-	.string "raising Pokémon better?$"
+	.string "on that grind more?$"
+
+LilycoveCity_Text_MayNotRaisingPokemon: @ 81E318D
+	.string "Sauce: What's up bro? You scared?$"
+
+LilycoveCity_Text_MayBattleMe: @ 81E31F5
+	.string "Sauce: Want to battle to see who's\n"
+	.string "been on that grind more?$"
+
+LilycoveCity_Text_MayWontBeBeaten: @ 81E3234
+	.string "Sauce: Aww hell yeah. I ain't\n"
+	.string "going to lose to no {PLAYER}.$"
+
+LilycoveCity_Text_MayDefeat: @ 81E3275
+	.string "Well damn.$"
+
+LilycoveCity_Text_MayGoingBackToLittleroot: @ 81E32FB
+	.string "Sauce: I…\n"
+	.string "Man, this sucks.\p"
+	.string "I can't beleive I lost to you…\n"
+	.string "Again…\p"
+	.string "Maybe I should just stick to helping\n"
+	.string "Foodies in the lab.$"
+
+LilycoveCity_Text_MayYouGoingToCollectBadges: @ 81E3398
+	.string "Well, that's just me though.\p"
+	.string "I think you've got what it takes,\n"
+	.string "{PLAYER}{KUN}.\p"
+	.string "Beat all the Gyms, take on the Elite\n"
+	.string "Four, and become the Champion.\p"
+	.string "It's the least you can do after beating me.$"
+
+LilycoveCity_Text_MayYouGoingToPokemonLeague: @ 81E346D
+	.string "Beat all the Gyms, take on the Elite\n"
+	.string "Four, and become the Champion.\p"
+	.string "It's the least you can do after beating me.$"
+
+LilycoveCity_Text_MayYouGoingToBattleFrontier: @ 81E353A
+	.string "Beat all the Gyms, take on the Elite\n"
+	.string "Four, and become the Champion.\p"
+	.string "It's the least you can do after beating me.$"
+
+LilycoveCity_Text_BrendanShoppingLetsBattle: @ 81E3608
+	.string "Sauce: Oh look who it is.\p"
+	.string "{PLAYER}{KUN}, how's it going?\n"
+	.string "I'm just doin' some shopping.\p"
+	.string "Anyways, it's been a while.\p"
+	.string "Want to have a battle to see who's been\n"
+	.string "on that grind more?$"
 
 LilycoveCity_Text_BrendanNoConfidence: @ 81E36BF
-	.string "Brendan: Oh, what's the matter?\n"
-	.string "Don't have the confidence?$"
+	.string "Sauce: What's up bro? You scared?$"
 
 LilycoveCity_Text_BrendanBattleMe: @ 81E36FA
-	.string "Brendan: Want to battle to see who's\n"
-	.string "been raising Pokémon better?$"
+	.string "Sauce: Want to battle to see who's\n"
+	.string "been on that grind more?$"
 
 LilycoveCity_Text_BrendanWontBeBeaten: @ 81E373C
-	.string "Brendan: Aww, but you know I'm not\n"
+	.string "Sauce: Aww hell yeah. I ain't\n"
 	.string "going to lose to no {PLAYER}.$"
 
 LilycoveCity_Text_BrendanDefeat: @ 81E3777
-	.string "Humph…\n"
-	.string "You've done a lot of raising.\p"
-	.string "That stings a bit--I had a head start\n"
-	.string "on you as a Trainer…$"
+	.string "Well damn.$"
 
 LilycoveCity_Text_BrendanGoingBackToLittleroot: @ 81E37D7
-	.string "Brendan: I…\n"
-	.string "I plan on going home to Littleroot.\p"
-	.string "You know I'm helping out my dad on his\n"
-	.string "Pokédex. It's coming together pretty\l"
-	.string "decently, so I should go show him.$"
+	.string "Sauce: I…\n"
+	.string "Man, this sucks.\p"
+	.string "I can't beleive I lost to you…\n"
+	.string "Again…\p"
+	.string "Maybe I should just stick to helping\n"
+	.string "Foodies in the lab.$"
 
 LilycoveCity_Text_BrendanYouGoingToCollectBadges: @ 81E3876
-	.string "{PLAYER}, what are you going to do?\p"
-	.string "Collect all the Gym Badges and take\n"
-	.string "the Pokémon League challenge?\p"
-	.string "Maybe I'll do that, too…\p"
-	.string "Well, anyway, hang in there!$"
+	.string "Well, that's just me though.\p"
+	.string "I think you've got what it takes,\n"
+	.string "{PLAYER}{KUN}.\p"
+	.string "Beat all the Gyms, take on the Elite\n"
+	.string "Four, and become the Champion.\p"
+	.string "It's the least you can do after beating me.$"
 
 LilycoveCity_Text_BrendanYouGoingToPokemonLeague: @ 81E390C
-	.string "{PLAYER}, what are you going to do?\p"
-	.string "Since you're that strong, are you\n"
-	.string "taking the Pokémon League challenge?\p"
-	.string "Heh, even me--if I trained my Pokémon\n"
-	.string "a bit more, I should be stronger than\l"
-	.string "you, {PLAYER}.\p"
-	.string "Well, anyway, hang in there!$"
+	.string "Beat all the Gyms, take on the Elite\n"
+	.string "Four, and become the Champion.\p"
+	.string "It's the least you can do after beating me.$"
 
 LilycoveCity_Text_BrendanYouGoingToBattleFrontier: @ 81E39E3
-	.string "{PLAYER}, what are you going to do?\p"
-	.string "Are you taking the Battle Frontier\n"
-	.string "challenge?\p"
-	.string "Or, are you going to complete your\n"
-	.string "Pokédex?\p"
-	.string "Since you're that strong, you should\n"
-	.string "consider the Battle Frontier.\p"
-	.string "Heh, if I train my Pokémon a bit more,\n"
-	.string "I'll get stronger than you, {PLAYER}.\p"
-	.string "Maybe I should go to the BATTLE\n"
-	.string "FRONTIER.\p"
-	.string "Well, anyway, hang in there!$"
+	.string "Beat all the Gyms, take on the Elite\n"
+	.string "Four, and become the Champion.\p"
+	.string "It's the least you can do after beating me.$"
 
 LilycoveCity_Text_MovedLootIntoHideoutToday: @ 81E3B2C
 	.string "Fufufu…\p"
@@ -601,7 +564,7 @@ LilycoveCity_Text_MovedLootIntoHideoutToday: @ 81E3B2C
 LilycoveCity_Text_ChanceToDoBigThings: @ 81E3B95
 	.string "I'm just a Grunt, so I don't know what\n"
 	.string "the Boss is thinking…\p"
-	.string "But being on Team Aqua, I know I'll get\n"
+	.string "But being on Team Stall, I know I'll get\n"
 	.string "the chance to do big things!\p"
 	.string "Wh-who are you?!\n"
 	.string "I was just talking to myself!$"
@@ -614,7 +577,7 @@ LilycoveCity_Text_DontGoNearCaveInCove: @ 81E3C46
 
 LilycoveCity_Text_IfWorldBecomesOurs: @ 81E3CBE
 	.string "If this whole wide world becomes ours,\n"
-	.string "Team Aqua's, it will be a happier\l"
+	.string "Team Stall's, it will be a happier\l"
 	.string "place for Pokémon, too.$"
 
 LilycoveCity_Text_WailmerLeapOutOfWater: @ 81E3D1F
@@ -652,14 +615,14 @@ LilycoveCity_Text_ImFromKanto: @ 81E3F05
 	.string "only in this area?$"
 
 LilycoveCity_Text_TeamAquaBeenTrainingWailmer: @ 81E3FAB
-	.string "Team Aqua's been training their\n"
+	.string "Team Stall's been training their\n"
 	.string "Wailmer in the cove.\p"
 	.string "We Sailors can't get our boats out\n"
 	.string "to sea with them in the way!$"
 
 LilycoveCity_Text_SomeonePuntedTeamAquaOut: @ 81E4020
 	.string "Ahoy, did you know?\p"
-	.string "Someone punted Team Aqua out of\n"
+	.string "Someone punted Team Stall out of\n"
 	.string "the way for us!\p"
 	.string "That got the Wailmer out of the cove,\n"
 	.string "so we can get our boats out again.$"
@@ -669,7 +632,7 @@ LilycoveCity_Text_SomeoneStoleMyPokemon: @ 81E40AD
 	.string "seaside inn to the sound of waves…\p"
 	.string "When someone stole my Pokémon!\p"
 	.string "Who's the abductor?\n"
-	.string "Team Aqua? Is it Team Aqua?$"
+	.string "Team Stall? Is it Team Stall?$"
 
 LilycoveCity_Text_MissingPokemonCameBack: @ 81E4145
 	.string "My missing Pokémon…\n"
@@ -698,10 +661,10 @@ LilycoveCity_Text_TeamAquaRenovatedCavern: @ 81E42FC
 	.string "Hm, you know of the peculiar cavern\n"
 	.string "in this cove?\p"
 	.string "That had been a natural formation,\n"
-	.string "but then that Team Aqua lot came\l"
+	.string "but then that Team Stall lot came\l"
 	.string "along and made their renovations.\p"
 	.string "They call themselves\n"
-	.string "the “nature-loving Team Aqua”!\p"
+	.string "the “nature-loving Team Stall”!\p"
 	.string "But what they do and what they say\n"
 	.string "don't match at all!$"
 
@@ -709,7 +672,7 @@ LilycoveCity_Text_TeamAquaLotGoneForGood: @ 81E43FF
 	.string "That cave in the cove…\p"
 	.string "I didn't notice it right away,\n"
 	.string "but it's completely empty now.\p"
-	.string "That Team Aqua lot, they must\n"
+	.string "That Team Stall lot, they must\n"
 	.string "have gone away for good.$"
 
 LilycoveCity_Text_CitySign: @ 81E448B

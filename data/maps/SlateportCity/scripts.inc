@@ -1521,35 +1521,35 @@ SlateportCity_Text_TakingBattleTentChallenge: @ 81DF28C
 	.string "Give it your best effort!$"
 
 SlateportCity_Text_GretaHowdy:
-	.string "Hey! Howdy! Up for a battle, Trainer?$"
+	.string "Oh hey there, {PLAYER}{KUN}./p"
+	.string "Just doing some field research.$"
 
 SlateportCity_Text_GretaReadyForBattle:
-	.string "Hmm… yeah, you look like you're up\n"
-	.string "for this. Is your team ready to go?$"
+	.string "You know… I've heard from Penta\n"
+	.string "that you actually beat him.\p"
+	.string "You must have grown a lot since\n"
+	.string "you first helped me out, huh?\p"
+	.string "…I don't really do this anymore,\n"
+	.string "but would you care to battle?$"
 
 SlateportCity_Text_GretaMaybeNot:
-	.string "Hmm… no, maybe not. To be blunt, you\n"
-	.string "look pretty weak.\p"
-	.string "Come see me again once you've trained\n"
-	.string "up a bit more. Or a lot more!$"
+	.string "If you see Penta running around,\n"
+	.string "tell him I said hi.$"
 
 SlateportCity_Text_GretaLetsBattle:
-	.string "Great! Be ready for a thrashing!$"
+	.string "Thanks, good luck!$"
 
 SlateportCity_Text_GretaRefused:
-	.string "Huh? Really? Shouldn't you always be\n"
-	.string "ready for a battle?$"
+	.string "Not ready? No worries.\n"
+	.string "I'll be here if you change your mind.$"
 
 SlateportCity_Text_GretaDefeat:
-	.string "No way! You're tough after all!$"
+	.string "No wonder you beat Penta.$"
 
 SlateportCity_Text_GretaHereHaveStuff:
-	.string "Hey, not bad! {PLAYER}, was it?\n"
-	.string "I'll remember that.\p"
-	.string "Here, take these with you!$"
+	.string "Since you beat me, its only\n"
+	.string "appropriate I give you a reward.\p"
+	.string "Here, take these.$"
 
 SlateportCity_Text_GretaDefeated:
-	.string "Next time we battle will be a lot more\n"
-	.string "fun, but I won't lose again!\p"
-	.string "You'd better do some serious training;\n"
-	.string "no halfhearted rematch allowed!$"
+	.string "…I'm glad we got to battle.$"
