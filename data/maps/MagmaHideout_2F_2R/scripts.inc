@@ -35,12 +35,12 @@ MagmaHideout_2F_2R_Text_Grunt15PostBattle: @ 8239EBB
 	.string "Fufufu… Fwahahaha!$"
 
 MagmaHideout_2F_2R_Text_Grunt6Intro: @ 8239F31
-	.string "I can't stand heat. Maybe I should've\n"
-	.string "joined Team Aqua instead…$"
+	.string "I actually don't like spamming attacks.\n"
+	.string "I shoulda joined Team Stall instead…$"
 
 MagmaHideout_2F_2R_Text_Grunt6Defeat: @ 8239F71
 	.string "Yeah, I really may not be right for\n"
-	.string "Team Magma…$"
+	.string "Team Aggro…$"
 
 MagmaHideout_2F_2R_Text_Grunt6PostBattle: @ 8239FA1
 	.string "Don't you get lonely for the sea\n"
@@ -60,7 +60,7 @@ MagmaHideout_2F_2R_Text_Grunt7Defeat: @ 823A050
 MagmaHideout_2F_2R_Text_Grunt7PostBattle: @ 823A07D
 	.string "You just happened to win this time,\n"
 	.string "but that doesn't matter.\p"
-	.string "Team Magma's goal is about to be\n"
+	.string "Team Aggro's goal is about to be\n"
 	.string "reached!$"
 
 MagmaHideout_2F_2R_Text_Grunt8Intro: @ 823A0E4

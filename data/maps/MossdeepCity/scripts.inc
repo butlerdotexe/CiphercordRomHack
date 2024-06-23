@@ -332,7 +332,7 @@ MossdeepCity_Movement_ScottExitEast: @ 81E4CE2
 	step_end
 
 MossdeepCity_Text_WantKingsRockStevenGaveMe: @ 81E4CED
-	.string "I got this from Steven, but I don't\n"
+	.string "I got this from Penta, but I don't\n"
 	.string "know what it's good for.\p"
 	.string "I think it's called King's Rock.\n"
 	.string "Do you want it?$"
@@ -341,10 +341,10 @@ MossdeepCity_Text_YouCanKeepIt: @ 81E4D5B
 	.string "Why would you want it?\n"
 	.string "You're weird.\p"
 	.string "You can keep it, but keep it a secret\n"
-	.string "from Steven.$"
+	.string "from Penta.$"
 
 MossdeepCity_Text_StevensHouseOverThere: @ 81E4DB3
-	.string "Steven's house is right over there!$"
+	.string "Penta's house is right over there!$"
 
 MossdeepCity_Text_WhatToDoWithWeirdRock: @ 81E4DD7
 	.string "Yeah, you think so, too! What are you\n"
@@ -370,11 +370,11 @@ MossdeepCity_Text_SpaceCenterLaunchingRockets: @ 81E4F15
 
 MossdeepCity_Text_MossdeepTargetedByMagma: @ 81E4F50
 	.string "I heard from a Sailor buddy that\n"
-	.string "Team Aqua set up shop in Lilycove.\p"
+	.string "Team Stall set up shop in Lilycove.\p"
 	.string "I also heard that someone came along\n"
 	.string "and wiped the floor with them!\p"
 	.string "But Mossdeep here's been targeted\n"
-	.string "by that Team Magma.\p"
+	.string "by that Team Aggro.\p"
 	.string "If you want to know what they're up to,\n"
 	.string "go visit the Space Center.$"
 
@@ -420,8 +420,8 @@ MossdeepCity_Text_ItsAWhiteRock: @ 81E5396
 
 MossdeepCity_Text_GymSign: @ 81E53A9
 	.string "Mossdeep City Pokémon Gym\n"
-	.string "Leaders: Tate & Liza\p"
-	.string "“The mystic combination!”$"
+	.string "Leader: Aku\p"
+	.string "“Pure Power!”$"
 
 MossdeepCity_Text_CitySign: @ 81E53F2
 	.string "Mossdeep City\n"

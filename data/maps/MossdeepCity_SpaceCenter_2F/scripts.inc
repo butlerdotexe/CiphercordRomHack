@@ -382,7 +382,7 @@ MossdeepCity_SpaceCenter_2F_Text_MossdeepIdealForRockets: @ 82241A1
 	.string "rockets.$"
 
 MossdeepCity_SpaceCenter_2F_Text_WhyWouldMagmaStealRocketFuel: @ 822420C
-	.string "Why would Team Magma want to steal\n"
+	.string "Why would Team Aggro want to steal\n"
 	.string "our rocket fuel in the first place?$"
 
 MossdeepCity_SpaceCenter_2F_Text_WouldveLikedToBeAstronaut: @ 8224253
@@ -392,7 +392,7 @@ MossdeepCity_SpaceCenter_2F_Text_WouldveLikedToBeAstronaut: @ 8224253
 	.string "I can and will try!$"
 
 MossdeepCity_SpaceCenter_2F_Text_MagmaCantGetAwayWithThis: @ 82242C5
-	.string "If Team Magma takes the rocket fuel,\n"
+	.string "If Team Aggro takes the rocket fuel,\n"
 	.string "I won't be able to go to space!\p"
 	.string "They can't be allowed to get away\n"
 	.string "with such an outrage!$"
@@ -402,7 +402,7 @@ MossdeepCity_SpaceCenter_2F_Text_WishOrdinaryPeopleCouldGoIntoSpace: @ 8224342
 	.string "space one day…$"
 
 MossdeepCity_SpaceCenter_2F_Text_DoesMagmaWantToGoToSpace: @ 8224376
-	.string "Team Magma…\n"
+	.string "Team Aggro…\n"
 	.string "Do they want to go to space, too?$"
 
 MossdeepCity_SpaceCenter_2F_Text_YoureOutnumberedTakeUsOn: @ 82243A4
@@ -451,93 +451,91 @@ MossdeepCity_SpaceCenter_2F_Text_Grunt5PostBattle: @ 82245AF
 	.string "at all?$"
 
 MossdeepCity_SpaceCenter_2F_Text_WellTakeCareOfYou: @ 82245D9
-	.string "Ahahaha!\p"
-	.string "We come all the way here to get some\n"
-	.string "fuel, and we're interfered with again!\p"
-	.string "If you're going to mess with us too,\n"
-	.string "we'll take care of you at the same time!$"
+	.string "Yooo Penta what's up? And new kid!\p"
+	.string "Fallen's been cooking up a plan with\n"
+	.string "this rocket fuel, and it sounds sick.\p"
+	.string "Hoch's luck weighed me down last time,\n"
+	.string "but I've got Fallenluck on my side!$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieDontInterfere: @ 822467B
-	.string "Maxie: Clear out of the way!\n"
-	.string "Don't you dare interfere!$"
+	.string "Fallen: Oh my god can I do one crime\n"
+	.string "without being interrupted?$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenWhyStealRocketFuel: @ 82246B2
-	.string "Steven: Team Magma…\p"
-	.string "What's the point of stealing rocket\n"
-	.string "fuel?$"
+	.string "Penta: Fallen…\p"
+	.string "I do not need to know what you're doing\n"
+	.string "with rocket fuel. Its probably terrorism.$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieUseFuelToEruptVolcano: @ 82246F0
-	.string "Maxie: Fufufu… Since you're so\n"
-	.string "curious, you deserve an explanation.\p"
-	.string "We're going to jettison the entire\n"
-	.string "load into Mt. Chimney!\p"
-	.string "With Groudon gone, we have no need\n"
-	.string "for that slag heap of a mountain!\p"
-	.string "So we'll use the fuel's power to make\n"
-	.string "the volcano erupt!\p"
-	.string "It will be savage!$"
+	.string "Fallen: What? Of course not!\p"
+	.string "All we're going to do is pump this\n"
+	.string "shit in the ground and light it up.\p"
+	.string "That will catch Groudon's attention,\n"
+	.string "and when it comes back I catch it.\p"
+	.string "There might be a tiny bit of major\n"
+	.string "ecological damage, but I'll be back\l"
+	.string "on top!$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenAreYouReadyToBattle: @ 82247FF
-	.string "Steven: {PLAYER}{KUN}!\n"
-	.string "You're going to help me?\p"
+	.string "Penta: {PLAYER}{KUN}!\n"
+	.string "We have got to stop this.\p"
 	.string "Let's go into battle together!\n"
 	.string "Are you ready?$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenHurryGetReadyQuickly: @ 8224854
-	.string "Steven: Then, hurry!\n"
+	.string "Penta: Then, hurry!\n"
 	.string "Get ready quickly!$"
 
 MossdeepCity_SpaceCenter_2F_Text_JustWantToExpandLand: @ 822487C
-	.string "All I want…\n"
-	.string "I just want to expand the land mass…$"
+	.string "God damn it…\n"
+	.string "No one likes fun around here…$"
 
 MossdeepCity_SpaceCenter_Text_CourtneyDefeat: @ 82248AD
-	.string "I'm with our leader…$"
+	.string "Maybe you're actually just good…$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieWeFailedIsAquaAlsoMisguided: @ 82248C2
-	.string "Maxie: We failed to make the volcano\n"
+	.string "Fallen: We failed to make the volcano\n"
 	.string "erupt…\p"
 	.string "We failed to control Groudon after\n"
 	.string "we had awoken it…\p"
-	.string "Is our goal to expand the land\n"
+	.string "Is our goal to make Aggro supreme\n"
 	.string "misguided?\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
-	.string "If…\n"
-	.string "If we, Team Magma, are wrong…\l"
+	.string "No…\n"
+	.string "I'm definitely right…\l"
 	.string "… … … … … …\p"
-	.string "Then might Team Aqua's goal to expand\n"
-	.string "the sea also be equally misguided?$"
+	.string "But I fail…\n"
+	.string "Rosa has to fail too!$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieWeWillGiveUp: @ 82249DC
-	.string "Maxie: All right…\n"
-	.string "We will give up on the fuel…\p"
-	.string "There appear to be more important\n"
-	.string "matters that I must examine…$"
+	.string "Fallen: All right…\n"
+	.string "This was a massive waste of time.\p"
+	.string "Now I have to go mess up Team Stall's\n"
+	.string "plans, so they lose too.$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenThankYouComeSeeMeAtHome: @ 8224A4A
-	.string "Steven: Whew, that was too tense.\n"
-	.string "{PLAYER}{KUN}, thank you.\p"
+	.string "Penta: Jesus, that was too tense.\n"
+	.string "{PLAYER}{KUN}, thanks.\p"
 	.string "I have something to give you as\n"
 	.string "thanks for your support.\p"
 	.string "Please come see me at home\n"
 	.string "after this.\p"
-	.string "Oh, yes, I don't live in Rustboro City.\n"
-	.string "I live right here on this island.$"
+	.string "Oh, yeah, my place is here, you don't\n"
+	.string "have to go back to Rustboro.$"
 
 MossdeepCity_SpaceCenter_Text_TabithaIntro:
-	.string "Hehehe!\p"
-	.string "We're taking the fuel, and no amount\n"
-	.string "of meddling is going to stop us!$"
+	.string "I can't tell how much Fallen had me\n"
+	.string "drink, but I feel fuckin GREAT!\n"
+	.string "I finally feel like I'll win this one!$"
 
 MossdeepCity_SpaceCenter_Text_TabithaDefeat:
-	.string "Hehe…\n"
-	.string "Well, maybe that's enough to stop me…$"
+	.string "Ugh…\n"
+	.string "I might have drank too much…$"
 
 MossdeepCity_SpaceCenter_Text_TabithaPostBattle:
-	.string "Hehe…\p"
-	.string "It's all up to our Leader and Courtney\n"
-	.string "now.$"
+	.string "Ugh…\n"
+	.string "I might have drank too much…$"
 
 MossdeepCity_SpaceCenter_Text_ChooseMons:
 	.string "Choose which Pokémon will battle.$"

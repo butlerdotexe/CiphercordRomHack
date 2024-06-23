@@ -12,29 +12,27 @@ SeafloorCavern_Room3_EventScript_Grunt5:: @ 823494F
 	end
 
 SeafloorCavern_Room3_Text_ShellyIntro: @ 8234966
-	.string "Ahahahaha!\p"
-	.string "How did you manage to get here without\n"
-	.string "a submarine?\l"
-	.string "What an impressive child!\p"
-	.string "But… It won't do to have you\n"
-	.string "meddling about here.\p"
-	.string "And, I do want payback for what\n"
-	.string "happened at the Weather Institute…\p"
-	.string "I'm going to give you a little taste\n"
-	.string "of pain! Resign yourself to it!$"
+	.string "Heyyy what's up?\p"
+	.string "Man I hope you didn't solve that\n"
+	.string "little puzzle to try to avoid me.\p"
+	.string "I have really good eyesight.\p"
+	.string "Anyway, as per usual, I have to STALL\n"
+	.string "you here. Heh.\p"
+	.string "I actually got some pretty sick\n"
+	.string "Pokémon since last time, wanna see?$"
 
 SeafloorCavern_Room3_Text_ShellyDefeat: @ 8234A79
-	.string "Ahahahaha!\p"
-	.string "Ouch!$"
+	.string "Oof, yeah, you got me.\p"
+	.string "Oh well.$"
 
 SeafloorCavern_Room3_Text_ShellyPostBattle: @ 8234A8A
-	.string "Ahahahaha!\n"
-	.string "You're so darn strong.\p"
-	.string "It's terribly disappointing that you're\n"
-	.string "not a Team Aqua member.\p"
-	.string "You could have enjoyed the fabulous\n"
-	.string "world our Boss has promised as\l"
-	.string "one of us…$"
+	.string "Man I don't know about you, but I think\n"
+	.string "that went really well.\p"
+	.string "I know you're not all about the Stall\n"
+	.string "stuff like us, but you should join!\p"
+	.string "You can make friends, rob people, and\n"
+	.string "we have great benefits.\p"
+	.string "You should think about it!$"
 
 SeafloorCavern_Room3_Text_Grunt5Intro: @ 8234B3A
 	.string "For our dream to become real, we need\n"

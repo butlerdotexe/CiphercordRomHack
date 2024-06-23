@@ -327,7 +327,7 @@ MossdeepCity_SpaceCenter_1F_Text_RocketLaunchDemandsPerfection: @ 82233D3
 	.string "Why? It's a dream that never ends.$"
 
 MossdeepCity_SpaceCenter_1F_Text_MagmaHaveSightsOnSpaceCenter: @ 82234B7
-	.string "Those Magma thugs have their sights\n"
+	.string "Those Aggro thugs have their sights\n"
 	.string "set on our Space Center.\p"
 	.string "But we can't allow anything that minor\n"
 	.string "to interfere with our rocket launch!$"
@@ -343,13 +343,13 @@ MossdeepCity_SpaceCenter_1F_Text_HoennFamousForMeteorShowers: @ 82235A6
 	.string "its meteor showers for a long time.$"
 
 MossdeepCity_SpaceCenter_1F_Text_MagmaCantStealFuelTakeThis: @ 82235F0
-	.string "Team Magma can't be allowed to steal\n"
+	.string "Team Aggro can't be allowed to steal\n"
 	.string "the rocket fuel.\p"
 	.string "Oh, by the way, you can have this stone\n"
 	.string "I found on the beach.$"
 
 MossdeepCity_SpaceCenter_1F_Text_CantStrollOnBeachWithMagma: @ 8223664
-	.string "With Team Magma around, I guess\n"
+	.string "With Team Aggro around, I guess\n"
 	.string "strolls on the beach aren't safe.$"
 
 MossdeepCity_SpaceCenter_1F_Text_DidPokemonComeFromSpace: @ 82236A6
@@ -357,9 +357,9 @@ MossdeepCity_SpaceCenter_1F_Text_DidPokemonComeFromSpace: @ 82236A6
 	.string "from space. Could it be true?$"
 
 MossdeepCity_SpaceCenter_1F_Text_AquaShouldBeatMagma: @ 82236E8
-	.string "Team Aqua should take care of\n"
-	.string "Team Magma!\p"
-	.string "But if they did that, Team Aqua will\n"
+	.string "Team Stall should take care of\n"
+	.string "Team Aggro!\p"
+	.string "But if they did that, Team Stall will\n"
 	.string "become bold and brazen, won't they?$"
 
 MossdeepCity_SpaceCenter_1F_Text_RocketsBoggleMyMind: @ 822375B
@@ -370,14 +370,14 @@ MossdeepCity_SpaceCenter_1F_Text_RocketsBoggleMyMind: @ 822375B
 MossdeepCity_SpaceCenter_1F_Text_MagmaWantsToSpoilMyDream: @ 82237B5
 	.string "A giant chunk of metal bursts through\n"
 	.string "the skies and flies into space…\p"
-	.string "But Team Magma wants to spoil\n"
+	.string "But Team Aggro wants to spoil\n"
 	.string "that dream of mine!\p"
 	.string "I'm not having any of that!$"
 
 MossdeepCity_SpaceCenter_1F_Text_StevenMagmaCantBeAllowedToTakeFuel: @ 8223849
-	.string "Steven: {PLAYER}{KUN}, have you read that\n"
+	.string "Penta: {PLAYER}{KUN}, have you read that\n"
 	.string "proclamation already?\p"
-	.string "Team Magma is coming after the rocket\n"
+	.string "Team Aggro is coming after the rocket\n"
 	.string "fuel on this island.\p"
 	.string "I don't know what they'd need it for,\n"
 	.string "but they can't be allowed to take it.\p"
@@ -442,8 +442,9 @@ MossdeepCity_SpaceCenter_1F_Text_MagmaIntentToStealNotice: @ 8223C2C
 	.string "“To the staff of the Space Center:\n"
 	.string "How are you? We are doing fine.\p"
 	.string "“We will soon visit you to take your\n"
-	.string "rocket fuel.\p"
+	.string "rocket fuel, and your orbs.\p"
 	.string "“Please don't try to stop us.\n"
-	.string "We will take the fuel no matter what.\p"
-	.string "“Let there be more land!\n"
-	.string "                                          Team Magma”$"
+	.string "You don't have enough evades.\p"
+	.string "“We will take them no matter what!\n"
+	.string "Sincerely yours,\p"
+	.string "                                          Team Aggro”$"

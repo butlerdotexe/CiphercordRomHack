@@ -103,27 +103,21 @@ EverGrandeCity_GlaciasRoom_EventScript_DefeatedRematch::
 	end
 
 EverGrandeCity_GlaciasRoom_Text_IntroSpeech: @ 82284AC
-	.string "Welcome, my name is Glacia\n"
-	.string "of the Elite Four.\p"
-	.string "I've traveled from afar to Hoenn\n"
-	.string "so that I may hone my ice skills.\p"
-	.string "But all I have seen are challenges by\n"
-	.string "weak Trainers and their Pokémon.\p"
-	.string "What about you?\p"
-	.string "It would please me to no end if I could\n"
-	.string "go all out against you!$"
+	.string "Hey, how's it goin'?\p"
+	.string "I'm Dova, and I'm like, the only\n"
+	.string "new person in the Elite Four here.\p"
+	.string "Everyone else has been around forever.\p"
+	.string "But that doesn't mean I'm any easier,\n"
+	.string "so I hope you're ready for this.$"
 
 EverGrandeCity_GlaciasRoom_Text_Defeat: @ 82285B4
-	.string "You and your Pokémon…\n"
-	.string "How hot your spirits burn!\p"
-	.string "The all-consuming heat overwhelms.\p"
-	.string "It's no surprise that my icy skills\n"
-	.string "failed to harm you.$"
+	.string "Hm, you're good. I wonder if I\n"
+	.string "should try that next time.$"
 
 EverGrandeCity_GlaciasRoom_Text_PostBattleSpeech: @ 8228640
-	.string "Advance to the next room.\p"
-	.string "And there, confirm the truly fearsome\n"
-	.string "side of the Pokémon League.$"
+	.string "Well, you beat me, so now you just\n"
+	.string "have one member left before the Champion.\p"
+	.string "Good luck!$"
 
 EverGrandeCity_GlaciasRoom_Text_IntroSpeechRematch:
 	.string "I've been waiting for a Trainer\n"

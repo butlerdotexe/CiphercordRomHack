@@ -103,28 +103,26 @@ EverGrandeCity_PhoebesRoom_EventScript_DefeatedRematch::
 	end
 
 EverGrandeCity_PhoebesRoom_Text_IntroSpeech: @ 822820E
-	.string "Ahahaha!\p"
-	.string "I'm Phoebe of the Elite Four.\n"
-	.string "I did my training on Mt. Pyre.\p"
-	.string "While I trained, I gained the ability\n"
-	.string "to commune with Ghost-type Pokémon.\p"
-	.string "Yes, the bond I developed with Pokémon\n"
-	.string "is extremely tight.\p"
-	.string "So, come on, just try and see if you can\n"
-	.string "even inflict damage on my Pokémon!$"
+	.string "Are you the guy that Penta's been\n"
+	.string "nagging me about?\p"
+	.string "You don't look too special. Let me see\n"
+	.string "your team.\p"
+	.string "… … …\p"
+	.string "That's it? Where are the legendaries?\p"
+	.string "You're telling me you made it this far\n"
+	.string "with so few legendaries?\p"
+	.string "Whatever dude. Let's just get this over\n"
+	.string "with so I can go back to Genshin.$"
 
 EverGrandeCity_PhoebesRoom_Text_Defeat: @ 8228325
-	.string "Oh, darn.\n"
-	.string "I've gone and lost.$"
+	.string "WTF.$"
 
 EverGrandeCity_PhoebesRoom_Text_PostBattleSpeech: @ 8228343
-	.string "There's a definite bond between you\n"
-	.string "and your Pokémon, too.\p"
-	.string "I didn't recognize it, so it's only\n"
-	.string "natural that I lost.\p"
-	.string "Yup, I'd like to see how far your bond\n"
-	.string "will carry you.\p"
-	.string "Go ahead, move on to the next room.$"
+	.string "You actually sacced the shit out of me.\p"
+	.string "It's ok. You have to fight Dovah next.\n"
+	.string "And after him is Zelfie, and then Llew.\p"
+	.string "In other words, it's up to Dovah and\p"
+	.string "Llewellyn to gatekeep you from now on.$"
 
 EverGrandeCity_PhoebesRoom_Text_IntroSpeechRematch:
 	.string "Ahaha! I've been waiting for you!\p"

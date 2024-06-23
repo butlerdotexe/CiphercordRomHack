@@ -117,12 +117,12 @@ AquaHideout_B2F_Text_MattPostBattle: @ 8233FF2
 	.string "Hehehe!$"
 
 AquaHideout_B2F_Text_Grunt4Intro: @ 82340B4
-	.string "Wahahah, I grew weary of waiting!\n"
-	.string "You owe me a battle, too!$"
+	.string "Wahahah, you think you can just rush\n"
+	.string "through? You owe me a battle, too!$"
 
 AquaHideout_B2F_Text_Grunt4Defeat: @ 82340F0
-	.string "Tired of waiting…\n"
-	.string "Lost and dazed…$"
+	.string "Boss…\n"
+	.string "Is this good enough?$"
 
 AquaHideout_B2F_Text_Grunt4PostBattle: @ 8234112
 	.string "Boss…\n"
@@ -147,7 +147,7 @@ AquaHideout_B2F_Text_Grunt6PostBattle: @ 82341FE
 	.string "chew me out…$"
 
 AquaHideout_B2F_Text_Grunt8Intro: @ 823426F
-	.string "When I joined Team Aqua, the first\n"
+	.string "When I joined Team Stall, the first\n"
 	.string "thing I had to learn was how these\l"
 	.string "warp panels connected.$"
 

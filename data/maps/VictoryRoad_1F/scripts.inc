@@ -124,25 +124,30 @@ VictoryRoad_1F_EventScript_Katelynn:: @ 8235ECF
 	end
 
 VictoryRoad_1F_Text_WallyNotGoingToLoseAnymore: @ 8235EE6
-	.string "Wally: Hi! {PLAYER}!\p"
-	.string "I bet you're surprised to see me here!\p"
-	.string "I made it all the way here, and it's\n"
-	.string "all thanks to you!\p"
-	.string "{PLAYER}, losing to you that time\n"
-	.string "made me stronger!\p"
-	.string "But I'm not going to lose anymore!\p"
-	.string "I'm going to win! For the Pokémon who\n"
-	.string "gave me courage and strength!\p"
+	.string "Basil: {PLAYER}!\p"
+	.string "I'm glad I caught you here.\p"
+	.string "After I lost to you in Mauville, I felt\n"
+	.string "lost, that my partner was worthless.\p"
+	.string "So I tried using Pokémon that were\n"
+	.string "strong, without caring about anything\l"
+	.string "but victory.\p"
+	.string "When you won again, I realized that\n"
+	.string "it's neither love nor strength that\l"
+	.string "makes for a good trainer.\p"
+	.string "It's your team, the partners you learn\n"
+	.string "and grow with, and your fighting spirit.\p"
+	.string "Although Maractus is back home, he's\n"
+	.string "cheering me on, and has been all the way!\p"
 	.string "Okay… Here I come!$"
 
 VictoryRoad_1F_Text_WallyEntranceDefeat: @ 8235FFC
 	.string "Wow!\n"
-	.string "{PLAYER}, you are strong, after all!$"
+	.string "Even now, I can't touch you!$"
 
 VictoryRoad_1F_Text_WallyPostEntranceBattle: @ 8236020
-	.string "Wally: I couldn't beat you today,\n"
-	.string "{PLAYER}, but one of these days, I'll\l"
-	.string "catch up to you!$"
+	.string "Basil: I'm finally happy how our\n"
+	.string "battle ended, {PLAYER}.\p"
+	.string "I hope you can see how far I've come.$"
 
 VictoryRoad_1F_Text_WallyIntro: @ 8236073
 	.string "Wally: Hi! {PLAYER}!\p"

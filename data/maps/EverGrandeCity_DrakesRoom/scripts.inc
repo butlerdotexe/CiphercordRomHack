@@ -150,20 +150,16 @@ EverGrandeCity_DrakesRoom_Text_IntroSpeech: @ 822873E
 	.string "THE MAD DICKENING!$"
 
 EverGrandeCity_DrakesRoom_Text_Defeat: @ 8228895
-	.string "Superb, it should be said.$"
+	.string "That was rad.$"
 
 EverGrandeCity_DrakesRoom_Text_PostBattleSpeech: @ 82288B0
-	.string "You deserve every credit for coming\n"
-	.string "this far as a Trainer of Pokémon.\p"
-	.string "You do seem to know what is needed.\p"
-	.string "Yes, what a Trainer needs is a\n"
-	.string "virtuous heart.\p"
-	.string "Pokémon touch the good hearts of\n"
-	.string "Trainers and learn good from wrong.\p"
-	.string "They touch the good hearts of\n"
-	.string "Trainers and grow strong.\p"
-	.string "Go! Go onwards!\n"
-	.string "The Champion is waiting!$"
+	.string "You know, I don't even feel bad losing\n"
+	.string "that. It was a good game.\p"
+	.string "But you better fuck the Champion up,\n"
+	.string "because if you do then I won't be\l"
+	.string "second anymore.\p"
+	.string "At this point I'll take third if those\n"
+	.string "bastards stop the second place jokes.$"
 
 EverGrandeCity_DrakesRoom_Text_IntroSpeechRematch:
 	.string "Oh, I've been waitin' for you!\p"

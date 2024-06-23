@@ -248,51 +248,39 @@ Route128_EventScript_Carlee:: @ 81F6DDE
 	end
 
 Route128_Text_ArchieWhatHappened: @ 81F6DF5
-	.string "Archie: What happened…\n"
-	.string "What is this wretched scene…\p"
-	.string "Did I…make a horrible mistake?$"
+	.string "Rosa: Ooooh shiiit…\n"
+	.string "This is not good…$"
 
 Route128_Text_ArchieIOnlyWanted: @ 81F6E48
 	.string "I…\n"
-	.string "I only wanted…$"
+	.string "I only wanted to stall…$"
 
 Route128_Text_MaxieDoYouUnderstandNow: @ 81F6E5A
-	.string "Maxie: Do you understand now,\n"
-	.string "Archie?\p"
-	.string "Do you finally see how disastrous\n"
-	.string "your dream turned out to be?\p"
-	.string "We have to hurry! We have to do\n"
-	.string "something before the situation goes\l"
-	.string "completely out of control!$"
+	.string "Fallen: AHAHAHA!\n"
+	.string "Gottem!\p"
+	.string "Hey nice job kid, making two\n"
+	.string "legendary Pokémon go wild!\p"
+	.string "It's only fair that you ruin Team\n"
+	.string "Stall's plan since you ruined\l"
+	.string "ours first!$"
 
 Route128_Text_MaxieResposibilityFallsToArchieAndMe: @ 81F6F1E
-	.string "Maxie: {PLAYER}, don't say anything.\p"
-	.string "I know that I have no right to be\n"
-	.string "critical of Archie…\p"
-	.string "But the way things are now, I doubt\n"
-	.string "that we humans will be capable of\l"
-	.string "doing anything about it.\p"
-	.string "But neither can we stand by and\n"
-	.string "just watch helplessly.\p"
-	.string "The responsibility for putting an end\n"
-	.string "to this falls to Archie and I…$"
+	.string "Fallen: Man this is gonna be brutal.\p"
+	.string "You called what I was doing terrorism?\n"
+	.string "Well this…\p"
+	.string "This is gonna be a REAL shitshow!\p"
+	.string "Two legendary Pokémon beating the shit\n"
+	.string "out of each other is gonna do way\l"
+	.string "more damage than I ever could!$"
 
 Route128_Text_MaxieThisDefiesBelief: @ 81F704F
-	.string "Maxie: This defies belief…\p"
-	.string "Those super-ancient Pokémon…\p"
-	.string "Their power is unbelievable.\n"
-	.string "They've upset the balance of nature…$"
+	.string "Penta: Even when I lose, I win!$"
 
 Route128_Text_StevenWhatIsHappening: @ 81F70C9
-	.string "Steven: {PLAYER}{KUN}!\n"
-	.string "What is happening?$"
+	.string "Penta: {PLAYER}{KUN}!\n"
+	.string "What the hell is going on?$"
 
 Route128_Text_StevenWholeWorldWillDrown: @ 81F70EA
-	.string "This is terrible…\p"
-	.string "After the scorching heat wave ended,\n"
-	.string "this deluge began.\p"
-	.string "If this doesn't stop, all of Hoenn…\n"
-	.string "No, the whole world will drown.\p"
 	.string "This huge rain cloud is spreading\n"
 	.string "from above Sootopolis…\p"
 	.string "What in the world is taking place there?\p"
@@ -301,8 +289,5 @@ Route128_Text_StevenWholeWorldWillDrown: @ 81F70EA
 
 Route128_Text_StevenImGoingToSootopolis: @ 81F721B
 	.string "{PLAYER}{KUN}…\n"
-	.string "I don't know what you intend to do,\l"
-	.string "but don't do anything reckless.\p"
-	.string "Okay.\n"
 	.string "I'm going to Sootopolis.$"
 

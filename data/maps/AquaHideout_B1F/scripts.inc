@@ -155,13 +155,13 @@ AquaHideout_B1F_Text_Grunt5Defeat: @ 8233CCA
 
 AquaHideout_B1F_Text_Grunt5PostBattle: @ 8233CDC
 	.string "If you scurry too much, other Team\n"
-	.string "Aqua members might get you.$"
+	.string "Stall members might get you.$"
 
 AquaHideout_B1F_Text_Grunt7Intro: @ 8233D1B
 	.string "Hey!\n"
 	.string "You there!\p"
 	.string "Which do you think is cooler?\n"
-	.string "Team Aqua's uniform or Team Magma's?$"
+	.string "Team Stall's uniform or Team Aggro's?$"
 
 AquaHideout_B1F_Text_Grunt7Defeat: @ 8233D6E
 	.string "I lost in a cool way…$"

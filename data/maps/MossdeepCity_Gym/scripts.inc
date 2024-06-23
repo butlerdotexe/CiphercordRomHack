@@ -443,7 +443,7 @@ MossdeepCity_Gym_Text_VirgilDefeat: @ 8220F1A
 
 MossdeepCity_Gym_Text_VirgilPostBattle: @ 8220F3A
 	.string "If there are prodigies in the world,\n"
-	.string "then our Gym Leaders are them!\p"
+	.string "then our Gym Leader is it!\p"
 	.string "However, you may be even more talented\n"
 	.string "than them…$"
 
@@ -492,7 +492,7 @@ MossdeepCity_Gym_Text_SamanthaDefeat: @ 8221230
 
 MossdeepCity_Gym_Text_SamanthaPostBattle: @ 822123D
 	.string "You will wage a terrifically intense\n"
-	.string "battle with our Gym Leaders…\p"
+	.string "battle with our Gym Leader…\p"
 	.string "The result…\n"
 	.string "You won't hear it from me!$"
 
@@ -587,79 +587,64 @@ MossdeepCity_Gym_Text_NicholasPostBattle: @ 822173A
 	.string "invincible Pokémon power next.$"
 
 MossdeepCity_Gym_Text_TateAndLizaIntro: @ 8221783
-	.string "Tate: Hehehe… Were you surprised?\p"
-	.string "Liza: Fufufu… Were you surprised?\p"
-	.string "Tate: That there are two Gym Leaders?\n"
-	.string "Liza: That there are two Gym Leaders?\p"
-	.string "Tate: We're twins!\n"
-	.string "Liza: We're twins!\p"
-	.string "Tate: We don't need to talk because…\n"
-	.string "Liza: We can each determine what…\p"
-	.string "Tate: The other is thinking…\n"
-	.string "Liza: All in our minds!\p"
-	.string "Tate: This combination of ours…\n"
-	.string "Liza: Can you beat it?$"
+	.string "Oh hey. It's you.\n"
+	.string "I heard from the other gym leaders that\n"
+	.string "there was some new trainer having the run\l"
+	.string "of their life.\n"
+	.string "It was music to my ears.\p"
+	.string "I was worried that this new generation\n"
+	.string "of ciphercord members had gone soft.\p"
+	.string "…\n"
+	.string "Well?\n"
+	.string "Why are you just standing there?\p"
+	.string "Are you gonna fight me or not?$"
 
 MossdeepCity_Gym_Text_TateAndLizaDefeat: @ 82218EC
-	.string "Tate: What?! Our combination…\n"
-	.string "Liza: Was shattered!\p"
-	.string "Tate: It can't be helped. You've won…\n"
-	.string "Liza: So, in recognition, take this.$"
+	.string "Wow. So the other gym leaders\n"
+	.string "aren't washed after all.\p"
+	.string "That really was a good game.$"
 
 MossdeepCity_Gym_Text_ReceivedMindBadge: @ 822196A
 	.string "{PLAYER} received the Mind Badge\n"
-	.string "from Liza and Tate.$"
+	.string "from Aky.$"
 
 MossdeepCity_Gym_Text_ExplainMindBadgeTakeThis: @ 8221999
-	.string "Tate: The Mind Badge will make any\n"
-	.string "Pokémon up to Level 90 obey you.\p"
-	.string "Liza: It also lets you use the HM move\n"
-	.string "Dive outside of battle, so we'll lend\l"
-	.string "you our Slowbro whenever you need it!\p"
+	.string "That Badge will make any Pokémon\n"
+	.string "up to Level 90 obey you.\p"
+	.string "You can also use Dive, but there's\n"
+	.string "this weird Pokémon here that can do\l"
+	.string "it for you if you call.\p"
 	.string "… … … … … …$"
 
 MossdeepCity_Gym_Text_RegisteredSlowbro: @ 8221AEA
-	.string "Registered Tate & Liza's Slowbro\n"
-	.string "in the PokéNav.$"
+	.string "Registered Slowbro in the PokéNav.$"
 
 MossdeepCity_Gym_Text_TakeThis:
-	.string "Liza: You should also take this, too.$"
+	.string "You should also take this, too.$"
 
 MossdeepCity_Gym_Text_ExplainCalmMind: @ 8221A40
-	.string "Tate: That TM04 contains…\n"
-	.string "Liza: Calm Mind!\p"
-	.string "Tate: It raises Sp. Atk and…\n"
-	.string "Liza: It raises Sp. Def!\p"
-	.string "Tate: It's a move that's perfect…\n"
-	.string "Liza: For Psychic Pokémon!\p"
+	.string "Apparently it has Calm Mind?\n"
+	.string "I dunno its some nerd move probably.\p"
 	.string "… … … … … …$"
 
 MossdeepCity_Gym_Text_RegisteredTateAndLiza: @ 8221AEA
-	.string "Registered Gym Leaders Tate & Liza\n"
-	.string "in the PokéNav.$"
+	.string "Registered Gym Leader Aku in\n"
+	.string "the PokéNav.$"
 
 MossdeepCity_Gym_Text_TateAndLizaPostBattle: @ 8221B1D
-	.string "Tate: Looks like the bond between you\n"
-	.string "and your Pokémon is far stronger than\l"
-	.string "the bond that we share as twins.\p"
-	.string "Liza: You will become even stronger!\n"
-	.string "We've battled you, so we know.$"
+	.string "You did good, newbie. Keep going\n"
+	.string "and you might even make it all the\l"
+	.string "way to the champ.$"
 
 MossdeepCity_Gym_Text_TateAndLizaNeedTwoMons: @ 8221BCE
-	.string "Tate: Hehehe… Were you surprised?\p"
-	.string "Liza: That there are two Gym Leaders?\p"
-	.string "Tate: Oops, you have only one…\n"
-	.string "Liza: Pokémon that can battle.\p"
-	.string "Tate: We can't battle that way!\p"
-	.string "Liza: If you want to challenge us,\n"
-	.string "bring some more Pokémon.$"
+	.string "Bruh why are you here with 1 Pokémon?$"
 
 MossdeepCity_Gym_Text_GymStatue: @ 8221CB0
 	.string "Mossdeep City Pokémon Gym$"
 
 MossdeepCity_Gym_Text_GymStatueCertified: @ 8221CCA
 	.string "Mossdeep City Pokémon Gym\p"
-	.string "Liza and Tate's Certified Trainers:\n"
+	.string "Aku's Certified Trainers:\n"
 	.string "{PLAYER}$"
 
 MossdeepCity_Gym_Text_TateAndLizaPreRematch: @ 8221D0B

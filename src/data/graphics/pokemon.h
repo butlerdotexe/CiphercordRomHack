@@ -2517,6 +2517,7 @@ const u32 gMonPalette_UnownI[] = INCBIN_U32("graphics/pokemon/unown/i.gbapal.lz"
 const u32 gMonPalette_UnownJ[] = INCBIN_U32("graphics/pokemon/unown/j.gbapal.lz");
 const u32 gMonPalette_UnownK[] = INCBIN_U32("graphics/pokemon/unown/k.gbapal.lz");
 const u32 gMonPalette_UnownL[] = INCBIN_U32("graphics/pokemon/unown/l.gbapal.lz");
+const u32 gMonPalette_UnownM[] = INCBIN_U32("graphics/pokemon/unown/m.gbapal.lz");
 const u32 gMonPalette_Wobbuffet[] = INCBIN_U32("graphics/pokemon/wobbuffet/normal.gbapal.lz");
 const u32 gMonPalette_Girafarig[] = INCBIN_U32("graphics/pokemon/girafarig/normal.gbapal.lz");
 const u32 gMonPalette_Pineco[] = INCBIN_U32("graphics/pokemon/pineco/normal.gbapal.lz");

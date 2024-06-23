@@ -157,31 +157,27 @@ MossdeepCity_StevensHouse_EventScript_DiveItemBall:: @ 8222926
 	end
 
 MossdeepCity_StevensHouse_Text_YouveEarnedHMDive: @ 8222936
-	.string "Steven: {PLAYER}{KUN}…\p"
-	.string "As you can see, there's not much here,\n"
-	.string "but this is my home.\p"
-	.string "Thank you for all that you've done.\p"
-	.string "This is my token of appreciation.\n"
-	.string "It's the Hidden Machine Dive.\p"
-	.string "No need to be shy--you've earned\n"
-	.string "this HM.$"
+	.string "Penta: Hey, welcome.\p"
+	.string "Don't have much since I'm always out,\n"
+	.string "but this is my place.\p"
+	.string "Anyway, thanks again for helping me.\p"
+	.string "You're gonna need this.\n"
+	.string "It's the Hidden Machine Dive.$"
 
 MossdeepCity_StevensHouse_Text_ExplainDive: @ 8222A0E
-	.string "Steven: While you're using Surf, you\n"
+	.string "Penta: While you're using Surf, you\n"
 	.string "should notice dark patches of water.\p"
 	.string "Use Dive if you come to deep water\n"
 	.string "like it. You'll drop to the seafloor.\p"
 	.string "When you want to come back up, use\n"
-	.string "Dive again.\p"
-	.string "In some places, it won't be possible\n"
-	.string "for you to surface, though.$"
+	.string "Dive again.$"
 
 MossdeepCity_StevensHouse_Text_UnderwateCavernBetweenMossdeepSootopolis: @ 8222B11
-	.string "Steven: Apparently, there's an\n"
+	.string "Penta: Apparently, there's a huge\n"
 	.string "underwater cavern between\l"
 	.string "Mossdeep and Sootopolis.\p"
-	.string "You know, the one that Capt. Stern\n"
-	.string "found in his submarine.$"
+	.string "You should go check that out, for no\n"
+	.string "particular reason.$"
 
 MossdeepCity_StevensHouse_Text_TakeBallContainingMeltan: @ 8222B9E
 	.string "{PLAYER} checked the Poké Ball.\p"

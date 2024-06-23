@@ -1521,7 +1521,7 @@ SlateportCity_Text_TakingBattleTentChallenge: @ 81DF28C
 	.string "Give it your best effort!$"
 
 SlateportCity_Text_GretaHowdy:
-	.string "Oh hey there, {PLAYER}{KUN}./p"
+	.string "Oh hey there, {PLAYER}{KUN}.\p"
 	.string "Just doing some field research.$"
 
 SlateportCity_Text_GretaReadyForBattle:

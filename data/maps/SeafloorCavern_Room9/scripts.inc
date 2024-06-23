@@ -235,101 +235,82 @@ SeafloorCavern_Room9_Movement_Delay32: @ 823505C
 	step_end
 
 SeafloorCavern_Room9_Text_ArchieHoldItRightThere: @ 823505F
-	.string "Archie: Hold it right there.$"
+	.string "Rosa: Hold it right there.$"
 
 SeafloorCavern_Room9_Text_ArchieSoItWasYou: @ 823507C
-	.string "Archie: Fufufu…\n"
-	.string "So it was you, after all.$"
+	.string "Rosa: Oh.\n"
+	.string "So it was you.$"
 
 SeafloorCavern_Room9_Text_ArchieBeholdKyogre: @ 82350A6
-	.string "Archie: Behold!\p"
-	.string "See how beautiful it is, the sleeping\n"
-	.string "form of the ancient Pokémon Kyogre!\p"
-	.string "I have waited so long for this day to\n"
-	.string "come…$"
+	.string "Rosa: Well, here it is.\p"
+	.string "Kyogre, a Pokémon powerful enough\n"
+	.string "to make any strategy possible.$"
 
 SeafloorCavern_Room9_Text_BlueOrbShinesByItself: @ 8235279
-	.string "Archie: Now! Awaken, Kyogre!\p"
-	.string "Return the world back to nature, for\n"
-	.string "the good of Pokémon everywhere!$"
+	.string "Rosa: Time to wake up, babe!\p"
+	.string "You and me, we're gonna put Stall\n"
+	.string "back on the menu!$"
 
 SeafloorCavern_Room9_Text_ArchieYouMustDisappear: @ 823512C
-	.string "Archie: It surprises me, how you've\n"
-	.string "managed to chase me here.\p"
-	.string "But that's all over now.\p"
-	.string "For the realization of my dream,\n"
-	.string "you must disappear now!$"
+	.string "Rosa: Ha…\n"
+	.string "Now that I have Kyogre, nothing can\n"
+	.string "defeat my Stall gameplan!\p"
+	.string "And to prove it, how about I show you\n"
+	.string "the true potential of Stall!$"
 
 SeafloorCavern_Room9_Text_ArchieDefeat: @ 82351BC
 	.string "What?!\n"
-	.string "I lost to a mere child like you?!$"
+	.string "How on earth did you break through?$"
 
 SeafloorCavern_Room9_Text_ArchieWithThisBlueOrb: @ 82351E5
-	.string "Archie: Fufufu…\p"
-	.string "I commend you. I must recognize that\n"
-	.string "you are truly gifted.\p"
+	.string "Rosa: Well…\p"
+	.string "I'll admit, I did not expect you to\n"
+	.string "actually win there.\p"
 	.string "But!\n"
-	.string "I have this in my possession!\p"
-	.string "With this Blue Orb, I can make Kyogre…$"
+	.string "I still have the Blue Orb!\p"
+	.string "As long as I have, Kyogre will-$"
 
 SeafloorCavern_Room9_Text_ArchieWhereDidKyogreGo: @ 82352A7
-	.string "Archie: What?!\p"
+	.string "Rosa: What?!\p"
 	.string "I didn't do anything.\n"
 	.string "Where did Kyogre go?$"
 
 SeafloorCavern_Room9_Text_ArchieAMessageFromOutside: @ 82352F6
-	.string "Archie: Hm? It's a message from our\n"
+	.string "Rosa: Hm? It's a message from our\n"
 	.string "members outside…$"
 
 SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard: @ 823532B
-	.string "Archie: Yes, what is it?\p"
+	.string "Rosa: What is it?\p"
 	.string "Hm…\n"
 	.string "It's raining heavily?\p"
-	.string "Good… That should have happened.\n"
-	.string "That is why we awakened Kyogre,\l"
-	.string "to realize Team Aqua's vision of\l"
-	.string "expanding the sea.\p"
-	.string "What?!\p"
-	.string "It's raining far harder than we\n"
-	.string "envisioned? You're in danger?\p"
-	.string "That can't be…\n"
-	.string "That's just not possible…\p"
-	.string "Hold your position and monitor\n"
-	.string "the situation!$"
+	.string "The sea level is rising, and if\n"
+	.string "it continues, the world will be\l"
+	.string "flooded??\p"
+	.string "Oh no. No no no.$"
 
 SeafloorCavern_Room9_Text_ArchieWhyDidKyogreDisappear: @ 823546F
-	.string "Archie: There's something wrong…\p"
+	.string "Rosa: How did this happen?\p"
 	.string "The Blue Orb is supposed to awaken\n"
-	.string "and control Kyogre…\p"
-	.string "But… Why?\n"
-	.string "Why did Kyogre disappear?\p"
-	.string "Why?!$"
+	.string "and control Kyogre!$"
 
 SeafloorCavern_Room9_Text_MaxieWhatHaveYouWrought: @ 82354F0
-	.string "Maxie: What have you wrought?\p"
-	.string "Archie… You've finally awoken Kyogre,\n"
-	.string "haven't you?\p"
-	.string "What will happen to the world if this\n"
-	.string "downpour continues for all eternity?\p"
-	.string "The world's landmass will drown in\n"
-	.string "the deepening sea…$"
+	.string "Fallen: AHAHAHAHA!\p"
+	.string "You fucking idiot. Legendary Pokémon\n"
+	.string "aren't interested in losers like us.\p"
+	.string "When we lost to this kid, they go on\n"
+	.string "their own and fuck shit up.$"
 
 SeafloorCavern_Room9_Text_ArchieDontGetAllHighAndMighty: @ 82355C2
-	.string "Archie: W-what?!\n"
-	.string "Don't get all high and mighty with me!\p"
-	.string "Wasn't it you, Team Magma, that\n"
-	.string "infuriated Groudon?\p"
-	.string "So long as I have this Blue Orb,\n"
-	.string "I should be able to control Kyogre…\p"
-	.string "I should be able to control it…$"
+	.string "Rosa: W-what?!\n"
+	.string "No! No no no no!\p"
+	.string "I just wanted to make my Stall\n"
+	.string "team better, not become a terrorist!$"
 
 SeafloorCavern_Room9_Text_MaxieWeDontHaveTimeToArgue: @ 8235692
-	.string "Maxie: We don't have the time to\n"
-	.string "argue about it here!\p"
-	.string "Get outside and see for yourself!\p"
-	.string "See if what you've wrought is the\n"
-	.string "world that we desired!$"
+	.string "Fallen: Oh its too late for that!\p"
+	.string "Come on, let's see how you Stall team\n"
+	.string "member is doing up there.$"
 
 SeafloorCavern_Room9_Text_MaxieComeOnPlayer: @ 8235723
-	.string "Maxie: {PLAYER}, come on, you have\n"
-	.string "to get out of here, too!$"
+	.string "Fallen: {PLAYER}, you should come too.\n"
+	.string "After all, you played a part in this!$"

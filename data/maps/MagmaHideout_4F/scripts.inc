@@ -179,7 +179,7 @@ MagmaHideout_4F_Text_Grunt12Defeat: @ 823A81B
 	.string "I've come so far, but now this?$"
 
 MagmaHideout_4F_Text_Grunt12PostBattle: @ 823A841
-	.string "Maxie, sir!\n"
+	.string "Fallen, sir!\n"
 	.string "An intruder is headed your way!$"
 
 MagmaHideout_4F_Text_Grunt13Intro: @ 823A86D
@@ -193,87 +193,65 @@ MagmaHideout_4F_Text_Grunt13PostBattle: @ 823A8C6
 	.string "C-come on, one more match…$"
 
 MagmaHideout_4F_Text_TabithaIntro: @ 823A8E1
-	.string "Hehehe!\n"
-	.string "You made it this far, so I'll tell you!\p"
-	.string "That's right!\n"
-	.string "Up ahead, Groudon is sleeping!\p"
-	.string "Maxie went to Groudon just seconds\n"
-	.string "ago!\p"
-	.string "It's going to awaken real soon!\n"
-	.string "Hehe! Hehehe!$"
+	.string "Oh its you.\n"
+	.string "Guess you're here to stop us.\p"
+	.string "Do you even know what we're trying\n"
+	.string "to do here?\p"
+	.string "Basically Fallen thinks this legendary\n"
+	.string "Pokémon is the key to the ultimate\l"
+	.string "offensive team.\p"
+	.string "And we're here to make sure he gets it.$"
 
 MagmaHideout_4F_Text_TabithaDefeat: @ 823A994
-	.string "Taken down again…\n"
-	.string "Hehe…$"
+	.string "Sacked again… I need a drink…$"
 
 MagmaHideout_4F_Text_TabithaPostBattle: @ 823A9AC
-	.string "…And while you wasted time with us,\n"
-	.string "Maxie should have awakened Groudon…$"
+	.string "Oh well, Fallen should be done by now.$"
 
 MagmaHideout_4F_Text_CourtneyIntro:
-	.string "Ahahaha!\n"
-	.string "So glad you could make it, brat!\p"
-	.string "You're just in time to watch Team Magma's\n"
-	.string "ambitions become reality!\p"
-	.string "With Groudon's power, we'll expand the\n"
-	.string "landmass for the good of all!$"
+	.string "Yoooo you made it!\p"
+	.string "Look last time my partner was a bit of a\n"
+	.string "wimp, but Hoch's got my back.\p"
+	.string "So let's have a real match this time!$"
 
 MagmaHideout_4F_Text_CourtneyDefeat:
-	.string "Ahaha… ha…\n"
-	.string "That could have gone better…$"
+	.string "I guess Hochluck overcame my luck…$"
 
 MagmaHideout_4F_Text_CourtneyPostBattle:
 	.string "You might have beaten us, but we're\n"
 	.string "still the winners here!$"
 
 MagmaHideout_4F_Text_MaxieAwakenGroudon: @ 823A9F4
-	.string "Maxie: Groudon…\p"
-	.string "Nothing could awaken you from your\n"
-	.string "sleep bathed in magma…\p"
-	.string "This Red Orb is what you sought.\n"
-	.string "Wasn't it?\p"
-	.string "I have brought you the Red Orb.\n"
-	.string "Let its shine awaken you!\p"
-	.string "And show me…\n"
-	.string "Show me the full extent of your power!$"
+	.string "Fallen: HEY YOU OVERSIZED LIZARD!\p"
+	.string "I GOT THE ORB YOU WANT!$"
 
 MagmaHideout_4F_Text_MaxieGroudonWhatsWrong: @ 823AADA
-	.string "Maxie: Groudon!\n"
-	.string "What's wrong?\p"
-	.string "Wasn't the Red Orb the key?\p"
-	.string "Groudon!\n"
-	.string "Where have you gone…$"
+	.string "Fallen: COME ON, WAKE UP YOU LAZY BASTARD!\n"
+	.string "WE GOT SLOWROLL LOSERS TO SACK!$"
 
 MagmaHideout_4F_Text_MaxieOhItWasYou: @ 823AB33
-	.string "Maxie: Oh? You again?\p"
-	.string "I've seen you poking around uninvited\n"
-	.string "here and there…\p"
-	.string "I suppose you came to meddle in our\n"
-	.string "affairs yet again?\p"
-	.string "Or perhaps you wanted to see Groudon\n"
-	.string "up close? Very well…$"
+	.string "Fallen: Huh? Ugh did Hoch trip and let\n"
+	.string "you through again?\p"
+	.string "Well whatever.$"
 
 MagmaHideout_4F_Text_MaxieWowItsGroudon:
-	.string "Maxie: Behold! Groudon, the\n"
-	.string "super-ancient Pokémon of the land!\p"
-	.string "With the Red Orb in my possession, I\n"
-	.string "have complete control over it.$"
+	.string "Fallen: I'm gonna wake up Groudon,\n"
+	.string "the most powerful aggresive tool.\p"
+	.string "With his power, I'll be able to put an end\n"
+	.string "to slow strategies for good!$"
 
 MagmaHideout_4F_Text_MaxieFightMe:
-	.string "Maxie: With Groudon's power, Team Magma's\n"
-	.string "grand ambition will finally be realized!\p"
-	.string "Maxie: But first… I shall put an end\n"
-	.string "to your meddling, once and for all!$"
+	.string "Fallen: But first… I'll show you what\n"
+	.string "this baby can do.$"
 
 MagmaHideout_4F_Text_MaxieDefeat: @ 823ABB5
-	.string "What makes you so adept at handling\n"
-	.string "Pokémon?$"
+	.string "Seriouesly?\n"
+	.string "Again?$"
 
 MagmaHideout_4F_Text_MaxieImGoingAfterGroudon: @ 823ABE2
-	.string "Maxie: No!\p"
-	.string "It seems you defeating Groudon was\n"
-	.string "enough to free it from my control…\n"
-	.string "With Groudon gone, there is no longer\n"
-	.string "any need for this blasted volcano.\p"
-	.string "I am going after Groudon, so this\n"
-	.string "is where we part!$"
+	.string "Fallen: Oooooh fuck.\p"
+	.string "I think losing to someone like you made\n"
+	.string "Groudon lose its mind…\p"
+	.string "Nice job, asshole.\p"
+	.string "Now I gotta chase down that lizard and\n"
+	.string "remind it who's boss!$"
