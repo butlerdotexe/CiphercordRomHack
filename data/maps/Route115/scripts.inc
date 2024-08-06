@@ -25,8 +25,8 @@ Route115_OnFrame: @ 81F2969
 	.2byte 0
 
 Route115_EventScript_Woman:: @ 81F2973
-	trainerbattle_single TRAINER_CINDY_6, Route102_Text_RickIntro, Route102_Text_RickDefeated
-	msgbox Route102_Text_RickPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_CINDY_6, Route115_Text_NeverKnowWhenCavePokemonWillAppear, Route103_Text_MiguelRematchDefeated
+	msgbox Route103_Text_MiguelRematchDefeated, MSGBOX_AUTOCLOSE
 	end
 
 Route115_EventScript_RouteSignRustboro:: @ 81F297C
@@ -139,10 +139,8 @@ Route115_EventScript_Marlene:: @ 81F2B3E
 	end
 
 Route115_Text_NeverKnowWhenCavePokemonWillAppear: @ 81F2B55
-	.string "Exploring a cave isn't like walking\n"
-	.string "on a road.\p"
-	.string "You never know when wild Pokémon will\n"
-	.string "appear. It's full of suspense.$"
+	.string "Hmm… I can't battle for too long,\n"
+	.string "but we can do one real quick.$"
 
 Route115_Text_RouteSignRustboro: @ 81F2BC9
 	.string "Route 115\n"

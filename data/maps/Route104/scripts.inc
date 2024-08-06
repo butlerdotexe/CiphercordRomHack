@@ -269,8 +269,8 @@ Route104_Movement_RivalExitBrineysCottage: @ 81ECF8A
 	step_end
 
 Route104_EventScript_ExpertF:: @ 81ECF8C
-	trainerbattle_single TRAINER_CINDY_4, Route102_Text_RickIntro, Route102_Text_RickDefeated
-	msgbox Route102_Text_RickPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_CINDY_4, Route104_Text_GinaIntro, Route104_Text_GinaDefeat
+	msgbox Route104_Text_GinaDefeat, MSGBOX_AUTOCLOSE
 	end
 
 Route104_EventScript_ReceivedBerry:: @ 81ECFC3
@@ -324,8 +324,8 @@ Route104_EventScript_TrainerTipsDoubleBattles:: @ 81ED03C
 	end
 
 Route104_EventScript_Boy1:: @ 81ED045
-	trainerbattle_single TRAINER_CINDY_2, Route104_Text_ThrowBallAtWeakenedPokemon, Route102_Text_RickDefeated
-	msgbox Route102_Text_RickPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_CINDY_2, Route104_Text_ThrowBallAtWeakenedPokemon, Route102_Text_CalvinRematchPostBattle
+	msgbox Route102_Text_CalvinRematchPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route104_EventScript_Woman:: @ 81ED04E
@@ -350,8 +350,8 @@ Route104_EventScript_ReceivedBulletSeed:: @ 81ED086
 	end
 
 Route104_EventScript_Girl2:: @ 81ED090
-	trainerbattle_single TRAINER_CINDY_3, Route102_Text_RickIntro, Route102_Text_RickDefeated
-	msgbox Route102_Text_RickPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_CINDY_3, Route104_Text_ImNotATrainer, Route102_Text_CalvinRematchPostBattle
+	msgbox Route102_Text_CalvinRematchPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route104_EventScript_SailToDewford:: @ 81ED099
@@ -865,16 +865,8 @@ Route104_EventScript_Billy:: @ 81ED376
 	end
 
 Route104_EventScript_Haley:: @ 81ED38D
-	trainerbattle_single TRAINER_HALEY_1, Route104_Text_HaleyIntro, Route104_Text_HaleyDefeat, Route104_EventScript_TryRegisterHaleyAfterBattle
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	compare VAR_RESULT, TRUE
-	goto_if_eq Route104_EventScript_RematchHaley
-	setvar VAR_0x8004, TRAINER_HALEY_1
-	specialvar VAR_RESULT, IsTrainerRegistered
-	compare VAR_RESULT, FALSE
-	goto_if_eq Route104_EventScript_TryRegisterHaley
-	msgbox Route104_Text_HaleyPostBattle, MSGBOX_DEFAULT
-	release
+	trainerbattle_single TRAINER_HALEY_1, Route104_Text_HaleyIntro, Route104_Text_HaleyDefeat
+	msgbox Route104_Text_HaleyPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route104_EventScript_TryRegisterHaleyAfterBattle:: @ 81ED3CE
@@ -908,16 +900,8 @@ Route104_EventScript_RematchHaley:: @ 81ED424
 	end
 
 Route104_EventScript_Winston:: @ 81ED43B
-	trainerbattle_single TRAINER_WINSTON_1, Route104_Text_WinstonIntro, Route104_Text_WinstonDefeat, Route104_EventScript_TryRegisterWinstonAfterBattle
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	compare VAR_RESULT, TRUE
-	goto_if_eq Route104_EventScript_RematchWinston
-	setvar VAR_0x8004, TRAINER_WINSTON_1
-	specialvar VAR_RESULT, IsTrainerRegistered
-	compare VAR_RESULT, FALSE
-	goto_if_eq Route104_EventScript_TryRegisterWinston
-	msgbox Route104_Text_WinstonPostBattle, MSGBOX_DEFAULT
-	release
+	trainerbattle_single TRAINER_WINSTON_1, Route104_Text_WinstonIntro, Route104_Text_WinstonDefeat
+	msgbox Route104_Text_WinstonPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route104_EventScript_TryRegisterWinstonAfterBattle:: @ 81ED47C
@@ -951,16 +935,8 @@ Route104_EventScript_RematchWinston:: @ 81ED4D2
 	end
 
 Route104_EventScript_Cindy:: @ 81ED4E9
-	trainerbattle_single TRAINER_CINDY_1, Route104_Text_CindyIntro, Route104_Text_CindyDefeat, Route104_EventScript_TryRegisterCindyAfterBattle
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	compare VAR_RESULT, TRUE
-	goto_if_eq Route104_EventScript_RematchCindy
-	setvar VAR_0x8004, TRAINER_CINDY_1
-	specialvar VAR_RESULT, IsTrainerRegistered
-	compare VAR_RESULT, FALSE
-	goto_if_eq Route104_EventScript_TryRegisterCindy
-	msgbox Route104_Text_CindyPostBattle, MSGBOX_DEFAULT
-	release
+	trainerbattle_single TRAINER_CINDY_1, Route104_Text_CindyIntro, Route104_Text_CindyDefeat
+	msgbox Route104_Text_CindyPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route104_EventScript_TryRegisterCindyAfterBattle:: @ 81ED52A
@@ -1001,10 +977,8 @@ Route104_EventScript_Gina:: @ 81ED597
 	end
 
 Route104_EventScript_Mia:: @ 81ED5B6
-	trainerbattle_double TRAINER_GINA_AND_MIA_1, Route104_Text_MiaIntro, Route104_Text_MiaDefeat, Route104_Text_MiaNotEnoughMons
-	special GetPlayerBigGuyGirlString
-	msgbox Route104_Text_MiaPostBattle, MSGBOX_DEFAULT
-	release
+	trainerbattle_single TRAINER_GINA_AND_MIA_1, Route104_Text_MiaIntro, Route104_Text_MiaDefeat
+	msgbox Route104_Text_MiaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route104_EventScript_Darian:: @ 81ED5D5
@@ -1024,10 +998,8 @@ Route104_Text_WhatsItLikeAtBottomOfSea: @ 81ED662
 	.string "of the sea?$"
 
 Route104_Text_ThrowBallAtWeakenedPokemon: @ 81ED6A2
-	.string "If you're going to throw a Poké Ball,\n"
-	.string "weaken the wild Pokémon first.\p"
-	.string "It will be easier to catch if it's been\n"
-	.string "poisoned, burned, or lulled to sleep.$"
+	.string "When I win, should I use the money for\n"
+	.string "Cipher cards, or FEH? $"
 
 Route104_Text_OnlyThrowBallAtWildPokemon: @ 81ED735
 	.string "You're a thief if you try to steal\n"
@@ -1036,11 +1008,8 @@ Route104_Text_OnlyThrowBallAtWildPokemon: @ 81ED735
 	.string "wild Pokémon.$"
 
 Route104_Text_ImNotATrainer: @ 81ED7A2
-	.string "Oh, no, I'm not a Trainer.\p"
-	.string "But that's right, if Trainers lock eyes,\n"
-	.string "it's a challenge to battle.\p"
-	.string "If you don't want to battle, stay out\n"
-	.string "of their sight.$"
+	.string "Hey you, I'm trying a new team and I\n"
+	.string "wanna see if it's workable or not.$"
 
 Route104_Text_LikeFillingMouthWithSeedsTakeThis: @ 81ED838
 	.string "I like filling my mouth with seeds,\n"

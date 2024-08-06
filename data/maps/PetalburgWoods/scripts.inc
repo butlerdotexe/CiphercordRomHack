@@ -281,16 +281,8 @@ PetalburgWoods_EventScript_Lyle:: @ 822E26D
 	end
 
 PetalburgWoods_EventScript_James:: @ 822E284
-	trainerbattle_single TRAINER_JAMES_1, PetalburgWoods_Text_InstantlyPopularWithBugPokemon, PetalburgWoods_Text_CantBePopularIfILose, PetalburgWoods_EventScript_TryRegisterJames
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	compare VAR_RESULT, TRUE
-	goto_if_eq PetalburgWoods_EventScript_JamesRematch
-	setvar VAR_0x8004, TRAINER_JAMES_1
-	specialvar VAR_RESULT, IsTrainerRegistered
-	compare VAR_RESULT, FALSE
-	goto_if_eq PetalburgWoods_EventScript_TryRegisterJames2
-	msgbox PetalburgWoods_Text_PeopleRespectYou, MSGBOX_DEFAULT
-	release
+	trainerbattle_single TRAINER_JAMES_1, PetalburgWoods_Text_InstantlyPopularWithBugPokemon, PetalburgWoods_Text_CantBePopularIfILose
+	msgbox PetalburgWoods_Text_PeopleRespectYou, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgWoods_EventScript_TryRegisterJames:: @ 822E2C5
@@ -395,28 +387,24 @@ PetalburgWoods_Text_YoureLoadedWithItems: @ 822E741
 	.string "I can't give you this Exp. Share.$"
 
 PetalburgWoods_Text_GoBugPokemonTeam: @ 822E77D
-	.string "I caught a whole bunch of Pokémon!\p"
-	.string "Go, go, go!\n"
-	.string "My Bug Pokémon team!$"
+	.string "I'm gonna Chi-sacc-you!$"
 
 PetalburgWoods_Text_ICouldntWin: @ 822E7C1
-	.string "I have all these Pokémon,\n"
-	.string "but I couldn't win…$"
+	.string "Huh? How did I get sacc'd?$"
 
 PetalburgWoods_Text_ImOutOfPokeBalls: @ 822E7EF
-	.string "I caught a bunch of Pokémon.\n"
-	.string "Now I'm out of Poké Balls.$"
+	.string "Huh? How did I get sacc'd?$"
 
 PetalburgWoods_Text_InstantlyPopularWithBugPokemon: @ 822E827
-	.string "If you take Bug Pokémon to school,\n"
-	.string "you get to be instantly popular!$"
+	.string "I've been trying to play webcam,\n"
+	.string "but no one is around, so this'll\l"
+	.string "have to do.$"
 
 PetalburgWoods_Text_CantBePopularIfILose: @ 822E86B
-	.string "I can't be popular if I lose.$"
+	.string "Maybe I'll ping webcam duelist again…$"
 
 PetalburgWoods_Text_PeopleRespectYou: @ 822E889
-	.string "If you have a big BUG Pokémon,\n"
-	.string "people respect you for it.$"
+	.string "Maybe I'll ping webcam duelist again…$"
 
 PetalburgWoods_Text_IWantRematch1: @ 822E8C3
 	.string "I want a rematch when my BUG\n"

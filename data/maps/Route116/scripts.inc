@@ -257,16 +257,8 @@ Route116_EventScript_Jose:: @ 81F2EA0
 	end
 
 Route116_EventScript_Jerry:: @ 81F2EB7
-	trainerbattle_single TRAINER_JERRY_1, Route116_Text_JerryIntro, Route116_Text_JerryDefeat, Route116_EventScript_TryRegisterJerryAfterBattle
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	compare VAR_RESULT, TRUE
-	goto_if_eq Route116_EventScript_RematchJerry
-	setvar VAR_0x8004, TRAINER_JERRY_1
-	specialvar VAR_RESULT, IsTrainerRegistered
-	compare VAR_RESULT, FALSE
-	goto_if_eq Route116_EventScript_TryRegisterJerry
-	msgbox Route116_Text_JerryPostBattle, MSGBOX_DEFAULT
-	release
+	trainerbattle_single TRAINER_JERRY_1, Route116_Text_JerryIntro, Route116_Text_JerryDefeat
+	msgbox Route116_Text_JerryPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route116_EventScript_TryRegisterJerryAfterBattle:: @ 81F2EF8
@@ -310,16 +302,8 @@ Route116_EventScript_Janice:: @ 81F2F7C
 	end
 
 Route116_EventScript_Karen:: @ 81F2F93
-	trainerbattle_single TRAINER_KAREN_1, Route116_Text_KarenIntro, Route116_Text_KarenDefeat, Route116_EventScript_TryRegisterKarenAfterBattle
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	compare VAR_RESULT, TRUE
-	goto_if_eq Route116_EventScript_RematchKaren
-	setvar VAR_0x8004, TRAINER_KAREN_1
-	specialvar VAR_RESULT, IsTrainerRegistered
-	compare VAR_RESULT, FALSE
-	goto_if_eq Route116_EventScript_TryRegisterKaren
-	msgbox Route116_Text_KarenPostBattle, MSGBOX_DEFAULT
-	release
+	trainerbattle_single TRAINER_KAREN_1, Route116_Text_KarenIntro, Route116_Text_KarenDefeat
+	msgbox Route116_Text_KarenPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route116_EventScript_TryRegisterKarenAfterBattle:: @ 81F2FD4
