@@ -180,12 +180,8 @@ Route110_EventScript_Jaclyn:: @ 81EF409
 	end
 
 Route110_EventScript_Edwin:: @ 81EF420
-	trainerbattle_single TRAINER_EDWIN_1, Route110_Text_EdwinIntro, Route110_Text_EdwinDefeated, Route110_EventScript_EdwinRegisterMatchCallAfterBattle
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	compare VAR_RESULT, TRUE
-	goto_if_eq Route110_EventScript_EdwinRematch
-	msgbox Route110_Text_EdwinPostBattle, MSGBOX_DEFAULT
-	release
+	trainerbattle_single TRAINER_EDWIN_1, Route110_Text_EdwinIntro, Route110_Text_EdwinDefeated
+	msgbox Route110_Text_EdwinPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route110_EventScript_EdwinRegisterMatchCallAfterBattle:: @ 81EF44C
@@ -266,12 +262,8 @@ Route110_EventScript_AbigailRematch:: @ 81EF58B
 	end
 
 Route110_EventScript_Isabel:: @ 81EF5A2
-	trainerbattle_single TRAINER_ISABEL_1, Route110_Text_IsabelIntro, Route110_Text_IsabelDefeated, Route110_EventScript_IsabelRegisterMatchCallAfterBattle
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	compare VAR_RESULT, TRUE
-	goto_if_eq Route110_EventScript_IsabelRematch
-	msgbox Route110_Text_IsabelPostBattle, MSGBOX_DEFAULT
-	release
+	trainerbattle_single TRAINER_ISABEL_1, Route110_Text_IsabelIntro, Route110_Text_IsabelDefeated
+	msgbox Route110_Text_IsabelPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route110_EventScript_IsabelRegisterMatchCallAfterBattle:: @ 81EF5CE

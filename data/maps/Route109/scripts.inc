@@ -429,12 +429,8 @@ Route109_EventScript_Edmond:: @ 81EEA82
 	end
 
 Route109_EventScript_Ricky:: @ 81EEA99
-	trainerbattle_single TRAINER_RICKY_1, Route109_Text_RickyIntro, Route109_Text_RickyDefeated, Route109_EventScript_RickyRegisterMatchCallAfterBattle
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	compare VAR_RESULT, TRUE
-	goto_if_eq Route109_EventScript_RickyRematch
-	msgbox Route109_Text_RickyPostBattle, MSGBOX_DEFAULT
-	release
+	trainerbattle_single TRAINER_RICKY_1, Route109_Text_RickyIntro, Route109_Text_RickyDefeated
+	msgbox Route109_Text_RickyPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route109_EventScript_RickyRegisterMatchCallAfterBattle:: @ 81EEAC5
