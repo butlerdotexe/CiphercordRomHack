@@ -528,17 +528,14 @@ RusturfTunnel_Text_BoyfriendOnOtherSideOfRock: @ 822D7A3
 	.string "for the benefit of everyone.$"
 
 RusturfTunnel_Text_MikeIntro: @ 822D84D
-	.string "What do you call a wild man up in the\n"
-	.string "mountains? A mountain man, right?\p"
-	.string "So why don't they call a Pokémon in\n"
-	.string "the mountains a mountain Pokémon?$"
+	.string "You know, I learned how to play\n"
+	.string "Lysithea in AMAs.\p"
+	.string "I got to waste so many people's evenings\n"
+	.string "that tourney, it was great!$"
 
 RusturfTunnel_Text_MikeDefeat: @ 822D8DB
-	.string "My Pokémon…\n"
-	.string "Ran out of power…$"
+	.string "I hope I wasted some of your time, too.$"
 
 RusturfTunnel_Text_MikePostBattle: @ 822D8F9
-	.string "They halted development here to\n"
-	.string "protect Pokémon, right?\l"
-	.string "There's a feel-good story!$"
+	.string "I hope I wasted some of your time, too.$"
 

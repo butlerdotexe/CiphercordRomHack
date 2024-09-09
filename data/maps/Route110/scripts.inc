@@ -213,12 +213,8 @@ Route110_EventScript_Anthony:: @ 81EF4B0
 	end
 
 Route110_EventScript_Benjamin:: @ 81EF4C7
-	trainerbattle_single TRAINER_BENJAMIN_1, Route110_Text_BenjaminIntro, Route110_Text_BenjaminDefeated, Route110_EventScript_BenjaminRegisterMatchCallAfterBattle
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	compare VAR_RESULT, TRUE
-	goto_if_eq Route110_EventScript_BenjaminRematch
-	msgbox Route110_Text_BenjaminPostBattle, MSGBOX_DEFAULT
-	release
+	trainerbattle_single TRAINER_BENJAMIN_1, Route110_Text_BenjaminIntro, Route110_Text_BenjaminDefeated
+	msgbox Route110_Text_BenjaminPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route110_EventScript_BenjaminRegisterMatchCallAfterBattle:: @ 81EF4F3
@@ -240,12 +236,8 @@ Route110_EventScript_Jasmine:: @ 81EF529
 	end
 
 Route110_EventScript_Abigail:: @ 81EF540
-	trainerbattle_single TRAINER_ABIGAIL_1, Route110_Text_AbigailIntro, Route110_Text_AbigailDefeated, Route110_EventScript_AbigailRegisterMatchCallAfterBattle
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	compare VAR_RESULT, TRUE
-	goto_if_eq Route110_EventScript_AbigailRematch
-	msgbox Route110_Text_AbigailPostBattle, MSGBOX_DEFAULT
-	release
+	trainerbattle_single TRAINER_ABIGAIL_1, Route110_Text_AbigailIntro, Route110_Text_AbigailDefeated
+	msgbox Route110_Text_AbigailPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route110_EventScript_AbigailRegisterMatchCallAfterBattle:: @ 81EF56C

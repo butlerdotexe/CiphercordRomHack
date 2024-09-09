@@ -349,12 +349,8 @@ Route103_EventScript_Andrew:: @ 81EC6D1
 	end
 
 Route103_EventScript_Miguel:: @ 81EC6E8
-	trainerbattle_single TRAINER_MIGUEL_1, Route103_Text_MiguelIntro, Route103_Text_MiguelDefeated, Route102_EventScript_MiguelRegisterMatchCallAfterBattle
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	compare VAR_RESULT, TRUE
-	goto_if_eq Route103_EventScript_MiguelRematch
-	msgbox Route103_Text_MiguelPostBattle, MSGBOX_DEFAULT
-	release
+	trainerbattle_single TRAINER_MIGUEL_1, Route103_Text_MiguelIntro, Route103_Text_MiguelDefeated
+	msgbox Route103_Text_MiguelPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route102_EventScript_MiguelRegisterMatchCallAfterBattle:: @ 81EC714

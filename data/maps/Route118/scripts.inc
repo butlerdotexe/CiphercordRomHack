@@ -188,12 +188,8 @@ Route118_Movement_StevenExit2: @ 81F3F7E
 	step_end
 
 Route118_EventScript_Rose:: @ 81F3F87
-	trainerbattle_single TRAINER_ROSE_1, Route118_Text_RoseIntro, Route118_Text_RoseDefeat, Route118_EventScript_RegisterRose
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	compare VAR_RESULT, TRUE
-	goto_if_eq Route118_EventScript_RematchRose
-	msgbox Route118_Text_RosePostBattle, MSGBOX_DEFAULT
-	release
+	trainerbattle_single TRAINER_ROSE_1, Route118_Text_RoseIntro, Route118_Text_RoseDefeat
+	msgbox Route118_Text_RosePostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route118_EventScript_RegisterRose:: @ 81F3FB3

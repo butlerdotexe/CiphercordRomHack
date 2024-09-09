@@ -83,12 +83,8 @@ Route117_EventScript_RematchLydia:: @ 81F3A7D
 	end
 
 Route117_EventScript_Dylan:: @ 81F3A94
-	trainerbattle_single TRAINER_DYLAN_1, Route117_Text_DylanIntro, Route117_Text_DylanDefeat, Route117_EventScript_RegisterDylan
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	compare VAR_RESULT, TRUE
-	goto_if_eq Route117_EventScript_RematchDylan
-	msgbox Route117_Text_DylanPostBattle, MSGBOX_DEFAULT
-	release
+	trainerbattle_single TRAINER_DYLAN_1, Route117_Text_DylanIntro, Route117_Text_DylanDefeat
+	msgbox Route117_Text_DylanPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route117_EventScript_RegisterDylan:: @ 81F3AC0
@@ -105,12 +101,8 @@ Route117_EventScript_RematchDylan:: @ 81F3ADF
 	end
 
 Route117_EventScript_Maria:: @ 81F3AF6
-	trainerbattle_single TRAINER_MARIA_1, Route117_Text_MariaIntro, Route117_Text_MariaDefeat, Route117_EventScript_RegisterMaria
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	compare VAR_RESULT, TRUE
-	goto_if_eq Route117_EventScript_RematchMaria
-	msgbox Route117_Text_MariaPostBattle, MSGBOX_DEFAULT
-	release
+	trainerbattle_single TRAINER_MARIA_1, Route117_Text_MariaIntro, Route117_Text_MariaDefeat
+	msgbox Route117_Text_MariaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route117_EventScript_RegisterMaria:: @ 81F3B22
@@ -152,12 +144,8 @@ Route117_EventScript_RematchAnna:: @ 81F3BB8
 	end
 
 Route117_EventScript_Meg:: @ 81F3BD3
-	trainerbattle_double TRAINER_ANNA_AND_MEG_1, Route117_Text_MegIntro, Route117_Text_MegDefeat, Route117_Text_MegNotEnoughMons, Route117_EventScript_RegisterMeg
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	compare VAR_RESULT, TRUE
-	goto_if_eq Route117_EventScript_RematchMeg
-	msgbox Route117_Text_MegPostBattle, MSGBOX_DEFAULT
-	release
+	trainerbattle_double TRAINER_ANNA_AND_MEG_1, Route117_Text_MegIntro, Route117_Text_MegDefeat, Route117_Text_MegNotEnoughMons
+	msgbox Route117_Text_MegPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route117_EventScript_RegisterMeg:: @ 81F3C03
