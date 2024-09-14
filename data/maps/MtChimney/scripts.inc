@@ -481,12 +481,8 @@ MtChimney_EventScript_RouteSign:: @ 822F141
 	end
 
 MtChimney_EventScript_Shelby:: @ 822F14A
-	trainerbattle_single TRAINER_SHELBY_1, MtChimney_Text_ShelbyIntro, MtChimney_Text_ShelbyDefeat, MtChimney_EventScript_DefeatedShelby
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	compare VAR_RESULT, TRUE
-	goto_if_eq MtChimney_EventScript_RematchShelby
-	msgbox MtChimney_Text_ShelbyPostBattle, MSGBOX_DEFAULT
-	release
+	trainerbattle_single TRAINER_SHELBY_1, MtChimney_Text_ShelbyIntro, MtChimney_Text_ShelbyDefeat
+	msgbox MtChimney_Text_ShelbyPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MtChimney_EventScript_DefeatedShelby:: @ 822F176
@@ -523,12 +519,8 @@ MtChimney_EventScript_Grunt1:: @ 822F1F1
 	end
 
 MtChimney_EventScript_Sawyer:: @ 822F208
-	trainerbattle_single TRAINER_SAWYER_1, MtChimney_Text_SawyerIntro, MtChimney_Text_SawyerDefeat, MtChimney_EventScript_SawyerDefeated
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	compare VAR_RESULT, TRUE
-	goto_if_eq MtChimney_EventScript_SawyerRematch
-	msgbox MtChimney_Text_SawyerPostBattle, MSGBOX_DEFAULT
-	release
+	trainerbattle_single TRAINER_SAWYER_1, MtChimney_Text_SawyerIntro, MtChimney_Text_SawyerDefeat
+	msgbox MtChimney_Text_SawyerPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MtChimney_EventScript_SawyerDefeated:: @ 822F234
@@ -744,17 +736,17 @@ MtChimney_Text_RouteSign: @ 822FFFA
 	.string "Lavaridge Town Ahead$"
 
 MtChimney_Text_ShelbyIntro: @ 823001D
-	.string "I've been to the hot springs and\n"
-	.string "refreshed my tired bones.\l"
-	.string "Right now I'm feeling strong!$"
+	.string "I've played a lot since out last\n"
+	.string "battle, so now I know I can live\l"
+	.string "up to my name!$"
 
 MtChimney_Text_ShelbyDefeat: @ 8230076
-	.string "Oh, my goodness.\n"
-	.string "Now, aren't you something!$"
+	.string "Well, I guess even if I play a\n"
+	.string "lot it doesn't mean I'll win.$"
 
 MtChimney_Text_ShelbyPostBattle: @ 82300A2
-	.string "Well, well, I've lost. I can't call\n"
-	.string "myself an Expert now, can I?$"
+	.string "Well, I guess even if I play a\n"
+	.string "lot it doesn't mean I'll win.$"
 
 MtChimney_Text_ShelbyRegister: @ 82300E3
 	.string "Thank you, child. It was fun, as if\n"
@@ -802,29 +794,25 @@ MtChimney_Text_SheilaPostBattle: @ 823033A
 	.string "Cookies as souvenirs.$"
 
 MtChimney_Text_ShirleyIntro: @ 82303DF
-	.string "Since I bathed in the hot springs,\n"
-	.string "I've been feeling great!\l"
-	.string "I'm sure I'm going to win!$"
+	.string "What? Play a normal deck?\n"
+	.string "Do you know who you're talking to?\p"
+	.string "Well, I suppose I might have something.$"
 
 MtChimney_Text_ShirleyDefeat: @ 8230436
-	.string "Yowch!\n"
-	.string "I'm getting a chill out of the water.$"
+	.string "What do you mean Lyre MC isn't normal?$"
 
 MtChimney_Text_ShirleyPostBattle: @ 8230463
-	.string "I'll have to take another dip in the\n"
-	.string "hot springs. Want to join me?\p"
-	.string "Just joking!$"
+	.string "What do you mean Lyre MC isn't normal?$"
 
 MtChimney_Text_SawyerIntro: @ 82304B3
-	.string "This is one fine mountain! Plenty of\n"
-	.string "hot people around for company!$"
+	.string "What? Did you really come here to say\n"
+	.string "I have bad takes still?$"
 
 MtChimney_Text_SawyerDefeat: @ 82304F7
-	.string "Oh, you're a real firebrand, too!$"
+	.string "I just think Garon and Peri are cool!$"
 
 MtChimney_Text_SawyerPostBattle: @ 8230519
-	.string "I think I need a dip in Lavaridge\n"
-	.string "Hot Spring with the locals!$"
+	.string "I just think Garon and Peri are cool!$"
 
 MtChimney_Text_SawyerRegister: @ 8230557
 	.string "I like little fireballs like you.\n"

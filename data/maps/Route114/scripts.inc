@@ -107,12 +107,8 @@ Route114_EventScript_Nancy:: @ 81F2685
 	end
 
 Route114_EventScript_Steve:: @ 81F269C
-	trainerbattle_single TRAINER_STEVE_1, Route114_Text_SteveIntro, Route114_Text_SteveDefeat, Route114_EventScript_RegisterSteve
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	compare VAR_RESULT, TRUE
-	goto_if_eq Route114_EventScript_RematchSteve
-	msgbox Route114_Text_StevePostBattle, MSGBOX_DEFAULT
-	release
+	trainerbattle_single TRAINER_STEVE_1, Route114_Text_SteveIntro, Route114_Text_SteveDefeat
+	msgbox Route114_Text_StevePostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route114_EventScript_RegisterSteve:: @ 81F26C8
@@ -129,12 +125,8 @@ Route114_EventScript_RematchSteve:: @ 81F26E7
 	end
 
 Route114_EventScript_Bernie:: @ 81F26FE
-	trainerbattle_single TRAINER_BERNIE_1, Route114_Text_BernieIntro, Route114_Text_BernieDefeat, Route114_EventScript_RegisterBernie
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	compare VAR_RESULT, TRUE
-	goto_if_eq Route114_EventScript_RematchBernie
-	msgbox Route114_Text_BerniePostBattle, MSGBOX_DEFAULT
-	release
+	trainerbattle_single TRAINER_BERNIE_1, Route114_Text_BernieIntro, Route114_Text_BernieDefeat
+	msgbox Route114_Text_BerniePostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route114_EventScript_RegisterBernie:: @ 81F272A

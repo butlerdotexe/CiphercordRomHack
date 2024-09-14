@@ -183,12 +183,8 @@ JaggedPass_EventScript_Eric:: @ 8230785
 	end
 
 JaggedPass_EventScript_Diana:: @ 823079C
-	trainerbattle_single TRAINER_DIANA_1, JaggedPass_Text_DianaIntro, JaggedPass_Text_DianaDefeat, JaggedPass_EventScript_RegisterDiana
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	compare VAR_RESULT, TRUE
-	goto_if_eq JaggedPass_EventScript_DianaRematch
-	msgbox JaggedPass_Text_DianaPostBattle, MSGBOX_DEFAULT
-	release
+	trainerbattle_single TRAINER_DIANA_1, JaggedPass_Text_DianaIntro, JaggedPass_Text_DianaDefeat
+	msgbox JaggedPass_Text_DianaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 JaggedPass_EventScript_RegisterDiana:: @ 82307C8
@@ -204,11 +200,8 @@ JaggedPass_EventScript_DianaRematch:: @ 82307E4
 	end
 
 JaggedPass_EventScript_Ethan:: @ 82307FB
-	trainerbattle_single TRAINER_ETHAN_1, JaggedPass_Text_EthanIntro, JaggedPass_Text_EthanDefeat, JaggedPass_EventScript_RegisterEthan
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	compare VAR_RESULT, TRUE
-	goto_if_eq JaggedPass_EventScript_EthanRematch
-	msgbox JaggedPass_Text_EthanPostBattle, MSGBOX_DEFAULT
+	trainerbattle_single TRAINER_ETHAN_1, JaggedPass_Text_EthanIntro, JaggedPass_Text_EthanDefeat
+	msgbox JaggedPass_Text_EthanPostBattle, MSGBOX_AUTOCLOSE
 	release
 	end
 
@@ -235,32 +228,25 @@ JaggedPass_EventScript_Autumn:: @ 8230871
 	end
 
 JaggedPass_Text_EricIntro: @ 8230888
-	.string "Mt. Chimney's Jagged Pass…\p"
-	.string "Now this is what I've always wanted\n"
-	.string "in a mountain.\p"
-	.string "This jagged bumpiness…\n"
-	.string "It rocks my soul!$"
+	.string "I've played Yugioh for over 11 years.\p"
+	.string "I don't know what that says about me\n"
+	.string "but it definitely says something.$"
 
 JaggedPass_Text_EricDefeat: @ 82308FF
-	.string "Losing left me bitter!$"
+	.string "I miss 2018 Yugioh…$"
 
 JaggedPass_Text_EricPostBattle: @ 8230916
-	.string "Yes, I did lose at Pokémon…\p"
-	.string "But, when it comes to the love of\n"
-	.string "the mountains, I have you beat!$"
+	.string "I miss 2018 Yugioh…$"
 
 JaggedPass_Text_DianaIntro: @ 8230974
-	.string "This place isn't your casual hike.\n"
-	.string "It's not suited for a picnic.$"
+	.string "A new Fire Emblem figure is coming\n"
+	.string "out, so I need this money.$"
 
 JaggedPass_Text_DianaDefeat: @ 82309B5
-	.string "Ohhh, no!\n"
-	.string "The ground is too bumpy…$"
+	.string "Well, guess I can not eat instead.$"
 
 JaggedPass_Text_DianaPostBattle: @ 82309D8
-	.string "Did you know?\p"
-	.string "Some people cleverly ride their\n"
-	.string "bicycles up this horribly bumpy pass.$"
+	.string "Well, guess I can not eat instead.$"
 
 JaggedPass_Text_DianaRegister: @ 8230A2C
 	.string "Will you ever be back in this area?\n"
@@ -279,16 +265,16 @@ JaggedPass_Text_DianaPostRematch: @ 8230AD7
 	.string "enjoy this bumpy hike.$"
 
 JaggedPass_Text_EthanIntro: @ 8230B10
-	.string "Jagged Pass is hard to walk on.\n"
-	.string "It's a good place for training.$"
+	.string "Dude, you have to see the clip I\n"
+	.string "just posted on Twitter.$"
 
 JaggedPass_Text_EthanDefeat: @ 8230B50
-	.string "It was all over while we were still\n"
-	.string "trying to find a good footing…$"
+	.string "What? Cipher? I'm here for the\n"
+	.string "fighting games channel.$"
 
 JaggedPass_Text_EthanPostBattle: @ 8230B93
-	.string "If I had an Acro Bike, I'd be able to\n"
-	.string "jump ledges.$"
+	.string "What? Cipher? I'm here for the\n"
+	.string "fighting games channel.$"
 
 JaggedPass_Text_EthanRegister: @ 8230BC6
 	.string "When I get more used to this bumpiness,\n"
@@ -329,25 +315,25 @@ JaggedPass_Text_BoulderShakingInResponseToEmblem: @ 8230DBA
 	.string "to the Magma Emblem!$"
 
 JaggedPass_Text_JulioIntro: @ 8230DF7
-	.string "Aiyeeh! It's awfully scary to shoot\n"
-	.string "down the mountain in one go!$"
+	.string "I refuse to acknowledge any deck that\n"
+	.string "loses to Mono Chrom.$"
 
 JaggedPass_Text_JulioDefeat: @ 8230E38
-	.string "I feel like I'm falling apart…$"
+	.string "This means nothing…\n"
+	.string "Chrom is still the best C lord!$"
 
 JaggedPass_Text_JulioPostBattle: @ 8230E57
-	.string "My bicycle bounced around so much,\n"
-	.string "my rear end's sore…$"
+	.string "This means nothing…\n"
+	.string "Chrom is still the best C lord!$"
 
 JaggedPass_Text_AutumnIntro: @ 8230E8E
-	.string "I climb this hill every day.\n"
-	.string "I have confidence in my strength!$"
+	.string "I've been working on an autograph\n"
+	.string "collection- I've got Jeralt, M Byleth,\p"
+	.string "Hubert, Linhardt, Caspar…$"
 
 JaggedPass_Text_AutumnDefeat: @ 8230ECD
-	.string "Hmm…\n"
-	.string "What went wrong?$"
+	.string "Oh yeah, and a steelcase signed by Alear!$"
 
 JaggedPass_Text_AutumnPostBattle: @ 8230EE3
-	.string "What is that odd rock protrusion\n"
-	.string "a little up the hill from here?$"
+	.string "Oh yeah, and a steelcase signed by Alear!$"
 

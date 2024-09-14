@@ -502,12 +502,8 @@ Route111_EventScript_Daisuke:: @ 81F12F0
 	end
 
 Route111_EventScript_Wilton:: @ 81F1307
-	trainerbattle_single TRAINER_WILTON_1, Route111_Text_WiltonIntro, Route111_Text_WiltonDefeat, Route111_EventScript_RegisterWilton
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	compare VAR_RESULT, TRUE
-	goto_if_eq Route111_EventScript_RematchWilton
-	msgbox Route111_Text_WiltonPostBattle, MSGBOX_DEFAULT
-	release
+	trainerbattle_single TRAINER_WILTON_1, Route111_Text_WiltonIntro, Route111_Text_WiltonDefeat
+	msgbox Route111_Text_WiltonPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_RegisterWilton:: @ 81F1333
@@ -524,12 +520,8 @@ Route111_EventScript_RematchWilton:: @ 81F1352
 	end
 
 Route111_EventScript_Brooke:: @ 81F1369
-	trainerbattle_single TRAINER_BROOKE_1, Route111_Text_BrookeIntro, Route111_Text_BrookeDefeat, Route111_EventScript_RegisterBrooke
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	compare VAR_RESULT, TRUE
-	goto_if_eq Route111_EventScript_RematchBrooke
-	msgbox Route111_Text_BrookePostBattle, MSGBOX_DEFAULT
-	release
+	trainerbattle_single TRAINER_BROOKE_1, Route111_Text_BrookeIntro, Route111_Text_BrookeDefeat
+	msgbox Route111_Text_BrookePostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_RegisterBrooke:: @ 81F1395
