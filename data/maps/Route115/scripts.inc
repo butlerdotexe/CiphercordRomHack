@@ -65,12 +65,8 @@ Route115_EventScript_Koichi:: @ 81F29F0
 	end
 
 Route115_EventScript_Nob:: @ 81F2A07
-	trainerbattle_single TRAINER_NOB_1, Route115_Text_NobIntro, Route115_Text_NobDefeat, Route115_EventScript_RegisterNob
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	compare VAR_RESULT, TRUE
-	goto_if_eq Route115_EventScript_RematchNob
-	msgbox Route115_Text_NobPostBattle, MSGBOX_DEFAULT
-	release
+	trainerbattle_single TRAINER_NOB_1, Route115_Text_NobIntro, Route115_Text_NobDefeat
+	msgbox Route115_Text_NobPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route115_EventScript_RegisterNob:: @ 81F2A33
@@ -87,12 +83,8 @@ Route115_EventScript_RematchNob:: @ 81F2A52
 	end
 
 Route115_EventScript_Cyndy:: @ 81F2A69
-	trainerbattle_single TRAINER_CYNDY_1, Route115_Text_CyndyIntro, Route115_Text_CyndyDefeat, Route115_EventScript_RegisterCyndy
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	compare VAR_RESULT, TRUE
-	goto_if_eq Route115_EventScript_RematchCyndy
-	msgbox Route115_Text_CyndyPostBattle, MSGBOX_DEFAULT
-	release
+	trainerbattle_single TRAINER_CYNDY_1, Route115_Text_CyndyIntro, Route115_Text_CyndyDefeat
+	msgbox Route115_Text_CyndyPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route115_EventScript_RegisterCyndy:: @ 81F2A95
