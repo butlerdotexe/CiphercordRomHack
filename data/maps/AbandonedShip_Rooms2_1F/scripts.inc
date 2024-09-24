@@ -127,25 +127,26 @@ AbandonedShip_Rooms2_1F_Text_KiraRematchNotEnoughMons: @ 8238668
 	.string "We'll have to battle some other time!$"
 
 AbandonedShip_Rooms2_1F_Text_JaniIntro: @ 82386B4
-	.string "I'm not good at swimming,\n"
-	.string "but I am good at battles!$"
+	.string "Hmph, and who are you? …\p"
+	.string "Well, I may be on vacation, but I\n"
+	.string "suppose I can make time for a battle.$"
 
 AbandonedShip_Rooms2_1F_Text_JaniDefeat: @ 82386E8
-	.string "Oops.\n"
-	.string "That didn't go very well.$"
+	.string "My, my. Were we in my region, you\n"
+	.string "might have earned yourself a badge.$"
 
 AbandonedShip_Rooms2_1F_Text_JaniPostBattle: @ 8238708
-	.string "Walking around barefoot in this ship\n"
-	.string "is kind of gross.$"
+	.string "Too bad we're not.$"
 
 AbandonedShip_Rooms2_1F_Text_GarrisonIntro: @ 823873F
-	.string "Strength and compassion…\n"
-	.string "Those are a Trainer's treasures!$"
+	.string "I wonder if my legacy on Ciphercord\n"
+	.string "is just that one 7 hour set I played\l"
+	.string "in AMAs…$"
 
 AbandonedShip_Rooms2_1F_Text_GarrisonDefeat: @ 8238779
-	.string "Ah, there is something about you\n"
-	.string "that sparkles.$"
+	.string "Either way, I'm never voluntarily\n"
+	.string "playing a yellow mirror again.$"
 
 AbandonedShip_Rooms2_1F_Text_GarrisonPostBattle: @ 82387A9
-	.string "In a cabin somewhere on board,\n"
-	.string "I saw something sparkle.$"
+	.string "Either way, I'm never voluntarily\n"
+	.string "playing a yellow mirror again.$"

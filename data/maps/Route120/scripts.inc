@@ -296,12 +296,8 @@ Route120_EventScript_Colin:: @ 81F57D7
 	end
 
 Route120_EventScript_Robert:: @ 81F57EE
-	trainerbattle_single TRAINER_ROBERT_1, Route120_Text_RobertIntro, Route120_Text_RobertDefeat, Route120_EventScript_RegisterRobert
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	compare VAR_RESULT, TRUE
-	goto_if_eq Route120_EventScript_RematchRobert
-	msgbox Route120_Text_RobertPostBattle, MSGBOX_DEFAULT
-	release
+	trainerbattle_single TRAINER_ROBERT_1, Route120_Text_RobertIntro, Route120_Text_RobertDefeat
+	msgbox Route120_Text_RobertPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route120_EventScript_RegisterRobert:: @ 81F581A

@@ -4227,7 +4227,7 @@ static const struct TrainerMonItemCustomMoves sParty_Daisy[] = { //Sandvich
     .ability = 1,
     .spread = SPREAD_31_IV_0_EV,
     .heldItem = ITEM_BRIGHT_POWDER,
-    .moves = MOVE_ALLY_SWITCH
+    .moves = MOVE_ICY_WIND, MOVE_SWIFT
     }
 };
 

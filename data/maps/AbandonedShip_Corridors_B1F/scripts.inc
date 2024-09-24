@@ -55,18 +55,14 @@ AbandonedShip_Corridors_B1F_EventScript_Duncan:: @ 8237E13
 	end
 
 AbandonedShip_Corridors_B1F_Text_DuncanIntro: @ 8237E2A
-	.string "When we go out to sea, we Sailors\n"
-	.string "always bring our Pokémon.\l"
-	.string "How about a quick battle?$"
+	.string "I play a WIDE variety of decks. I\n"
+	.string "can play Fir, Joshua, Raven…$"
 
 AbandonedShip_Corridors_B1F_Text_DuncanDefeat: @ 8237E80
-	.string "Whoops, I'm sunk!$"
+	.string "They're totally different decks.$"
 
 AbandonedShip_Corridors_B1F_Text_DuncanPostBattle: @ 8237E92
-	.string "The ship's bottom has sunk into the\n"
-	.string "depths.\p"
-	.string "If a Pokémon knew how to go underwater,\n"
-	.string "we might make some progress…$"
+	.string "They're totally different decks.$"
 
 AbandonedShip_Corridors_B1F_Text_YayItsAShip: @ 8237F03
 	.string "Yay!\n"

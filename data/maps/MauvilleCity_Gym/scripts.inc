@@ -419,9 +419,9 @@ MauvilleCity_Gym_Text_WattsonIntro: @ 820E602
 
 MauvilleCity_Gym_Text_WattsonDefeat: @ 820E734
 	.string "See? Now that wasn't so bad.\p"
-	.string "If you can't get through a simple sun team,\n"
-	.string "then you aren't ready for the shenanigans\l"
-	.string "waiting for you.\p"
+	.string "If you can't get through a simple sun\n"
+	.string "team, then you aren't ready for the\l"
+	.string "shenanigans waiting for you.\p"
 	.string "Good game, you've earned this.$"
 
 MauvilleCity_Gym_Text_ReceivedDynamoBadge: @ 820E77F
