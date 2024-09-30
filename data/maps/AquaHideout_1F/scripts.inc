@@ -85,7 +85,7 @@ AquaHideout_1F_Text_BossIsOnRoute122: @ 8233739
 
 AquaHideout_1F_Text_TeamMagmaAtMtChimney: @ 82337FA
 	.string "Oh, its you. Yeah you gotta go\n"
-	.string "Stop team Magma now.\p"
+	.string "Stop team Aggro now.\p"
 	.string "Their hideout is on Mt. Chimney, on\n"
 	.string "the pass heading down to Lavaridge.\p"
 	.string "Go beat them up.$"

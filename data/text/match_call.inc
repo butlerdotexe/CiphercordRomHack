@@ -2533,7 +2533,7 @@ MatchCall_Text_Brendan9:: @ 2B4909
 	.string "But around Jagged Pass, I ran into\n"
 	.string "some nasty-looking characters.\p"
 	.string "Those creeps…\n"
-	.string "I think they were Team Magma.$"
+	.string "I think they were Team Aggro.$"
 
 MatchCall_Text_Brendan10:: @ 2B49C4
 	.string "Brendan: Hi, {PLAYER}!\n"
@@ -2672,7 +2672,7 @@ MatchCall_Text_Scott4:: @ 2B53DB
 	.string "Scott: Hi, {PLAYER}{KUN}!\p"
 	.string "I've been hearing about these odd\n"
 	.string "gangs being a nuisance.\p"
-	.string "Team Magma and Team Aqua,\n"
+	.string "Team Aggro and Team Stall,\n"
 	.string "I think they were.\p"
 	.string "I would think there'd be some\n"
 	.string "skilled Trainers among them.\p"

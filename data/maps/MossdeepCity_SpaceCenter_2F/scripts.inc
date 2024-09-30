@@ -480,7 +480,9 @@ MossdeepCity_SpaceCenter_2F_Text_StevenAreYouReadyToBattle: @ 82247FF
 	.string "Penta: {PLAYER}{KUN}!\n"
 	.string "We have got to stop this.\p"
 	.string "Let's go into battle together!\n"
-	.string "Are you ready?$"
+	.string "Are you ready?\p"
+	.string "DEVNOTE: Seriously save before this,\n"
+	.string "it can soft lock.$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenHurryGetReadyQuickly: @ 8224854
 	.string "Penta: Then, hurry!\n"

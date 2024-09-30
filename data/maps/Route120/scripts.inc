@@ -324,12 +324,8 @@ Route120_EventScript_Jenna:: @ 81F5867
 	end
 
 Route120_EventScript_Jeffrey:: @ 81F587E
-	trainerbattle_single TRAINER_JEFFREY_1, Route120_Text_JeffreyIntro, Route120_Text_JeffreyDefeat, Route120_EventScript_RegisterJeffrey
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	compare VAR_RESULT, TRUE
-	goto_if_eq Route120_EventScript_RematchJeffrey
-	msgbox Route120_Text_JeffreyPostBattle, MSGBOX_DEFAULT
-	release
+	trainerbattle_single TRAINER_JEFFREY_1, Route120_Text_JeffreyIntro, Route120_Text_JeffreyDefeat
+	msgbox Route120_Text_JeffreyPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route120_EventScript_RegisterJeffrey:: @ 81F58AA

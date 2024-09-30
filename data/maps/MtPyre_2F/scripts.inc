@@ -53,16 +53,16 @@ MtPyre_2F_Text_TumbledFromFloorAbove: @ 82311E6
 	.string "the floor above.$"
 
 MtPyre_2F_Text_MarkIntro: @ 8231258
-	.string "Hey! Are you searching for Pokémon?\n"
-	.string "You came along after me! You're rude!$"
+	.string "Let us dance with the shadows.\n"
+	.string "Show me your spirit!$"
 
 MtPyre_2F_Text_MarkDefeat: @ 82312A2
-	.string "Ayieeeeh!\n"
-	.string "I'm sorry, forgive me, please!$"
+	.string "It seems the spirits favored you\n"
+	.string "this time.$"
 
 MtPyre_2F_Text_MarkPostBattle: @ 82312CB
-	.string "People don't come here often, so\n"
-	.string "I thought there'd be rare Pokémon.$"
+	.string "It seems the spirits favored you\n"
+	.string "this time.$"
 
 MtPyre_2F_Text_LukeIntro: @ 823130F
 	.string "Luke: We're here on a dare.\p"
@@ -107,29 +107,25 @@ MtPyre_2F_Text_DezNotEnoughMons: @ 8231582
 	.string "Just one Pokémon won't do at all.$"
 
 MtPyre_2F_Text_LeahIntro: @ 8231604
-	.string "You are an unfamiliar sight…\n"
-	.string "Depart before anything befalls you!$"
+	.string "Following meta is cringe- I bring\n"
+	.string "RU pokemon to standard and nat dex.$"
 
 MtPyre_2F_Text_LeahDefeat: @ 8231645
-	.string "Hmm…\n"
-	.string "You're durable.$"
+	.string "Well, most Pokemon have been buffed\n"
+	.string "in this game, so RU doesn't exist.$"
 
 MtPyre_2F_Text_LeahPostBattle: @ 823165A
-	.string "Our family has been Trainers here\n"
-	.string "since my great-grandmother's time…\p"
-	.string "It is my duty to protect this\n"
-	.string "mountain…$"
+	.string "Well, most Pokemon have been buffed\n"
+	.string "in this game, so RU doesn't exist.$"
 
 MtPyre_2F_Text_ZanderIntro: @ 82316C7
-	.string "Kiyaaaaah!\n"
-	.string "I'm terrified!$"
+	.string "I've played Yugioh for over 11 years.\p"
+	.string "I don't know what that says about me\n"
+	.string "but it definitely says something.$"
 
 MtPyre_2F_Text_ZanderDefeat: @ 82316E1
-	.string "Nooooooo!\n"
-	.string "I lost my wits!$"
+	.string "I miss 2018 Yugioh…$"
 
 MtPyre_2F_Text_ZanderPostBattle: @ 82316FB
-	.string "I get freaked out every time I see\n"
-	.string "anything move…\p"
-	.string "I shouldn't have come here to train…$"
+	.string "I miss 2018 Yugioh…$"
 

@@ -641,7 +641,7 @@ MtChimney_Text_DouseThemInFire: @ 822FA8B
 	.string "Douse them in fire!$"
 
 MtChimney_Text_KeepMakingMoreLand: @ 822FAA5
-	.string "We're going to keep making more land!$"
+	.string "We're going to rush you down!$"
 
 MtChimney_Text_Bufoh: @ 822FACB
 	.string "Bufoh!$"

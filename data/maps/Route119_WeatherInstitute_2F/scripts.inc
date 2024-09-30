@@ -231,7 +231,7 @@ Route119_WeatherInstitute_2F_Text_Grunt2Defeat: @ 8270208
 Route119_WeatherInstitute_2F_Text_Grunt2PostBattle: @ 827022B
 	.string "If the Pokémon they made here can\n"
 	.string "control the weather freely, then we of\l"
-	.string "Team Aqua definitely need it!$"
+	.string "Team Stall definitely need it!$"
 
 Route119_WeatherInstitute_2F_Text_Grunt3Intro: @ 8270292
 	.string "We're Team Stall!\n"

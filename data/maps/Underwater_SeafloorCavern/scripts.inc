@@ -43,8 +43,8 @@ Underwater_SeafloorCavern_EventScript_CheckStolenSub:: @ 82343DC
 Underwater_SeafloorCavern_Text_SubExplorer1: @ 82343E5
 	.string "“Submarine Explorer 1” is painted\n"
 	.string "on the hull.\p"
-	.string "This is the submarine Team Aqua\n"
+	.string "This is the submarine Team Stall\n"
 	.string "stole in Slateport!\p"
-	.string "Team Aqua must have gone\n"
+	.string "Team Stall must have gone\n"
 	.string "ashore here.$"
 

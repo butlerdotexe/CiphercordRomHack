@@ -201,7 +201,7 @@ FallarborTown_CozmosHouse_Text_IsThatMeteoriteMayIHaveIt: @ 82010A2
 	.string "Hah?\p"
 	.string "That item…\p"
 	.string "Could it be?\p"
-	.string "Is it the Meteorite that Team Magma\n"
+	.string "Is it the Meteorite that Team Aggro\n"
 	.string "took from Meteor Falls?\p"
 	.string "Please, may I have it?\p"
 	.string "I'm not asking for it for free.\n"
@@ -230,7 +230,7 @@ FallarborTown_CozmosHouse_Text_MayIHaveMeteorite: @ 8201249
 FallarborTown_CozmosHouse_Text_CozmoWentToMeteorFalls: @ 82012BC
 	.string "Prof. Cozmo went off to Meteor Falls\n"
 	.string "on Route 114 with some people from\l"
-	.string "Team Magma.$"
+	.string "Team Aggro.$"
 
 FallarborTown_CozmosHouse_Text_FeelSorryForCozmo: @ 8201310
 	.string "Poor Prof. Cozmo…\n"

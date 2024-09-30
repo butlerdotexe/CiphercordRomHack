@@ -57,14 +57,14 @@ MtPyre_6F_Text_ValeriePostRematch: @ 8231EE1
 	.string "Sometimes, they play…$"
 
 MtPyre_6F_Text_CedricIntro: @ 8231F11
-	.string "Have you lost your bearings?\n"
-	.string "Have no fear for I am here!$"
+	.string "Oh, hi. I uh, wasn't expecting to\n"
+	.string "meet anyone up here.\p"
+	.string "I guess we should like… do a rematch.\n"
+	.string "Or something.$"
 
 MtPyre_6F_Text_CedricDefeat: @ 8231F4A
-	.string "Weren't you lost?$"
+	.string "Guess you really want Shadow Ball huh.$"
 
 MtPyre_6F_Text_CedricPostBattle: @ 8231F5C
-	.string "I had this feeling that a lost Trainer\n"
-	.string "would be panicked and easy to beat.\p"
-	.string "It's dirty and I won't try it again…$"
+	.string "Guess you really want Shadow Ball huh.$"
 

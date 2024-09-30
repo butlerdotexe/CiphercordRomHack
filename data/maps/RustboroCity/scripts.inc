@@ -1202,7 +1202,7 @@ RustboroCity_Text_HelpMeIWasRobbed: @ 81E183E
 	.string "Oh, it's you!\p"
 	.string "You're that fantastic Trainer who\n"
 	.string "helped me in Petalburg Woods!\p"
-	.string "Help me! I was robbed by Team Aqua!\n"
+	.string "Help me! I was robbed by Team Stall!\n"
 	.string "I have to get the Devon Parts back!\p"
 	.string "If I don't…\n"
 	.string "I'm going to be in serious trouble.$"

@@ -3,8 +3,8 @@
 .set LOCALID_VIVI, 3
 .set LOCALID_VICKY, 4
 .set LOCALID_PLAYER_FALLING, 42
-.set LOCALID_NURSE, 43
-.set LOCALID_CHANSEY, 44
+.set LOCALID_NURSE, 37
+.set LOCALID_CHANSEY, 38
 
 Route111_MapScripts:: @ 81F0CA7
 	map_script MAP_SCRIPT_ON_LOAD, Route111_OnLoad
@@ -714,7 +714,7 @@ Route111_Text_BattleOurFamily: @ 81F1475
 	.string "You're not from around here are you?\p"
 	.string "Well welcome! We're the Gardevoir fan-\n"
 	.string "club. We think Gardevoir is the best,\l"
-	.string "and all use her in different ways/p"
+	.string "and all use her in different ways\p"
 	.string "Want to experience the power of Gardevoir?$"
 
 Route111_Text_IsThatSo: @ 81F14F5
@@ -749,7 +749,7 @@ Route111_Text_VictoriaPostBattle: @ 81F1645
 Route111_Text_ViviIntro: @ 81F167E
 	.string "The only thing stronger than my\n"
 	.string "dedication to Gardevoir is my \l"
-	.string "dedication to Lissa./p"
+	.string "dedication to Lissa.\p"
 	.string "And unfortunately for you, Lissa\n"
 	.string "isn't in this game!$"
 
@@ -769,7 +769,7 @@ Route111_Text_VickyDefeat: @ 81F1756
 
 Route111_Text_VickyPostBattle: @ 81F1788
 	.string "It seems like you know Gardevoir\n"
-	.string "well enough to defeat her./p"
+	.string "well enough to defeat her.\p"
 	.string "You should come in and join us.$"
 
 Route111_Text_ToughToKeepWinningUpTheRanks: @ 81F17BA

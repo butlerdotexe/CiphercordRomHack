@@ -2178,18 +2178,19 @@ static const struct TrainerMonItemCustomMoves sParty_Lyle[] = { // Chishaku 1
 static const struct TrainerMonItemCustomMoves sParty_James1[] = { //Gats
     {
     .lvl = -2,
-    .species = SPECIES_WINGULL,
-    .moves = MOVE_AERIAL_ACE, MOVE_WATER_GUN, MOVE_SUPERSONIC, MOVE_GROWL
+    .species = SPECIES_ROOKIDEE,
+    .ability = 2,
+    .moves = MOVE_TAILWIND, MOVE_HONE_CLAWS, MOVE_POWER_TRIP, MOVE_SAND_ATTACK
     },
     {
     .lvl = -2,
-    .species = SPECIES_MISDREAVUS,
-    .moves = MOVE_PSYWAVE, MOVE_CONFUSE_RAY, MOVE_DISARMING_VOICE, MOVE_ASTONISH
+    .species = SPECIES_CHIMCHAR,
+    .moves = MOVE_FLAME_WHEEL, MOVE_DOUBLE_KICK, MOVE_FAKE_OUT, MOVE_ASSIST
     },
     {
     .lvl = -2,
-    .species = SPECIES_BULBASAUR,
-    .moves = MOVE_TACKLE, MOVE_GROWL, MOVE_LEECH_SEED, MOVE_VINE_WHIP
+    .species = SPECIES_AXEW,
+    .moves = MOVE_DUAL_CHOP, MOVE_BITE, MOVE_LEER
     },
 };
 
@@ -14737,7 +14738,7 @@ static const struct TrainerMonItemCustomMoves sParty_Myles[] = { //Sara
     .lvl = -3,
     .species = SPECIES_RAYQUAZA,
     .spread = SPREAD_31_IV_80_EV,
-    .moves = MOVE_DRAGON_DANCE, MOVE_EXTREME_SPEED, MOVE_DRAGON_PULSE, MOVE_AIR_SLASH
+    .moves = MOVE_ANCIENT_POWER, MOVE_EXTREME_SPEED, MOVE_DRAGON_PULSE, MOVE_AIR_SLASH
     }
 };
 
@@ -14912,7 +14913,7 @@ static const struct TrainerMonItemCustomMoves sParty_Marcel[] = { // Mikesharp
     .heldItem = ITEM_RAWST_BERRY,
     .spread = SPREAD_31_IV_80_EV,
     .ability = 1,
-    .moves = MOVE_DRAGON_DANCE, MOVE_DUAL_CHOP, MOVE_EARTHQUAKE, MOVE_POISON_JAB
+    .moves = MOVE_DRAGON_DANCE, MOVE_DRAGON_CLAW, MOVE_EARTHQUAKE, MOVE_POISON_JAB
     },
     {
     .lvl = -1,

@@ -487,7 +487,9 @@ MeteorFalls_1F_1R_Text_BrendanPlayerHere:
 	.string "the professor! They're also just\l"
 	.string "massive pricks.\p"
 	.string "Let's team up and show them what's\p"
-	.string "good! Let's tag team them!$"
+	.string "good! Let's tag team them!\n"
+	.string "DEVNOTE: Seriously save before this,\n"
+	.string "it can soft lock.$"
 
 MeteorFalls_1F_1R_Text_MayLetsBattle:
 	.string "Thanks, bro!$"
@@ -565,7 +567,7 @@ MeteorFalls_1F_1R_Text_MeetProfCozmo: @ 822C342
 	.string "But they tricked me.\n"
 	.string "They even took my Meteorite away…\p"
 	.string "And then another similar bunch,\n"
-	.string "Team Aqua showed up.\p"
+	.string "Team Stall showed up.\p"
 	.string "After that…\n"
 	.string "I don't understand any of it.\p"
 	.string "But that Team Aggro…\p"

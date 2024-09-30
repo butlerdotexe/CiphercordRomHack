@@ -107,12 +107,8 @@ Route121_EventScript_Vanessa:: @ 81F5E74
 	end
 
 Route121_EventScript_Walter:: @ 81F5E8B
-	trainerbattle_single TRAINER_WALTER_1, Route121_Text_WalterIntro, Route121_Text_WalterDefeat, Route121_EventScript_RegisterWalter
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	compare VAR_RESULT, TRUE
-	goto_if_eq Route121_EventScript_RematchWalter
-	msgbox Route121_Text_WalterPostBattle, MSGBOX_DEFAULT
-	release
+	trainerbattle_single TRAINER_WALTER_1, Route121_Text_WalterIntro, Route121_Text_WalterDefeat
+	msgbox Route121_Text_WalterPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route121_EventScript_RegisterWalter:: @ 81F5EB7
@@ -186,12 +182,8 @@ Route121_EventScript_Marcel:: @ 81F5FE1
 	end
 
 Route121_EventScript_Cristin:: @ 81F5FF8
-	trainerbattle_single TRAINER_CRISTIN_1, Route121_Text_CristinIntro, Route121_Text_CristinDefeat, Route121_EventScript_RegisterCristin
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	compare VAR_RESULT, TRUE
-	goto_if_eq Route121_EventScript_RematchCristin
-	msgbox Route121_Text_CristinPostBattle, MSGBOX_DEFAULT
-	release
+	trainerbattle_single TRAINER_CRISTIN_1, Route121_Text_CristinIntro, Route121_Text_CristinDefeat
+	msgbox Route121_Text_CristinPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route121_EventScript_RegisterCristin:: @ 81F6024

@@ -407,7 +407,7 @@ LavaridgeTown_Gym_1F_Text_ExplainHeatBadgeTakeThis: @ 81FF359
 	.string "You may not know this, but I am a \n"
 	.string "huge proponent of Big Stall.\p"
 	.string "NOT to be confused with those Team Stall\n"
-	.string "losers."
+	.string "losers.\p"
 	.string "I don't know what the fuck they're doing.$"
 
 LavaridgeTown_Gym_1F_Text_TakeThis:

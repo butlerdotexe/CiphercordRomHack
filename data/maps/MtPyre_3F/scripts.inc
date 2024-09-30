@@ -34,32 +34,28 @@ MtPyre_3F_EventScript_RematchGabrielle:: @ 82317CC
 	end
 
 MtPyre_3F_Text_WilliamIntro: @ 82317E3
-	.string "The rich atmosphere of the mountain\n"
-	.string "has elevated my psychic power!\p"
-	.string "A mere child like you…\n"
-	.string "You dream of winning?$"
+	.string "Oh its you again. You know, I've\n"
+	.string "been thinking of trying a new deck.\p"
+	.string "How do you feel about deckout Sophia?$"
 
 MtPyre_3F_Text_WilliamDefeat: @ 8231853
-	.string "I drown in self-pity…$"
+	.string "Look if my opponent is having fun,\n"
+	.string "then I'm not.$"
 
 MtPyre_3F_Text_WilliamPostBattle: @ 8231869
-	.string "My psychic powers have surely\n"
-	.string "grown several times, but…$"
+	.string "Look if my opponent is having fun,\n"
+	.string "then I'm not.$"
 
 MtPyre_3F_Text_KaylaIntro: @ 82318A1
-	.string "Ahahahaha!\p"
-	.string "This is no place for children, least\n"
-	.string "of all you!$"
+	.string "I saw someone playing brown the other\n"
+	.string "day. Did no one have the heart to tell\l"
+	.string "the Byleth player that Byleth sucks?$"
 
 MtPyre_3F_Text_KaylaDefeat: @ 82318DD
-	.string "I lost that cleanly…$"
+	.string "Oh never mind, they're Sauce's AMA.$"
 
 MtPyre_3F_Text_KaylaPostBattle: @ 82318F2
-	.string "This means my training is still not\n"
-	.string "enough…\p"
-	.string "I've got to keep working toward the\n"
-	.string "summit…\p"
-	.string "Go, me!$"
+	.string "Oh never mind, they're Sauce's AMA.$"
 
 MtPyre_3F_Text_GabrielleIntro: @ 8231952
 	.string "Why have you come here?$"

@@ -38,8 +38,7 @@ Route102_EventScript_CalvinRegisterMatchCall:: @ 81EC157
 
 Route102_EventScript_CalvinTryRegister:: @ 81EC170
 	goto_if_set FLAG_HAS_MATCH_CALL, Route102_EventScript_CalvinRegister
-	msgbox Route102_Text_CalvinPostBattle, MSGBOX_DEFAULT
-	release
+	msgbox Route102_Text_CalvinPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route102_EventScript_CalvinRegister:: @ 81EC183

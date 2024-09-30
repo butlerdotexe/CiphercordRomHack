@@ -282,7 +282,7 @@ PetalburgWoods_EventScript_Lyle:: @ 822E26D
 
 PetalburgWoods_EventScript_James:: @ 822E284
 	trainerbattle_single TRAINER_JAMES_1, PetalburgWoods_Text_InstantlyPopularWithBugPokemon, PetalburgWoods_Text_CantBePopularIfILose
-	msgbox PetalburgWoods_Text_PeopleRespectYou, MSGBOX_AUTOCLOSE
+	msgbox PetalburgWoods_Text_CantBePopularIfILose, MSGBOX_AUTOCLOSE
 	end
 
 PetalburgWoods_EventScript_TryRegisterJames:: @ 822E2C5
@@ -396,12 +396,13 @@ PetalburgWoods_Text_ImOutOfPokeBalls: @ 822E7EF
 	.string "Huh? How did I get sacc'd?$"
 
 PetalburgWoods_Text_InstantlyPopularWithBugPokemon: @ 822E827
-	.string "I've been trying to play webcam,\n"
-	.string "but no one is around, so this'll\l"
-	.string "have to do.$"
+	.string "Shulk and I have made more progress\n"
+	.string "on MS01 in the past 2 months than in\l"
+	.string "the past 2 years.$"
 
 PetalburgWoods_Text_CantBePopularIfILose: @ 822E86B
-	.string "Maybe I'll ping webcam duelist again…$"
+	.string "Designing around AM01 has been…\n"
+	.string "an experience.$"
 
 PetalburgWoods_Text_PeopleRespectYou: @ 822E889
 	.string "Maybe I'll ping webcam duelist again…$"
