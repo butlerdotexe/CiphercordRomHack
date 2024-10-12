@@ -24468,11 +24468,11 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_AGGRON_MEGA] =
     {
-        .baseHP        = 70,
-        .baseAttack    = 140,
+        .baseHP        = 90,
+        .baseAttack    = 160,
         .baseDefense   = 200,
-        .baseSpeed     = 50,
-        .baseSpAttack  = 60,
+        .baseSpeed     = 30,
+        .baseSpAttack  = 40,
         .baseSpDefense = 110,
         .type1 = TYPE_STEEL,
         .type2 = TYPE_STEEL,

@@ -26,7 +26,7 @@
   ],
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
+      "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
       "x": 13,
       "y": 3,
       "elevation": 1,
@@ -78,7 +78,7 @@
       "flag": "FLAG_ITEM_ROUTE_133_COMET_SHARD"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MAN_5",
+      "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
       "x": 7,
       "y": 14,
       "elevation": 3,
@@ -91,7 +91,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MAN_3",
+      "graphics_id": "OBJ_EVENT_GFX_MAN_4",
       "x": 37,
       "y": 15,
       "elevation": 3,
