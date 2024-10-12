@@ -2,12 +2,8 @@ MeteorFalls_1F_2R_MapScripts:: @ 822C4DD
 	.byte 0
 
 MeteorFalls_1F_2R_EventScript_Nicolas:: @ 822C4DE
-	trainerbattle_single TRAINER_NICOLAS_1, MeteorFalls_1F_2R_Text_NicolasIntro, MeteorFalls_1F_2R_Text_NicolasDefeat, MeteorFalls_1F_2R_EventScript_RegisterNicolas
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	compare VAR_RESULT, TRUE
-	goto_if_eq MeteorFalls_1F_2R_EventScript_RematchNicolas
-	msgbox MeteorFalls_1F_2R_Text_NicolasPostBattle, MSGBOX_DEFAULT
-	release
+	trainerbattle_single TRAINER_NICOLAS_1, MeteorFalls_1F_2R_Text_NicolasIntro, MeteorFalls_1F_2R_Text_NicolasDefeat
+	msgbox MeteorFalls_1F_2R_Text_NicolasPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MeteorFalls_1F_2R_EventScript_RegisterNicolas:: @ 822C50A
@@ -24,12 +20,8 @@ MeteorFalls_1F_2R_EventScript_RematchNicolas:: @ 822C529
 	end
 
 MeteorFalls_1F_2R_EventScript_John:: @ 822C540
-	trainerbattle_double TRAINER_JOHN_AND_JAY_1, MeteorFalls_1F_2R_Text_JohnIntro, MeteorFalls_1F_2R_Text_JohnDefeat, MeteorFalls_1F_2R_Text_JohnNotEnoughMons, MeteorFalls_1F_2R_EventScript_RegisterJohn
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	compare VAR_RESULT, TRUE
-	goto_if_eq MeteorFalls_1F_2R_EventScript_RematchJohn
-	msgbox MeteorFalls_1F_2R_Text_JohnPostBattle, MSGBOX_DEFAULT
-	release
+	trainerbattle_single TRAINER_JOHN_AND_JAY_1, MeteorFalls_1F_2R_Text_JohnIntro, MeteorFalls_1F_2R_Text_JohnDefeat
+	msgbox MeteorFalls_1F_2R_Text_JohnPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MeteorFalls_1F_2R_EventScript_RegisterJohn:: @ 822C570
@@ -142,19 +134,18 @@ MeteorFalls_1F_2R_Text_NicolasPostRematch: @ 822C7D8
 	.string "can become stronger!$"
 
 MeteorFalls_1F_2R_Text_JohnIntro: @ 822C843
-	.string "John: We've always battled Pokémon\n"
-	.string "together as a twosome.\l"
-	.string "We've confidence in ourselves.$"
+	.string "When I was in AMAs, I learned Zephiel,\n"
+	.string "and then when I was collecting, I got\l"
+	.string "Henry since he was cheap.\p"
+	.string "Now both of them are banned…$"
 
 MeteorFalls_1F_2R_Text_JohnDefeat: @ 822C89C
-	.string "John: Oh, my.\n"
-	.string "We've lost, dear wife.$"
+	.string "I guess I could queue with Brown, if\n"
+	.string "there was a playable Brown deck.$"
 
 MeteorFalls_1F_2R_Text_JohnPostBattle: @ 822C8C1
-	.string "John: We've been married for\n"
-	.string "fifty years.\p"
-	.string "Come to think of it, I've yet to beat\n"
-	.string "my dear wife in a battle.$"
+	.string "I guess I could queue with Brown, if\n"
+	.string "there was a playable Brown deck.$"
 
 MeteorFalls_1F_2R_Text_JohnNotEnoughMons: @ 822C92B
 	.string "John: Well, well, what a young Trainer!\p"

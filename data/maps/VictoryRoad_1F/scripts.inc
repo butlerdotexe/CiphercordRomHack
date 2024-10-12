@@ -145,7 +145,7 @@ VictoryRoad_1F_Text_WallyEntranceDefeat: @ 8235FFC
 	.string "Even now, I can't touch you!$"
 
 VictoryRoad_1F_Text_WallyPostEntranceBattle: @ 8236020
-	.string "Basil: I'm finally happy how our\n"
+	.string "Basil: I'm finally happy with how our\n"
 	.string "battle ended, {PLAYER}.\p"
 	.string "I hope you can see how far I've come.$"
 
@@ -166,63 +166,64 @@ VictoryRoad_1F_Text_WallyPostBattle: @ 82360FE
 	.string "And challenge the Pokémon League!$"
 
 VictoryRoad_1F_Text_EdgarIntro: @ 8236184
-	.string "I've made it this far a couple times,\n"
-	.string "but the last stretch is so long…$"
+	.string "I remember when the Scarlet and Violet\n"
+	.string "leaks were happening and we had such\l"
+	.string "cool leaks.\p"
+	.string "Minecraft salt, engine, and tumbleweed\n"
+	.string "are my favorite Pokémon.$"
 
 VictoryRoad_1F_Text_EdgarDefeat: @ 82361CB
-	.string "My dream ends here again…$"
+	.string "Oh, you beat me. Well good luck with\n"
+	.string "the Elite 4- you'll need it.$"
 
 VictoryRoad_1F_Text_EdgarPostBattle: @ 82361E5
-	.string "You've made it this far. Keep the\n"
-	.string "momentum going and become the\l"
-	.string "Champion! If anyone can, it's you!$"
+	.string "Oh, you beat me. Well good luck with\n"
+	.string "the Elite 4- you'll need it.$"
 
 VictoryRoad_1F_Text_AlbertIntro: @ 8236248
-	.string "I didn't come all this way to lose now.\n"
-	.string "That possibility doesn't exist!$"
+	.string "Been gone for a while, got hit by a\n"
+	.string "drunk driver. But on the bright side,\l"
+	.string "I have plenty of time to play games now.$"
 
 VictoryRoad_1F_Text_AlbertDefeat: @ 8236290
-	.string "Impossible…\n"
-	.string "I lost?$"
+	.string "I can't leave the house to might as well\n"
+	.string "play Cipher!$"
 
 VictoryRoad_1F_Text_AlbertPostBattle: @ 82362A4
-	.string "I lost here…\p"
-	.string "That means I lack the qualifications\n"
-	.string "to become the Champion…$"
+	.string "I can't leave the house to might as well\n"
+	.string "play Cipher!$"
 
 VictoryRoad_1F_Text_HopeIntro: @ 82362EE
-	.string "This seemingly infinite and harsh road\n"
-	.string "lives up to its name of Victory.$"
+	.string "Look, I may have killed the count a\n"
+	.string "few times, but I've contributed to it\l"
+	.string "so much I should get a pass.$"
 
 VictoryRoad_1F_Text_HopeDefeat: @ 8236336
-	.string "Your battle style is fantastic…$"
+	.string "Let's go! 1!$"
 
 VictoryRoad_1F_Text_HopePostBattle: @ 8236356
-	.string "You seem to have the potential for\n"
-	.string "becoming the Champion.$"
+	.string "Let's go! 1!$"
 
 VictoryRoad_1F_Text_QuincyIntro: @ 8236390
-	.string "What is the Victory Road?\n"
-	.string "I'll tell you if you win!$"
+	.string "Man, being retired is so nice. I\n"
+	.string "get to pop in, see whatever chaos\l"
+	.string "is going on, and laugh.$"
 
 VictoryRoad_1F_Text_QuincyDefeat: @ 82363C4
-	.string "Okay!\n"
-	.string "Well done!$"
+	.string "Maybe I should just stick to one.$"
 
 VictoryRoad_1F_Text_QuincyPostBattle: @ 82363D5
-	.string "Getting through here safely--that's\n"
-	.string "the final test for any Trainer aiming\l"
-	.string "to become the Pokémon Champion.\p"
-	.string "That's why it's called the Victory\n"
-	.string "Road.$"
+	.string "Maybe I should just stick to one.$"
 
 VictoryRoad_1F_Text_KatelynnIntro: @ 8236468
-	.string "I have nothing to say to anyone\n"
-	.string "that's come this far. Come on!$"
+	.string "My opening line to pick up a girl?\p"
+	.string "'Hey, do you like Xenoblade Chronicles?'\p"
+	.string "Works every time.$"
 
 VictoryRoad_1F_Text_KatelynnDefeat: @ 82364A7
-	.string "This is a disgrace…$"
+	.string "If she says no, somehow, then I know\n"
+	.string "I'm wasting my time.$"
 
 VictoryRoad_1F_Text_KatelynnPostBattle: @ 82364BB
-	.string "Humph, go right on ahead.\n"
-	.string "See if I care.$"
+	.string "If she says no, somehow, then I know\n"
+	.string "I'm wasting my time.$"

@@ -32,77 +32,68 @@ VictoryRoad_B2F_EventScript_Dianne:: @ 8236948
 	end
 
 VictoryRoad_B2F_Text_VitoIntro: @ 823695F
-	.string "I trained together with my whole family,\n"
-	.string "every one of us!\l"
-	.string "I'm not losing to anyone!$"
+	.string "Finally I get to use my favorites-\n"
+	.string "Let's go Dragonite! Victini!$"
 
 VictoryRoad_B2F_Text_VitoDefeat: @ 82369B3
-	.string "Better than my family?!\n"
-	.string "Is that possible?!$"
+	.string "They lost, but they're still my\n"
+	.string "favortie Pokémon.$"
 
 VictoryRoad_B2F_Text_VitoPostBattle: @ 82369DE
-	.string "I was better than everyone in my\n"
-	.string "family. I've never lost before…\p"
-	.string "I've lost my confidence…\n"
-	.string "Maybe I'll go home…$"
+	.string "They lost, but they're still my\n"
+	.string "favortie Pokémon.$"
 
 VictoryRoad_B2F_Text_OwenIntro: @ 8236A4C
-	.string "I'd heard that there was a tough\n"
-	.string "little kid around. Do they mean you?$"
+	.string "I am Dimitri's number one fan, but even\n"
+	.string "I'll admit he is ass.$"
 
 VictoryRoad_B2F_Text_OwenDefeat: @ 8236A92
-	.string "The little shrimp is tough!$"
+	.string "Its just compared to the rest of Brown,\n"
+	.string "he's the least ass.$"
 
 VictoryRoad_B2F_Text_OwenPostBattle: @ 8236AAE
-	.string "The rumors I heard, that tough little\n"
-	.string "kid is from Petalburg City.$"
+	.string "Its just compared to the rest of Brown,\n"
+	.string "he's the least ass.$"
 
 VictoryRoad_B2F_Text_CarolineIntro: @ 8236AF0
-	.string "You must be getting a little tired.$"
+	.string "I need to win so I can have money for\n"
+	.string "gacha pulls.$"
 
 VictoryRoad_B2F_Text_CarolineDefeat: @ 8236B14
-	.string "No signs of tiring at all!$"
+	.string "I hate my lack of control when using\n"
+	.string "gacha currency…$"
 
 VictoryRoad_B2F_Text_CarolinePostBattle: @ 8236B2F
-	.string "Victory Road and the Pokémon League\n"
-	.string "are long and grueling challenges.\l"
-	.string "Beware of fatigue!$"
+	.string "I hate my lack of control when using\n"
+	.string "gacha currency…$"
 
 VictoryRoad_B2F_Text_JulieIntro: @ 8236B88
-	.string "You shouldn't get complacent just\n"
-	.string "because you have a lot of Gym Badges.\p"
-	.string "There's always going to be someone\n"
-	.string "who's better than you!$"
+	.string "I'm a based Roy abuser and I'm proud\n"
+	.string "of it! $"
 
 VictoryRoad_B2F_Text_JulieDefeat: @ 8236C0A
-	.string "You're better than me!$"
+	.string "I am THE Roy guy!$"
 
 VictoryRoad_B2F_Text_JuliePostBattle: @ 8236C21
-	.string "Gaze on your collected Badges and\n"
-	.string "remember the Trainers you've faced.$"
+	.string "I am THE Roy guy!$"
 
 VictoryRoad_B2F_Text_FelixIntro: @ 8236C67
-	.string "I've come this far, but the tension's\n"
-	.string "giving me awful stomach pain…$"
+	.string "Opened one of my B20s and got a Vallui\n"
+	.string "SR+, so guess I picked the right one.$"
 
 VictoryRoad_B2F_Text_FelixDefeat: @ 8236CAB
-	.string "Ooh…\n"
-	.string "It hurts…$"
+	.string "If only I was that lucky in our battle…$"
 
 VictoryRoad_B2F_Text_FelixPostBattle: @ 8236CBA
-	.string "I can't help getting all tense knowing\n"
-	.string "that I'm nearing the Pokémon League.\p"
-	.string "It's all I can do to feign calm.$"
+	.string "If only I was that lucky in our battle…$"
 
 VictoryRoad_B2F_Text_DianneIntro: @ 8236D27
-	.string "The elite among the elite gather in\n"
-	.string "this cave.\p"
-	.string "How are you finding it?$"
+	.string "I'm so sad Shez M got wrecked in like a\n"
+	.string "week, when Fjorm came out with far save.$"
 
 VictoryRoad_B2F_Text_DianneDefeat: @ 8236D6E
-	.string "Not rattled in the least bit!$"
+	.string "Maybe they'll make him a legendary unit…$"
 
 VictoryRoad_B2F_Text_DiannePostBattle: @ 8236D8C
-	.string "You do have guts! I like that!\n"
-	.string "Keep it going!$"
+	.string "Maybe they'll make him a legendary unit…$"
 

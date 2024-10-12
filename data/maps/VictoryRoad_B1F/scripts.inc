@@ -27,65 +27,67 @@ VictoryRoad_B1F_EventScript_Halle:: @ 8236541
 	end
 
 VictoryRoad_B1F_Text_SamuelIntro: @ 8236558
-	.string "The thought that I'm getting closer to\n"
-	.string "the Pokémon League…\p"
-	.string "I'm getting stage fright…$"
+	.string "I can't believe I had one laptop that\n"
+	.string "might explode, and suddenly I'm a terrorist.$"
 
 VictoryRoad_B1F_Text_SamuelDefeat: @ 82365AD
-	.string "I couldn't do a thing…$"
+	.string "Its not like I use it anymore!\p"
+	.string "people at the laptop parts recycler lost\n"
+	.string "their shit when they saw it annd wouldn't\l"
+	.string "take it.$"
 
 VictoryRoad_B1F_Text_SamuelPostBattle: @ 82365C4
-	.string "The Pokémon League became distant\n"
-	.string "again… What a letdown…$"
+	.string "Its not like I use it anymore!\p"
+	.string "people at the laptop parts recycler lost\n"
+	.string "their shit when they saw it annd wouldn't\l"
+	.string "take it.$"
 
 VictoryRoad_B1F_Text_ShannonIntro: @ 82365FD
-	.string "To win your way through the Pokémon\n"
-	.string "League, you need the trust of your\l"
-	.string "Pokémon.$"
+	.string "It doesn't matter how many cards you\n"
+	.string "run in your deck- no need for consistency\l"
+	.string "if you can will your topdeck to be good.$"
 
 VictoryRoad_B1F_Text_ShannonDefeat: @ 823664D
-	.string "Your relationship is based on\n"
-	.string "solid trust.$"
+	.string "I should have willed my Pokémon to be\n"
+	.string "good too…$"
 
 VictoryRoad_B1F_Text_ShannonPostBattle: @ 8236678
-	.string "By being together all the time, trust\n"
-	.string "grows between Pokémon and Trainers.$"
+	.string "I should have willed my Pokémon to be\n"
+	.string "good too…$"
 
 VictoryRoad_B1F_Text_MichelleIntro: @ 82366C2
-	.string "This isn't the goal. It's only a place\n"
-	.string "on the way to the Pokémon League.$"
+	.string "You may have noticed my teams are a\n"
+	.string "bit more fleshed out than most others.\p"
+	.string "I made movesets for dozens of fights,\n"
+	.string "made all the fights for Team Aggro,\l"
+	.string "and played through this hack 4 times.\p"
+	.string "I EARNED this.$"
 
 VictoryRoad_B1F_Text_MichelleDefeat: @ 823670B
-	.string "That's the way!$"
+	.string "And you were able to beat me just fine.$"
 
 VictoryRoad_B1F_Text_MichellePostBattle: @ 823671B
-	.string "You'll do fine, for sure!\n"
-	.string "Your Pokémon are all eager to go!$"
+	.string "And you were able to beat me just fine.$"
 
 VictoryRoad_B1F_Text_MitchellIntro: @ 8236757
-	.string "My Pokémon are cosmically\n"
-	.string "awe inspiring!$"
+	.string "You'll never guess what Pokémon type I\n"
+	.string "like based off of my name.$"
 
 VictoryRoad_B1F_Text_MitchellDefeat: @ 8236780
-	.string "I've never met anyone like you before.$"
+	.string "Shocking, right? Heh.$"
 
 VictoryRoad_B1F_Text_MitchellPostBattle: @ 82367A7
-	.string "Even outside of battle, I sense\n"
-	.string "incredible power emanating from you\l"
-	.string "and your Pokémon.$"
+	.string "Shocking, right? Heh.$"
 
 VictoryRoad_B1F_Text_HalleIntro: @ 82367FD
-	.string "Okay, no need to get your back up!\n"
-	.string "Relax, let's take it easy!$"
+	.string "I know I've got a lot of jank Marth\n"
+	.string "lists, but Yellow Marth actually has legs.$"
 
 VictoryRoad_B1F_Text_HalleDefeat: @ 823683B
-	.string "Whoa!\n"
-	.string "Wonderful!$"
+	.string "It beat Oboro! At least once! That's\n"
+	.string "gotta count for something.$"
 
 VictoryRoad_B1F_Text_HallePostBattle: @ 823684C
-	.string "Sure, this is Victory Road.\p"
-	.string "But it's not all that different from\n"
-	.string "the path you've taken so far.\p"
-	.string "Try to enjoy things the rest of\n"
-	.string "the way!$"
+	.string "It beat Oboro! At least once! That's\n"
+	.string "gotta count for something.$"
 

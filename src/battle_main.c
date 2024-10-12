@@ -1975,7 +1975,7 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
 
                 personalityValue += nameHash << 8;
 
-                level = 5;
+                level = GetHighestLevelInPlayerParty();
                 if (level + partyData[i].lvl > 100)
                 {
                     level = 100;
