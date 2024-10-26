@@ -899,9 +899,9 @@ Altering_Cave_EventScript_CometShard::
 	end
 
 VictoryRoad_1F_EventScript_ItemMaxRevives::
-	finditem ITEM_MAX_REVIVE, 99
+	finditem ITEM_MAX_REVIVE, 999
 	end
 
 VictoryRoad_1F_EventScript_ItemFullRestores::
-	finditem ITEM_FULL_RESTORE, 99
+	finditem ITEM_FULL_RESTORE, 999
 	end

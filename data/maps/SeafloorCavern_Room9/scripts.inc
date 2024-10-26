@@ -247,7 +247,7 @@ SeafloorCavern_Room9_Text_ArchieBeholdKyogre: @ 82350A6
 	.string "to make any strategy possible.$"
 
 SeafloorCavern_Room9_Text_BlueOrbShinesByItself: @ 8235279
-	.string "Rosa: Time to wake up, babe!\p"
+	.string "Rosa: Time to wake up, bae!\p"
 	.string "You and me, we're gonna put Stall\n"
 	.string "back on the menu!$"
 
@@ -268,7 +268,7 @@ SeafloorCavern_Room9_Text_ArchieWithThisBlueOrb: @ 82351E5
 	.string "actually win there.\p"
 	.string "But!\n"
 	.string "I still have the Blue Orb!\p"
-	.string "As long as I have, Kyogre will-$"
+	.string "As long as I have it, Kyogre will-$"
 
 SeafloorCavern_Room9_Text_ArchieWhereDidKyogreGo: @ 82352A7
 	.string "Rosa: What?!\p"

@@ -499,9 +499,9 @@ MeteorFalls_1F_1R_Text_BrendayLetsBattle:
 
 MeteorFalls_1F_1R_Text_CourtneyLetsBattle:
 	.string "Ahahaha!\p"
-	.string "You think you can stand up to the\n"
-	.string "king of sac?\p"
-	.string "I'll beat you before you can blink!$"
+	.string "You stand before the soldier of\n"
+	.string "Elysia!\p"
+	.string "Now come, it is time for SACC!$"
 
 MeteorFalls_1F_1R_Text_CourtneyLose:
 	.string "What?! How did I end up sacked?$"
@@ -518,10 +518,9 @@ MeteorFalls_1F_1R_Text_CancelMultiBattle:
 	.string "OK, but please hurry!$"
 
 MeteorFalls_1F_1R_Text_WithThisMeteorite: @ 822BF47
-	.string "Well, that's embarrasing, after the\n"
-	.string "whole 'king of sac' thing.\p"
-	.string "Oh well, I'l still taking this meteor,\n"
-	.string "and then Mt. Chimney will…$"
+	.string "Hey do me a favor and forget that first\n"
+	.string "bit. Cool? Cool.\p"
+	.string "I'm still taking the meteor.$"
 
 MeteorFalls_1F_1R_Text_HoldItRightThereMagma: @ 822BFE4
 	.string "Hold it right there, Team Aggro!\p"

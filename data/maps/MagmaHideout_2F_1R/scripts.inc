@@ -23,7 +23,7 @@ MagmaHideout_2F_1R_EventScript_Grunt5:: @ 8239B96
 
 MagmaHideout_2F_1R_Text_Grunt14Intro: @ 8239BAD
 	.string "What, what, what?\p"
-	.string "Only Team Aggri members are supposed\n"
+	.string "Only Team Aggro members are supposed\n"
 	.string "to be in here!\p"
 	.string "But you're not dressed in Team Aggro's\n"
 	.string "uniform…\p"

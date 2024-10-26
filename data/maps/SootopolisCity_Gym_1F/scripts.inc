@@ -248,7 +248,7 @@ SootopolisCity_Gym_1F_Text_GymGuideAdvice: @ 8225093
 	.string "got what it takes!$"
 
 SootopolisCity_Gym_1F_Text_GymGuidePostVictory: @ 82251AF
-	.string "Yow! You've beaten even Juan, who\n"
+	.string "Yow! You've beaten even Vance, who\n"
 	.string "was supposedly the best in all Hoenn!\p"
 	.string "Okay! Check out your Trainer Card.\p"
 	.string "If you've gotten all the Badges, you're\n"
@@ -293,7 +293,7 @@ SootopolisCity_Gym_1F_Text_ExplainScald: @ 82256C1
 	.string "old for this.\p"
 	.string "Maybe I should step down, and let\n"
 	.string "let someone younger take my spot.\p"
-	.string "… … … … … …/p"
+	.string "… … … … … …\p"
 	.string "But then we'd get someone like Comic…\n"
 	.string "Maybe not.$"
 

@@ -209,17 +209,18 @@ MagmaHideout_4F_Text_TabithaPostBattle: @ 823A9AC
 	.string "Oh well, Fallen should be done by now.$"
 
 MagmaHideout_4F_Text_CourtneyIntro:
-	.string "Yoooo you made it!\p"
-	.string "Look last time my partner was a bit of a\n"
-	.string "wimp, but Hoch's got my back.\p"
-	.string "So let's have a real match this time!$"
+	.string "Yooooo you made it!\p"
+	.string "Listen, I ain't here to sandbag anymore.\n"
+	.string "Last time I was paired with an ama. \p"
+	.string "This time?\n"
+	.string "The Brotherhood of Memery shall prevail!$"
 
 MagmaHideout_4F_Text_CourtneyDefeat:
-	.string "I guess Hochluck overcame my luck…$"
+	.string "Hochluck beat Chisaccu this time…$"
 
 MagmaHideout_4F_Text_CourtneyPostBattle:
-	.string "You might have beaten us, but we're\n"
-	.string "still the winners here!$"
+	.string "You may have beaten us, but the\n"
+	.string "Brotherhood remains strong!$"
 
 MagmaHideout_4F_Text_MaxieAwakenGroudon: @ 823A9F4
 	.string "Fallen: HEY YOU OVERSIZED LIZARD!\p"
@@ -245,7 +246,7 @@ MagmaHideout_4F_Text_MaxieFightMe:
 	.string "this baby can do.$"
 
 MagmaHideout_4F_Text_MaxieDefeat: @ 823ABB5
-	.string "Seriouesly?\n"
+	.string "Seriously?\n"
 	.string "Again?$"
 
 MagmaHideout_4F_Text_MaxieImGoingAfterGroudon: @ 823ABE2

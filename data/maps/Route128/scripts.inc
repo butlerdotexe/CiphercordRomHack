@@ -266,7 +266,7 @@ Route128_Text_MaxieResposibilityFallsToArchieAndMe: @ 81F6F1E
 	.string "more damage than I ever could!$"
 
 Route128_Text_MaxieThisDefiesBelief: @ 81F704F
-	.string "Penta: Even when I lose, I win!$"
+	.string "Fallen: Even when I lose, I win!$"
 
 Route128_Text_StevenWhatIsHappening: @ 81F70C9
 	.string "Penta: {PLAYER}{KUN}!\n"

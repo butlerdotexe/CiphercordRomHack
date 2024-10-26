@@ -39,12 +39,8 @@ Route117_EventScript_DayCareSign:: @ 81F39C7
 	end
 
 Route117_EventScript_Isaac:: @ 81F39D0
-	trainerbattle_single TRAINER_ISAAC_1, Route117_Text_IsaacIntro, Route117_Text_IsaacDefeat, Route117_EventScript_RegisterIsaac
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	compare VAR_RESULT, TRUE
-	goto_if_eq Route117_EventScript_RematchIsaac
-	msgbox Route117_Text_IsaacPostBattle, MSGBOX_DEFAULT
-	release
+	trainerbattle_single TRAINER_ISAAC_1, Route117_Text_IsaacIntro, Route117_Text_IsaacDefeat
+	msgbox Route117_Text_IsaacPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route117_EventScript_RegisterIsaac:: @ 81F39FC

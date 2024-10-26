@@ -389,7 +389,7 @@ Route119_EventScript_RematchJackson:: @ 81F485B
 
 Route119_EventScript_Catherine:: @ 81F4872
 	trainerbattle_single TRAINER_CATHERINE_1, Route119_Text_CatherineIntro, Route119_Text_CatherineDefeat
-	msgbox Route119_Text_CatherinePostBattle, MSGBOX_DEFAULT
+	msgbox Route119_Text_CatherinePostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route119_EventScript_RegisterCatherine:: @ 81F489E

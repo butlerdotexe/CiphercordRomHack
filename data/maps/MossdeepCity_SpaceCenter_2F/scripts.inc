@@ -493,7 +493,8 @@ MossdeepCity_SpaceCenter_2F_Text_JustWantToExpandLand: @ 822487C
 	.string "No one likes fun around here…$"
 
 MossdeepCity_SpaceCenter_Text_CourtneyDefeat: @ 82248AD
-	.string "Maybe you're actually just good…$"
+	.string "Yeah, I'm going back to my gacha\n"
+	.string "games. Elysia will guide me.$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieWeFailedIsAquaAlsoMisguided: @ 82248C2
 	.string "Fallen: We failed to make the volcano\n"
@@ -507,7 +508,7 @@ MossdeepCity_SpaceCenter_2F_Text_MaxieWeFailedIsAquaAlsoMisguided: @ 82248C2
 	.string "No…\n"
 	.string "I'm definitely right…\l"
 	.string "… … … … … …\p"
-	.string "But I fail…\n"
+	.string "But if I fail…\n"
 	.string "Rosa has to fail too!$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieWeWillGiveUp: @ 82249DC

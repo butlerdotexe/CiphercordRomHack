@@ -20,7 +20,7 @@ Route102_EventScript_Boy:: @ 81EC0FC
 
 Route102_EventScript_Calvin:: @ 81EC105
 	trainerbattle_single TRAINER_CALVIN_1, Route102_Text_CalvinIntro, Route102_Text_CalvinDefeated
-	msgbox Route102_Text_CalvinPostBattle, MSGBOX_DEFAULT
+	msgbox Route102_Text_CalvinPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route102_EventScript_CalvinRegisterMatchCallAfterBattle:: @ 81EC146

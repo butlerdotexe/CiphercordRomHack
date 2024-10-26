@@ -104,7 +104,7 @@ EverGrandeCity_PokemonCenter_1F_Text_BelieveInYourPokemon: @ 8229B62
 	.string "last trick up his sleeve.\p"
 	.string "That's all I can say, I don't want to\n"
 	.string "spoil everything for you.\p"
-	.string "Good luck, kid!\p"
+	.string "Good luck, kid!$"
 
 EverGrandeCity_PokemonCenter_1F_Text_ScottHappyForYou: @ 8229BF1
 	.string "Scott: {PLAYER}{KUN}, you've clawed your\n"

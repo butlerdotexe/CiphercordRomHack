@@ -315,7 +315,7 @@ EverGrandeCity_ChampionsRoom_Text_BrendanYouveWon: @ 82291A2
 
 EverGrandeCity_ChampionsRoom_Text_BirchArriveRatePokedex: @ 82291E6
 	.string "Prof. Foodies: See?\n"
-	.string "What did I tell you, {RIVAL}?\p"
+	.string "What did I tell you, Sauce?\p"
 	.string "Didn't I tell you that you don't need\n"
 	.string "to worry about {PLAYER}{KUN}?\p"
 	.string "… … … … … … … …\n"

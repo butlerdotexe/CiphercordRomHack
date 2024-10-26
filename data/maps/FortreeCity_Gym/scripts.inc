@@ -298,13 +298,14 @@ FortreeCity_Gym_Text_WinonaIntro: @ 8216D75
 	.string "intervention.\p"
 	.string "Apparently I'm being 'too hard' on\n"
 	.string "on challengers or something.\p"
-	.string "I mean, I'm not even allowed to have a mega!\p"
+	.string "I mean, I'm not even allowed to have a\n"
+	.string "mega!\p"
 	.string "Tibarn has a goddamn Iron Valiant but\n"
 	.string "I can't have a Mega Absol?\p"
 	.string "Can you believe that?\p"
-	.string "Anyways, either I beat your ass here, or I\n"
-	.string "gain an excuse to ramp up this challenge\l"
-	.string "again.\p"
+	.string "Anyways, either I beat your ass here,\n"
+	.string "or I gain an excuse to ramp up this\l"
+	.string "challenge again.\p"
 	.string "It's a win-win for me!$"
 
 FortreeCity_Gym_Text_WinonaDefeat: @ 8216E60
@@ -319,9 +320,10 @@ FortreeCity_Gym_Text_ReceivedFeatherBadge: @ 8216EEC
 	.string "from Brainiac.$"
 
 FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis: @ 8216F17
-	.string "You know, I'm almost glad that you beat me.\p"
-	.string "I was getting sick and tired of people telling\n"
-	.string "me I was overdoing it.\p"
+	.string "You know, I'm almost glad that you beat\n"
+	.string "me.\p"
+	.string "I was getting sick and tired of people\n"
+	.string "telling me I was overdoing it.\p"
 	.string "'Braaaaaaain why do you have 3 mythicals.'\n"
 	.string "'Braaaaaaaain this fight is so unfair.'\l"
 	.string "Blah blah blah.\p"

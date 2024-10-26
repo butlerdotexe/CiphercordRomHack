@@ -66,5 +66,6 @@
 #define SPREAD_PENTA_1                      62
 #define SPREAD_PENTA_2                      63
 #define SPREAD_PENTA_3                      64
+#define SPREAD_BRAIN_DRAG                   65
 
 #endif  // GUARD_CONSTANTS_TRAINER_SPREADS

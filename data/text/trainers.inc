@@ -274,7 +274,7 @@ Route104_Text_IvanPostBattle: @ 829554E
 	.string "I need to make my aggro team better.$"
 
 Route104_Text_BillyIntro: @ 829558A
-	.string "Hey, do you have any Camilla/Ashe\n"
+	.string "Hey, do you have any Camilla/Ash\n"
 	.string "fanart?$"
 
 Route104_Text_BillyDefeat: @ 82955B4
@@ -389,7 +389,7 @@ Route104_Text_CindyPostRematch: @ 8295C1F
 
 Route104_Text_DarianIntro: @ 8295C5D
 	.string "Hey, friend, how's it going?\n"
-	.string "I haven't done much battling lately,\n"
+	.string "I haven't done much battling lately,\l"
 	.string "but let's have a good match!$"
 
 Route104_Text_DarianDefeat: @ 8295CC9
@@ -421,15 +421,19 @@ Route105_Text_LuisPostBattle: @ 8295E72
 	.string "…And the summer Lucina playmat…$"
 
 Route105_Text_DominikIntro: @ 8295EB7
-	.string "48 65 6C 6C 6F 2C 20 57 65 6C 63 6F 6D\n"
-	.string "65 20 74 6F 20 43 69 70 68 65 72 63 6F\p"
-	.string "72 64 21 20$"
+	.string "49206b6e6f7720796f75722077696e7261746\n"
+	.string "52e20546869732073686f756c642062652065\p"
+	.string "6173792e$"
 
 Route105_Text_DominikDefeated: @ 8295EEA
-	.string "49 20 68 61 76 65 20 6C 6F 73 74$"
+	.string "2f70756c6c207b504c415945527d2e2e2e204\n"
+	.string "682c2074686973206d7573742062652065786\p"
+	.string "36974696e6720666f7220796f752e$"
 
 Route105_Text_DominikPostBattle: @ 8295F08
-	.string "49 20 68 61 76 65 20 6C 6F 73 74$"
+	.string "2f70756c6c207b504c415945527d2e2e2e204\n"
+	.string "682c2074686973206d7573742062652065786\p"
+	.string "36974696e6720666f7220796f752e$"
 
 Route105_Text_BeverlyIntro: @ 8295F5C
 	.string "Oh, you. I guess I can take a break\n"
@@ -569,15 +573,15 @@ Route107_Text_DarrinPostBattle: @ 829675B
 	.string "I mean good game.$"
 
 Route107_Text_TonyIntro: @ 82967AD
-	.string "Oh yo what's up? I'm taking a break\n"
-	.string "from helping Fallen, but we can still\l"
-	.string "battle.$"
+	.string "Ayo sup? I'm on break from helping\n"
+	.string "Fallen, but I still got time to kick\l"
+	.string "your ass.$"
 
 Route107_Text_TonyDefeated: @ 82967D8
-	.string "Damn, gettin sacked even on vacation!$"
+	.string "Damn, better player won.$"
 
 Route107_Text_TonyPostBattle: @ 82967FF
-	.string "Damn, gettin sacked even on vacation!$"
+	.string "Damn, better player won.$"
 
 Route107_Text_TonyRegister: @ 829685A
 	.string "You've shocked me to the bone!\n"
@@ -603,10 +607,10 @@ Route107_Text_DeniseIntro: @ 8296974
 	.string "learned since!$"
 
 Route107_Text_DeniseDefeated: @ 829699E
-	.string "Maybe I should have kep Gardevoir.$"
+	.string "Maybe I should have kept Gardevoir.$"
 
 Route107_Text_DenisePostBattle: @ 82969AB
-	.string "Maybe I should have kep Gardevoir.$"
+	.string "Maybe I should have kept Gardevoir.$"
 
 Route107_Text_BethIntro: @ 82969E4
 	.string "Huh? Who're you?\n"
@@ -2307,15 +2311,19 @@ Route117_Text_AnnaNotEnoughMons: @ 829CD61
 	.string "bring two Pokémon with you.$"
 
 Route117_Text_MegIntro: @ 829CD9D
-	.string "48 65 6C 6C 6F 2C 20 57 65 6C 63 6F 6D\n"
-	.string "65 20 74 6F 20 43 69 70 68 65 72 63 6F\p"
-	.string "72 64 21 20$"
+	.string "49206b6e6f7720796f75722077696e7261746\n"
+	.string "52e20546869732073686f756c642062652065\p"
+	.string "6173792e$"
 
 Route117_Text_MegDefeat: @ 829CDE9
-	.string "49 20 68 61 76 65 20 6C 6F 73 74$"
+	.string "2f70756c6c207b504c415945527d2e2e2e204\n"
+	.string "682c2074686973206d7573742062652065786\p"
+	.string "36974696e6720666f7220796f752e$"
 
 Route117_Text_MegPostBattle: @ 829CE17
-	.string "49 20 68 61 76 65 20 6C 6F 73 74$"
+	.string "2f70756c6c207b504c415945527d2e2e2e204\n"
+	.string "682c2074686973206d7573742062652065786\p"
+	.string "36974696e6720666f7220796f752e$"
 
 Route117_Text_MegNotEnoughMons: @ 829CE52
 	.string "59 6F 75 20 6E 65 65 64 20 6D 75 6C 74\n"
@@ -2679,19 +2687,16 @@ Route119_Text_HideoPostBattle: @ 829E2A3
 	.string "You're welcome, by the way.$"
 
 Route119_Text_ChrisIntro: @ 829E30D
-	.string "You spoke to me…\n"
-	.string "So you want to challenge me!\p"
-	.string "Sure! I'll try out the Pokémon I caught\n"
-	.string "while Surfing!$"
+	.string "{PLAYER}… I've caught new Pokémon.\n"
+	.string "Stronger Pokémon.\p"
+	.string "With them, I'll beat you for sure!$"
 
 Route119_Text_ChrisDefeat: @ 829E372
-	.string "I don't have a clue about what it\n"
-	.string "takes to win.$"
+	.string "How? I can't win with the Pokémon I\n"
+	.string "like,or strong Pokémon I don't like.$"
 
 Route119_Text_ChrisPostBattle: @ 829E3A2
-	.string "Go for a Surf on my Pokémon…\p"
-	.string "Then fish off its back…\p"
-	.string "It's an indescribably luxuriant moment!$"
+	.string "What do I do now?$"
 
 Route119_Text_FabianIntro: @ 829E3FF
 	.string "I think I'm one of the only people who's\n"
@@ -3344,18 +3349,19 @@ Route123_Text_JonasPostBattle: @ 82A08CA
 	.string "Trainer next time.$"
 
 Route123_Text_KayleyIntro: @ 82A0902
-	.string "Look upon me and tremble!\n"
-	.string "I am the harbinger of your defeat.\p"
-	.string "My Pokémon's strength shall eclipse\n"
-	.string "your every hope!$"
+	.string "It's ridiculous… How did he…\n"
+	.string "Ah! You dare interrupt my reflection!\p"
+	.string "No… No… This is good. Prepare yourself!\p"
+	.string "You shall be the spark that sets my\n"
+	.string "rise aflame!$"
 
 Route123_Text_KayleyDefeat: @ 82A0943
-	.string "No! My reign was to last eternally!\p"
-	.string "This isn't over!$"
+	.string "Mark my words, you shall see my return!\p"
+	.string "You'll all see!$"
 
 Route123_Text_KayleyPostBattle: @ 82A096E
-	.string "No! My reign was to last eternally!\p"
-	.string "This isn't over!$"
+	.string "Mark my words, you shall see my return!\p"
+	.string "You'll all see!$"
 
 Route124_Text_SpencerIntro: @ 82A09B1
 	.string "Hey, are you lost at sea?\p"
@@ -4109,15 +4115,19 @@ Route130_Text_KatiePostBattle: @ 82A33F5
 	.string "This is a best of 1 too?$"
 
 Route130_Text_SantiagoIntro: @ 82A343A
-	.string "48 65 6C 6C 6F 2C 20 57 65 6C 63 6F 6D\n"
-	.string "65 20 74 6F 20 43 69 70 68 65 72 63 6F\p"
-	.string "72 64 21 20$"
+	.string "49206b6e6f7720796f75722077696e7261746\n"
+	.string "52e20546869732073686f756c642062652065\p"
+	.string "6173792e$"
 
 Route130_Text_SantiagoDefeat: @ 82A346D
-	.string "49 20 68 61 76 65 20 6C 6F 73 74$"
+	.string "2f70756c6c207b504c415945527d2e2e2e204\n"
+	.string "682c2074686973206d7573742062652065786\p"
+	.string "36974696e6720666f7220796f752e$"
 
 Route130_Text_SantiagoPostBattle: @ 82A3494
-	.string "49 20 68 61 76 65 20 6C 6F 73 74$"
+	.string "2f70756c6c207b504c415945527d2e2e2e204\n"
+	.string "682c2074686973206d7573742062652065786\p"
+	.string "36974696e6720666f7220796f752e$"
 
 Route131_Text_RichardIntro: @ 82A34C8
 	.string "I've played Grima off and on for two\n"
@@ -4205,18 +4215,22 @@ Route131_Text_IanNotEnoughMons: @ 82A39CD
 	.string "we'll take you on!$"
 
 Route131_Text_TaliaIntro: @ 82A39FE
-	.string "Look upon me and tremble!\n"
-	.string "I am the harbinger of your defeat.\p"
-	.string "My Pokémon's strength shall eclipse\n"
-	.string "your every hope!$"
+	.string "I see now… You too pursue the summit!\p"
+	.string "But there may only be one queen, and\n"
+	.string "you face her!\p"
+	.string "A foe such as you shall complement my \n"
+	.string "rise greatly… And the thread of destiny\l"
+	.string "shall see you defeated at my feet!$"
 
 Route131_Text_TaliaDefeat: @ 82A3A38
-	.string "No! My reign was to last eternally!\p"
-	.string "This isn't over!$"
+	.string "This is unthinkable! This is unfair!\p"
+	.string "I am the greatest there is, the one\n"
+	.string "truly worthy… I cannot let it end here…$"
 
 Route131_Text_TaliaPostBattle: @ 82A3A48
-	.string "No! My reign was to last eternally!\p"
-	.string "This isn't over!$"
+	.string "This is unthinkable! This is unfair!\p"
+	.string "I am the greatest there is, the one\n"
+	.string "truly worthy… I cannot let it end here…$"
 	
 Route131_Text_KevinIntro: @ 82A3AA0
 	.string "I saw someone playing brown the other\n"
@@ -4409,11 +4423,11 @@ Route134_Text_JackIntro: @ 82A4571
 	.string "can break my losing streak…$"
 
 Route134_Text_JackDefeat: @ 82A45BB
-	.string "The more I play Nino the more it feels$"
+	.string "The more I play Nino the more it feels\n"
 	.string "like everything kills Nino.$"
 
 Route134_Text_JackPostBattle: @ 82A45C5
-	.string "The more I play Nino the more it feels$"
+	.string "The more I play Nino the more it feels\n"
 	.string "like everything kills Nino.$"
 
 Route134_Text_LaurelIntro: @ 82A4609
@@ -4558,11 +4572,13 @@ AshenWoods_Text_RomanPostBattle:
 	.string "see what color I splash!$"
 	
 AshenWoods_Text_ElmerIntro:
-	.string "I remember the last time I bought boxes\n"
-	.string "they were $40 each.$"
+	.string "I remember the last time I bought\n"
+	.string "boxes, they were $40 each.$"
 
 AshenWoods_Text_ElmerDefeat:
-	.string "Now most of them are hundreds of dollars…$"
+	.string "Now most of them are hundreds of\n"
+	.string "dollars…$"
 
 AshenWoods_Text_ElmerPostBattle:
-	.string "Now most of them are hundreds of dollars…$"
+	.string "Now most of them are hundreds of\n"
+	.string "dollars…$"

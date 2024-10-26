@@ -385,7 +385,7 @@ RustboroCity_Gym_Text_RoxanneIntro: @ 821362A
 	.string "Pokémon Gym Leader.\p"
 	.string "Hope you had fun fighting my rats,\n"
 	.string "those guys can be a bit of a hand-\l"
-	.string "full.\p"
+	.string "ful.\p"
 	.string "Alright, enough sitting around,\n"
 	.string "let's do this.$"
 

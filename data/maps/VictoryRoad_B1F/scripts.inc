@@ -32,7 +32,7 @@ VictoryRoad_B1F_Text_SamuelIntro: @ 8236558
 
 VictoryRoad_B1F_Text_SamuelDefeat: @ 82365AD
 	.string "Its not like I use it anymore!\p"
-	.string "people at the laptop parts recycler lost\n"
+	.string "People at the laptop parts recycler lost\n"
 	.string "their shit when they saw it annd wouldn't\l"
 	.string "take it.$"
 
