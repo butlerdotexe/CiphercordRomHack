@@ -2779,11 +2779,11 @@ Route120_Text_LorenzoIntro: @ 829E843
 
 Route120_Text_LorenzoDefeat: @ 829E884
 	.string "Dang, you're actually good at this.\n"
-	.string "You should join the draft league.\p"
+	.string "You should join the draft league.$"
 
 Route120_Text_LorenzoPostBattle: @ 829E8C5
 	.string "Dang, you're actually good at this.\n"
-	.string "You should join the draft league.\p"
+	.string "You should join the draft league.$"
 
 Route120_Text_JennaIntro: @ 829E91C
 	.string "I didn't officially design the final\n"

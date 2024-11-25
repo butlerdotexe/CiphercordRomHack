@@ -412,7 +412,7 @@ Route103_Text_MayTimeToHeadBack: @ 81EC8AE
 	.string "Lab.$"
 
 Route103_Text_BrendanRoute103Pokemon: @ 81EC989
-	.string "Brendan: Okay, so it's this one and\n"
+	.string "Sauce: Okay, so it's this one and\n"
 	.string "that one that live on Route 103…$"
 
 Route103_Text_BrendanLetsBattle: @ 81EC9CE

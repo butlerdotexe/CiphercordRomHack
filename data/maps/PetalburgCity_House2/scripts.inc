@@ -14,7 +14,7 @@ PetalburgCity_House2_Text_NormanBecameGymLeader: @ 8207905
 	.string "Gym Leader.\p"
 	.string "It used to be this guy, Norman, who\n"
 	.string "used all normal types.\p"
-	.string "But then Racc send out 2 Pokémon at once\n"
+	.string "But then Racc sent out 2 Pokémon at once\n"
 	.string "and overwhelmed him.$"
 
 PetalburgCity_House2_Text_BattledNormanOnce: @ 8207969

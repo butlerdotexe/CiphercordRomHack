@@ -1356,7 +1356,7 @@ PetalburgCity_Gym_Text_DadSoDidItWorkOut: @ 8205B32
 	.string "Racc: So, is it over?$"
 
 PetalburgCity_Gym_Text_WallyThankYouBye: @ 8205B4C
-	.string "Basil: Thank you, yes, it did.\n"
+	.string "Basil: Thank you, yes, I did its.\n"
 	.string "Here's your Pokémon back.\p"
 	.string "{PLAYER}, thanks for coming along\n"
 	.string "with me.\p"
