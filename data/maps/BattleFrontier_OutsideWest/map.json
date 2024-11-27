@@ -99,9 +99,9 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_FAT_MAN",
-      "x": 8,
-      "y": 47,
+      "graphics_id": "OBJ_EVENT_GFX_WINONA",
+      "x": 26,
+      "y": 45,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
@@ -138,9 +138,9 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MANIAC",
-      "x": 9,
-      "y": 48,
+      "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
+      "x": 34,
+      "y": 40,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
@@ -371,7 +371,90 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "weather",
+      "x": 26,
+      "y": 46,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_DROUGHT"
+    },
+    {
+      "type": "weather",
+      "x": 27,
+      "y": 45,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_DROUGHT"
+    },
+    {
+      "type": "weather",
+      "x": 26,
+      "y": 44,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_DROUGHT"
+    },
+    {
+      "type": "weather",
+      "x": 25,
+      "y": 45,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_DROUGHT"
+    },
+    {
+      "type": "weather",
+      "x": 27,
+      "y": 46,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_SUNNY_CLOUDS"
+    },
+    {
+      "type": "weather",
+      "x": 28,
+      "y": 45,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_SUNNY_CLOUDS"
+    },
+    {
+      "type": "weather",
+      "x": 27,
+      "y": 44,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_SUNNY_CLOUDS"
+    },
+    {
+      "type": "weather",
+      "x": 26,
+      "y": 43,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_SUNNY_CLOUDS"
+    },
+    {
+      "type": "weather",
+      "x": 25,
+      "y": 44,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_SUNNY_CLOUDS"
+    },
+    {
+      "type": "weather",
+      "x": 25,
+      "y": 46,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_SUNNY_CLOUDS"
+    },
+    {
+      "type": "weather",
+      "x": 26,
+      "y": 47,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_SUNNY_CLOUDS"
+    },
+    {
+      "type": "weather",
+      "x": 24,
+      "y": 45,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_SUNNY_CLOUDS"
+    }
   ],
   "bg_events": [
     {

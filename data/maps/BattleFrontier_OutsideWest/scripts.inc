@@ -132,8 +132,11 @@ BattleFrontier_OutsideWest_EventScript_Maniac1:: @ 823D536
 	end
 
 BattleFrontier_OutsideWest_EventScript_Maniac2:: @ 823D53D
-	lock
-	goto BattleFrontier_OutsideWest_EventScript_FactoryChallengersTalk
+	msgbox BattleFrontier_OutsideWest_Text_SureWeCanChallengeWithNoMons, MSGBOX_DEFAULT
+	trainerbattle_no_intro TRAINER_BENJAMIN_2, BattleFrontier_OutsideWest_Text_BigGuySaidIllLendYouMons
+	msgbox BattleFrontier_OutsideWest_Text_Arte_Transition, MSGBOX_DEFAULT
+	trainerbattle_no_intro TRAINER_BENJAMIN_3, BattleFrontier_OutsideWest_Text_Arte_Defeat
+	msgbox BattleFrontier_OutsideWest_Text_Arte_Defeat, MSGBOX_AUTOCLOSE
 	end
 
 BattleFrontier_OutsideWest_EventScript_FactoryChallengersTalk:: @ 823D544
@@ -282,7 +285,8 @@ BattleFrontier_OutsideWest_EventScript_Woman1:: @ 823D69D
 	end
 
 BattleFrontier_OutsideWest_EventScript_FatMan1:: @ 823D6A6
-	msgbox BattleFrontier_OutsideWest_Text_SquareFilledWithToughPeople, MSGBOX_NPC
+	trainerbattle_single TRAINER_ROXANNE_2, BattleFrontier_OutsideWest_Text_SquareFilledWithToughPeople, BattleFrontier_OutsideWest_Text_Brain_Post_Battle
+	msgbox BattleFrontier_OutsideWest_Text_Brain_Post_Battle, MSGBOX_AUTOCLOSE
 	end
 
 BattleFrontier_OutsideWest_EventScript_FatMan2:: @ 823D6AF
@@ -393,16 +397,45 @@ BattleFrontier_OutsideWest_Text_OnlyToughTrainersBroughtHere: @ 823DABF
 	.string "know about the Battle Frontier.$"
 
 BattleFrontier_OutsideWest_Text_SureWeCanChallengeWithNoMons: @ 823DB7D
-	.string "Hey, bro…\p"
-	.string "Are you sure we can make challenges\n"
-	.string "even if we don't have any Pokémon?$"
+	.string "Ah… You're here too.\p"     
+	.string "I must admit that before your unearned\n"
+	.string "position, my new position as gym\l"
+	.string "leader is quite unimpressive…\p"
+	.string "But my dreams have not bent so easily,\n"
+	.string "and I shall see that wrong put right!\p"	
+	.string "You face a new woman, a greater woman…\n"
+	.string "One worthy of the title of the\l"
+	.string "strongest in the world!\p"
+	.string "You face the glorious queen of all,\n"
+	.string "Artemisia!$"	
 
 BattleFrontier_OutsideWest_Text_BigGuySaidIllLendYouMons: @ 823DBCE
-	.string "Uh…\n"
-	.string "I'm sure it'll be okay.\p"
-	.string "I think…\p"
-	.string "But remember that big scary guy?\n"
-	.string "He said, “I'll lend you Pokémon!”$"
+	.string "I see… So even this was not enough\n"
+	.string "to face you.$"
+
+BattleFrontier_OutsideWest_Text_Arte_Transition:
+	.string "That battle was… Enlightening. I\n"
+	.string "understand now. I truly understand.\p"
+	.string "To fight you as a trainer, to\n"
+	.string "fight you as a gym leader, to\l"
+	.string "to fight even as a queen…\p"
+	.string "All are false.\p"
+	.string "All are not my true will.\p"	
+	.string "After all, what is a queen before\n"  
+	.string "a goddess?\p"	
+	.string "The goddess that has raged within\n"
+	.string "my heart for all these years…\l"
+	.string "Shall be let loose!$"
+
+ BattleFrontier_OutsideWest_Text_Arte_Defeat:
+	.string "No… More… I am done.\p"
+	.string "My rage and my spirit have been\n"  
+	.string "quelled.\p"	
+	.string "I have reached the pinnacle of\n"
+	.string "my strength, and you are stronger\l"
+	.string "than me…\p"
+	.string "I must slumber now…\n"  
+	.string "Champion.$"	
 
 BattleFrontier_OutsideWest_Text_WhosRaisingThoseRentalMons: @ 823DC36
 	.string "That's the BATTLE FACTORY.\n"
@@ -474,10 +507,14 @@ BattleFrontier_OutsideWest_Text_FinallyArrivedAtFrontier: @ 823E09F
 	.string "my looks and ability!$"
 
 BattleFrontier_OutsideWest_Text_SquareFilledWithToughPeople: @ 823E102
-	.string "Munch, munch…\p"
-	.string "It looks like this square's filled with\n"
-	.string "tough people.\p"
-	.string "Munch, munch…$"
+	.string "So, you finally made it to post game.\n"
+	.string "No one can bitch about my team here-\p"
+	.string "It's finally time to take the kid gloves\n"
+	.string "off!$"
+
+BattleFrontier_OutsideWest_Text_Brain_Post_Battle:
+	.string "Fucking really? Well, I guess you made\n"
+	.string "it here for a reason.$"
 
 BattleFrontier_OutsideWest_Text_MetOlderGirlAtPike: @ 823E154
 	.string "Crunch, munch…\p"

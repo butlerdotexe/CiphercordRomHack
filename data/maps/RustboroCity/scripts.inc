@@ -906,6 +906,7 @@ RustboroCity_EventScript_RestoreBgm:: @ 81E10D6
 RustboroCity_EventScript_BattleMayTreecko:: @ 81E10DB
 	trainerbattle_no_intro TRAINER_MAY_RUSTBORO_TREECKO, RustboroCity_Text_MayDefeat
 	setflag FLAG_DEFEATED_RIVAL_RUSTBORO
+	giveitem ITEM_ABILITY_PATCH
 	goto RustboroCity_EventScript_MayBrineyHint
 	end
 
@@ -1258,7 +1259,9 @@ RustboroCity_Text_MayPassedBrineyWantToBattle: @ 81E1AFA
 
 RustboroCity_Text_MayOhHaventRaisedPokemonEnough: @ 81E1BD3
 	.string "Sauce: What's the matter? Don't have\n"
-	.string "any confidence in your Pokémon?$"
+	.string "any confidence in your Pokémon?\p"
+	.string "How about this- if you win, I'll give\n"
+	.string "you something cool.$"
 
 RustboroCity_Text_MayWantToBattle: @ 81E1C48
 	.string "Sauce: What's up?\n"
@@ -1273,8 +1276,9 @@ RustboroCity_Text_MayDefeat: @ 81E1CC1
 	.string "You're pretty good.$"
 
 RustboroCity_Text_MayMrBrineyHint: @ 81E1CE7
-	.string "Sauce: By the way, you know\n"
-	.string "Mr. Briney? The guy I just passed?\p"
+	.string "Sauce: Use that wisely!\p"
+	.string "By the way, you know Mr. Briney?\n"
+	.string "The guy I just passed?\p"
 	.string "I bet you didn't know this, since you\n"
 	.string "just moved here, {PLAYER}, but\l"
 	.string "Mr. Briney was once a great sailor.$"
@@ -1304,7 +1308,9 @@ RustboroCity_Text_BrendanPassedBrineyWantToBattle: @ 81E1E34
 
 RustboroCity_Text_BrendanNoConfidenceInPokemon: @ 81E1F2F
 	.string "Sauce: What's the matter? Don't have\n"
-	.string "any confidence in your Pokémon?$"
+	.string "any confidence in your Pokémon?\p"
+	.string "How about this- if you win, I'll give\n"
+	.string "you something cool.$"
 
 RustboroCity_Text_BrendanWantToBattle: @ 81E1F76
 	.string "Sauce: What's up?\n"
@@ -1319,8 +1325,9 @@ RustboroCity_Text_BrendanDefeat: @ 81E1FE9
 	.string "You're pretty good.$"
 
 RustboroCity_Text_BrendanMrBrineyHint: @ 81E2002
-	.string "Sauce: By the way, you know\n"
-	.string "Mr. Briney? The guy I just passed?\p"
+	.string "Sauce: Use that wisely!\p"
+	.string "By the way, you know Mr. Briney?\n"
+	.string "The guy I just passed?\p"
 	.string "I bet you didn't know this, since you\n"
 	.string "just moved here, {PLAYER}, but\l"
 	.string "Mr. Briney was once a great sailor.$"
