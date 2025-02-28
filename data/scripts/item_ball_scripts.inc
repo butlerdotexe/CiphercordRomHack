@@ -902,6 +902,15 @@ VictoryRoad_1F_EventScript_ItemMaxRevives::
 	finditem ITEM_MAX_REVIVE, 999
 	end
 
+Postgame_Gift::
+	finditem ITEM_BOTTLE_CAP, 999
+	finditem ITEM_GOLD_BOTTLE_CAP, 999
+	finditem ITEM_ORAN_BERRY, 999
+	finditem ITEM_MASTER_BALL, 999
+	finditem ITEM_RARE_CANDY, 999
+	finditem ITEM_RELIC_STATUE, 999
+	end
+
 VictoryRoad_1F_EventScript_ItemFullRestores::
 	finditem ITEM_FULL_RESTORE, 999
 	end

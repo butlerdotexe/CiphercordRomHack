@@ -108,30 +108,35 @@ BattleFrontier_OutsideWest_EventScript_UnusedNPC2:: @ 823D4FD
 	end
 
 BattleFrontier_OutsideWest_EventScript_Boy1:: @ 823D50F
-	msgbox BattleFrontier_OutsideWest_Text_BestOutOfAllMyFriends, MSGBOX_NPC
+	trainerbattle_single TRAINER_BENJAMIN_4, BattleFrontier_OutsideWest_Text_BestOutOfAllMyFriends, BattleFrontier_OutsideWest_Text_Llama_Post_Battle
+	msgbox BattleFrontier_OutsideWest_Text_Llama_Post_Battle, MSGBOX_AUTOCLOSE
 	end
 
 BattleFrontier_OutsideWest_EventScript_Fisherman2:: @ 823D518
-	lock
-	faceplayer
-	message BattleFrontier_OutsideWest_Text_GotSeasickOnWayHere
-	waitmessage
-	applymovement LOCALID_FISHERMAN_2, Common_Movement_FaceAwayPlayer
-	waitmovement 0
-	waitbuttonpress
-	release
+	trainerbattle_single TRAINER_CAMERON_5, BattleFrontier_OutsideWest_Text_Luna_Pre_Battle, BattleFrontier_OutsideWest_Text_Luna_Post_Battle
+	msgbox BattleFrontier_OutsideWest_Text_Luna_Post_Battle, MSGBOX_AUTOCLOSE
 	end
 
+
 BattleFrontier_OutsideWest_EventScript_Man1:: @ 823D52D
-	msgbox BattleFrontier_OutsideWest_Text_OnlyToughTrainersBroughtHere, MSGBOX_NPC
+	msgbox BattleFrontier_OutsideWest_Text_Basil_Reflecting, MSGBOX_DEFAULT
+	faceplayer
+	msgbox BattleFrontier_OutsideWest_Text_Basil_Intro, MSGBOX_DEFAULT
+	trainerbattle_no_intro TRAINER_DYLAN_2, BattleFrontier_OutsideWest_Text_Basil_Post1
+	trainerbattle_no_intro TRAINER_DYLAN_3, BattleFrontier_OutsideWest_Text_Basil_Post2
+	trainerbattle_no_intro TRAINER_MARIA_3, BattleFrontier_OutsideWest_Text_Basil_Post3
+	trainerbattle_no_intro TRAINER_MARIA_2, BattleFrontier_OutsideWest_Text_Basil_Post4
+	trainerbattle_no_intro TRAINER_DYLAN_4, BattleFrontier_OutsideWest_Text_Basil_Defeat
+	msgbox BattleFrontier_OutsideWest_Text_Basil_Post, MSGBOX_AUTOCLOSE
 	end
 
 BattleFrontier_OutsideWest_EventScript_Maniac1:: @ 823D536
-	lock
-	goto BattleFrontier_OutsideWest_EventScript_FactoryChallengersTalk
+	trainerbattle_single TRAINER_ABIGAIL_2, BattleFrontier_OutsideWest_Text_Catmoon_Pre_Battle, BattleFrontier_OutsideWest_Text_Catmoon_Post_Battle
+	msgbox BattleFrontier_OutsideWest_Text_Catmoon_Post_Battle, MSGBOX_AUTOCLOSE
 	end
 
 BattleFrontier_OutsideWest_EventScript_Maniac2:: @ 823D53D
+	faceplayer
 	msgbox BattleFrontier_OutsideWest_Text_SureWeCanChallengeWithNoMons, MSGBOX_DEFAULT
 	trainerbattle_no_intro TRAINER_BENJAMIN_2, BattleFrontier_OutsideWest_Text_BigGuySaidIllLendYouMons
 	msgbox BattleFrontier_OutsideWest_Text_Arte_Transition, MSGBOX_DEFAULT
@@ -155,19 +160,8 @@ BattleFrontier_OutsideWest_EventScript_FactoryChallengersTalk:: @ 823D544
 	end
 
 BattleFrontier_OutsideWest_EventScript_Camper:: @ 823D57F
-	lock
-	faceplayer
-	delay 20
-	compare VAR_FACING, DIR_NORTH
-	call_if_eq BattleFrontier_OutsideWest_EventScript_CamperFaceFactory
-	compare VAR_FACING, DIR_SOUTH
-	call_if_eq BattleFrontier_OutsideWest_EventScript_CamperAlreadyFacingFactory
-	compare VAR_FACING, DIR_WEST
-	call_if_eq BattleFrontier_OutsideWest_EventScript_CamperFaceFactory
-	compare VAR_FACING, DIR_EAST
-	call_if_eq BattleFrontier_OutsideWest_EventScript_CamperFaceFactory
-	msgbox BattleFrontier_OutsideWest_Text_WhosRaisingThoseRentalMons, MSGBOX_DEFAULT
-	release
+	trainerbattle_single TRAINER_ABIGAIL_3, BattleFrontier_OutsideWest_Text_Exalt_Pre_Battle, BattleFrontier_OutsideWest_Text_Exalt_Post_Battle
+	msgbox BattleFrontier_OutsideWest_Text_Exalt_Post_Battle, MSGBOX_AUTOCLOSE
 	end
 
 BattleFrontier_OutsideWest_EventScript_CamperFaceFactory:: @ 823D5BA
@@ -179,26 +173,14 @@ BattleFrontier_OutsideWest_EventScript_CamperAlreadyFacingFactory:: @ 823D5C5
 	return
 
 BattleFrontier_OutsideWest_EventScript_Girl:: @ 823D5C6
-	lock
-	faceplayer
-	message BattleFrontier_OutsideWest_Text_ScaredOfPikeBecauseSeviper
-	waitmessage
-	compare VAR_FACING, DIR_NORTH
-	call_if_eq BattleFrontier_OutsideWest_EventScript_GirlShudderNorth
-	compare VAR_FACING, DIR_SOUTH
-	call_if_eq BattleFrontier_OutsideWest_EventScript_GirlShudderSouth
-	compare VAR_FACING, DIR_WEST
-	call_if_eq BattleFrontier_OutsideWest_EventScript_GirlShudderWest
-	compare VAR_FACING, DIR_EAST
-	call_if_eq BattleFrontier_OutsideWest_EventScript_GirlShudderEast
-	waitbuttonpress
-	release
+	trainerbattle_single TRAINER_PABLO_5, BattleFrontier_OutsideWest_Text_Fox_Pre_Battle, BattleFrontier_OutsideWest_Text_Fox_Post_Battle
+	msgbox BattleFrontier_OutsideWest_Text_Fox_Post_Battle, MSGBOX_AUTOCLOSE
 	end
 
 BattleFrontier_OutsideWest_EventScript_GirlShudderNorth:: @ 823D5FD
-	applymovement LOCALID_GIRL, BattleFrontier_OutsideWest_Movement_GirlShudderNorth
-	waitmovement 0
-	return
+	trainerbattle_single TRAINER_CATHERINE_5, BattleFrontier_OutsideWest_Text_Poi_Pre_Battle, BattleFrontier_OutsideWest_Text_Poi_Post_Battle
+	msgbox BattleFrontier_OutsideWest_Text_Poi_Post_Battle, MSGBOX_AUTOCLOSE
+	end
 
 BattleFrontier_OutsideWest_EventScript_GirlShudderSouth:: @ 823D608
 	applymovement LOCALID_GIRL, BattleFrontier_OutsideWest_Movement_GirlShudderSouth
@@ -236,13 +218,11 @@ BattleFrontier_OutsideWest_Movement_GirlShudderEast: @ 823D632
 	step_end
 
 BattleFrontier_OutsideWest_EventScript_Woman2:: @ 823D635
-	lock
 	faceplayer
-	msgbox BattleFrontier_OutsideWest_Text_LetsPlayRockPaperScissors, MSGBOX_DEFAULT
-	random 2
-	compare VAR_RESULT, 1
-	goto_if_eq BattleFrontier_OutsideWest_EventScript_WomanWonRockPaperScissors
-	goto BattleFrontier_OutsideWest_EventScript_WomanLostRockPaperScissors
+	msgbox BattleFrontier_OutsideWest_Text_Playsalot_Intro, MSGBOX_DEFAULT
+	trainerbattle_no_intro TRAINER_PABLO_2, BattleFrontier_OutsideWest_Text_Playsalot_Post1
+	trainerbattle_no_intro TRAINER_PABLO_3, BattleFrontier_OutsideWest_Text_Playsalot_Post2
+	msgbox BattleFrontier_OutsideWest_Text_Playsalot_Post2, MSGBOX_AUTOCLOSE
 	end
 
 BattleFrontier_OutsideWest_EventScript_WomanWonRockPaperScissors:: @ 823D653
@@ -256,7 +236,8 @@ BattleFrontier_OutsideWest_EventScript_WomanLostRockPaperScissors:: @ 823D65D
 	end
 
 BattleFrontier_OutsideWest_EventScript_Fisherman1:: @ 823D667
-	msgbox BattleFrontier_OutsideWest_Text_ChooseFishingOverBattling, MSGBOX_NPC
+	trainerbattle_single TRAINER_MARIA_4, BattleFrontier_OutsideWest_Text_Jay_Pre_Battle, BattleFrontier_OutsideWest_Text_Jay_Post_Battle
+	msgbox BattleFrontier_OutsideWest_Text_Jay_Post_Battle, MSGBOX_AUTOCLOSE
 	end
 
 @ Unused
@@ -265,23 +246,31 @@ BattleFrontier_OutsideWest_EventScript_UnusedNPC3:: @ 823D670
 	end
 
 BattleFrontier_OutsideWest_EventScript_Gentleman:: @ 823D679
-	msgbox BattleFrontier_OutsideWest_Text_YoureOffToChallengeDome, MSGBOX_NPC
+	trainerbattle_single TRAINER_WALTER_5, BattleFrontier_OutsideWest_Text_Flight_Pre_Battle, BattleFrontier_OutsideWest_Text_Flight_Post_Battle
+	msgbox BattleFrontier_OutsideWest_Text_Flight_Post_Battle, MSGBOX_AUTOCLOSE
 	end
 
 BattleFrontier_OutsideWest_EventScript_Lass:: @ 823D682
-	msgbox BattleFrontier_OutsideWest_Text_KeepBattlingUntilIGetSymbol, MSGBOX_NPC
+	trainerbattle_single TRAINER_ISAIAH_5, BattleFrontier_OutsideWest_Text_CM_Pre_Battle, BattleFrontier_OutsideWest_Text_CM_Post_Battle
+	msgbox BattleFrontier_OutsideWest_Text_CM_Post_Battle, MSGBOX_AUTOCLOSE
 	end
 
 BattleFrontier_OutsideWest_EventScript_ExpertM:: @ 823D68B
-	msgbox BattleFrontier_OutsideWest_Text_WontLetGentlemenBeatMe, MSGBOX_NPC
+	trainerbattle_single TRAINER_JENNY_5, BattleFrontier_OutsideWest_Text_Rosa_Pre_Battle, BattleFrontier_OutsideWest_Text_Rosa_Post_Battle
+	msgbox BattleFrontier_OutsideWest_Text_Rosa_Post_Battle, MSGBOX_AUTOCLOSE
 	end
 
 BattleFrontier_OutsideWest_EventScript_Man2:: @ 823D694
-	msgbox BattleFrontier_OutsideWest_Text_NothingHereNotLongAgo, MSGBOX_NPC
+	trainerbattle_single TRAINER_ABIGAIL_4, BattleFrontier_OutsideWest_Text_Luka_Pre_Battle, BattleFrontier_OutsideWest_Text_Luka_Post_Battle
+	msgbox BattleFrontier_OutsideWest_Text_Luka_Post_Battle, MSGBOX_AUTOCLOSE
 	end
 
-BattleFrontier_OutsideWest_EventScript_Woman1:: @ 823D69D
-	msgbox BattleFrontier_OutsideWest_Text_FinallyArrivedAtFrontier, MSGBOX_NPC
+BattleFontier_OutsideWest_EventScript_Woman1:: @ 823D69D
+	faceplayer
+	msgbox BattleFrontier_OutsideWest_Text_Playsalot_Intro, MSGBOX_DEFAULT
+	trainerbattle_no_intro TRAINER_PABLO_2, BattleFrontier_OutsideWest_Text_Playsalot_Post1
+	trainerbattle_no_intro TRAINER_PABLO_3, BattleFrontier_OutsideWest_Text_Playsalot_Post2
+	msgbox BattleFrontier_OutsideWest_Text_Playsalot_Post2, MSGBOX_AUTOCLOSE
 	end
 
 BattleFrontier_OutsideWest_EventScript_FatMan1:: @ 823D6A6
@@ -290,37 +279,36 @@ BattleFrontier_OutsideWest_EventScript_FatMan1:: @ 823D6A6
 	end
 
 BattleFrontier_OutsideWest_EventScript_FatMan2:: @ 823D6AF
-	msgbox BattleFrontier_OutsideWest_Text_MetOlderGirlAtPike, MSGBOX_NPC
+	trainerbattle_single TRAINER_PABLO_4, BattleFrontier_OutsideWest_Text_RNG_Pre_Battle, BattleFrontier_OutsideWest_Text_RNG_Post_Battle
+	msgbox BattleFrontier_OutsideWest_Text_RNG_Post_Battle, MSGBOX_AUTOCLOSE
 	end
 
 BattleFrontier_OutsideWest_EventScript_Woman3:: @ 823D6B8
-	lock
-	msgbox BattleFrontier_OutsideWest_Text_LastTimeOurEyesMet, MSGBOX_DEFAULT
-	release
+	faceplayer
+	msgbox BattleFrontier_OutsideWest_Text_Yurtz_Intro, MSGBOX_DEFAULT
+	trainerbattle_no_intro TRAINER_ROBERT_5, BattleFrontier_OutsideWest_Text_Yurtz_Post1
+	trainerbattle_no_intro TRAINER_JACKSON_5, BattleFrontier_OutsideWest_Text_Yurtz_Post2
+	msgbox BattleFrontier_OutsideWest_Text_Yurtz_Post2, MSGBOX_AUTOCLOSE
 	end
 
 BattleFrontier_OutsideWest_EventScript_Boy2:: @ 823D6C3
-	lock
-	msgbox BattleFrontier_OutsideWest_Text_DomeAceLookedBecauseOfMyCheering, MSGBOX_DEFAULT
-	release
+	trainerbattle_single TRAINER_FERNANDO_5, BattleFrontier_OutsideWest_Text_Chi_Pre_Battle, BattleFrontier_OutsideWest_Text_Chi_Post_Battle_1
+	msgbox BattleFrontier_OutsideWest_Text_Chi_Post_Battle_2, MSGBOX_AUTOCLOSE
 	end
 
 BattleFrontier_OutsideWest_EventScript_OldMan:: @ 823D6CE
-	msgbox BattleFrontier_OutsideWest_Text_DomeAceIsMine, MSGBOX_NPC
+	trainerbattle_single TRAINER_KOJI_5, BattleFrontier_OutsideWest_Text_Sonicite_Pre_Battle, BattleFrontier_OutsideWest_Text_Sonicite_Post_Battle
+	msgbox BattleFrontier_OutsideWest_Text_Sonicite_Post_Battle, MSGBOX_AUTOCLOSE
 	end
 
 BattleFrontier_OutsideWest_EventScript_Man4:: @ 823D6D7
-	lock
-	faceplayer
-	msgbox BattleFrontier_OutsideWest_Text_FansOverThereUsedToBeTrainers, MSGBOX_DEFAULT
-	closemessage
-	applymovement LOCALID_MAN_4, Common_Movement_FaceOriginalDirection
-	waitmovement 0
-	release
+	trainerbattle_single TRAINER_ERNEST_5, BattleFrontier_OutsideWest_Text_Kase_Pre_Battle, BattleFrontier_OutsideWest_Text_Kase_Post_Battle
+	msgbox BattleFrontier_OutsideWest_Text_Kase_Post_Battle, MSGBOX_AUTOCLOSE
 	end
 
 BattleFrontier_OutsideWest_EventScript_PokefanF:: @ 823D6EE
-	msgbox BattleFrontier_OutsideWest_Text_MonWithLongTailInFrontier, MSGBOX_NPC
+	trainerbattle_single TRAINER_KATELYN_5, BattleFrontier_OutsideWest_Text_Sharp_Pre_Battle, BattleFrontier_OutsideWest_Text_Sharp_Post_Battle
+	msgbox BattleFrontier_OutsideWest_Text_Sharp_Post_Battle, MSGBOX_AUTOCLOSE
 	end
 
 BattleFrontier_OutsideWest_Text_BattleDomeSign: @ 823D6F7
@@ -372,9 +360,245 @@ BattleFrontier_OutsideWest_Text_ThenWhereWouldYouLikeToGo: @ 823D97A
 	.string "Then, where would you like to go?$"
 
 BattleFrontier_OutsideWest_Text_BestOutOfAllMyFriends: @ 823D99C
-	.string "I'm the best out of all my friends.\n"
-	.string "But here…\l"
-	.string "I've been useless!$"
+	.string "So you also beat this hell that\n"
+	.string "That the cursed duo cooked up?\p"
+	.string "Well, the team I used is way\n"
+	.string "better than yours!$"
+
+BattleFrontier_OutsideWest_Text_Llama_Post_Battle:
+	.string "That shit was worse than losing\n"
+	.string "to a 10 support.$"
+
+BattleFrontier_OutsideWest_Text_Catmoon_Pre_Battle:
+	.string "This postgame took so long to come\n"
+	.string "out, I came out before it did.$"
+
+BattleFrontier_OutsideWest_Text_Catmoon_Post_Battle:
+	.string "…Still a no on joining the Lissa\n"
+	.string "fan club?$"
+
+BattleFrontier_OutsideWest_Text_Exalt_Pre_Battle:
+	.string "What do you want? I nerfed Team\n"
+	.string "Aggro already- hell I fuckin'\l"
+	.string "remade the whole hideout.\n"
+	.string "You got a problem still?\p"
+	.string "Come at me, bitch!$"
+
+BattleFrontier_OutsideWest_Text_Exalt_Post_Battle:
+	.string "…Well you have to admit, at\n"
+	.string "least Team Aggro isn't a wet\l"
+	.string "noodle like Team Stall.$"
+
+BattleFrontier_OutsideWest_Text_Luka_Pre_Battle:
+	.string "I played this game on actual\n"
+	.string "hardware, so I didn't get any\l"
+	.string "of the updates.\p"
+	.string "Actually, if I want to see this\n"
+	.string "fight, I have to redownload it\l"
+	.string "and play through it all again…$"
+
+BattleFrontier_OutsideWest_Text_Luka_Post_Battle:
+	.string "Welp, back to Spara I go…$" 
+
+BattleFrontier_OutsideWest_Text_Basil_Reflecting:
+	.string "Man, I'm glad this is over.\p"
+	.string "So much tedious work- collecting\n"
+	.string "favorites, building teams with\p"
+	.string "random bullshit, writing 300+\n"
+	.string "fights worth of dialogue,\p"
+	.string "dealing with Exalt and Brain\n"
+	.string "arguing over everything…\p"
+	.string "…But it was a lot of fun.$"
+
+BattleFrontier_OutsideWest_Text_Basil_Intro:
+	.string "So thanks for playing, and\n"
+	.string "making it all the way here.\p"
+	.string "Now if you'll indulge me a\n"
+	.string "bit, there's this idea for\l"
+	.string "a doubles lead I want to try.\p"
+	.string "You beat the game, so if it\n"
+	.string "beats you that's a good sign.$"
+
+BattleFrontier_OutsideWest_Text_Basil_Post1:
+	.string "Hm, that didn't quite work.\p"
+	.string "Oh wait, let's try this!$"
+
+BattleFrontier_OutsideWest_Text_Basil_Post2:
+	.string "That's no good either…\p"
+	.string "Okay, these two should\n"
+	.string "DEFINITELY work!$"
+
+BattleFrontier_OutsideWest_Text_Basil_Post3:
+	.string "Damn. Well, you are the champ\n"
+	.string "after all.\p"
+	.string "Even my little tricks aren't\n"
+	.string "enough…\p"
+	.string "Well, you're up for a few\n"
+	.string "more now, right?$"
+
+BattleFrontier_OutsideWest_Text_Basil_Post4:
+	.string "Jeez, you beat 4 doubles combos\n"
+	.string "in a row. You've definitely\l"
+	.string "earned your title.\p"
+	.string "Alright, last one, I promise.$"
+
+BattleFrontier_OutsideWest_Text_Basil_Defeat:
+	.string "Alright, you got me.$"
+
+BattleFrontier_OutsideWest_Text_Basil_Post:
+	.string "Seriously though, thanks for\n"
+	.string "playing the hack.\p"
+	.string "Also, everyone else here is\n"
+	.string "someone who's played through\l"
+	.string "and beaten the game in the beta-\p"
+	.string "so it would be cool if you\n"
+	.string "checked out all of their teams\l"
+	.string "too, if you don't mind.\p"
+	.string "I did let them get a little…\n"
+	.string "creative… with what they can\l"
+	.string "do for this section…\p"
+	.string "But I'm sure you'll be fine!$"
+
+BattleFrontier_OutsideWest_Text_Jay_Pre_Battle:
+	.string "True beauty lies in the heart!\n"
+	.string "The heart that is capable of love!$"
+
+BattleFrontier_OutsideWest_Text_Jay_Post_Battle:
+	.string "You should really read Pokémon\n"
+	.string "Special if you haven't yet.$"
+
+BattleFrontier_OutsideWest_Text_Playsalot_Intro:
+	.string "You may have beaten me before,\n"
+	.string "but now I can have a double\l"
+	.string "battle!$"
+
+BattleFrontier_OutsideWest_Text_Playsalot_Post1:
+	.string "You're lucky Room Service isn't\n"
+	.string "in this game…\p"
+	.string "Alright, back to singles!$"
+
+BattleFrontier_OutsideWest_Text_Playsalot_Post2:
+	.string "Well, guess I just have to\n"
+	.string "play some more.$"
+
+BattleFrontier_OutsideWest_Text_RNG_Pre_Battle:
+	.string "TCG Pocket caps damage at 990,\n"
+	.string "which is lame. TCG Live let\p"
+	.string "someone do 700 MILLION, so it\n"
+	.string "is clearly the superior game.$"
+
+BattleFrontier_OutsideWest_Text_RNG_Post_Battle:
+	.string "This game is worse than both\n"
+	.string "of them though.$"
+
+BattleFrontier_OutsideWest_Text_Fox_Pre_Battle:
+	.string "Morning! Are you here for my daily\n"
+	.string "daily fox post?\p"
+	.string "… … …\p"
+	.string "Oh, so it's a battle you want?\p"
+	.string "Fiiine, but you still have to\n"
+	.string "look at this fox!$"
+
+BattleFrontier_OutsideWest_Text_Fox_Post_Battle:
+	.string "Oh well, see you for tomorrow's\n"
+	.string "fox!$"
+
+BattleFrontier_OutsideWest_Text_Sharp_Pre_Battle:
+	.string "Hope you brought Excadrill.$"
+
+BattleFrontier_OutsideWest_Text_Sharp_Post_Battle:
+	.string "Welp, guess I have to buff this\n"
+	.string "team again.$"
+
+BattleFrontier_OutsideWest_Text_CM_Pre_Battle:
+	.string "I was going to throw myself into\n"
+	.string "the ocean after seeing all of\l"
+	.string "the bullshit in this game,\p"
+	.string "but I suppose I could be talked\n"
+	.string "into one last battle.$"
+
+BattleFrontier_OutsideWest_Text_CM_Post_Battle:
+	.string "Actually, you know what?\p"
+	.string "I think I could cook up something\n"
+	.string "much more interesting…\p"
+	.string "The ocean will have to wait.$"
+
+BattleFrontier_OutsideWest_Text_Sonicite_Pre_Battle:
+	.string "Help, my team broke.$"
+
+BattleFrontier_OutsideWest_Text_Sonicite_Post_Battle:
+	.string "Thanks, figured it out now.$"
+
+BattleFrontier_OutsideWest_Text_Kase_Pre_Battle:
+	.string "Now that all of this is over,\n"
+	.string "I can hit all the Gardevoir\l"
+	.string "simps with the horny bat.$"
+
+BattleFrontier_OutsideWest_Text_Kase_Post_Battle:
+	.string "sophiabonk$"
+
+BattleFrontier_OutsideWest_Text_Rosa_Pre_Battle:
+	.string "Prepare for trouble!$"
+
+BattleFrontier_OutsideWest_Text_Rosa_Post_Battle:
+	.string "Damn, Basil should have\n"
+	.string "let us have 6 Pokémon each.$"
+
+BattleFrontier_OutsideWest_Text_Luna_Pre_Battle:
+	.string "And make it double!$"
+
+BattleFrontier_OutsideWest_Text_Luna_Post_Battle:
+	.string "…I have no idea where I am,\n"
+	.string "Rosa just dragged me here.$"
+
+BattleFrontier_OutsideWest_Text_Chi_Pre_Battle:
+	.string "I've been deep in the mines\n"
+	.string "for Elysia's sake.\p"
+	.string "This time?\p"
+	.string "Behold the blessings of the\n"
+	.string "devout!"
+
+BattleFrontier_OutsideWest_Text_Chi_Post_Battle_1:
+	.string "Enough. Well done, you've\n"
+	.string "beaten my best.\p"
+	.string "May Elysia guide me forevermore.$"
+
+BattleFrontier_OutsideWest_Text_Chi_Post_Battle_2:
+	.string "Elysia is my wife.$"
+
+BattleFrontier_OutsideWest_Text_Flight_Pre_Battle:
+	.string "If you bring damp you're\n"
+	.string "lame.$"
+
+BattleFrontier_OutsideWest_Text_Flight_Post_Battle:
+	.string "Well, at least I went out\n"
+	.string "with a bang.$"
+
+BattleFrontier_OutsideWest_Text_Yurtz_Intro:
+	.string "I made this team themed around\n"  
+	.string "my First Fire Emblem Game!\p"
+	.string "See if you can guess which one$"
+
+BattleFrontier_OutsideWest_Text_Yurtz_Post1:
+	.string "One more hint!/p"
+	.string "You did well against the parents,\n"  
+	.string "let's see how you do against\l"  
+	.string "their kids.$"
+
+BattleFrontier_OutsideWest_Text_Yurtz_Post2:
+	.string "Thanks for playing!\p"
+	.string "The game Awakening, did you\n"
+	.string "guess right?$"
+
+BattleFrontier_OutsideWest_Text_Poi_Pre_Battle:
+	.string "I made it into post game!\p"
+	.string "I did uh submit my team on the\n"
+	.string "literal last day possible, but\l"
+	.string "I made it!$"
+
+BattleFrontier_OutsideWest_Text_Poi_Post_Battle:
+	.string "Oh, I guess you made it here\n"
+	.string "too.$"
 
 BattleFrontier_OutsideWest_Text_CantFindBattleTower: @ 823D9DD
 	.string "I want to go to the Battle Tower,\n"

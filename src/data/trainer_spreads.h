@@ -1184,4 +1184,424 @@ const struct TrainerMonSpread gSets[] = {
 		},
 		.nature = NATURE_MODEST
 	},
+	[SPREAD_ATK_DEF_ADAMANT] =
+	{
+	.EVs = {
+			  4,	// HP
+			252,	// Attack
+			252,	// Defense
+			  0,	// Speed
+			  0,	// Special Attack
+			  0  	// Special Defense
+		},
+		.IVs = {
+			31,		// HP
+			31,		// Attack
+			31,		// Defense
+			31,		// Speed
+			31,		// Special Attack
+			31		// Special Defense
+		},
+		.nature = NATURE_ADAMANT
+	},
+	[SPREAD_CATMOON_POSTGAME1] =
+	{
+	.EVs = {
+			 32,	// HP
+			  0,	// Attack
+			  0,	// Defense
+			224,	// Speed
+			252,	// Special Attack
+			  0  	// Special Defense
+		},
+		.IVs = {
+			31,		// HP
+			31,		// Attack
+			31,		// Defense
+			31,		// Speed
+			31,		// Special Attack
+			31		// Special Defense
+		},
+		.nature = NATURE_JOLLY
+	},
+	[SPREAD_CATMOON_POSTGAME2] =
+	{
+	.EVs = {
+			128,	// HP
+			252,	// Attack
+			  0,	// Defense
+			128,	// Speed
+			  0,	// Special Attack
+			  0  	// Special Defense
+		},
+		.IVs = {
+			31,		// HP
+			31,		// Attack
+			31,		// Defense
+			31,		// Speed
+			31,		// Special Attack
+			31		// Special Defense
+		},
+		.nature = NATURE_ADAMANT
+	},
+	[SPREAD_CATMOON_POSTGAME3] =
+	{
+	.EVs = {
+			  0,	// HP
+			176,	// Attack
+			  0,	// Defense
+			192,	// Speed
+			140,	// Special Attack
+			  0  	// Special Defense
+		},
+		.IVs = {
+			31,		// HP
+			31,		// Attack
+			31,		// Defense
+			31,		// Speed
+			31,		// Special Attack
+			31		// Special Defense
+		},
+		.nature = NATURE_NAUGHTY
+	},
+	[SPREAD_CATMOON_POSTGAME4] =
+	{
+	.EVs = {
+			128,	// HP
+			  0,	// Attack
+			  0,	// Defense
+			128,	// Speed
+			252,	// Special Attack
+			  0  	// Special Defense
+		},
+		.IVs = {
+			31,		// HP
+			31,		// Attack
+			31,		// Defense
+			31,		// Speed
+			31,		// Special Attack
+			31		// Special Defense
+		},
+		.nature = NATURE_MODEST
+	},
+	[SPREAD_CATMOON_POSTGAME5] =
+	{
+	.EVs = {
+			148,	// HP
+			252,	// Attack
+			  0,	// Defense
+			 72,	// Speed
+			  0,	// Special Attack
+			  0  	// Special Defense
+		},
+		.IVs = {
+			31,		// HP
+			31,		// Attack
+			31,		// Defense
+			31,		// Speed
+			31,		// Special Attack
+			31		// Special Defense
+		},
+		.nature = NATURE_ADAMANT
+	},
+	[SPREAD_31_IV_HP_DEF_ADAMANT] =
+	{
+	.EVs = {
+			252,	// HP
+			  0,	// Attack
+			252,	// Defense
+			  0,	// Speed
+			  0,	// Special Attack
+			  0  	// Special Defense
+		},
+		.IVs = {
+			31,		// HP
+			31,		// Attack
+			31,		// Defense
+			31,		// Speed
+			31,		// Special Attack
+			31		// Special Defense
+		},
+		.nature = NATURE_ADAMANT
+	},
+	[SPREAD_EXALT_POSTGAME_1] =
+	{
+	.EVs = {
+			128,	// HP
+			  0,	// Attack
+			  0,	// Defense
+			252,	// Speed
+			128,	// Special Attack
+			  0  	// Special Defense
+		},
+		.IVs = {
+			31,		// HP
+			31,		// Attack
+			31,		// Defense
+			31,		// Speed
+			31,		// Special Attack
+			31		// Special Defense
+		},
+		.nature = NATURE_TIMID
+	},
+	[SPREAD_EXALT_POSTGAME_2] =
+	{
+	.EVs = {
+			160,	// HP
+			 92,	// Attack
+			 84,	// Defense
+			172,	// Speed
+			  0,	// Special Attack
+			  0  	// Special Defense
+		},
+		.IVs = {
+			31,		// HP
+			31,		// Attack
+			31,		// Defense
+			31,		// Speed
+			31,		// Special Attack
+			31		// Special Defense
+		},
+		.nature = NATURE_IMPISH
+	},
+	[SPREAD_EXALT_POSTGAME_3] =
+	{
+	.EVs = {
+			168,	// HP
+			124,	// Attack
+			 56,	// Defense
+			  0,	// Speed
+			  0,	// Special Attack
+			160  	// Special Defense
+		},
+		.IVs = {
+			31,		// HP
+			31,		// Attack
+			31,		// Defense
+			31,		// Speed
+			31,		// Special Attack
+			31		// Special Defense
+		},
+		.nature = NATURE_BRAVE
+	},
+	[SPREAD_EXALT_POSTGAME_4] =
+	{
+	.EVs = {
+			164,	// HP
+			 92,	// Attack
+			  0,	// Defense
+			252,	// Speed
+			  0,	// Special Attack
+			  0  	// Special Defense
+		},
+		.IVs = {
+			31,		// HP
+			31,		// Attack
+			31,		// Defense
+			30,		// Speed
+			31,		// Special Attack
+			31		// Special Defense
+		},
+		.nature = NATURE_LONELY
+	},
+	[SPREAD_31_IV_HP_DEF_CALM] =
+	{
+	.EVs = {
+			252,	// HP
+			  0,	// Attack
+			252,	// Defense
+			  0,	// Speed
+			  4,	// Special Attack
+			  0  	// Special Defense
+		},
+		.IVs = {
+			31,		// HP
+			31,		// Attack
+			31,		// Defense
+			31,		// Speed
+			31,		// Special Attack
+			31		// Special Defense
+		},
+		.nature = NATURE_CALM
+	},
+	[SPREAD_31_IV_HP_SPA_BOLD] =
+	{
+	.EVs = {
+			252,	// HP
+			  0,	// Attack
+			  4,	// Defense
+			  0,	// Speed
+			252,	// Special Attack
+			  0  	// Special Defense
+		},
+		.IVs = {
+			31,		// HP
+			31,		// Attack
+			31,		// Defense
+			31,		// Speed
+			31,		// Special Attack
+			31		// Special Defense
+		},
+		.nature = NATURE_BOLD
+	},
+	[SPREAD_31_BASIL_POLITOED] =
+	{
+	.EVs = {
+			252,	// HP
+			  0,	// Attack
+			  4,	// Defense
+			  0,	// Speed
+			252,	// Special Attack
+			  0  	// Special Defense
+		},
+		.IVs = {
+			31,		// HP
+			31,		// Attack
+			31,		// Defense
+			 0,		// Speed
+			31,		// Special Attack
+			31		// Special Defense
+		},
+		.nature = NATURE_QUIET
+	},
+	[SPREAD_31_ATK_DEF_ADAMANT] =
+	{
+	.EVs = {
+			  4,	// HP
+			252,	// Attack
+			252,	// Defense
+			  0,	// Speed
+			  0,	// Special Attack
+			  0  	// Special Defense
+		},
+		.IVs = {
+			31,		// HP
+			31,		// Attack
+			31,		// Defense
+			31,		// Speed
+			31,		// Special Attack
+			31		// Special Defense
+		},
+		.nature = NATURE_ADAMANT
+	},
+	[SPREAD_31_SPA_SPDEF_BOLD] =
+	{
+	.EVs = {
+			  0,	// HP
+			  0,	// Attack
+			  4,	// Defense
+			  0,	// Speed
+			252,	// Special Attack
+			252  	// Special Defense
+		},
+		.IVs = {
+			31,		// HP
+			31,		// Attack
+			31,		// Defense
+			31,		// Speed
+			31,		// Special Attack
+			31		// Special Defense
+		},
+		.nature = NATURE_BOLD
+	},
+	[SPREAD_COLONEL_1] =
+	{
+	.EVs = {
+			 80,	// HP
+			252,	// Attack
+			  0,	// Defense
+			176,	// Speed
+			  0,	// Special Attack
+			  0  	// Special Defense
+		},
+		.IVs = {
+			31,		// HP
+			31,		// Attack
+			31,		// Defense
+			31,		// Speed
+			31,		// Special Attack
+			31		// Special Defense
+		},
+		.nature = NATURE_ADAMANT
+	},
+	[SPREAD_ROSA_1] =
+	{
+	.EVs = {
+			252,	// HP
+			  0,	// Attack
+			 64,	// Defense
+			  0,	// Speed
+			  0,	// Special Attack
+			192  	// Special Defense
+		},
+		.IVs = {
+			31,		// HP
+			31,		// Attack
+			31,		// Defense
+			31,		// Speed
+			31,		// Special Attack
+			31		// Special Defense
+		},
+		.nature = NATURE_CAREFUL
+	},
+	[SPREAD_ROSA_2] =
+	{
+	.EVs = {
+			  0,	// HP
+			252,	// Attack
+			  0,	// Defense
+			  0,	// Speed
+			252,	// Special Attack
+			  0  	// Special Defense
+		},
+		.IVs = {
+			31,		// HP
+			31,		// Attack
+			31,		// Defense
+			31,		// Speed
+			31,		// Special Attack
+			31		// Special Defense
+		},
+		.nature = NATURE_BRAVE
+	},
+	[SPREAD_Yurtz_1] =
+	{
+	.EVs = {
+			252,	// HP
+			  0,	// Attack
+			  0,	// Defense
+			  0,	// Speed
+			 56,	// Special Attack
+			200  	// Special Defense
+		},
+		.IVs = {
+			31,		// HP
+			31,		// Attack
+			31,		// Defense
+			31,		// Speed
+			31,		// Special Attack
+			31		// Special Defense
+		},
+		.nature = NATURE_QUIET
+	},
+	[SPREAD_Yurtz_2] =
+	{
+	.EVs = {
+			248,	// HP
+			  0,	// Attack
+			112,	// Defense
+			 44,	// Speed
+			104,	// Special Attack
+			  0  	// Special Defense
+		},
+		.IVs = {
+			31,		// HP
+			31,		// Attack
+			31,		// Defense
+			31,		// Speed
+			31,		// Special Attack
+			31		// Special Defense
+		},
+		.nature = NATURE_MODEST
+	},
 };

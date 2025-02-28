@@ -67,5 +67,26 @@
 #define SPREAD_PENTA_2                      63
 #define SPREAD_PENTA_3                      64
 #define SPREAD_BRAIN_DRAG                   65
+#define SPREAD_ATK_DEF_ADAMANT              66
+#define SPREAD_CATMOON_POSTGAME1            67
+#define SPREAD_CATMOON_POSTGAME2            68
+#define SPREAD_CATMOON_POSTGAME3            69
+#define SPREAD_CATMOON_POSTGAME4            70
+#define SPREAD_CATMOON_POSTGAME5            71
+#define SPREAD_31_IV_HP_DEF_ADAMANT         72
+#define SPREAD_EXALT_POSTGAME_1             73
+#define SPREAD_EXALT_POSTGAME_2             74
+#define SPREAD_EXALT_POSTGAME_3             75
+#define SPREAD_EXALT_POSTGAME_4             76
+#define SPREAD_31_IV_HP_DEF_CALM            77
+#define SPREAD_31_IV_HP_SPA_BOLD            78
+#define SPREAD_31_BASIL_POLITOED            79
+#define SPREAD_31_ATK_DEF_ADAMANT           80
+#define SPREAD_31_SPA_SPDEF_BOLD            81
+#define SPREAD_COLONEL_1                    82
+#define SPREAD_ROSA_1                       83
+#define SPREAD_ROSA_2                       84
+#define SPREAD_Yurtz_1                      85
+#define SPREAD_Yurtz_2                      86
 
 #endif  // GUARD_CONSTANTS_TRAINER_SPREADS

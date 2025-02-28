@@ -695,7 +695,7 @@
 #define FLAG_HIDDEN_ITEM_DEWFORD_MANOR_DREAD_PLATE           (FLAG_HIDDEN_ITEMS_START + 0x9E) // 0x292
 #define FLAG_UNUSED_0x293  0x293 // Victory Road Gift
 #define FLAG_UNUSED_0x294  0x294 // Victory Road Gift
-#define FLAG_UNUSED_0x295  0x295 // Unused Flag
+#define FLAG_UNUSED_0x295  0x295 // Postgame Gift
 #define FLAG_UNUSED_0x296  0x296 // Unused Flag
 #define FLAG_UNUSED_0x297  0x297 // Unused Flag
 #define FLAG_UNUSED_0x298  0x298 // Unused Flag
