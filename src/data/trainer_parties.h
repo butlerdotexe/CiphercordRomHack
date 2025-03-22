@@ -24765,18 +24765,54 @@ static const struct TrainerMonItemCustomMoves sParty_Thalia5[] = {
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_Cory5[] = {
+static const struct TrainerMonItemCustomMoves sParty_Cory5[] = { // Postgame Gamma
     {
-    .lvl = 36,
-    .species = SPECIES_PELIPPER,
+    .lvl = 0,
+    .species = SPECIES_SPIRITOMB,
+    .heldItem = ITEM_LEFTOVERS,
+    .ability = 0,
+    .spread = SPREAD_31_IV_HP_SPDEF_CAREFUL,
+    .moves = MOVE_SAPPY_SEED, MOVE_BADDY_BAD, MOVE_SIZZLY_SLIDE, MOVE_SPIRIT_SHACKLE
     },
     {
-    .lvl = 36,
-    .species = SPECIES_MACHOKE,
+    .lvl = 0,
+    .species = SPECIES_TYRANITAR_MEGA,
+    .heldItem = ITEM_ASSAULT_VEST,
+    .ability = 0,
+    .spread = SPREAD_31_IV_HP_ATK_ADAMANT,
+    .moves = MOVE_ACCELEROCK, MOVE_WICKED_BLOW, MOVE_ROCK_SLIDE, MOVE_V_CREATE
     },
     {
-    .lvl = 36,
-    .species = SPECIES_TENTACRUEL,
+    .lvl = 0,
+    .species = SPECIES_SCIZOR_MEGA,
+    .heldItem = ITEM_OCCA_BERRY,
+    .ability = 0,
+    .spread = SPREAD_31_IV_HP_ATK_ADAMANT,
+    .moves = MOVE_DUAL_WINGBEAT, MOVE_FELL_STINGER, MOVE_SWORDS_DANCE, MOVE_DOUBLE_IRON_BASH
+    },
+    {
+    .lvl = 0,
+    .species = SPECIES_ZERAORA,
+    .heldItem = ITEM_CHOICE_BAND,
+    .ability = 0,
+    .spread = SPREAD_31_IV_HP_ATK_ADAMANT,
+    .moves = MOVE_ZIPPY_ZAP
+    },
+    {
+    .lvl = 0,
+    .species = SPECIES_TOGEKISS,
+    .heldItem = ITEM_KINGS_ROCK,
+    .ability = 1,
+    .spread = SPREAD_31_IV_HP_SPATK_MODEST,
+    .moves = MOVE_AIR_SLASH, MOVE_OMINOUS_WIND, MOVE_SCORCHING_SANDS, MOVE_STRANGE_STEAM
+    },
+    {
+    .lvl = 0,
+    .species = SPECIES_ETERNATUS_ETERNAMAX,
+    .heldItem = ITEM_ASSAULT_VEST,
+    .ability = 0,
+    .spread = SPREAD_31_IV_ATK_SPEED_ADAMANT,
+    .moves = MOVE_V_CREATE, MOVE_FISHIOUS_REND, MOVE_DRAGON_TAIL, MOVE_CROSS_POISON
     }
 };
 

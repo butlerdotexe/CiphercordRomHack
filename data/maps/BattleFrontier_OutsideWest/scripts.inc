@@ -231,8 +231,8 @@ BattleFrontier_OutsideWest_EventScript_WomanWonRockPaperScissors:: @ 823D653
 	end
 
 BattleFrontier_OutsideWest_EventScript_WomanLostRockPaperScissors:: @ 823D65D
-	msgbox BattleFrontier_OutsideWest_Text_LostIllPutOffPikeChallenge, MSGBOX_DEFAULT
-	release
+	trainerbattle_single TRAINER_CORY_5, BattleFrontier_OutsideWest_Text_Gamma_Pre_Battle, BattleFrontier_OutsideWest_Text_Gamma_Post_Battle
+	msgbox BattleFrontier_OutsideWest_Text_Gamma_Post_Battle, MSGBOX_AUTOCLOSE
 	end
 
 BattleFrontier_OutsideWest_EventScript_Fisherman1:: @ 823D667
@@ -599,6 +599,15 @@ BattleFrontier_OutsideWest_Text_Poi_Pre_Battle:
 BattleFrontier_OutsideWest_Text_Poi_Post_Battle:
 	.string "Oh, I guess you made it here\n"
 	.string "too.$"
+
+BattleFrontier_OutsideWest_Text_Gamma_Pre_Battle:
+	.string "I like to think this team is the\n"
+	.string "equivalent of Matthis MC-\p"
+	.string "It even has a Medeus!$"
+
+BattleFrontier_OutsideWest_Text_Gamma_Post_Battle:
+	.string "You only won because you counter-\n"
+	.string "picked.$"
 
 BattleFrontier_OutsideWest_Text_CantFindBattleTower: @ 823D9DD
 	.string "I want to go to the Battle Tower,\n"
